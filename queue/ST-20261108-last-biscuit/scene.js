@@ -96,9 +96,9 @@ function room(c,t){
 }
 return {cues,
  cam(t){ // wide -> push to biscuit on split -> cat on 'dead' -> wide for payoff
-  const z=k(t,[[0,1],[tBroke-0.6,1],[tBroke,1.35],[tGrab-0.2,1.35],[tGrab+0.3,1.05],[tDead-0.5,1.05],[tDead+0.1,1.7],[tDead+1.4,1.7],[tChew-0.3,1.0],[tChew+0.5,1.0]]);
+  const z=1.3*k(t,[[0,1],[tBroke-0.6,1],[tBroke,1.35],[tGrab-0.2,1.35],[tGrab+0.3,1.05],[tDead-0.5,1.05],[tDead+0.1,1.7],[tDead+1.4,1.7],[tChew-0.3,1.0],[tChew+0.5,1.0]]);
   const x=k(t,[[0,540],[tBroke-0.6,540],[tBroke,540],[tGrab+0.3,540],[tDead-0.5,540],[tDead+0.1,790],[tDead+1.4,790],[tChew-0.3,540]]);
-  const y=k(t,[[0,960],[tBroke-0.6,960],[tBroke,1030],[tGrab-0.2,1030],[tGrab+0.3,960],[tDead-0.5,960],[tDead+0.1,860],[tDead+1.4,860],[tChew-0.3,960]]);
+  const y=k(t,[[0,900],[tBroke-0.6,900],[tBroke,990],[tGrab-0.2,990],[tGrab+0.3,900],[tDead-0.5,900],[tDead+0.1,830],[tDead+1.4,830],[tChew-0.3,900]]);
   const [sx,sy]=a.shake(t,(t>tBroke&&t<tBroke+0.25)?14:0);return {x:x+sx,y:y+sy,z};},
  draw(c,t){const h=hands(t);room(c,t);maya(c,t,h);pepper(c,t,h);biscuit(c,t,h);} };
 };
