@@ -1,0 +1,402 @@
+[
+ {
+  "w": "There",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "w": "was",
+  "start": 0.34,
+  "end": 0.48
+ },
+ {
+  "w": "one",
+  "start": 0.48,
+  "end": 0.78
+ },
+ {
+  "w": "biscuit",
+  "start": 0.78,
+  "end": 1.36
+ },
+ {
+  "w": "left,",
+  "start": 1.36,
+  "end": 1.6
+ },
+ {
+  "w": "and",
+  "start": 2.14,
+  "end": 2.18
+ },
+ {
+  "w": "two",
+  "start": 2.18,
+  "end": 2.4
+ },
+ {
+  "w": "of",
+  "start": 2.4,
+  "end": 2.5
+ },
+ {
+  "w": "them",
+  "start": 2.5,
+  "end": 2.66
+ },
+ {
+  "w": "wanted",
+  "start": 2.66,
+  "end": 2.94
+ },
+ {
+  "w": "it.",
+  "start": 2.94,
+  "end": 3.26
+ },
+ {
+  "w": "Maya",
+  "start": 3.86,
+  "end": 4.06
+ },
+ {
+  "w": "said",
+  "start": 4.06,
+  "end": 4.46
+ },
+ {
+  "w": "she",
+  "start": 4.46,
+  "end": 4.64
+ },
+ {
+  "w": "would",
+  "start": 4.64,
+  "end": 4.78
+ },
+ {
+  "w": "split",
+  "start": 4.78,
+  "end": 5.04
+ },
+ {
+  "w": "it",
+  "start": 5.04,
+  "end": 5.24
+ },
+ {
+  "w": "fairly.",
+  "start": 5.24,
+  "end": 5.5
+ },
+ {
+  "w": "Her",
+  "start": 6.3,
+  "end": 6.38
+ },
+ {
+  "w": "cat,",
+  "start": 6.38,
+  "end": 6.64
+ },
+ {
+  "w": "Pepper,",
+  "start": 7.0,
+  "end": 7.14
+ },
+ {
+  "w": "said",
+  "start": 7.52,
+  "end": 7.64
+ },
+ {
+  "w": "nothing,",
+  "start": 7.64,
+  "end": 8.0
+ },
+ {
+  "w": "which",
+  "start": 8.4,
+  "end": 8.64
+ },
+ {
+  "w": "is",
+  "start": 8.64,
+  "end": 8.78
+ },
+ {
+  "w": "what",
+  "start": 8.78,
+  "end": 8.96
+ },
+ {
+  "w": "cats",
+  "start": 8.96,
+  "end": 9.18
+ },
+ {
+  "w": "say",
+  "start": 9.18,
+  "end": 9.6
+ },
+ {
+  "w": "when",
+  "start": 9.6,
+  "end": 9.8
+ },
+ {
+  "w": "they",
+  "start": 9.8,
+  "end": 10.0
+ },
+ {
+  "w": "are",
+  "start": 10.0,
+  "end": 10.12
+ },
+ {
+  "w": "planning.",
+  "start": 10.12,
+  "end": 10.4
+ },
+ {
+  "w": "Maya",
+  "start": 11.2,
+  "end": 11.38
+ },
+ {
+  "w": "broke",
+  "start": 11.38,
+  "end": 11.7
+ },
+ {
+  "w": "the",
+  "start": 11.7,
+  "end": 11.98
+ },
+ {
+  "w": "biscuit.",
+  "start": 11.98,
+  "end": 12.36
+ },
+ {
+  "w": "One",
+  "start": 12.94,
+  "end": 13.0
+ },
+ {
+  "w": "half",
+  "start": 13.0,
+  "end": 13.26
+ },
+ {
+  "w": "was",
+  "start": 13.26,
+  "end": 13.48
+ },
+ {
+  "w": "huge",
+  "start": 13.48,
+  "end": 13.72
+ },
+ {
+  "w": "and",
+  "start": 13.72,
+  "end": 14.26
+ },
+ {
+  "w": "plain.",
+  "start": 14.26,
+  "end": 14.52
+ },
+ {
+  "w": "The",
+  "start": 15.22,
+  "end": 15.34
+ },
+ {
+  "w": "other",
+  "start": 15.34,
+  "end": 15.5
+ },
+ {
+  "w": "was",
+  "start": 15.5,
+  "end": 15.7
+ },
+ {
+  "w": "a",
+  "start": 15.7,
+  "end": 15.84
+ },
+ {
+  "w": "tiny",
+  "start": 15.84,
+  "end": 16.08
+ },
+ {
+  "w": "crumb,",
+  "start": 16.08,
+  "end": 16.66
+ },
+ {
+  "w": "holding",
+  "start": 16.66,
+  "end": 17.12
+ },
+ {
+  "w": "every",
+  "start": 17.12,
+  "end": 17.58
+ },
+ {
+  "w": "chocolate",
+  "start": 17.58,
+  "end": 17.9
+ },
+ {
+  "w": "chip.",
+  "start": 17.9,
+  "end": 18.32
+ },
+ {
+  "w": "Maya",
+  "start": 19.02,
+  "end": 19.24
+ },
+ {
+  "w": "grabbed",
+  "start": 19.24,
+  "end": 19.62
+ },
+ {
+  "w": "the",
+  "start": 19.62,
+  "end": 19.98
+ },
+ {
+  "w": "big",
+  "start": 19.98,
+  "end": 20.18
+ },
+ {
+  "w": "half.",
+  "start": 20.18,
+  "end": 20.48
+ },
+ {
+  "w": "Pepper",
+  "start": 21.14,
+  "end": 21.2
+ },
+ {
+  "w": "took",
+  "start": 21.2,
+  "end": 21.5
+ },
+ {
+  "w": "the",
+  "start": 21.5,
+  "end": 21.7
+ },
+ {
+  "w": "crumb,",
+  "start": 21.7,
+  "end": 22.08
+ },
+ {
+  "w": "and",
+  "start": 22.08,
+  "end": 22.48
+ },
+ {
+  "w": "looked",
+  "start": 22.48,
+  "end": 22.66
+ },
+ {
+  "w": "her",
+  "start": 22.66,
+  "end": 22.82
+ },
+ {
+  "w": "dead",
+  "start": 22.82,
+  "end": 23.04
+ },
+ {
+  "w": "in",
+  "start": 23.04,
+  "end": 23.28
+ },
+ {
+  "w": "the",
+  "start": 23.28,
+  "end": 23.42
+ },
+ {
+  "w": "eye.",
+  "start": 23.42,
+  "end": 23.62
+ },
+ {
+  "w": "Maya",
+  "start": 24.62,
+  "end": 24.62
+ },
+ {
+  "w": "chewed",
+  "start": 24.62,
+  "end": 25.0
+ },
+ {
+  "w": "plain",
+  "start": 25.0,
+  "end": 25.28
+ },
+ {
+  "w": "dough",
+  "start": 25.28,
+  "end": 25.66
+ },
+ {
+  "w": "for",
+  "start": 25.66,
+  "end": 25.98
+ },
+ {
+  "w": "ages.",
+  "start": 25.98,
+  "end": 26.22
+ },
+ {
+  "w": "Pepper",
+  "start": 26.22,
+  "end": 27.12
+ },
+ {
+  "w": "had",
+  "start": 27.12,
+  "end": 27.4
+ },
+ {
+  "w": "planned",
+  "start": 27.4,
+  "end": 27.6
+ },
+ {
+  "w": "this",
+  "start": 27.6,
+  "end": 27.92
+ },
+ {
+  "w": "since",
+  "start": 27.92,
+  "end": 28.16
+ },
+ {
+  "w": "breakfast.",
+  "start": 28.16,
+  "end": 28.54
+ }
+]
