@@ -1,0 +1,7 @@
+# Playbook (the loop rewrites this from metrics + research; keep it short and dated)
+## Hard rules
+- 4 Reels/day max, 30-59 s, 1080x1920, h264+AAC. Hook visible in first 2 s. Payoff readable with sound off.
+- Caption: separate dark-history mini-story, verified against primary sources, Sources list, AI disclosure line. Never reuse an opening or ending.
+- Never repost a verified Reel. Never retry an uncertain publish.
+## Learned (add dated lines; cite the metric)
+- (empty: first entries come after the first metrics pull)
