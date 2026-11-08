@@ -5,9 +5,13 @@ import argparse, json, re, sys, difflib
 def norm(s): return re.findall(r"[a-z0-9']+", s.lower())
 ap = argparse.ArgumentParser(); ap.add_argument("media"); ap.add_argument("script"); ap.add_argument("--model", default="base.en"); ap.add_argument("--max-wer", type=float, default=0.15)
 a = ap.parse_args()
+import subprocess, numpy as np
 from faster_whisper import WhisperModel
+# decode with ffmpeg ourselves (avoids PyAV version drift inside faster-whisper)
+raw = subprocess.run(["ffmpeg","-v","error","-i",a.media,"-vn","-ac","1","-ar","16000","-f","s16le","-"],capture_output=True,check=True).stdout
+audio = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768.0
 m = WhisperModel(a.model, device="cpu", compute_type="int8")
-segs, info = m.transcribe(a.media, word_timestamps=True, vad_filter=False, language="en")
+segs, info = m.transcribe(audio, word_timestamps=True, vad_filter=False, language="en")
 words = []
 for s in segs:
     for w in (s.words or []): words.append({"w": w.word.strip(), "start": round(w.start, 2), "end": round(w.end, 2)})

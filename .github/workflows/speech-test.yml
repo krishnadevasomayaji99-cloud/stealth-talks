@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg && pip install -U faster-whisper 'av>=14' && pip list 2>/dev/null | grep -iE '^(av|faster-whisper|ctranslate2) '
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg && pip install -U faster-whisper
       - name: make test speech
         run: |
           echo "A man tried to carry soup with a spoon. The soup refused to stay in the bowl. He wound it up like a spool and finally got one perfect bite." > /tmp/script.txt
