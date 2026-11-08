@@ -1,0 +1,22 @@
+name: speech-test
+on: {workflow_dispatch: {}}   # proves the Whisper speech check works on a runner (uses a synthetic voice as the test input)
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg && pip install faster-whisper
+      - name: make test speech
+        run: |
+          echo "A man tried to carry soup with a spoon. The soup refused to stay in the bowl. He wound it up like a spool and finally got one perfect bite." > /tmp/script.txt
+          espeak-ng -v en-us -s 150 -f /tmp/script.txt -w /tmp/speech.wav
+          ffmpeg -loglevel error -y -f lavfi -i color=c=black:s=1080x1920:r=30:d=12 -i /tmp/speech.wav -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest /tmp/test.mp4
+      - name: speech check (correct script)
+        run: python scripts/speech_check.py /tmp/test.mp4 /tmp/script.txt --model base.en | tee -a $GITHUB_STEP_SUMMARY
+      - name: speech check (wrong script, must FAIL)
+        run: |
+          echo "Completely different words about a lighthouse and a boat on the sea at night" > /tmp/wrong.txt
+          if python scripts/speech_check.py /tmp/test.mp4 /tmp/wrong.txt --model base.en | tee -a $GITHUB_STEP_SUMMARY; then echo "UNEXPECTED PASS"; exit 1; else echo "correctly failed"; fi
