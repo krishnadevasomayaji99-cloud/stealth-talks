@@ -3,5 +3,10 @@
   "at": "2026-11-08T17:02:37.891262+00:00",
   "key": "health",
   "msg": "account check failed: 400 code=100 sub=33 type=GraphMethodException msg=Unsupported get request. Object with ID '17841454667680884' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Ple"
+ },
+ {
+  "at": "2026-11-08T17:03:08.302509+00:00",
+  "key": "metrics",
+  "msg": "insights failed for 8 reels (permission?)"
  }
 ]
