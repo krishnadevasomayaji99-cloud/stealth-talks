@@ -3,15 +3,16 @@ on: {workflow_dispatch: {}}   # times a real Blender render so we know if free m
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update && sudo apt-get install -y blender ffmpeg xvfb libgl1-mesa-dri libegl1
-      - name: timed render (45s @30fps, 1080x1920, EEVEE-class settings)
+      - name: timed SAMPLE render (60 frames of 45s @30fps, 1080x1920, EEVEE-class settings)
         run: |
           START=$(date +%s)
           xvfb-run -a blender -b -P render/test_scene.py -- /tmp/out
           ffmpeg -y -framerate 30 -i /tmp/out/%04d.png -c:v libx264 -pix_fmt yuv420p /tmp/test.mp4
-          echo "RENDER SECONDS: $(( $(date +%s) - START ))" | tee -a $GITHUB_STEP_SUMMARY
+          T=$(( $(date +%s) - START ))
+          echo "SAMPLE (60 frames) SECONDS: $T; ESTIMATED 45s REEL (1350 frames) MINUTES: $(( T * 1350 / 60 / 60 ))" | tee -a $GITHUB_STEP_SUMMARY
       - uses: actions/upload-artifact@v4
         with: {name: test-render, path: /tmp/test.mp4}
