@@ -7,7 +7,7 @@ const outBack=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Ma
 function k(t,pts){if(t<=pts[0][0])return pts[0][1];for(let i=1;i<pts.length;i++){if(t<=pts[i][0]){const[t0,v0]=pts[i-1],[t1,v1]=pts[i];return v0+(v1-v0)*ease((t-t0)/(t1-t0));}}return pts[pts.length-1][1];}
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9']/g,'');
 let S=null,words=[],chunks=[];
-function buildChunks(){chunks=[];let cur=[];words.forEach((w,i)=>{cur.push(i);const end=/[.!?,;:]$/.test(w.w)||cur.length>=3||cur.map(i=>words[i].w).join(' ').length>=17;if(end){chunks.push(cur);cur=[];}});if(cur.length)chunks.push(cur);}
+function buildChunks(){chunks=[];let cur=[];words.forEach((w,i)=>{cur.push(i);const end=/[.!?,;:]$/.test(w.w)||cur.length>=3||cur.map(i=>words[i].w).join(' ').length>=14;if(end){chunks.push(cur);cur=[];}});if(cur.length)chunks.push(cur);}
 window.init=function(cfg){
   words=cfg.words;buildChunks();
   const api={clamp,ease,outBack,k,words,
