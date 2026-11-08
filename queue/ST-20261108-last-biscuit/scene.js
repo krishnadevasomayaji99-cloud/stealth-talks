@@ -1,8 +1,10 @@
 window.SCENE=function(a){
 const {k,ease,outBack,clamp,W,E}=a;
 const tBis=W('biscuit'),tSplit=W('split'),tNothing=W('nothing'),tPlan=W('planning'),tBroke=W('broke'),tHuge=W('huge'),tCrumb=W('crumb',0),
- tGrab=W('grabbed'),tChoc=W('chocolate',1),tTook=W('took'),tDead=W('dead'),tChew=W('chewed'),tBreak=W('breakfast');
-const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tBis,sfx:'tick',gain:0.6},{t:tBroke-0.02,sfx:'click',gain:1},{t:tGrab-0.05,sfx:'whoosh',gain:0.7},{t:tTook-0.05,sfx:'whoosh',gain:0.5},{t:tDead,sfx:'rise',gain:0.6},{t:tChew+0.1,sfx:'thud',gain:0.5},{t:tChoc,sfx:'tick',gain:0.5},{t:tBreak,sfx:'chime',gain:0.8}];
+ tGrab=W('grabbed'),tChoc=W('chocolate',1),tTook=W('took'),tDead=W('dead'),tChew=W('chewed'),tBreak=W('breakfast'),tLoop=E('breakfast')+0.3;
+const emph=[W('biscuit'),W('split'),W('nothing'),W('planning'),W('broke'),W('huge'),W('crumb'),W('chocolate',0),W('grabbed'),W('took'),W('dead'),W('chewed'),W('chocolate',1),W('planned')];
+const pulse=t=>{let m=0;for(const e of emph){const d=t-e;if(d>=0&&d<0.25)m=Math.max(m,Math.pow(1-d/0.25,2));}return m*0.07;};
+const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tBis,sfx:'tick',gain:0.6},{t:tBroke-0.02,sfx:'click',gain:1},{t:tGrab-0.05,sfx:'whoosh',gain:0.7},{t:tTook-0.05,sfx:'whoosh',gain:0.5},{t:tDead,sfx:'rise',gain:0.6},{t:tChew+0.1,sfx:'thud',gain:0.5},{t:tChoc,sfx:'tick',gain:0.5},{t:tBreak,sfx:'chime',gain:0.8},{t:tLoop,sfx:'pop',gain:0.8},{t:W('huge'),sfx:'tick',gain:0.4},{t:tDead-0.1,sfx:'tick',gain:0.5}];
 const BX=540,BY=1062;
 function tri(c,x1,y1,x2,y2,x3,y3,f){c.fillStyle=f;c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.lineTo(x3,y3);c.closePath();c.fill();}
 function circ(c,x,y,r,f){c.fillStyle=f;c.beginPath();c.arc(x,y,r,0,7);c.fill();}
@@ -12,6 +14,7 @@ const blink=t=>{const p=t%3.4;return p>3.25?0.1:1;};
 function bigPiece(c){c.save();c.beginPath();c.rect(-90,-90,90+30,180);c.clip();circ(c,0,0,70,'#d9a75a');c.lineWidth=7;c.strokeStyle='#b9823a';c.beginPath();c.arc(0,0,66,0,7);c.stroke();c.restore();}
 function crumbPiece(c,withBite){c.save();c.beginPath();c.rect(30,-90,90,180);c.clip();circ(c,0,0,70,'#d9a75a');c.lineWidth=7;c.strokeStyle='#b9823a';c.beginPath();c.arc(0,0,66,0,7);c.stroke();
  [[44,-30],[52,2],[42,34],[58,-52],[60,40],[38,-6]].forEach(p=>circ(c,p[0],p[1],8,'#3b2314'));c.restore();}
+function burst(c,txt,x,y,t0,t,col,sz){const d=t-t0;if(d<0||d>1.1)return;const sc=outBack(d/0.18)*(d>0.8?1-(d-0.8)/0.3:1);c.save();c.translate(x,y);c.rotate(Math.sin(t*30)*0.03-0.08);c.scale(sc,sc);c.fillStyle='#111';c.beginPath();for(let i=0;i<24;i++){const r=i%2?sz*0.62:sz;c.lineTo(Math.cos(i*Math.PI/12)*r*1.5,Math.sin(i*Math.PI/12)*r);}c.fill();c.fillStyle=col;c.beginPath();for(let i=0;i<24;i++){const r=i%2?sz*0.55:sz*0.92;c.lineTo(Math.cos(i*Math.PI/12)*r*1.5,Math.sin(i*Math.PI/12)*r);}c.fill();c.fillStyle='#111';c.font='900 '+Math.round(sz*0.62)+'px "DejaVu Sans", Arial';c.textAlign='center';c.textBaseline='middle';c.fillText(txt,0,4);c.restore();}
 function hands(t){ // positions of Maya right hand and Pepper paw
  const tg=tGrab,gx=k(t,[[tg-0.4,430],[tg+0.1,BX-30],[tg+0.7,330]]),gy=k(t,[[tg-0.4,1120],[tg+0.1,BY+10],[tg+0.7,900]]);
  const pt=tTook,px=k(t,[[pt-0.5,760],[pt+0.1,BX+60],[pt+0.8,745]]),py=k(t,[[pt-0.5,1150],[pt+0.1,BY+10],[pt+0.8,985]]);
@@ -100,6 +103,8 @@ return {cues,
   const z=k(t,[[0,1.15],[tBroke-0.6,1.15],[tBroke,1.22],[tGrab-0.2,1.22],[tGrab+0.3,1.15],[tDead-0.5,1.15],[tDead+0.1,1.7],[tDead+1.3,1.7],[tChew-0.3,1.15]]);
   const x=k(t,[[0,540],[tBroke-0.6,540],[tBroke,500],[tGrab-0.2,500],[tGrab+0.3,540],[tDead-0.5,540],[tDead+0.1,790],[tDead+1.3,790],[tChew-0.3,540]]);
   const y=k(t,[[0,900],[tBroke-0.6,900],[tBroke,980],[tGrab-0.2,980],[tGrab+0.3,900],[tDead-0.5,900],[tDead+0.1,830],[tDead+1.3,830],[tChew-0.3,900]]);
-  const [sx,sy]=a.shake(t,(t>tBroke&&t<tBroke+0.25)?14:0);return {x:x+sx,y:y+sy,z};},
- draw(c,t){const h=hands(t);room(c,t);maya(c,t,h);pepper(c,t,h);biscuit(c,t,h);} };
+  const [sx,sy]=a.shake(t,(t>tBroke&&t<tBroke+0.25)?14:0);return {x:x+sx,y:y+sy,z:z*(1+pulse(t)+0.012*Math.sin(t*1.3))};},
+ draw(c,t){const h=hands(t);room(c,t);maya(c,t,h);pepper(c,t,h);biscuit(c,t,h);
+  if(t>=tLoop){const q=outBack((t-tLoop)/0.35);c.save();c.translate(BX,BY);c.scale(1.4*q,1.4*q);circ(c,0,0,70,'#d9a75a');c.lineWidth=7;c.strokeStyle='#b9823a';c.beginPath();c.arc(0,0,66,0,7);c.stroke();[[44,-30],[52,2],[42,34],[58,-52],[60,40],[38,-6]].forEach(p=>circ(c,p[0],p[1],8,'#3b2314'));c.restore();}
+  burst(c,'CRACK!',BX,820,tBroke,t,'#ffd23f',90);burst(c,'!?',300,560,tGrab+0.2,t,'#ff6b6b',70);burst(c,'HMM.',790,600,tPlan,t,'#9ad7ff',70);burst(c,'MEH.',290,560,tChew+0.3,t,'#c9c9c9',70);burst(c,'YUM.',790,600,tChoc,t,'#ffb3d1',70);burst(c,'AGAIN?',540,780,tLoop+0.2,t,'#b6e36a',80);} };
 };
