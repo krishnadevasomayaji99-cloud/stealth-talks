@@ -1,0 +1,46 @@
+name: make-reel
+on:
+  workflow_dispatch:
+    inputs:
+      key: {description: "queue folder name (contains script.txt and scene.js)", required: true}
+      max_frames: {description: "limit frames (preview)", required: false, default: ""}
+concurrency: {group: make-reel-${{ github.event.inputs.key }}, cancel-in-progress: false}
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults: {run: {shell: bash -eo pipefail {0}}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "20"}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q kokoro-onnx soundfile faster-whisper numpy
+          npm install playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: kokoro model files
+        run: |
+          curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+          ls -la kokoro-v1.0.onnx voices-v1.0.bin
+      - name: voice + word timings
+        run: python scripts/voice.py "queue/${{ inputs.key }}/script.txt" /tmp/build | tee -a $GITHUB_STEP_SUMMARY
+      - name: render frames
+        run: node render/render.js "queue/${{ inputs.key }}" /tmp/build/words.json /tmp/build/silent.mp4 1.2 "${{ inputs.max_frames }}" | tee -a $GITHUB_STEP_SUMMARY
+      - name: mix + mux
+        run: python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4
+      - name: checks
+        continue-on-error: true
+        run: |
+          python scripts/audio_check.py /tmp/build/video.mp4 | tee -a $GITHUB_STEP_SUMMARY || true
+          python scripts/speech_check.py /tmp/build/video.mp4 "queue/${{ inputs.key }}/script.txt" | tee -a $GITHUB_STEP_SUMMARY || true
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,pix_fmt:format=duration,bit_rate -of default=nw=1 /tmp/build/video.mp4 | tee -a $GITHUB_STEP_SUMMARY
+      - name: contact sheet frames
+        run: |
+          d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/build/video.mp4)
+          for f in 0.1 2 5 9 13 17 21 25 29 33; do awk -v d="$d" -v f="$f" 'BEGIN{exit !(f<d)}' && ffmpeg -v error -y -ss $f -i /tmp/build/video.mp4 -frames:v 1 -vf scale=360:-1 /tmp/build/f_$f.jpg || true; done
+      - uses: actions/upload-artifact@v4
+        with: {name: "reel-${{ inputs.key }}", path: "/tmp/build/*", retention-days: 7}
