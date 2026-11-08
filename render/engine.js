@@ -22,7 +22,7 @@ function drawCaptions(ctx,t){
   ctx.save();ctx.font='900 92px "DejaVu Sans", Arial, sans-serif';ctx.textBaseline='middle';ctx.lineJoin='round';
   const txt=ch.map(i=>words[i].w.replace(/^[\s]+|[\s]+$/g,'').toUpperCase());
   const sp=ctx.measureText(' ').width;const ws=txt.map(s=>ctx.measureText(s).width);
-  const total=ws.reduce((a,b)=>a+b,0)+sp*(txt.length-1);let sc=Math.min(1,960/total);
+  const total=ws.reduce((a,b)=>a+b,0)+sp*(txt.length-1);let sc=Math.min(1,900/total);
   const age=t-words[ch[0]].start;const pop=0.92+0.08*outBack(age/0.12);
   ctx.translate(540,1390);ctx.scale(sc*pop,sc*pop);let x=-total/2;
   txt.forEach((s,j)=>{const w=words[ch[j]];const on=t>=w.start&&t<w.end+0.05;ctx.lineWidth=22;ctx.strokeStyle='#111';ctx.strokeText(s,x,0);ctx.fillStyle=on?'#ffd23f':'#fff';ctx.fillText(s,x,0);x+=ws[j]+sp;});

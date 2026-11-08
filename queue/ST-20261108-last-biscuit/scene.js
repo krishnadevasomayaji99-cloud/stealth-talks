@@ -1,8 +1,8 @@
 window.SCENE=function(a){
 const {k,ease,outBack,clamp,W,E}=a;
 const tBis=W('biscuit'),tSplit=W('split'),tNothing=W('nothing'),tPlan=W('planning'),tBroke=W('broke'),tHuge=W('huge'),tCrumb=W('crumb',0),
- tGrab=W('grabbed'),tTook=W('took'),tDead=W('dead'),tChew=W('chewed'),tBreak=W('breakfast');
-const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tBis,sfx:'tick',gain:0.6},{t:tBroke-0.02,sfx:'click',gain:1},{t:tGrab-0.05,sfx:'whoosh',gain:0.7},{t:tTook-0.05,sfx:'whoosh',gain:0.5},{t:tDead,sfx:'rise',gain:0.6},{t:tChew+0.1,sfx:'thud',gain:0.5},{t:tBreak,sfx:'chime',gain:0.8}];
+ tGrab=W('grabbed'),tChoc=W('chocolate',1),tTook=W('took'),tDead=W('dead'),tChew=W('chewed'),tBreak=W('breakfast');
+const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tBis,sfx:'tick',gain:0.6},{t:tBroke-0.02,sfx:'click',gain:1},{t:tGrab-0.05,sfx:'whoosh',gain:0.7},{t:tTook-0.05,sfx:'whoosh',gain:0.5},{t:tDead,sfx:'rise',gain:0.6},{t:tChew+0.1,sfx:'thud',gain:0.5},{t:tChoc,sfx:'tick',gain:0.5},{t:tBreak,sfx:'chime',gain:0.8}];
 const BX=540,BY=1062;
 function tri(c,x1,y1,x2,y2,x3,y3,f){c.fillStyle=f;c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.lineTo(x3,y3);c.closePath();c.fill();}
 function circ(c,x,y,r,f){c.fillStyle=f;c.beginPath();c.arc(x,y,r,0,7);c.fill();}
@@ -14,8 +14,8 @@ function crumbPiece(c,withBite){c.save();c.beginPath();c.rect(30,-90,90,180);c.c
  [[44,-30],[52,2],[42,34],[58,-52],[60,40],[38,-6]].forEach(p=>circ(c,p[0],p[1],8,'#3b2314'));c.restore();}
 function hands(t){ // positions of Maya right hand and Pepper paw
  const tg=tGrab,gx=k(t,[[tg-0.4,430],[tg+0.1,BX-30],[tg+0.7,330]]),gy=k(t,[[tg-0.4,1120],[tg+0.1,BY+10],[tg+0.7,900]]);
- const pt=tTook,px=k(t,[[pt-0.5,790],[pt+0.1,BX+60],[pt+0.8,800]]),py=k(t,[[pt-0.5,1150],[pt+0.1,BY+10],[pt+0.8,930]]);
- return {mx:t<tg-0.4?430:gx,my:t<tg-0.4?1120:gy,px:t<pt-0.5?790:px,py:t<pt-0.5?1150:py};
+ const pt=tTook,px=k(t,[[pt-0.5,760],[pt+0.1,BX+60],[pt+0.8,745]]),py=k(t,[[pt-0.5,1150],[pt+0.1,BY+10],[pt+0.8,985]]);
+ return {mx:t<tg-0.4?430:gx,my:t<tg-0.4?1120:gy,px:t<pt-0.5?760:px,py:t<pt-0.5?1150:py};
 }
 function maya(c,t,h){
  const bob=Math.sin(t*2)*3;const x=290,y=780+bob;
@@ -39,10 +39,10 @@ function maya(c,t,h){
  else{c.arc(x,y+62,30,0.1*Math.PI,0.9*Math.PI);c.stroke();}
 }
 function pepper(c,t,h){
- const x=810,y=840+Math.sin(t*1.7)*3;
+ const x=790,y=840+Math.sin(t*1.7)*3;
  const wag=Math.sin(t*(t>tPlan?5:2))*0.25;
  // tail
- c.strokeStyle='#e8851f';c.lineWidth=40;c.lineCap='round';c.beginPath();c.moveTo(x+110,1020);c.bezierCurveTo(x+210,1000,x+210+wag*120,880,x+150+wag*160,800);c.stroke();
+ c.strokeStyle='#e8851f';c.lineWidth=40;c.lineCap='round';c.beginPath();c.moveTo(x+110,1020);c.bezierCurveTo(x+170,1000,x+170+wag*60,900,x+120+wag*80,830);c.stroke();
  // body
  c.fillStyle='#f0922b';c.beginPath();c.ellipse(x,1030,130,170,0,0,7);c.fill();
  arm(c,x-70,1000,x-60,1135,44,'#f0922b');circ(c,x-60,1135,32,'#f0922b');
@@ -61,27 +61,28 @@ function pepper(c,t,h){
  tri(c,x-12,y+22,x+12,y+22,x,y+38,'#e05a6b');
  c.strokeStyle='#5a2d0c';c.lineWidth=5;c.beginPath();c.moveTo(x,y+38);c.quadraticCurveTo(x-16,y+62,x-34,y+50);c.moveTo(x,y+38);c.quadraticCurveTo(x+16,y+62,x+34,y+50);c.stroke();
  c.strokeStyle='rgba(60,30,10,.7)';c.lineWidth=4;[-1,1].forEach(s=>{[0,14,28].forEach(d=>{c.beginPath();c.moveTo(x+s*50,y+36+d*0.4);c.lineTo(x+s*130,y+26+d);c.stroke();});});
- if(t>tBreak){circ(c,x+84,y+52,7,'#3b2314');}
+ if(t>tChoc){const ch=Math.abs(Math.sin((t-tChoc)*6));c.fillStyle='#7a2d2d';c.beginPath();c.ellipse(x,y+52,8+ch*3,3+ch*9,0,0,7);c.fill();}
+ if(t>tBreak){circ(c,x+60,y+50,7,'#3b2314');}
 }
 function biscuit(c,t,h){
- const appear=outBack((t-0.05)/0.45);const bounce=1+0.12*Math.max(0,Math.sin(clamp((t-tBis)/0.4)*Math.PI));
+ const S=1.4,appear=1;const bounce=1+0.12*Math.max(0,Math.sin(clamp((t-tBis)/0.4)*Math.PI));
  const split=ease((t-tBroke)/0.35);
- c.save();c.translate(BX,BY);c.scale(appear*bounce,appear*bounce);
+ c.save();c.translate(BX,BY);c.scale(S*bounce,S*bounce);
  if(t<tBroke){ // whole biscuit: chips only on the right rim
   circ(c,0,0,70,'#d9a75a');c.lineWidth=7;c.strokeStyle='#b9823a';c.beginPath();c.arc(0,0,66,0,7);c.stroke();[[44,-30],[52,2],[42,34],[58,-52],[60,40],[38,-6]].forEach(p=>circ(c,p[0],p[1],8,'#3b2314'));
  } else {
   // big half
   c.save();let bx=-30*split,by=0,rot=-0.12*split;
-  if(t>tGrab-0.4){bx=h.mx-BX;by=h.my-BY;rot=-0.1;}
-  if(t>tChew-0.2){c.globalAlpha=1-clamp((t-tChew+0.2)/0.4);}
-  c.translate(bx,by);c.rotate(rot);bigPiece(c);c.restore();
+  if(t>tGrab-0.4){bx=(h.mx-BX)/S;by=(h.my-BY)/S;rot=-0.1;if(t>tChew)c.scale(0.8,0.8);}
+    c.translate(bx,by);c.rotate(rot);bigPiece(c);c.restore();
   // crumb
   c.save();let cx=40*split,cy=-10*split,r2=0.18*split;
-  if(t>tTook-0.4){cx=h.px-BX;cy=h.py-BY;r2=0.1;}
-  if(t>tDead+0.3){c.globalAlpha=1-clamp((t-tDead-0.3)/0.5);}
+  if(t>tTook-0.4){cx=(h.px-BX)/S;cy=(h.py-BY)/S;r2=0.1;}
+  if(t>tChoc+0.9){c.globalAlpha=1-clamp((t-tChoc-0.9)/0.4);}
   c.translate(cx,cy);c.rotate(r2);crumbPiece(c);c.restore();
  }
  c.restore();
+ if(t>tDead&&t<tChoc+1.2){const px=h.px,py=h.py-26;for(let i=0;i<4;i++){const ph=(t*3+i*0.7)%1,r=10+ph*18,an=i*1.6+t;c.save();c.translate(px+Math.cos(an)*40,py+Math.sin(an)*30);c.globalAlpha=1-ph;c.fillStyle='#fff6b0';c.beginPath();for(let j=0;j<8;j++){const rr=j%2?r*0.3:r;c.lineTo(Math.cos(j*0.785)*rr,Math.sin(j*0.785)*rr);}c.fill();c.restore();}}
  // crack sparks
  const sp=clamp((t-tBroke)/0.5);if(sp>0&&sp<1){c.save();c.translate(BX,BY);for(let i=0;i<8;i++){const an=i*0.785,r=40+sp*70;circ(c,Math.cos(an)*r,Math.sin(an)*r,6*(1-sp),'#ffe08a');}c.restore();}
 }
@@ -95,10 +96,10 @@ function room(c,t){
  c.fillStyle='rgba(255,255,255,.55)';c.beginPath();c.ellipse(BX,1095,120,18,0,0,7);c.fill();
 }
 return {cues,
- cam(t){ // wide -> push to biscuit on split -> cat on 'dead' -> wide for payoff
-  const z=1.3*k(t,[[0,1],[tBroke-0.6,1],[tBroke,1.35],[tGrab-0.2,1.35],[tGrab+0.3,1.05],[tDead-0.5,1.05],[tDead+0.1,1.7],[tDead+1.4,1.7],[tChew-0.3,1.0],[tChew+0.5,1.0]]);
-  const x=k(t,[[0,540],[tBroke-0.6,540],[tBroke,540],[tGrab+0.3,540],[tDead-0.5,540],[tDead+0.1,790],[tDead+1.4,790],[tChew-0.3,540]]);
-  const y=k(t,[[0,900],[tBroke-0.6,900],[tBroke,990],[tGrab-0.2,990],[tGrab+0.3,900],[tDead-0.5,900],[tDead+0.1,830],[tDead+1.4,830],[tChew-0.3,900]]);
+ cam(t){
+  const z=k(t,[[0,1.15],[tBroke-0.6,1.15],[tBroke,1.22],[tGrab-0.2,1.22],[tGrab+0.3,1.15],[tDead-0.5,1.15],[tDead+0.1,1.7],[tDead+1.3,1.7],[tChew-0.3,1.15]]);
+  const x=k(t,[[0,540],[tBroke-0.6,540],[tBroke,500],[tGrab-0.2,500],[tGrab+0.3,540],[tDead-0.5,540],[tDead+0.1,790],[tDead+1.3,790],[tChew-0.3,540]]);
+  const y=k(t,[[0,900],[tBroke-0.6,900],[tBroke,980],[tGrab-0.2,980],[tGrab+0.3,900],[tDead-0.5,900],[tDead+0.1,830],[tDead+1.3,830],[tChew-0.3,900]]);
   const [sx,sy]=a.shake(t,(t>tBroke&&t<tBroke+0.25)?14:0);return {x:x+sx,y:y+sy,z};},
  draw(c,t){const h=hands(t);room(c,t);maya(c,t,h);pepper(c,t,h);biscuit(c,t,h);} };
 };
