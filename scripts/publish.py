@@ -55,7 +55,7 @@ if __name__ == "__main__":
     if any(r["state"] in ("needs_reconcile", "uploading") for r in L["rows"]): alert("ledger", "unreconciled row: publishing halted"); sys.exit(1)
     why = window_ok(c, L["rows"])
     if why: print("skip:", why); sys.exit(0)
-    tok = os.environ.get("IG_TOKEN", "")
+    tok = get_token()
     if not tok and not a.dry_run: alert("token", "IG_TOKEN secret missing"); sys.exit(1)
     for d in sorted((ROOT/"queue").glob("*/")):
         if d.name.startswith("_") or not (d/"approvals.json").exists(): continue

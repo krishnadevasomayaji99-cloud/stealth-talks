@@ -1,7 +1,7 @@
 import os, sys, requests
 from common import *
 c = cfg(); bad = []
-tok = os.environ.get("IG_TOKEN", "")
+tok = get_token(); print("TOKEN SHAPE:", token_shape())
 def msg(r):
     try: e = r.json().get("error", {}); return f"{r.status_code} code={e.get('code')} sub={e.get('error_subcode')} type={e.get('type')} msg={str(e.get('message'))[:160]}"
     except Exception: return str(r.status_code)

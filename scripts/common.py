@@ -26,3 +26,14 @@ def probe(video):
     n, d = v["r_frame_rate"].split("/")
     return {"w": v["width"], "h": v["height"], "fps": int(n)/int(d), "dur": float(j["format"]["duration"]),
             "audio": any(s["codec_type"]=="audio" for s in j["streams"]), "vcodec": v["codec_name"]}
+
+def get_token():
+    """IG_TOKEN from env, cleaned of whitespace/newlines/quotes/'Bearer '/'access_token='."""
+    raw = os.environ.get("IG_TOKEN", "")
+    t = raw.strip().strip("'\"").strip()
+    for p in ("Bearer ", "OAuth ", "access_token="):
+        if t.startswith(p): t = t[len(p):].strip()
+    return "".join(t.split())
+def token_shape():
+    raw = os.environ.get("IG_TOKEN", ""); t = get_token()
+    return f"raw_len={len(raw)} clean_len={len(t)} starts={t[:3]!r} had_whitespace_or_quotes={raw != t}"

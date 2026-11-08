@@ -1,7 +1,7 @@
 """Refresh long-lived Instagram token (valid ~60d, needs >=24h old). UNTESTED live. Needs PAT secret REPO_ADMIN_PAT to store the new token."""
 import os, sys, json, requests, subprocess
 from common import *
-tok = os.environ.get("IG_TOKEN", "")
+tok = get_token()
 r = requests.get("https://graph.instagram.com/refresh_access_token", params={"grant_type": "ig_refresh_token", "access_token": tok}, timeout=60)
 j = r.json() if r.content else {}
 if r.status_code != 200 or "access_token" not in j:

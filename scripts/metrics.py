@@ -1,7 +1,7 @@
 """Pull per-Reel insights for verified rows into data/metrics.json. Needs instagram_business_manage_insights."""
 import os, sys, json, requests
 from common import *
-tok = os.environ.get("IG_TOKEN", ""); c = cfg(); out = {}
+tok = get_token(); c = cfg(); out = {}
 for r in load_ledger()["rows"]:
     if r["state"] != "verified" or not r.get("media_id"): continue
     x = requests.get(f"https://graph.instagram.com/{c['graph_version']}/{r['media_id']}/insights", params={"metric": "views,reach,likes,comments,shares,saved,ig_reels_avg_watch_time", "access_token": tok}, timeout=60)
