@@ -39,3 +39,6 @@ Full list of 51 with fit ratings and a scene-brief template: see catalogue.md.
 1. Write hook / problem / escalation / payoff in one sentence each first.
 2. Choose a skin that suits the story's mood; do not reuse the skin of the last two published Reels (check ledger/playbook).
 3. Record the skin and what the metrics say about it in playbook.md; the loop keeps what retains viewers and drops what does not.
+
+## Related skills
+hook-writing (first 2 seconds), sound-design (cue sheet, synthesized SFX, mix, objective audio checks).
