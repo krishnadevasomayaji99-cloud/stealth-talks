@@ -6,11 +6,11 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y blender ffmpeg
+      - run: sudo apt-get update && sudo apt-get install -y blender ffmpeg xvfb libgl1-mesa-dri libegl1
       - name: timed render (45s @30fps, 1080x1920, EEVEE-class settings)
         run: |
           START=$(date +%s)
-          blender -b -P render/test_scene.py -- /tmp/out
+          xvfb-run -a blender -b -P render/test_scene.py -- /tmp/out
           ffmpeg -y -framerate 30 -i /tmp/out/%04d.png -c:v libx264 -pix_fmt yuv420p /tmp/test.mp4
           echo "RENDER SECONDS: $(( $(date +%s) - START ))" | tee -a $GITHUB_STEP_SUMMARY
       - uses: actions/upload-artifact@v4
