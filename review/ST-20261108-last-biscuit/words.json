@@ -12,61 +12,61 @@
  {
   "w": "one",
   "start": 0.48,
-  "end": 0.78
+  "end": 0.76
  },
  {
   "w": "biscuit",
-  "start": 0.78,
-  "end": 1.36
+  "start": 0.76,
+  "end": 1.38
  },
  {
   "w": "left,",
-  "start": 1.36,
-  "end": 1.6
+  "start": 1.38,
+  "end": 1.58
  },
  {
   "w": "and",
-  "start": 2.14,
+  "start": 1.58,
   "end": 2.18
  },
  {
   "w": "two",
   "start": 2.18,
-  "end": 2.4
+  "end": 2.38
  },
  {
   "w": "of",
-  "start": 2.4,
-  "end": 2.5
+  "start": 2.38,
+  "end": 2.52
  },
  {
   "w": "them",
-  "start": 2.5,
+  "start": 2.52,
   "end": 2.66
  },
  {
   "w": "wanted",
   "start": 2.66,
-  "end": 2.94
+  "end": 2.96
  },
  {
   "w": "it.",
-  "start": 2.94,
+  "start": 2.96,
   "end": 3.26
  },
  {
   "w": "Maya",
-  "start": 3.86,
+  "start": 3.8,
   "end": 4.06
  },
  {
   "w": "said",
   "start": 4.06,
-  "end": 4.46
+  "end": 4.48
  },
  {
   "w": "she",
-  "start": 4.46,
+  "start": 4.48,
   "end": 4.64
  },
  {
@@ -91,37 +91,37 @@
  },
  {
   "w": "Her",
-  "start": 6.3,
+  "start": 6.28,
   "end": 6.38
  },
  {
   "w": "cat,",
   "start": 6.38,
-  "end": 6.64
+  "end": 6.66
  },
  {
   "w": "Pepper,",
-  "start": 7.0,
+  "start": 6.98,
   "end": 7.14
  },
  {
   "w": "said",
-  "start": 7.52,
-  "end": 7.64
+  "start": 7.54,
+  "end": 7.66
  },
  {
   "w": "nothing,",
-  "start": 7.64,
+  "start": 7.66,
   "end": 8.0
  },
  {
   "w": "which",
-  "start": 8.4,
-  "end": 8.64
+  "start": 8.44,
+  "end": 8.6
  },
  {
   "w": "is",
-  "start": 8.64,
+  "start": 8.6,
   "end": 8.78
  },
  {
@@ -132,16 +132,16 @@
  {
   "w": "cats",
   "start": 8.96,
-  "end": 9.18
+  "end": 9.2
  },
  {
   "w": "say",
-  "start": 9.18,
-  "end": 9.6
+  "start": 9.2,
+  "end": 9.58
  },
  {
   "w": "when",
-  "start": 9.6,
+  "start": 9.58,
   "end": 9.8
  },
  {
@@ -161,7 +161,7 @@
  },
  {
   "w": "Maya",
-  "start": 11.2,
+  "start": 11.16,
   "end": 11.38
  },
  {
@@ -181,12 +181,12 @@
  },
  {
   "w": "One",
-  "start": 12.94,
-  "end": 13.0
+  "start": 12.92,
+  "end": 12.98
  },
  {
   "w": "half",
-  "start": 13.0,
+  "start": 12.98,
   "end": 13.26
  },
  {
@@ -197,11 +197,11 @@
  {
   "w": "huge",
   "start": 13.48,
-  "end": 13.72
+  "end": 13.74
  },
  {
   "w": "and",
-  "start": 13.72,
+  "start": 13.74,
   "end": 14.26
  },
  {
@@ -211,7 +211,7 @@
  },
  {
   "w": "The",
-  "start": 15.22,
+  "start": 15.24,
   "end": 15.34
  },
  {
@@ -237,11 +237,11 @@
  {
   "w": "crumb,",
   "start": 16.08,
-  "end": 16.66
+  "end": 16.68
  },
  {
   "w": "holding",
-  "start": 16.66,
+  "start": 16.68,
   "end": 17.12
  },
  {
@@ -252,151 +252,196 @@
  {
   "w": "chocolate",
   "start": 17.58,
-  "end": 17.9
+  "end": 17.92
  },
  {
   "w": "chip.",
-  "start": 17.9,
+  "start": 17.92,
   "end": 18.32
  },
  {
   "w": "Maya",
-  "start": 19.02,
+  "start": 18.92,
   "end": 19.24
  },
  {
   "w": "grabbed",
   "start": 19.24,
-  "end": 19.62
+  "end": 19.6
  },
  {
   "w": "the",
-  "start": 19.62,
-  "end": 19.98
+  "start": 19.6,
+  "end": 19.96
  },
  {
   "w": "big",
-  "start": 19.98,
-  "end": 20.18
+  "start": 19.96,
+  "end": 20.14
  },
  {
-  "w": "half.",
-  "start": 20.18,
-  "end": 20.48
+  "w": "half,",
+  "start": 20.14,
+  "end": 20.46
+ },
+ {
+  "w": "delighted",
+  "start": 20.74,
+  "end": 20.96
+ },
+ {
+  "w": "with",
+  "start": 20.96,
+  "end": 21.46
+ },
+ {
+  "w": "herself.",
+  "start": 21.46,
+  "end": 21.66
  },
  {
   "w": "Pepper",
-  "start": 21.14,
-  "end": 21.2
- },
- {
-  "w": "took",
-  "start": 21.2,
-  "end": 21.5
- },
- {
-  "w": "the",
-  "start": 21.5,
-  "end": 21.7
- },
- {
-  "w": "crumb,",
-  "start": 21.7,
-  "end": 22.08
- },
- {
-  "w": "and",
-  "start": 22.08,
-  "end": 22.48
- },
- {
-  "w": "looked",
-  "start": 22.48,
+  "start": 22.58,
   "end": 22.66
  },
  {
-  "w": "her",
+  "w": "took",
   "start": 22.66,
-  "end": 22.82
- },
- {
-  "w": "dead",
-  "start": 22.82,
-  "end": 23.04
- },
- {
-  "w": "in",
-  "start": 23.04,
-  "end": 23.28
+  "end": 22.96
  },
  {
   "w": "the",
-  "start": 23.28,
-  "end": 23.42
+  "start": 22.96,
+  "end": 23.14
+ },
+ {
+  "w": "crumb,",
+  "start": 23.14,
+  "end": 23.52
+ },
+ {
+  "w": "and",
+  "start": 23.52,
+  "end": 23.96
+ },
+ {
+  "w": "looked",
+  "start": 23.96,
+  "end": 24.12
+ },
+ {
+  "w": "her",
+  "start": 24.12,
+  "end": 24.32
+ },
+ {
+  "w": "dead",
+  "start": 24.32,
+  "end": 24.52
+ },
+ {
+  "w": "in",
+  "start": 24.52,
+  "end": 24.76
+ },
+ {
+  "w": "the",
+  "start": 24.76,
+  "end": 24.88
  },
  {
   "w": "eye.",
-  "start": 23.42,
-  "end": 23.62
+  "start": 24.88,
+  "end": 25.1
  },
  {
   "w": "Maya",
-  "start": 24.62,
-  "end": 24.62
+  "start": 25.59,
+  "end": 26.02
  },
  {
   "w": "chewed",
-  "start": 24.62,
-  "end": 25.0
+  "start": 26.02,
+  "end": 26.48
  },
  {
   "w": "plain",
-  "start": 25.0,
-  "end": 25.28
+  "start": 26.48,
+  "end": 26.66
  },
  {
   "w": "dough",
-  "start": 25.28,
-  "end": 25.66
+  "start": 26.66,
+  "end": 27.08
  },
  {
   "w": "for",
-  "start": 25.66,
-  "end": 25.98
- },
- {
-  "w": "ages.",
-  "start": 25.98,
-  "end": 26.22
- },
- {
-  "w": "Pepper",
-  "start": 26.22,
-  "end": 27.12
- },
- {
-  "w": "had",
-  "start": 27.12,
+  "start": 27.08,
   "end": 27.4
  },
  {
-  "w": "planned",
+  "w": "ages.",
   "start": 27.4,
-  "end": 27.6
+  "end": 27.76
+ },
+ {
+  "w": "Pepper",
+  "start": 28.52,
+  "end": 28.56
+ },
+ {
+  "w": "chewed",
+  "start": 28.56,
+  "end": 29.46
+ },
+ {
+  "w": "chocolate,",
+  "start": 29.46,
+  "end": 29.46
+ },
+ {
+  "w": "slowly,",
+  "start": 29.46,
+  "end": 29.9
+ },
+ {
+  "w": "on",
+  "start": 29.9,
+  "end": 30.44
+ },
+ {
+  "w": "purpose.",
+  "start": 30.44,
+  "end": 30.84
+ },
+ {
+  "w": "Pepper",
+  "start": 31.68,
+  "end": 31.76
+ },
+ {
+  "w": "had",
+  "start": 31.76,
+  "end": 32.14
+ },
+ {
+  "w": "planned",
+  "start": 32.14,
+  "end": 32.34
  },
  {
   "w": "this",
-  "start": 27.6,
-  "end": 27.92
+  "start": 32.34,
+  "end": 32.78
  },
  {
   "w": "since",
-  "start": 27.92,
-  "end": 28.16
+  "start": 32.78,
+  "end": 33.08
  },
  {
   "w": "breakfast.",
-  "start": 28.16,
-  "end": 28.54
+  "start": 33.08,
+  "end": 33.52
  }
 ]
