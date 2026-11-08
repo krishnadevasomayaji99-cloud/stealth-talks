@@ -3,7 +3,7 @@ import os, sys, json, requests
 from common import *
 tok = get_token(); c = cfg(); out = {}
 for r in load_ledger()["rows"]:
-    if r["state"] != "verified" or not r.get("media_id"): continue
+    if r["state"] != "verified" or not r.get("media_id") or r.get("live") is False: continue
     x = requests.get(f"{graph_host()}/{c['graph_version']}/{r['media_id']}/insights", params={"metric": "views,reach,likes,comments,shares,saved,ig_reels_avg_watch_time", "access_token": tok}, timeout=60)
     j = x.json() if x.content else {}
     if x.status_code != 200: out[r["key"]] = {"error": str(j)[:200]}; continue
