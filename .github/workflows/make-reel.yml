@@ -4,7 +4,9 @@ on:
     inputs:
       key: {description: "queue folder name (contains script.txt and scene.js)", required: true}
       max_frames: {description: "limit frames (preview)", required: false, default: ""}
-concurrency: {group: make-reel-${{ github.event.inputs.key }}, cancel-in-progress: false}
+concurrency:
+  group: make-reel-${{ github.event.inputs.key }}
+  cancel-in-progress: false
 jobs:
   make:
     runs-on: ubuntu-latest
