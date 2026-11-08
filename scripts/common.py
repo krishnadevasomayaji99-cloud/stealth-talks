@@ -37,3 +37,7 @@ def get_token():
 def token_shape():
     raw = os.environ.get("IG_TOKEN", ""); t = get_token()
     return f"raw_len={len(raw)} clean_len={len(t)} starts={t[:3]!r} had_whitespace_or_quotes={raw != t}"
+
+def graph_host():
+    """EAA tokens (Facebook login) belong on graph.facebook.com; IG tokens on graph.instagram.com."""
+    return "https://graph.facebook.com" if get_token().startswith("EAA") else "https://graph.instagram.com"

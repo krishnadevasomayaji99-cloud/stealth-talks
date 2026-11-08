@@ -2,7 +2,6 @@
 import os, sys, time, json, argparse, requests
 from common import *
 import gate
-H = "https://graph.instagram.com"
 def window_ok(c, rows):
     t = now().astimezone(LON)
     if not c["window_hours_london"][0] <= t.hour < c["window_hours_london"][1]: return "outside window"
@@ -20,7 +19,7 @@ def publish(key, tok, dry):
     L["rows"].append(row); save_ledger(L)            # row written BEFORE upload = the lock
     commit_ledger(f"ledger: start {key}")
     try:
-        s, j = api("POST", f"{H}/{c['graph_version']}/{c['account_id']}/media", tok, data={"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"})
+        s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, data={"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"})
         if s != 200 or "id" not in j: row["state"] = "failed_before_upload"; row["err"] = str(j)[:300]; raise RuntimeError(f"container create failed: {j}")
         cid = j["id"]; row["container"] = cid
         size = v.stat().st_size
@@ -28,16 +27,16 @@ def publish(key, tok, dry):
             r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
         if r.status_code != 200: row["state"] = "failed_before_upload"; raise RuntimeError(f"upload failed {r.status_code}")
         for _ in range(60):
-            s, j = api("GET", f"{H}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
+            s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
             if j.get("status_code") == "FINISHED": break
             if j.get("status_code") in ("ERROR", "EXPIRED"): row["state"] = "failed_before_upload"; raise RuntimeError(f"processing {j}")
             time.sleep(10)
         else: row["state"] = "failed_before_upload"; raise RuntimeError("processing timeout")
         row["state"] = "needs_reconcile"; save_ledger(L)   # from here on, never retry blindly
-        s, j = api("POST", f"{H}/{c['graph_version']}/{c['account_id']}/media_publish", tok, data={"creation_id": cid})
+        s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media_publish", tok, data={"creation_id": cid})
         if s != 200 or "id" not in j: raise RuntimeError(f"publish uncertain: {s} {j}")
         row["media_id"] = j["id"]
-        s, j = api("GET", f"{H}/{c['graph_version']}/{row['media_id']}", tok, params={"fields": "permalink"})
+        s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{row['media_id']}", tok, params={"fields": "permalink"})
         if "permalink" not in j: raise RuntimeError("no permalink returned")
         row["permalink"] = j["permalink"]; row["state"] = "verified"; row["published_at"] = now().isoformat()
         save_ledger(L); commit_ledger(f"ledger: verified {key}"); print("PUBLISHED", row["permalink"]); return True
