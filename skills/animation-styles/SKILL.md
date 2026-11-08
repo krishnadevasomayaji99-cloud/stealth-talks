@@ -33,6 +33,8 @@ Source: a public "51 Claude Animation Styles" list (Applied AI). Its referenced 
 ## B. Explainer / data skins (use only for a true explainer beat)
 Isometric infographic (labelled stages, travelling packet) · line-art maths diagram (step captions, one accent colour) · chalkboard diagram · blueprint (pale-cyan lines on dark grid, "illustrative" dimensions) · hologram HUD (cyan wireframe, orbiting arcs, "simulated" labels) · coin-stack bar chart (elliptical tops, falling layers; fictional demo data must say so) · retro CRT terminal (amber, scanlines, typed text) · neon wireframe flight (projected grid, periodic motion so it can loop) · travel-poster (layered mountains, muted teal/ochre/cream) · ink wash (misty strokes, one red accent) · physics sims (dominoes, Galton board: fixed timestep, seeded drops) · pixel weather effects.
 
+Full list of 51 with fit ratings and a scene-brief template: see catalogue.md.
+
 ## Picking a style for a Reel
 1. Write hook / problem / escalation / payoff in one sentence each first.
 2. Choose a skin that suits the story's mood; do not reuse the skin of the last two published Reels (check ledger/playbook).
