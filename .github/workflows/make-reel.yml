@@ -11,6 +11,8 @@ jobs:
   make:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    permissions:
+      contents: write
     defaults:
       run:
         shell: bash -eo pipefail {0}
@@ -33,7 +35,7 @@ jobs:
       - name: voice + word timings
         run: python scripts/voice.py "queue/${{ inputs.key }}/script.txt" /tmp/build | tee -a $GITHUB_STEP_SUMMARY
       - name: render frames
-        run: node render/render.js "queue/${{ inputs.key }}" /tmp/build/words.json /tmp/build/silent.mp4 1.2 "${{ inputs.max_frames }}" | tee -a $GITHUB_STEP_SUMMARY
+        run: node render/render.js "queue/${{ inputs.key }}" /tmp/build/words.json /tmp/build/silent.mp4 2.0 "${{ inputs.max_frames }}" | tee -a $GITHUB_STEP_SUMMARY
       - name: mix + mux
         run: python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4
       - name: checks
@@ -45,6 +47,13 @@ jobs:
       - name: contact sheet frames
         run: |
           d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/build/video.mp4)
-          for f in 0.1 2 5 9 13 17 21 25 29 33; do awk -v d="$d" -v f="$f" 'BEGIN{exit !(f<d)}' && ffmpeg -v error -y -ss $f -i /tmp/build/video.mp4 -frames:v 1 -vf scale=360:-1 /tmp/build/f_$f.jpg || true; done
+          for f in 0.1 1.5 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31; do awk -v d="$d" -v f="$f" 'BEGIN{exit !(f<d)}' && ffmpeg -v error -y -ss $f -i /tmp/build/video.mp4 -frames:v 1 -vf scale=540:-1 /tmp/build/f_$f.jpg || true; done
+      - name: commit review frames (video itself stays an artifact)
+        run: |
+          mkdir -p "review/${{ inputs.key }}"
+          cp /tmp/build/f_*.jpg /tmp/build/words.json "review/${{ inputs.key }}/"
+          git config user.name "stealth-talks-bot"; git config user.email "bot@users.noreply.github.com"
+          git add review && git commit -qm "review frames for ${{ inputs.key }}" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
       - uses: actions/upload-artifact@v4
         with: {name: "reel-${{ inputs.key }}", path: "/tmp/build/*", retention-days: 7}

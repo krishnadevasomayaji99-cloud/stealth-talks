@@ -12,5 +12,5 @@ for i,c in enumerate(cues,1):
 fc.append("".join(labels)+f"amix=inputs={len(labels)}:normalize=0:duration=longest,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
 cmd+=["-filter_complex",";".join(fc),"-map","[a]","-ar","48000","/tmp/mix.wav"]
 subprocess.run(cmd,check=True)
-subprocess.run(["ffmpeg","-y","-v","error","-i",vid,"-i","/tmp/mix.wav","-map","0:v","-map","1:a","-c:v","copy","-c:a","aac","-b:a","192k","-shortest","-movflags","+faststart",out],check=True)
+subprocess.run(["ffmpeg","-y","-v","error","-i",vid,"-i","/tmp/mix.wav","-map","0:v","-map","1:a","-c:v","copy","-af","apad","-c:a","aac","-b:a","192k","-shortest","-movflags","+faststart",out],check=True)
 print("muxed",out)
