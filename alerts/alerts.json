@@ -3,5 +3,10 @@
   "at": "2026-11-08T16:18:50.490915+00:00",
   "key": "health",
   "msg": "account check failed 400"
+ },
+ {
+  "at": "2026-11-08T16:19:40.259692+00:00",
+  "key": "health",
+  "msg": "token check (/me) failed: 400 code=190 sub=None type=OAuthException msg=Invalid OAuth access token - Cannot parse access token"
  }
 ]
