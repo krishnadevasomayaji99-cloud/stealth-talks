@@ -1,12 +1,1 @@
-[
- {
-  "at": "2026-11-08T17:12:34.421018+00:00",
-  "key": "metrics",
-  "msg": "insights failed for 8 reels (permission?)"
- },
- {
-  "at": "2026-11-08T17:23:54.003754+00:00",
-  "key": "metrics",
-  "msg": "insights failed for 5 reels (permission?)"
- }
-]
+[]
