@@ -1,5 +1,6 @@
 name: health
 on: {schedule: [{cron: "41 */6 * * *"}], workflow_dispatch: {}}   # a failing run emails the repo owner via GitHub notifications; also keeps the schedule alive
+concurrency: {group: ledger, cancel-in-progress: false}
 permissions: {contents: write}
 jobs:
   health:

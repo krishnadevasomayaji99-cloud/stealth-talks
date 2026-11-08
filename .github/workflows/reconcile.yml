@@ -1,0 +1,22 @@
+name: reconcile
+on:
+  workflow_dispatch:
+    inputs:
+      key: {description: "ledger key", required: true}
+      action: {description: "show | verified | failed", required: true, default: show}
+      media_id: {description: "media id (for verified)", required: false}
+concurrency: {group: ledger, cancel-in-progress: false}
+permissions: {contents: write}
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python scripts/reconcile.py "${{ inputs.key }}" "${{ inputs.action }}" --media-id "${{ inputs.media_id }}"
+        env: {IG_TOKEN: "${{ secrets.IG_TOKEN }}"}
+      - run: |
+          git config user.name stealth-talks-bot; git config user.email bot@users.noreply.github.com
+          git add ledger alerts; git commit -m "reconcile ${{ inputs.key }}" || true; git pull --rebase; git push || true

@@ -11,3 +11,4 @@ jobs:
       - run: pip install requests && sudo apt-get install -y ffmpeg
       - run: python -m py_compile scripts/*.py
       - run: python scripts/publish.py --dry-run
+      - run: python -c "import json;L=json.load(open('ledger/ledger.json'))['rows'];h=[r['sha256'] for r in L];assert len(h)==len(set(h)),'duplicate hash in ledger';[json.load(open(f)) for f in ('config/config.json','alerts/alerts.json')];print('ledger ok',len(L))"
