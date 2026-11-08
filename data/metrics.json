@@ -1,8 +1,8 @@
 {
- "at": "2026-11-08T17:03:08.302144+00:00",
+ "at": "2026-11-08T17:12:34.420548+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': '(#10) Application does not have permission for this action', 'code': 10, 'type': 'OAuthException', 'fbtrace_id': 'A2TZ6fzEkuTQqhPmq-JW2z3'}}"
   },
   "ST-20261105-plant-manager": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18342559003258075' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -14,13 +14,13 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18114284615242714' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261105-selfish-umbrella": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18132846847687887' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': '(#10) Application does not have permission for this action', 'code': 10, 'type': 'OAuthException', 'fbtrace_id': 'ATqhmLcrY5ew6FbVxTYAHqs'}}"
   },
   "ST-20261105-alarm-bedtime": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '17954842884324360' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261105-shadow-chair": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18371222236209348' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': '(#10) Application does not have permission for this action', 'code': 10, 'type': 'OAuthException', 'fbtrace_id': 'AO14g31O0BQpqAGTzyVlPkU'}}"
   },
   "ST-20261106-paper-moon": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18083769053349273' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
