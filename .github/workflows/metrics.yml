@@ -1,0 +1,17 @@
+name: metrics
+on: {schedule: [{cron: "23 6 * * *"}], workflow_dispatch: {}}
+concurrency: {group: ledger, cancel-in-progress: false}
+permissions: {contents: write}
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python scripts/metrics.py
+        env: {IG_TOKEN: "${{ secrets.IG_TOKEN }}"}
+      - run: |
+          git config user.name stealth-talks-bot; git config user.email bot@users.noreply.github.com
+          git add data alerts; git commit -m "metrics $(date -u +%F)" || true; git pull --rebase; git push || true

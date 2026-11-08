@@ -1,0 +1,18 @@
+name: refresh-token
+on: {schedule: [{cron: "17 4 * * 1"}], workflow_dispatch: {}}   # weekly; token lasts ~60 days
+concurrency: {group: ledger, cancel-in-progress: false}
+permissions: {contents: write}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python scripts/token_refresh.py
+        env: {IG_TOKEN: "${{ secrets.IG_TOKEN }}", REPO_ADMIN_PAT: "${{ secrets.REPO_ADMIN_PAT }}", GITHUB_REPOSITORY: "${{ github.repository }}"}
+      - if: always()
+        run: |
+          git config user.name stealth-talks-bot; git config user.email bot@users.noreply.github.com
+          git add data alerts; git commit -m "token status" || true; git pull --rebase; git push || true

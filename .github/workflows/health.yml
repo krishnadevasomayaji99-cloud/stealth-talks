@@ -1,0 +1,17 @@
+name: health
+on: {schedule: [{cron: "41 */6 * * *"}], workflow_dispatch: {}}   # a failing run emails the repo owner via GitHub notifications; also keeps the schedule alive
+permissions: {contents: write}
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests && sudo apt-get install -y ffmpeg
+      - run: python scripts/health.py
+        env: {IG_TOKEN: "${{ secrets.IG_TOKEN }}"}
+      - if: always()
+        run: |
+          git config user.name stealth-talks-bot; git config user.email bot@users.noreply.github.com
+          date -u +%FT%TZ > data/heartbeat.txt; git add data alerts; git commit -m "heartbeat" || true; git pull --rebase; git push || true
