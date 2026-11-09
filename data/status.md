@@ -6,3 +6,5 @@
 - Open: STYLE.md empty (needs reference Reels); Take-Two reports earnings 9 Nov 21:30 London, re-check GTA 6 date claim in later Reels; peak slots are assumptions.
 
 - 9 Nov 11:30: top-shelf Reel (Trim caption) READY for 20:30. Next: a clean "lock in" skit (Krishna request); no gooning/sexual angle.
+
+- 9 Nov 13:35: POSTED launch-day-dave https://www.instagram.com/reel/Dfhaon1gsAJ/ . Fixed upload: Meta rupload returns 400 ProcessingFailedError even when processing succeeds; publish.py now reuses a FINISHED container for the same file and polls 20 min. emu-war moved to queue/ST-20261109-zz-emu-war (still READY). GitHub cron did not fire 9 Nov 10:30-13:00 (watch; the Claude scheduled task and manual dispatch are the backstop). Next slot 17:30 = top-shelf.
