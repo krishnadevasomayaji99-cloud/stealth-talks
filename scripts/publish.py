@@ -1,3 +1,4 @@
+import json
 """Publish ONE ready Reel. Never retries an uncertain publish: marks needs_reconcile + alert."""
 import os, sys, time, json, argparse, requests
 from common import *
@@ -31,7 +32,18 @@ def publish(key, tok, dry):
         if reuse:
             cid = reuse; row["container"] = cid; row["reused_container"] = True; print("reusing FINISHED container", cid)
         else:
-            s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, data={"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"})
+            data = {"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"}
+            tr = c.get("trial_reels") or {}
+            if tr.get("enabled"):
+                try:
+                    sf, jf = api("GET", f"{graph_host()}/{c['graph_version']}/{c['account_id']}", tok, params={"fields": "followers_count"})
+                    fol = jf.get("followers_count", 0)
+                    n_today = sum(1 for r in L["rows"][:-1] if r["state"] in ("verified","needs_reconcile") and r.get("started_at","")[:10] == row["started_at"][:10])
+                    if fol >= tr.get("min_followers", 200) and n_today % 2 == 1:
+                        data["trial_params"] = json.dumps({"graduation_strategy": tr.get("graduation", "SS_PERFORMANCE")}); row["trial"] = True; print("TRIAL REEL", data["trial_params"])
+                    else: print(f"trial skipped: followers={fol} posts_today={n_today}")
+                except Exception as e: print("trial check failed, posting normally:", e)
+            s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, data=data)
             if s != 200 or "id" not in j: row["state"] = "failed_before_upload"; row["err"] = str(j)[:300]; raise RuntimeError(f"container create failed: {j}")
             cid = j["id"]; row["container"] = cid
         if not reuse:

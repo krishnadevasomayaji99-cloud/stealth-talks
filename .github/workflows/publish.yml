@@ -1,6 +1,6 @@
 name: publish
 on:
-  schedule: [{cron: "7,37 7-21 * * *"}]   # every 30 min; the script enforces window, cap and gap
+  schedule: [{cron: "7,22,37,52 7-21 * * *"}]   # every 15 min (GitHub drops some runs); the script enforces window, cap and gap
   workflow_dispatch: {inputs: {dry_run: {type: boolean, default: true}}}
 concurrency: {group: ledger, cancel-in-progress: false}
 permissions: {contents: write}

@@ -1,31 +1,37 @@
 {
- "enabled": true,
- "max_per_day": 4,
- "window_hours_london": [
-  8,
-  22
- ],
- "min_gap_minutes": 150,
- "duration_seconds": [
-  30,
-  59
- ],
- "resolution": [
-  1080,
-  1920
- ],
- "fps_min": 24,
- "graph_version": "v27.0",
- "account_id": "17841454667680884",
- "ai_disclosure_line": "",
- "waived_gates": [
-  "listening"
- ],
- "slots_london": [
-  "08:30",
-  "12:30",
-  "17:30",
-  "20:30"
- ],
- "slots_note": "Assumed peak slots (lunch/evening commonly cited); unverified for this audience. The daily review adjusts them from metrics."
+  "enabled": true,
+  "max_per_day": 4,
+  "window_hours_london": [
+    8,
+    22
+  ],
+  "min_gap_minutes": 150,
+  "duration_seconds": [
+    30,
+    59
+  ],
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps_min": 24,
+  "graph_version": "v27.0",
+  "account_id": "17841454667680884",
+  "ai_disclosure_line": "",
+  "waived_gates": [
+    "listening"
+  ],
+  "slots_london": [
+    "08:30",
+    "12:30",
+    "17:30",
+    "20:30"
+  ],
+  "slots_note": "Assumed peak slots (lunch/evening commonly cited); unverified for this audience. The daily review adjusts them from metrics.",
+  "trial_reels": {
+    "enabled": true,
+    "min_followers": 200,
+    "graduation": "SS_PERFORMANCE",
+    "note": "Instagram Trial Reels (API trial_params, Meta Dec 2025): shown to non-followers first; needs >=200 followers on a professional account. Every 2nd post of the day is a trial; SS_PERFORMANCE auto-graduates winners. Self-activates when followers reach min."
+  }
 }
