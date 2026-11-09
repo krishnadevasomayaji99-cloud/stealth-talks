@@ -127,10 +127,14 @@
    "state": "verified"
   },
   {
+   "container": "18002813486822257",
    "key": "ST-20261109-lock-in",
+   "media_id": "18079951241727811",
+   "permalink": "https://www.instagram.com/reel/Dfh9_ZGCv0k/",
+   "published_at": "2026-11-09T18:25:03.775542+00:00",
    "sha256": "1bc4a02a0cb39ad5fecb75f460d40d83299d774f7b02b3df740b59b462d33201",
    "started_at": "2026-11-09T18:24:26.849988+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
