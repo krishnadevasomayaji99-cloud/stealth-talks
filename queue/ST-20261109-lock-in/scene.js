@@ -5,11 +5,11 @@ const emph=[tLock,tDr,...tM,tWater,tReorg,tVid,tHour,tZero,tTwist,tTom,tTwenty,t
 const pulse=t=>{let m=0;for(const e of emph){const d=t-e;if(d>=0&&d<0.25)m=Math.max(m,Math.pow(1-d/0.25,2));}return m*0.07;};
 const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tDr,sfx:'thud',gain:0.8},...tM.map(t=>({t,sfx:'tick',gain:0.8})),{t:tWater,sfx:'pop',gain:0.7},{t:tReorg,sfx:'whoosh',gain:0.7},{t:tVid,sfx:'click',gain:0.8},{t:tHour,sfx:'thud',gain:0.9},{t:tZero,sfx:'thud',gain:1},{t:tTwist,sfx:'rise',gain:0.9},{t:tTom,sfx:'chime',gain:1},{t:tTries,sfx:'click',gain:0.8},{t:tAct,sfx:'chime',gain:1}];
 const DESK=1180;
-function wall(c,t){const g=c.createLinearGradient(0,0,0,1920);g.addColorStop(0,'#2b2d5b');g.addColorStop(1,'#43467d');c.fillStyle=g;c.fillRect(-300,-300,1680,2520);
+function wall(c,t){const g=c.createLinearGradient(0,0,0,1920);g.addColorStop(0,'#d9dcff');g.addColorStop(1,'#b4b9f2');c.fillStyle=g;c.fillRect(-300,-300,1680,2520);
  rr(c,90,260,200,260,10,'#f6d365');c.fillStyle='rgba(255,255,255,.25)';c.fillRect(100,270,180,240);
  // clock
  circ(c,900,330,90,'#fff');const h=k(t,[[0,0],[tHour-0.1,0.3],[tHour+0.5,6.5],[tEnd,6.5]]);c.strokeStyle='#222';c.lineWidth=10;c.beginPath();c.moveTo(900,330);c.lineTo(900+Math.sin(h)*60,330-Math.cos(h)*60);c.stroke();c.beginPath();c.moveTo(900,330);c.lineTo(900+Math.sin(h*12)*38,330-Math.cos(h*12)*38);c.stroke();
- rr(c,-300,DESK+70,1680,800,0,'#3a2e2a');}
+ rr(c,-300,DESK+70,1680,800,0,'#6b5b73');}
 function desk(c,t){rr(c,-100,DESK,1280,70,10,'#c68b59');rr(c,40,DESK+70,26,360,0,'#a86f44');rr(c,1014,DESK+70,26,360,0,'#a86f44');
  // book
  if(t<tM[3]-0.2||t>tTries-0.2){const open=clamp((t-tM[0])/0.4);const bx=540;rr(c,bx-170,DESK-34,340,34,6,'#e63946');rr(c,bx-160,DESK-48,150,20,4,'#fff');rr(c,bx+10,DESK-48,150,20,4,'#fff');
@@ -43,9 +43,9 @@ return {cues,
   const bob=t>=tTries?Math.sin(t*7)*8:Math.sin(t*2)*3;
   person(c,t,{x:540,y:1000+bob,skin:'#8d5a3b',shirt:'#ff7f50',hair:'#1b1b1b',mouth,look,handR,handL,sweat,bags,cap:false});
   desk(c,t);
-  burst(c,'LOCKED IN',540,520,tLock,t,'#b6e36a',100);
+  burst(c,'LOCKED IN',540,560,tLock,t,'#b6e36a',130);
   stamp(c,'ZERO PAGES',540,720,tZero+0.1,t,'#e63946',95);
-  burst(c,'PLOT TWIST!',540,520,tTwist,t,'#ffd23f',90);
-  confetti(c,t,540,500,tAct,60);burst(c,'FOR REAL',540,560,tAct,t,'#b6e36a',110);
+  burst(c,'PLOT TWIST!',540,560,tTwist,t,'#ffd23f',120);
+  confetti(c,t,540,500,tAct,60);burst(c,'FOR REAL',540,600,tAct,t,'#b6e36a',130);
  }};
 };
