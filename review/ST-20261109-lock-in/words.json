@@ -1,12 +1,12 @@
 [
  {
   "w": "Okay.",
-  "start": 0.0,
-  "end": 0.5
+  "start": 0.25,
+  "end": 0.716
  },
  {
   "w": "Dev",
-  "start": 0.62,
+  "start": 0.74,
   "end": 0.74
  },
  {
@@ -26,7 +26,7 @@
  },
  {
   "w": "Phone",
-  "start": 1.52,
+  "start": 1.54,
   "end": 1.66
  },
  {
@@ -47,11 +47,11 @@
  {
   "w": "Notifications",
   "start": 2.32,
-  "end": 2.68
+  "end": 2.66
  },
  {
   "w": "off.",
-  "start": 2.68,
+  "start": 2.66,
   "end": 3.2
  },
  {
@@ -87,11 +87,11 @@
  {
   "w": "textbook.",
   "start": 5.5,
-  "end": 5.7
+  "end": 5.72
  },
  {
   "w": "Minute",
-  "start": 6.1,
+  "start": 6.08,
   "end": 6.12
  },
  {
@@ -132,41 +132,41 @@
  {
   "w": "needs",
   "start": 8.2,
-  "end": 8.54
+  "end": 8.52
  },
  {
   "w": "reorganising.",
-  "start": 8.54,
-  "end": 9.832
+  "start": 8.52,
+  "end": 9.831
  },
  {
   "w": "Minute",
   "start": 9.9,
-  "end": 10.0
+  "end": 10.02
  },
  {
   "w": "ten.",
-  "start": 10.0,
-  "end": 10.437
+  "start": 10.02,
+  "end": 10.324
  },
  {
   "w": "Watching",
-  "start": 10.46,
-  "end": 10.78
+  "start": 10.34,
+  "end": 10.66
  },
  {
   "w": "a",
-  "start": 10.78,
+  "start": 10.66,
   "end": 10.9
  },
  {
   "w": "video",
   "start": 10.9,
-  "end": 11.08
+  "end": 11.06
  },
  {
   "w": "about",
-  "start": 11.08,
+  "start": 11.06,
   "end": 11.34
  },
  {
@@ -192,12 +192,12 @@
  {
   "w": "locked",
   "start": 12.46,
-  "end": 12.74
+  "end": 12.72
  },
  {
   "w": "in.",
-  "start": 12.74,
-  "end": 13.0
+  "start": 12.72,
+  "end": 13.02
  },
  {
   "w": "One",
@@ -227,26 +227,26 @@
  {
   "w": "setup.",
   "start": 14.66,
-  "end": 14.98
+  "end": 15.0
  },
  {
   "w": "Colour",
-  "start": 14.98,
-  "end": 15.607
+  "start": 15.0,
+  "end": 15.608
  },
  {
   "w": "coded",
   "start": 15.64,
-  "end": 16.08
+  "end": 16.06
  },
  {
   "w": "timetable.",
-  "start": 16.08,
-  "end": 16.32
+  "start": 16.06,
+  "end": 16.3
  },
  {
   "w": "Zero",
-  "start": 16.84,
+  "start": 16.88,
   "end": 17.0
  },
  {
@@ -292,31 +292,31 @@
  {
   "w": "a",
   "start": 19.66,
-  "end": 19.86
+  "end": 19.88
  },
  {
   "w": "nap.",
-  "start": 19.86,
+  "start": 19.88,
   "end": 20.08
  },
  {
   "w": "Considers",
   "start": 20.34,
-  "end": 20.46
+  "end": 20.52
  },
  {
   "w": "the",
-  "start": 20.46,
+  "start": 20.52,
   "end": 20.86
  },
  {
   "w": "meaning",
   "start": 20.86,
-  "end": 21.0
+  "end": 21.02
  },
  {
   "w": "of",
-  "start": 21.0,
+  "start": 21.02,
   "end": 21.24
  },
  {
@@ -326,7 +326,7 @@
  },
  {
   "w": "Plot",
-  "start": 22.16,
+  "start": 22.26,
   "end": 22.26
  },
  {
@@ -336,7 +336,7 @@
  },
  {
   "w": "The",
-  "start": 22.92,
+  "start": 22.94,
   "end": 23.0
  },
  {
@@ -352,11 +352,11 @@
  {
   "w": "began",
   "start": 23.78,
-  "end": 24.26
+  "end": 24.22
  },
  {
   "w": "with",
-  "start": 24.26,
+  "start": 24.22,
   "end": 24.5
  },
  {
@@ -377,21 +377,21 @@
  {
   "w": "kitchen",
   "start": 25.26,
-  "end": 25.68
+  "end": 25.7
  },
  {
   "w": "timer.",
-  "start": 25.68,
-  "end": 26.0
+  "start": 25.7,
+  "end": 25.98
  },
  {
   "w": "Twenty",
-  "start": 26.0,
-  "end": 26.408
+  "start": 25.98,
+  "end": 26.398
  },
  {
   "w": "five",
-  "start": 26.43,
+  "start": 26.42,
   "end": 26.838
  },
  {
@@ -412,11 +412,11 @@
  {
   "w": "break.",
   "start": 27.62,
-  "end": 27.76
+  "end": 27.78
  },
  {
   "w": "Dev",
-  "start": 27.76,
+  "start": 27.78,
   "end": 28.56
  },
  {
@@ -452,21 +452,21 @@
  {
   "w": "two.",
   "start": 30.0,
-  "end": 30.285
+  "end": 30.304
  },
  {
   "w": "Done.",
-  "start": 30.3,
+  "start": 30.32,
   "end": 30.52
  },
  {
   "w": "Actually",
   "start": 30.72,
-  "end": 30.9
+  "end": 30.92
  },
  {
   "w": "locked",
-  "start": 30.9,
+  "start": 30.92,
   "end": 31.28
  },
  {
