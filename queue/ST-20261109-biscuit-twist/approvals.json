@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "12e7909118efc74d1e24310d927a279142b501877de7e2f2f0c2b564b621d8bf",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:20:02.074453+00:00",
+  "note": "Claude: original skit (cat/biscuit twist), no real people, brand or character; hook states want and rival in first second; twist at ~25s; payoff and loop ending readable. Judged from script and frames, not from hearing it.",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "12e7909118efc74d1e24310d927a279142b501877de7e2f2f0c2b564b621d8bf",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:20:02.116241+00:00",
+  "note": "Claude: viewed 11 frames of the queued video.mp4 (0.5,6,12,17,21,24,27,29,31,33,34.2s) plus 17 frames of the same build in review/. Captions inside safe zones, no clipped faces, bursts readable. Sampled-frame inspection only, not full playback; audio measured not heard.",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "041772fc9b93a60bf174abe676c83b06ed84a04ef2738365ed3baab7c6f3f80b",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:20:02.148767+00:00",
+  "note": "Claude: opened both RMG pages 9 Nov 2026; verified 1 lb Armada-era ration, Pepys wording, mouldy/stale/weevils, 1784 biscuit AAB0003 inscription, Bewick thought-to attribution, family until about 1950, RMG collection. Removed unsupported flourishes. Instagram page itself not inspected.",
+  "listened": false
+ }
+}
