@@ -1,6 +1,6 @@
 window.SCENE=function(a){
 const {k,ease,outBack,clamp,W,E}=a;const K=window.KIT;const {circ,ell,rr,tri,burst,person,cat,confetti,stamp}=K;
-const tA=[0,1,2,3,4].map(i=>W('attempt',i)),tYes=W('yes'),tTin=W('tin'),tTwist=W('twist'),tRai=W('raisins'),tDown=W('downstairs'),tReal=W('real'),tHad=W('had'),tAgain=W('again'),tEnd=E('again')+0.2;
+const tA=[0,1,2,3,4].map(i=>W('attempt',i)),tYes=W('yes'),tTin=W('opens'),tTwist=W('twist'),tRai=W('raisins'),tDown=W('downstairs'),tReal=W('real'),tHad=W('had'),tAgain=W('again'),tEnd=E('again')+0.2;
 const emph=[W('goal'),W('shelf',0),...tA,tYes,tTin,tTwist,tRai,tDown,tReal,tHad,tAgain];
 const pulse=t=>{let m=0;for(const e of emph){const d=t-e;if(d>=0&&d<0.25)m=Math.max(m,Math.pow(1-d/0.25,2));}return m*0.07;};
 const nT=i=>(i<4?tA[i+1]:tYes)-0.5; // end of attempt i
@@ -53,6 +53,6 @@ return {cues,
   // Maya downstairs eats a real biscuit
   if(t>=tDown-0.2){const s=outBack((t-tDown+0.2)/0.4);c.save();c.translate(260,0);c.scale(s,s);c.translate(-260,0);person(c,t,{x:260,y:1000,skin:'#f2c19b',shirt:'#2a9d8f',hair:'#4a2c1a',bun:true,mouth:Math.sin(t*9)>0?'grin':'smile',look:1,handR:[300,1090],handL:[150,1270]});circ(c,310,1085,34,'#d9a75a');[[300,1078],[318,1092],[304,1096]].forEach(q=>circ(c,q[0],q[1],6,'#3b2314'));c.restore();}
   stamp(c,'NO',BX,700,nT(0)+0.05,t,'#e63946',120);stamp(c,'ALSO NO',BX,700,nT(1)+0.05,t,'#e63946',90);stamp(c,'VERY NO',BX,700,nT(2)+0.05,t,'#e63946',90);stamp(c,'LESS NO',BX,700,nT(3)+0.05,t,'#e8851f',90);
-  confetti(c,t,780,300,tYes,60);burst(c,'YES!',560,380,tYes,t,'#b6e36a',130);burst(c,'PLOT TWIST!',640,420,tTwist,t,'#ffd23f',140);burst(c,'RAISINS?!',720,380,tRai,t,'#d6a8ff',120);burst(c,'AGAIN?',420,820,tEnd-0.7,t,'#ffb3d1',120,1.4);
+  confetti(c,t,780,300,tYes,60);burst(c,'YES!',560,380,tYes,t,'#b6e36a',130);burst(c,'PLOT TWIST!',760,520,tTwist,t,'#ffd23f',140);burst(c,'RAISINS?!',720,380,tRai,t,'#d6a8ff',120);burst(c,'AGAIN?',420,820,tEnd-0.7,t,'#ffb3d1',120,1.4);
  }};
 };
