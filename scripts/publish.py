@@ -29,7 +29,7 @@ def publish(key, tok, dry):
         size = v.stat().st_size
         with open(v, "rb") as f:
             r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
-        if r.status_code != 200: row["state"] = "failed_before_upload"; raise RuntimeError(f"upload failed {r.status_code}")
+        if r.status_code != 200: row["state"] = "failed_before_upload"; raise RuntimeError(f"upload failed {r.status_code} {r.text[:300]}")
         for _ in range(60):
             s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
             if j.get("status_code") == "FINISHED": break
