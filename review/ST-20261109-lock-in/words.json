@@ -1,0 +1,412 @@
+[
+ {
+  "w": "Okay.",
+  "start": 0.0,
+  "end": 0.5
+ },
+ {
+  "w": "Dev",
+  "start": 0.64,
+  "end": 0.74
+ },
+ {
+  "w": "is",
+  "start": 0.74,
+  "end": 0.88
+ },
+ {
+  "w": "locking",
+  "start": 0.88,
+  "end": 1.16
+ },
+ {
+  "w": "in.",
+  "start": 1.16,
+  "end": 1.4
+ },
+ {
+  "w": "Phone",
+  "start": 1.54,
+  "end": 1.66
+ },
+ {
+  "w": "in",
+  "start": 1.66,
+  "end": 1.82
+ },
+ {
+  "w": "the",
+  "start": 1.82,
+  "end": 1.9
+ },
+ {
+  "w": "drawer.",
+  "start": 1.9,
+  "end": 2.12
+ },
+ {
+  "w": "Notifications",
+  "start": 2.34,
+  "end": 2.7
+ },
+ {
+  "w": "off.",
+  "start": 2.7,
+  "end": 3.2
+ },
+ {
+  "w": "Desk",
+  "start": 3.42,
+  "end": 3.5
+ },
+ {
+  "w": "cleared.",
+  "start": 3.5,
+  "end": 3.86
+ },
+ {
+  "w": "Minute",
+  "start": 4.56,
+  "end": 4.68
+ },
+ {
+  "w": "one.",
+  "start": 4.68,
+  "end": 4.908
+ },
+ {
+  "w": "Opens",
+  "start": 4.92,
+  "end": 5.28
+ },
+ {
+  "w": "the",
+  "start": 5.28,
+  "end": 5.48
+ },
+ {
+  "w": "textbook.",
+  "start": 5.48,
+  "end": 5.72
+ },
+ {
+  "w": "Minute",
+  "start": 6.08,
+  "end": 6.12
+ },
+ {
+  "w": "two.",
+  "start": 6.12,
+  "end": 6.462
+ },
+ {
+  "w": "Needs",
+  "start": 6.48,
+  "end": 6.76
+ },
+ {
+  "w": "water.",
+  "start": 6.76,
+  "end": 7.0
+ },
+ {
+  "w": "Minute",
+  "start": 7.2,
+  "end": 7.24
+ },
+ {
+  "w": "three.",
+  "start": 7.24,
+  "end": 7.886
+ },
+ {
+  "w": "The",
+  "start": 7.92,
+  "end": 8.0
+ },
+ {
+  "w": "desk",
+  "start": 8.0,
+  "end": 8.2
+ },
+ {
+  "w": "needs",
+  "start": 8.2,
+  "end": 8.54
+ },
+ {
+  "w": "reorganising.",
+  "start": 8.54,
+  "end": 9.889
+ },
+ {
+  "w": "Minute",
+  "start": 9.96,
+  "end": 10.02
+ },
+ {
+  "w": "ten.",
+  "start": 10.02,
+  "end": 10.324
+ },
+ {
+  "w": "Watching",
+  "start": 10.34,
+  "end": 10.66
+ },
+ {
+  "w": "a",
+  "start": 10.66,
+  "end": 10.9
+ },
+ {
+  "w": "video",
+  "start": 10.9,
+  "end": 11.08
+ },
+ {
+  "w": "about",
+  "start": 11.08,
+  "end": 11.34
+ },
+ {
+  "w": "how",
+  "start": 11.34,
+  "end": 11.56
+ },
+ {
+  "w": "to",
+  "start": 11.56,
+  "end": 11.68
+ },
+ {
+  "w": "study.",
+  "start": 11.68,
+  "end": 11.98
+ },
+ {
+  "w": "Still",
+  "start": 12.24,
+  "end": 12.46
+ },
+ {
+  "w": "locked",
+  "start": 12.46,
+  "end": 12.74
+ },
+ {
+  "w": "in.",
+  "start": 12.74,
+  "end": 12.98
+ },
+ {
+  "w": "One",
+  "start": 13.66,
+  "end": 13.74
+ },
+ {
+  "w": "hour",
+  "start": 13.74,
+  "end": 13.98
+ },
+ {
+  "w": "later.",
+  "start": 13.98,
+  "end": 14.26
+ },
+ {
+  "w": "New",
+  "start": 14.36,
+  "end": 14.46
+ },
+ {
+  "w": "desk",
+  "start": 14.46,
+  "end": 14.64
+ },
+ {
+  "w": "setup.",
+  "start": 14.64,
+  "end": 14.98
+ },
+ {
+  "w": "Colour",
+  "start": 14.98,
+  "end": 15.588
+ },
+ {
+  "w": "coded",
+  "start": 15.62,
+  "end": 16.04
+ },
+ {
+  "w": "timetable.",
+  "start": 16.04,
+  "end": 16.32
+ },
+ {
+  "w": "Zero",
+  "start": 16.76,
+  "end": 16.92
+ },
+ {
+  "w": "pages",
+  "start": 16.92,
+  "end": 17.42
+ },
+ {
+  "w": "read.",
+  "start": 17.42,
+  "end": 17.72
+ },
+ {
+  "w": "Plot",
+  "start": 18.5,
+  "end": 18.58
+ },
+ {
+  "w": "twist.",
+  "start": 18.58,
+  "end": 18.9
+ },
+ {
+  "w": "The",
+  "start": 19.28,
+  "end": 19.34
+ },
+ {
+  "w": "Pomodoro",
+  "start": 19.34,
+  "end": 19.74
+ },
+ {
+  "w": "technique",
+  "start": 19.74,
+  "end": 20.12
+ },
+ {
+  "w": "began",
+  "start": 20.12,
+  "end": 20.54
+ },
+ {
+  "w": "with",
+  "start": 20.54,
+  "end": 20.84
+ },
+ {
+  "w": "a",
+  "start": 20.84,
+  "end": 20.9
+ },
+ {
+  "w": "tomato",
+  "start": 20.9,
+  "end": 21.14
+ },
+ {
+  "w": "shaped",
+  "start": 21.14,
+  "end": 21.58
+ },
+ {
+  "w": "kitchen",
+  "start": 21.58,
+  "end": 21.98
+ },
+ {
+  "w": "timer.",
+  "start": 21.98,
+  "end": 22.3
+ },
+ {
+  "w": "Twenty",
+  "start": 22.3,
+  "end": 22.718
+ },
+ {
+  "w": "five",
+  "start": 22.74,
+  "end": 23.158
+ },
+ {
+  "w": "minutes,",
+  "start": 23.18,
+  "end": 23.62
+ },
+ {
+  "w": "then",
+  "start": 23.62,
+  "end": 23.86
+ },
+ {
+  "w": "a",
+  "start": 23.86,
+  "end": 23.94
+ },
+ {
+  "w": "break.",
+  "start": 23.94,
+  "end": 24.1
+ },
+ {
+  "w": "Dev",
+  "start": 24.1,
+  "end": 24.88
+ },
+ {
+  "w": "tries",
+  "start": 24.88,
+  "end": 25.1
+ },
+ {
+  "w": "it.",
+  "start": 25.1,
+  "end": 25.366
+ },
+ {
+  "w": "Page",
+  "start": 25.38,
+  "end": 25.56
+ },
+ {
+  "w": "one.",
+  "start": 25.56,
+  "end": 25.864
+ },
+ {
+  "w": "Done.",
+  "start": 25.88,
+  "end": 26.08
+ },
+ {
+  "w": "Page",
+  "start": 26.26,
+  "end": 26.34
+ },
+ {
+  "w": "two.",
+  "start": 26.34,
+  "end": 26.625
+ },
+ {
+  "w": "Done.",
+  "start": 26.64,
+  "end": 26.84
+ },
+ {
+  "w": "Actually",
+  "start": 27.06,
+  "end": 27.24
+ },
+ {
+  "w": "locked",
+  "start": 27.24,
+  "end": 27.62
+ },
+ {
+  "w": "in.",
+  "start": 27.62,
+  "end": 27.86
+ }
+]
