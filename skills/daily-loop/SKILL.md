@@ -36,3 +36,6 @@ In scheduled runs you have the freedom to move and open anything you need (repo,
 
 ## Funny-topic bank (Krishna, 9 Nov)
 Krishna wants meme-native, funny topics in the mix: "lock in", brain rot, study/gym/work procrastination, "no thoughts head empty", group-chat chaos, 3am-thoughts skits. Keep them clean: no sexual or porn-adjacent angles (e.g. "gooning"), no fabricated claims about real people. Pattern: relatable "lock in" setup, escalating distractions, absurd twist. Still needs a sourced caption (a true fact tied to the theme) with the AI-disclosure line.
+
+## Standing improvement rule (Krishna, 9 Nov)
+Every batch must target the previous batch's weakest metric (as of 9 Nov: avg watch past ~15 s, and shares = 0). Research new trends (<=10 days old) every run, change at least one visible thing (hook, animation, story shape, format), write the change and the reason in the playbook, and judge it against metrics 24 h later. Do not message Krishna unless something serious breaks.
