@@ -1,14 +1,4 @@
-# Status (updated 2026-11-09 11:00 London by Claude)
-- Posted: ST-20261109-biscuit-twist (10:22, https://www.instagram.com/reel/DfhGyEVDIDq/).
-- READY in queue, to be posted by the publisher: ST-20261109-emu-war (12:30 slot), ST-20261109-launch-day-dave (17:30 slot). Nothing queued for 20:30.
-- No "real current event" Reel today: no source-verified item found in time; the daily loop must find one each morning.
-- Daily loop scheduled task: first run 10 Nov 03:17 London. Usage per run unmeasured.
-- Open: STYLE.md empty (needs reference Reels); Take-Two reports earnings 9 Nov 21:30 London, re-check GTA 6 date claim in later Reels; peak slots are assumptions.
-
-- 9 Nov 11:30: top-shelf Reel (Trim caption) READY for 20:30. Next: a clean "lock in" skit (Krishna request); no gooning/sexual angle.
-
-- 9 Nov 13:35: POSTED launch-day-dave https://www.instagram.com/reel/Dfhaon1gsAJ/ . Fixed upload: Meta rupload returns 400 ProcessingFailedError even when processing succeeds; publish.py now reuses a FINISHED container for the same file and polls 20 min. emu-war moved to queue/ST-20261109-zz-emu-war (still READY). GitHub cron did not fire 9 Nov 10:30-13:00 (watch; the Claude scheduled task and manual dispatch are the backstop). Next slot 17:30 = top-shelf.
-- 9 Nov 14:00: lock-in Reel READY (queue/ST-20261109-lock-in). CI duplicate-hash check fixed (ignored failed rows). Queue: top-shelf, lock-in, zz-emu-war.
-- 9 Nov 14:30: researched Roblox/brainrot, intrusive-thought and growth tips; added to skills/reels-algorithm. Next improvement: split-screen looping visual under story (original, no Roblox assets), twist-first hooks.
-- 9 Nov 15:41 metrics: launch-day-dave 791 views/560 reach in ~2h (best, topical+trend, 10 likes, avg watch 13.8s of ~33s); biscuit 239 views; shares 0 everywhere; avg watch ~12-17s (about 40% of length). Lesson: topical/launch-day hook outperformed history skit; need stronger share triggers and a hook that holds past 15s.
-- 9 Nov 16:10: lock-in v2 READY (cold-open hook + share CTA, from metrics: drop-off before twist, 0 shares). Test: compare its watch time/shares vs v1-style Reels.
+# Status (evening watchdog 2026-11-09 18:30 London, Claude)
+- Posted today: biscuit-twist 10:22, launch-day-dave 13:31, lock-in v2 18:25 (manual dispatch; GitHub cron skipped the 17:30 slot again). https://www.instagram.com/reel/Dfh9_ZGCv0k/
+- READY: top-shelf (20:30 slot), zz-emu-war (spare). Only 1 spare for tomorrow (need 2): morning run must build evergreens first. last-biscuit has missing files (ignore).
+- Note: manual live publish needs JSON bool input: {"inputs":{"dry_run":false}} (gh -f sends string and breaks the run). Ledger/alerts healthy; old 13:xx alerts are resolved.
