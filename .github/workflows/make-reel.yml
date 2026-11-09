@@ -57,8 +57,9 @@ jobs:
         run: |
           mkdir -p "review/${{ inputs.key }}"
           cp /tmp/build/f_*.jpg /tmp/build/words.json "review/${{ inputs.key }}/"
+          cp /tmp/build/video.mp4 "queue/${{ inputs.key }}/video.mp4"
           git config user.name "stealth-talks-bot"; git config user.email "bot@users.noreply.github.com"
-          git add review && git commit -qm "review frames for ${{ inputs.key }}" || exit 0
+          git add review queue && git commit -qm "review frames for ${{ inputs.key }}" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
       - uses: actions/upload-artifact@v4
         with: {name: "reel-${{ inputs.key }}", path: "/tmp/build/*", retention-days: 7}

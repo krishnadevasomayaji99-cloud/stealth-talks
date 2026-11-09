@@ -8,6 +8,10 @@ def window_ok(c, rows):
     today = [r for r in rows if r["state"] in ("verified","needs_reconcile","uploading") and r.get("started_at","")[:10] == t.date().isoformat()]
     if len(today) >= c["max_per_day"]: return "daily cap reached"
     if today and (now()-dt.datetime.fromisoformat(max(r["started_at"] for r in today))).total_seconds() < c["min_gap_minutes"]*60: return "min gap"
+    manual = os.environ.get("MANUAL") == "1"
+    if not manual and c.get("slots_london"):
+        hm = t.strftime("%H:%M"); due = sum(1 for s in c["slots_london"] if s <= hm)
+        if len(today) >= due: return "waiting for next peak slot"
     return None
 def api(method, url, tok, **kw):
     r = requests.request(method, url, params={**kw.pop("params", {}), "access_token": tok}, timeout=120, **kw)

@@ -1,5 +1,31 @@
-{"enabled": true, "max_per_day": 4, "window_hours_london": [8, 22], "min_gap_minutes": 150,
- "duration_seconds": [30, 59], "resolution": [1080, 1920], "fps_min": 24,
- "graph_version": "v27.0", "account_id": "17841454667680884",
+{
+ "enabled": true,
+ "max_per_day": 4,
+ "window_hours_london": [
+  8,
+  22
+ ],
+ "min_gap_minutes": 150,
+ "duration_seconds": [
+  30,
+  59
+ ],
+ "resolution": [
+  1080,
+  1920
+ ],
+ "fps_min": 24,
+ "graph_version": "v27.0",
+ "account_id": "17841454667680884",
  "ai_disclosure_line": "The animation is fictional and uses AI-generated narration.",
- "waived_gates": ["listening"]}
+ "waived_gates": [
+  "listening"
+ ],
+ "slots_london": [
+  "08:30",
+  "12:30",
+  "17:30",
+  "20:30"
+ ],
+ "slots_note": "Assumed peak slots (lunch/evening commonly cited); unverified for this audience. The daily review adjusts them from metrics."
+}
