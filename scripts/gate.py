@@ -12,7 +12,7 @@ def check(key):
     if m["fps"] < c["fps_min"]: fails.append(f"fps {m['fps']}")
     if not m["audio"] or m["vcodec"] != "h264": fails.append("need h264 + audio")
     text = cap.read_text()
-    if c["ai_disclosure_line"] not in text: fails.append("missing AI disclosure line")
+    if c.get("ai_disclosure_line") and c["ai_disclosure_line"] not in text: fails.append("missing AI disclosure line")
     if "Sources" not in text: fails.append("caption has no Sources list")
     a = json.loads(ap.read_text()); vh, ch = sha256(v), sha256(cap)
     for g in REQ:

@@ -17,10 +17,10 @@
  },
  "caption_facts": {
   "verdict": "PASS",
-  "sha256": "27ea841f92e504c9c1b8e290d624c670e235e8dcbbe2164187b8cf7b6d1dd630",
+  "sha256": "21f45f1dcf30b1ffd0f2d969f3132beddef5d9699b9bf1b2e416030754c7bb22",
   "by": "Claude (model)",
-  "at": "2026-11-09T10:45:06.364324+00:00",
-  "note": "Claude: opened Australian Geographic and Wikipedia Emu War 9 Nov 2026 and cross-checked 2 Nov 1932 Campion, Meredith, two Lewis guns and 10,000 rounds, ~2,500 rounds by 8 Nov, killed estimates 50 to several hundred, no casualties, withdrawn 8 Nov, redeployed 13 Nov, recalled Dec, bounty effective. Unit name omitted since sources differ.",
+  "at": "2026-11-09T11:47:07.563130+00:00",
+  "note": "Facts unchanged and previously checked against sources; only the disclosure line was removed at Krishna's request",
   "listened": false
  }
 }

@@ -12,7 +12,7 @@ Source: a public "51 Claude Animation Styles" list (Applied AI). Its referenced 
 - Safe zones: keep key content >=90 px from sides and >=220 px from top and bottom (bottom 300 px clear for the platform UI). Body labels >=40 px. No flashing.
 - Each style needs: a visible action in the first 2 s, an escalation, a payoff readable with sound off. A style is a skin, not a story.
 - QA: inspect rendered frames at hook (0.5 s), each beat, payoff and last frame for clipped text, overlaps and unreadable labels. Report only what was actually inspected; never claim a render or a listen that did not happen.
-- Data/maths content: only real, sourced figures; otherwise label ILLUSTRATIVE. Fiction/AI disclosure stays in the caption.
+- Data/maths content: only real, sourced figures; otherwise label ILLUSTRATIVE. AI-disclosure line removed from captions at Krishna's request (9 Nov); config ai_disclosure_line is empty.
 
 ## A. Story / comedy skins (primary for Stealth Talks)
 | Style | Look cues | Motion cues |

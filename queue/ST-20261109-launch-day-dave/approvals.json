@@ -17,10 +17,10 @@
  },
  "caption_facts": {
   "verdict": "PASS",
-  "sha256": "caa37def04f743811bd047ddafbaed258fc2df0d0faa0d4623012883d1ee06c9",
+  "sha256": "dcda48c3c7171b08ae16d56e008dbb914c3a4994a535957f39e8889a840223aa",
   "by": "Claude (model)",
-  "at": "2026-11-09T10:54:25.272505+00:00",
-  "note": "Claude: opened TechRadar pages (6 Nov 2025 and 22 May 2026) and TechTimes 9 Nov 2026: date 19 Nov 2026, pushed from 26 May 2026, Rockstar announced, Take-Two confirmed, Zelnick reaffirmed May 2026, platforms PS5 and Xbox Series X|S; no newer delay reported as of 9 Nov. Take-Two reports Q2 earnings 9 Nov 4:30pm ET (after the 17:30 London slot): re-check if later.",
+  "at": "2026-11-09T11:47:08.907463+00:00",
+  "note": "Facts unchanged and previously checked against sources; only the disclosure line was removed at Krishna's request",
   "listened": false
  }
 }

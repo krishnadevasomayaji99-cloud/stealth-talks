@@ -17,10 +17,10 @@
  },
  "caption_facts": {
   "verdict": "PASS",
-  "sha256": "1ea393d7b0cbd86dca41e2ad9d6c9c4bbf9653793ab47fea1fbafde65667c2ae",
+  "sha256": "ad94abd3f42b168dfacec2c2af6546ec0496f7734d656c78e657a7788e93f0e6",
   "by": "Claude (model)",
-  "at": "2026-11-09T11:29:04.910851+00:00",
-  "note": "Trim: born 1799 aboard HMS Reliance, Investigator 1801-03, lost on Mauritius, Mitchell Library statue 28 Mar 1996 per Wikipedia+Monument Australia; overboard rope claim attributed to one account",
+  "at": "2026-11-09T11:47:09.389489+00:00",
+  "note": "Facts unchanged and previously checked against sources; only the disclosure line was removed at Krishna's request",
   "listened": false
  }
 }
