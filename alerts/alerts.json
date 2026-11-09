@@ -8,5 +8,10 @@
   "at": "2026-11-09T13:13:06.777514+00:00",
   "key": "ST-20261109-emu-war",
   "msg": "failed_before_upload: upload failed 400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+ },
+ {
+  "at": "2026-11-09T13:16:06.068479+00:00",
+  "key": "ST-20261109-launch-day-dave",
+  "msg": "failed_before_upload: upload failed 400 {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
  }
 ]
