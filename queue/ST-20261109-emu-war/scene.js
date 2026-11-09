@@ -1,6 +1,6 @@
 window.SCENE=function(a){
 const {k,ease,outBack,clamp,W,E}=a;const K=window.KIT;const {circ,ell,rr,tri,burst,person}=K;
-const tNov=W('november'),tFarm=W('farmers'),tTwenty=W('twenty',0),tMach=W('machine',1),tBull=W('bullets'),tFired=W('fired'),tFifty=W('fifty'),tHurt=W('hurt'),tStop=W('stopped'),tCalled=W('called'),tTwist=W('twist'),tBounty=W('bounty'),tWon=W('won'),tThanks=W('thank'),tLoop=E('thank')+0.4;
+const tNov=W('november'),tFarm=W('farmers'),tTwenty=W('twenty',0),tMach=W('machine',1),tBull=W('bullets'),tFired=W('fired'),tFifty=W('fifty'),tHurt=W('hurt'),tStop=W('stopped'),tCalled=W('ended'),tTwist=W('twist'),tBounty=W('bounty'),tWon=W('won'),tThanks=W('thank'),tLoop=E('thank')+0.4;
 const emph=[W('australia'),tNov,tFarm,tTwenty,tMach,tBull,tFired,tFifty,tHurt,tStop,tCalled,tTwist,tBounty,tWon,tThanks];
 const pulse=t=>{let m=0;for(const e of emph){const d=t-e;if(d>=0&&d<0.25)m=Math.max(m,Math.pow(1-d/0.25,2));}return m*0.07;};
 const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tNov,sfx:'tick',gain:0.6},{t:tTwenty,sfx:'rise',gain:0.7},{t:tMach,sfx:'click',gain:0.9},{t:tFired,sfx:'whoosh',gain:0.8},{t:tFired+0.4,sfx:'tick',gain:0.5},{t:tFired+0.8,sfx:'tick',gain:0.5},{t:tHurt,sfx:'chime',gain:0.5},{t:tCalled,sfx:'whoosh',gain:0.6},{t:tTwist-0.05,sfx:'rise',gain:0.9},{t:tTwist,sfx:'click',gain:1},{t:tBounty,sfx:'chime',gain:0.9},{t:tWon,sfx:'thud',gain:0.7},{t:tLoop,sfx:'pop',gain:0.8}];

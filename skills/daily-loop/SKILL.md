@@ -24,3 +24,6 @@ Open every source and verify each caption claim; cut what you cannot support. Th
 
 ## 5. Report
 Overwrite `data/status.md`: what was checked, learned, planned, built, queued, problems. Commit as the bot. Never write tokens or secrets anywhere.
+
+## Autonomy (Krishna, 9 Nov 2026)
+In scheduled runs you have the freedom to move and open anything you need (repo, workflows, web, browsers, connectors in the session) and Krishna must NOT be disturbed: do not ask him questions; decide, act, and record in `data/status.md`. The hard rules still apply: no spending, never expose tokens or secrets, no fabricated allegations about real people, no reposts, no model-recorded listening approvals.
