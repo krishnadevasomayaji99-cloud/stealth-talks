@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "1bc4a02a0cb39ad5fecb75f460d40d83299d774f7b02b3df740b59b462d33201",
+  "by": "Claude (model)",
+  "at": "2026-11-09T15:53:50.912839+00:00",
+  "note": "v2: cold-open hook (outcome stated in first seconds), rising distractions, Pomodoro twist, share CTA; 36s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "1bc4a02a0cb39ad5fecb75f460d40d83299d774f7b02b3df740b59b462d33201",
+  "by": "Claude (model)",
+  "at": "2026-11-09T15:53:50.949430+00:00",
+  "note": "v2 frames reviewed; captions, timetable, tomato timer legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "3493c0c0428537794dc3ad66c858387c8162849b64bd0fd911c7925facb16dae",
+  "by": "Claude (model)",
+  "at": "2026-11-09T15:53:50.980277+00:00",
+  "note": "Caption unchanged; Pomodoro facts match Wikipedia page fetched 9 Nov",
+  "listened": false
+ }
+}
