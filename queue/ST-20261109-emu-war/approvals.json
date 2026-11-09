@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:45:06.274568+00:00",
+  "note": "Claude: original skit, soldier and emus are invented cartoons, no real people or brands; real event told factually; hook (soldier vs giant emu) in frame 1; twist and ending readable. Judged from script and frames, not from hearing it.",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:45:06.323607+00:00",
+  "note": "Claude: viewed 17 frames across the committed build (review/ST-20261109-emu-war) of the same render as queue video.mp4; captions inside safe zones, no clipped faces; PLOT TWIST burst small. Sampled frames only; audio measured not heard.",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "27ea841f92e504c9c1b8e290d624c670e235e8dcbbe2164187b8cf7b6d1dd630",
+  "by": "Claude (model)",
+  "at": "2026-11-09T10:45:06.364324+00:00",
+  "note": "Claude: opened Australian Geographic and Wikipedia Emu War 9 Nov 2026 and cross-checked 2 Nov 1932 Campion, Meredith, two Lewis guns and 10,000 rounds, ~2,500 rounds by 8 Nov, killed estimates 50 to several hundred, no casualties, withdrawn 8 Nov, redeployed 13 Nov, recalled Dec, bounty effective. Unit name omitted since sources differ.",
+  "listened": false
+ }
+}
