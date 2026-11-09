@@ -23,14 +23,23 @@ def publish(key, tok, dry):
     L["rows"].append(row); save_ledger(L)            # row written BEFORE upload = the lock
     commit_ledger(f"ledger: start {key}")
     try:
-        s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, data={"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"})
-        if s != 200 or "id" not in j: row["state"] = "failed_before_upload"; row["err"] = str(j)[:300]; raise RuntimeError(f"container create failed: {j}")
-        cid = j["id"]; row["container"] = cid
-        size = v.stat().st_size
-        with open(v, "rb") as f:
-            r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
-        if r.status_code != 200: print(f"WARN upload returned {r.status_code} {r.text[:200]}; polling container status instead"); row["upload_http"] = r.status_code
-        for _ in range(60):
+        reuse = None
+        for pr in reversed(L["rows"][:-1]):
+            if pr.get("sha256") == row["sha256"] and pr.get("container") and pr["state"] == "failed_before_upload":
+                s0, j0 = api("GET", f"{graph_host()}/{c['graph_version']}/{pr['container']}", tok, params={"fields": "status_code"})
+                if j0.get("status_code") == "FINISHED": reuse = pr["container"]; break
+        if reuse:
+            cid = reuse; row["container"] = cid; row["reused_container"] = True; print("reusing FINISHED container", cid)
+        else:
+            s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, data={"media_type":"REELS","upload_type":"resumable","caption":cap,"share_to_feed":"true"})
+            if s != 200 or "id" not in j: row["state"] = "failed_before_upload"; row["err"] = str(j)[:300]; raise RuntimeError(f"container create failed: {j}")
+            cid = j["id"]; row["container"] = cid
+        if not reuse:
+            size = v.stat().st_size
+            with open(v, "rb") as f:
+                    r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
+            if r.status_code != 200: print(f"WARN upload returned {r.status_code} {r.text[:200]}; polling container status instead"); row["upload_http"] = r.status_code
+        for _ in range(120):
             s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
             if j.get("status_code") == "FINISHED": break
             if j.get("status_code") in ("ERROR", "EXPIRED"): row["state"] = "failed_before_upload"; raise RuntimeError(f"processing {j}")
