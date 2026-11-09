@@ -9,3 +9,4 @@
 
 - 9 Nov 13:35: POSTED launch-day-dave https://www.instagram.com/reel/Dfhaon1gsAJ/ . Fixed upload: Meta rupload returns 400 ProcessingFailedError even when processing succeeds; publish.py now reuses a FINISHED container for the same file and polls 20 min. emu-war moved to queue/ST-20261109-zz-emu-war (still READY). GitHub cron did not fire 9 Nov 10:30-13:00 (watch; the Claude scheduled task and manual dispatch are the backstop). Next slot 17:30 = top-shelf.
 - 9 Nov 14:00: lock-in Reel READY (queue/ST-20261109-lock-in). CI duplicate-hash check fixed (ignored failed rows). Queue: top-shelf, lock-in, zz-emu-war.
+- 9 Nov 14:30: researched Roblox/brainrot, intrusive-thought and growth tips; added to skills/reels-algorithm. Next improvement: split-screen looping visual under story (original, no Roblox assets), twist-first hooks.

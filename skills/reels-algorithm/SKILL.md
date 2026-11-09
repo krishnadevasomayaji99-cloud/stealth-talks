@@ -21,3 +21,11 @@ description: What is known (and not) about how Instagram ranks Reels, and the re
 ## Sources read
 - Hootsuite, "Instagram algorithm tips for 2026" (relays Mosseri; mixes author opinion): https://blog.hootsuite.com/instagram-algorithm/
 - Creatorhouse benchmarks post (all numbers unsourced, unverified): https://creatorhouse.app/blog/instagram-reel-hook-rate-hold-rate-completion-rate-benchmarks
+
+## Research 9 Nov 2026 (Krishna: "bizarre Roblox reels", "intrusive thoughts", thrilling + plot twist)
+Sources: inreels.ai Roblox-videos guide; dev.to Reels strategy 2026; Buffer "trending Reels 2026".
+- **Roblox/brainrot format (one source, creator-blog level):** narration over a split screen with a looping, hypnotic visual below (parkour-style gameplay), AI voiceover, big captions, a visual change every 1-3 s, strongest moment or a question in the first 3 s, 15-60 s. Stories: Reddit-style, true crime, psychology facts. We never use Roblox footage or assets (IP). We make an ORIGINAL looping visual (endless runner, falling shapes, satisfying loops) under or beside the story.
+- **Ranking signals (all unsourced blog claims except Mosseri's watch time / likes / sends):** retention, replays, DM sends. Treat numbers as unverified. Design for: a hook in 1-2 s, a payoff that rewards watching to the end, a twist that makes people rewatch or send it.
+- **Krishna's steer:** thrilling, stimulating, plot twist. Every Reel needs a hook, an escalation (stakes rise every beat), a twist, and a punchline or cliff-edge ending. Cliffhanger/loop endings that flow back into the opening line encourage replays.
+- **Trend discovery (Buffer):** Reels feed repeats, Professional dashboard > Inspiration, Reels Trends (US only), Templates > Trending, same format across niches = real trend, TikTok Creative Center (public) for early signals. Use WebSearch/WebFetch and the Chrome browser for these in scheduled runs.
+- **Intrusive-thoughts style:** search found no reliable format description. Do not guess; if a run sees real examples in a browser, record the structure here. Keep it comedic and clean (no mental-health claims or diagnoses).
