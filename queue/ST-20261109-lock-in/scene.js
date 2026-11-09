@@ -21,7 +21,7 @@ function desk(c,t){rr(c,-100,DESK,1280,70,10,'#c68b59');rr(c,40,DESK+70,26,360,0
  // laptop video
  if(t>tVid-0.1&&t<tHour+0.2){rr(c,380,DESK-250,320,220,10,'#1d1d1d');rr(c,392,DESK-238,296,180,6,'#111');const pu=0.5+0.5*Math.sin(t*6);tri(c,520,DESK-190,520,DESK-130,570,DESK-160,`rgba(255,255,255,${0.6+0.4*pu})`);rr(c,320,DESK-34,440,16,8,'#2a2a2a');}
  // timetable
- if(t>tHour+0.1&&t<tTwist-0.1){const s=outBack((t-tHour-0.1)/0.4);c.save();c.translate(540,DESK-260);c.scale(s,s);rr(c,-260,-170,520,340,14,'#fff');const cols=['#ff6b6b','#ffd23f','#6fc3ff','#9b5de5','#2ec4b6','#ff9f1c'];for(let r=0;r<4;r++)for(let q=0;q<5;q++)rr(c,-235+q*95,-145+r*75,85,65,8,cols[(r*5+q)%6]);c.restore();}
+ if(t>tHour+0.1&&t<tZero+1.2){const s=outBack((t-tHour-0.1)/0.4);c.save();c.translate(300,DESK-560);c.scale(s*0.55,s*0.55);rr(c,-260,-170,520,340,14,'#fff');const cols=['#ff6b6b','#ffd23f','#6fc3ff','#9b5de5','#2ec4b6','#ff9f1c'];for(let r=0;r<4;r++)for(let q=0;q<5;q++)rr(c,-235+q*95,-145+r*75,85,65,8,cols[(r*5+q)%6]);c.restore();}
  // tomato timer
  if(t>tTom-0.2){const s=outBack((t-tTom+0.2)/0.4);const wob=t>tTwenty?Math.sin(t*30)*0.05:0;c.save();c.translate(840,DESK-70);c.rotate(wob);c.scale(s,s);circ(c,0,0,70,'#e63946');tri(c,-24,-62,0,-98,24,-62,'#2a9d44');tri(c,-34,-50,-30,-78,-8,-58,'#2a9d44');tri(c,34,-50,30,-78,8,-58,'#2a9d44');c.fillStyle='#fff';c.fillRect(-4,-4,4,-36);c.font='bold 32px sans-serif';c.textAlign='center';c.fillStyle='#fff';c.fillText('25',0,12);c.restore();}
  // phone drawer
@@ -45,7 +45,7 @@ return {cues,
   desk(c,t);
   burst(c,'LOCKED IN',540,520,tLock,t,'#b6e36a',100);
   stamp(c,'ZERO PAGES',540,720,tZero+0.1,t,'#e63946',95);
-  burst(c,'PLOT TWIST!',540,520,tTwist,t,'#ffd23f',105);
-  confetti(c,t,540,500,tAct,60);burst(c,'ACTUALLY LOCKED IN',540,560,tAct,t,'#b6e36a',80);
+  burst(c,'PLOT TWIST!',540,520,tTwist,t,'#ffd23f',90);
+  confetti(c,t,540,500,tAct,60);burst(c,'FOR REAL',540,560,tAct,t,'#b6e36a',110);
  }};
 };
