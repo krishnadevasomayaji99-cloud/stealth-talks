@@ -1,1 +1,7 @@
-[]
+[
+ {
+  "at": "2026-11-09T13:11:30.789193+00:00",
+  "key": "ST-20261109-emu-war",
+  "msg": "failed_before_upload: upload failed 400"
+ }
+]

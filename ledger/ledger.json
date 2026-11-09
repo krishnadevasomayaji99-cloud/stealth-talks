@@ -87,10 +87,11 @@
    "state": "verified"
   },
   {
+   "container": "18002740793822257",
    "key": "ST-20261109-emu-war",
    "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
    "started_at": "2026-11-09T13:10:54.863494+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }
