@@ -1,6 +1,6 @@
 window.SCENE=function(a){
 const {k,ease,outBack,clamp,W,E}=a;const K=window.KIT;const {circ,ell,rr,tri,burst,person,confetti,stamp}=K;
-const tLock=W('locking'),tDr=W('drawer'),tM=[0,1,2,3].map(i=>W('minute',i)),tWater=W('water'),tReorg=W('reorganising'),tVid=W('video'),tHour=W('hour'),tZero=W('zero'),tTwist=W('twist'),tTom=W('tomato'),tTwenty=W('twenty'),tTries=W('tries'),tAct=W('actually'),tEnd=E('locked',1)+0.3;
+const tLock=W('locked',0),tDr=W('drawer'),tM=[0,1,2,3].map(i=>W('minute',i)),tWater=W('water'),tReorg=W('reorganising'),tVid=W('video'),tHour=W('hour',1),tZero=W('zero',1),tTwist=W('twist'),tTom=W('tomato'),tTwenty=W('twenty'),tTries=W('tries'),tAct=W('actually'),tEnd=E('locked',1)+0.3;
 const emph=[tLock,tDr,...tM,tWater,tReorg,tVid,tHour,tZero,tTwist,tTom,tTwenty,tTries,tAct];
 const pulse=t=>{let m=0;for(const e of emph){const d=t-e;if(d>=0&&d<0.25)m=Math.max(m,Math.pow(1-d/0.25,2));}return m*0.07;};
 const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tDr,sfx:'thud',gain:0.8},...tM.map(t=>({t,sfx:'tick',gain:0.8})),{t:tWater,sfx:'pop',gain:0.7},{t:tReorg,sfx:'whoosh',gain:0.7},{t:tVid,sfx:'click',gain:0.8},{t:tHour,sfx:'thud',gain:0.9},{t:tZero,sfx:'thud',gain:1},{t:tTwist,sfx:'rise',gain:0.9},{t:tTom,sfx:'chime',gain:1},{t:tTries,sfx:'click',gain:0.8},{t:tAct,sfx:'chime',gain:1}];
