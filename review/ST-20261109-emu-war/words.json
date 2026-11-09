@@ -1,0 +1,517 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.32
+ },
+ {
+  "w": "November",
+  "start": 0.32,
+  "end": 0.54
+ },
+ {
+  "w": "1932,",
+  "start": 0.54,
+  "end": 1.48
+ },
+ {
+  "w": "Australia",
+  "start": 1.98,
+  "end": 2.34
+ },
+ {
+  "w": "sent",
+  "start": 2.34,
+  "end": 2.68
+ },
+ {
+  "w": "soldiers",
+  "start": 2.68,
+  "end": 3.04
+ },
+ {
+  "w": "with",
+  "start": 3.04,
+  "end": 3.32
+ },
+ {
+  "w": "machine",
+  "start": 3.32,
+  "end": 3.54
+ },
+ {
+  "w": "guns",
+  "start": 3.54,
+  "end": 3.92
+ },
+ {
+  "w": "to",
+  "start": 3.92,
+  "end": 4.16
+ },
+ {
+  "w": "fight",
+  "start": 4.16,
+  "end": 4.38
+ },
+ {
+  "w": "emus.",
+  "start": 4.38,
+  "end": 4.8
+ },
+ {
+  "w": "This",
+  "start": 5.38,
+  "end": 5.5
+ },
+ {
+  "w": "is",
+  "start": 5.5,
+  "end": 5.64
+ },
+ {
+  "w": "real.",
+  "start": 5.64,
+  "end": 5.92
+ },
+ {
+  "w": "Farmers",
+  "start": 6.62,
+  "end": 6.84
+ },
+ {
+  "w": "in",
+  "start": 6.84,
+  "end": 7.16
+ },
+ {
+  "w": "Western",
+  "start": 7.16,
+  "end": 7.34
+ },
+ {
+  "w": "Australia",
+  "start": 7.34,
+  "end": 7.96
+ },
+ {
+  "w": "said",
+  "start": 7.96,
+  "end": 8.34
+ },
+ {
+  "w": "around",
+  "start": 8.36,
+  "end": 8.58
+ },
+ {
+  "w": "twenty",
+  "start": 8.58,
+  "end": 8.96
+ },
+ {
+  "w": "thousand",
+  "start": 8.98,
+  "end": 9.36
+ },
+ {
+  "w": "emus",
+  "start": 9.38,
+  "end": 9.8
+ },
+ {
+  "w": "were",
+  "start": 9.8,
+  "end": 10.02
+ },
+ {
+  "w": "eating",
+  "start": 10.02,
+  "end": 10.24
+ },
+ {
+  "w": "their",
+  "start": 10.24,
+  "end": 10.52
+ },
+ {
+  "w": "wheat.",
+  "start": 10.52,
+  "end": 10.74
+ },
+ {
+  "w": "So",
+  "start": 11.18,
+  "end": 11.44
+ },
+ {
+  "w": "the",
+  "start": 11.44,
+  "end": 11.58
+ },
+ {
+  "w": "army",
+  "start": 11.58,
+  "end": 11.78
+ },
+ {
+  "w": "turned",
+  "start": 11.78,
+  "end": 12.08
+ },
+ {
+  "w": "up",
+  "start": 12.08,
+  "end": 12.24
+ },
+ {
+  "w": "with",
+  "start": 12.24,
+  "end": 12.38
+ },
+ {
+  "w": "two",
+  "start": 12.38,
+  "end": 12.56
+ },
+ {
+  "w": "machine",
+  "start": 12.56,
+  "end": 12.76
+ },
+ {
+  "w": "guns",
+  "start": 12.76,
+  "end": 13.18
+ },
+ {
+  "w": "and",
+  "start": 13.18,
+  "end": 13.44
+ },
+ {
+  "w": "ten",
+  "start": 13.44,
+  "end": 13.753
+ },
+ {
+  "w": "thousand",
+  "start": 13.77,
+  "end": 14.083
+ },
+ {
+  "w": "bullets.",
+  "start": 14.1,
+  "end": 14.3
+ },
+ {
+  "w": "In",
+  "start": 15.06,
+  "end": 15.12
+ },
+ {
+  "w": "the",
+  "start": 15.12,
+  "end": 15.2
+ },
+ {
+  "w": "first",
+  "start": 15.2,
+  "end": 15.4
+ },
+ {
+  "w": "week",
+  "start": 15.4,
+  "end": 15.66
+ },
+ {
+  "w": "the",
+  "start": 15.78,
+  "end": 15.86
+ },
+ {
+  "w": "soldiers",
+  "start": 15.86,
+  "end": 16.18
+ },
+ {
+  "w": "fired",
+  "start": 16.18,
+  "end": 16.6
+ },
+ {
+  "w": "about",
+  "start": 16.6,
+  "end": 16.96
+ },
+ {
+  "w": "twenty",
+  "start": 16.96,
+  "end": 17.182
+ },
+ {
+  "w": "five",
+  "start": 17.193,
+  "end": 17.415
+ },
+ {
+  "w": "hundred",
+  "start": 17.427,
+  "end": 17.648
+ },
+ {
+  "w": "rounds.",
+  "start": 17.66,
+  "end": 18.16
+ },
+ {
+  "w": "Estimates",
+  "start": 19.1,
+  "end": 19.12
+ },
+ {
+  "w": "of",
+  "start": 19.12,
+  "end": 19.4
+ },
+ {
+  "w": "how",
+  "start": 19.4,
+  "end": 19.56
+ },
+ {
+  "w": "many",
+  "start": 19.56,
+  "end": 19.7
+ },
+ {
+  "w": "emus",
+  "start": 19.7,
+  "end": 20.14
+ },
+ {
+  "w": "they",
+  "start": 20.14,
+  "end": 20.32
+ },
+ {
+  "w": "got",
+  "start": 20.32,
+  "end": 20.46
+ },
+ {
+  "w": "range",
+  "start": 20.46,
+  "end": 20.669
+ },
+ {
+  "w": "from",
+  "start": 20.68,
+  "end": 21.0
+ },
+ {
+  "w": "fifty",
+  "start": 21.0,
+  "end": 21.228
+ },
+ {
+  "w": "to",
+  "start": 21.24,
+  "end": 21.56
+ },
+ {
+  "w": "several",
+  "start": 21.56,
+  "end": 21.82
+ },
+ {
+  "w": "hundred.",
+  "start": 21.82,
+  "end": 22.12
+ },
+ {
+  "w": "No",
+  "start": 22.84,
+  "end": 22.98
+ },
+ {
+  "w": "soldiers",
+  "start": 22.98,
+  "end": 23.32
+ },
+ {
+  "w": "were",
+  "start": 23.32,
+  "end": 23.64
+ },
+ {
+  "w": "hurt.",
+  "start": 23.64,
+  "end": 23.84
+ },
+ {
+  "w": "The",
+  "start": 24.06,
+  "end": 24.12
+ },
+ {
+  "w": "emus",
+  "start": 24.12,
+  "end": 24.48
+ },
+ {
+  "w": "were",
+  "start": 24.48,
+  "end": 24.68
+ },
+ {
+  "w": "not",
+  "start": 24.68,
+  "end": 24.84
+ },
+ {
+  "w": "stopped.",
+  "start": 24.84,
+  "end": 25.12
+ },
+ {
+  "w": "The",
+  "start": 25.7,
+  "end": 25.8
+ },
+ {
+  "w": "first",
+  "start": 25.8,
+  "end": 26.0
+ },
+ {
+  "w": "mission",
+  "start": 26.0,
+  "end": 26.22
+ },
+ {
+  "w": "ended",
+  "start": 26.22,
+  "end": 26.66
+ },
+ {
+  "w": "within",
+  "start": 26.66,
+  "end": 26.9
+ },
+ {
+  "w": "a",
+  "start": 26.9,
+  "end": 27.04
+ },
+ {
+  "w": "week.",
+  "start": 27.04,
+  "end": 27.2
+ },
+ {
+  "w": "Plot",
+  "start": 27.2,
+  "end": 28.04
+ },
+ {
+  "w": "twist.",
+  "start": 28.04,
+  "end": 28.38
+ },
+ {
+  "w": "What",
+  "start": 28.38,
+  "end": 28.78
+ },
+ {
+  "w": "worked",
+  "start": 28.78,
+  "end": 29.0
+ },
+ {
+  "w": "better",
+  "start": 29.0,
+  "end": 29.24
+ },
+ {
+  "w": "was",
+  "start": 29.24,
+  "end": 29.44
+ },
+ {
+  "w": "a",
+  "start": 29.44,
+  "end": 29.56
+ },
+ {
+  "w": "bounty,",
+  "start": 29.56,
+  "end": 29.78
+ },
+ {
+  "w": "not",
+  "start": 30.1,
+  "end": 30.2
+ },
+ {
+  "w": "the",
+  "start": 30.2,
+  "end": 30.34
+ },
+ {
+  "w": "army.",
+  "start": 30.34,
+  "end": 30.54
+ },
+ {
+  "w": "The",
+  "start": 31.24,
+  "end": 31.32
+ },
+ {
+  "w": "emus",
+  "start": 31.32,
+  "end": 31.66
+ },
+ {
+  "w": "won,",
+  "start": 31.66,
+  "end": 31.92
+ },
+ {
+  "w": "and",
+  "start": 32.16,
+  "end": 32.22
+ },
+ {
+  "w": "they",
+  "start": 32.22,
+  "end": 32.32
+ },
+ {
+  "w": "have",
+  "start": 32.32,
+  "end": 32.44
+ },
+ {
+  "w": "never",
+  "start": 32.44,
+  "end": 32.66
+ },
+ {
+  "w": "said",
+  "start": 32.66,
+  "end": 32.94
+ },
+ {
+  "w": "thank",
+  "start": 32.94,
+  "end": 33.22
+ },
+ {
+  "w": "you.",
+  "start": 33.22,
+  "end": 33.42
+ }
+]
