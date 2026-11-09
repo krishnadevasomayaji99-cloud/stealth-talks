@@ -35,6 +35,7 @@ window.renderAt=function(t){
   ctx.save();ctx.translate(540,960);ctx.scale(cam.z,cam.z);ctx.translate(-cam.x,-cam.y);
   S.draw(ctx,t);ctx.restore();
   drawCaptions(ctx,t);
+  if(S.fx){const f=S.fx(t);if(f.lines>0){ctx.save();ctx.translate(540,960);ctx.strokeStyle='rgba(255,255,255,'+(0.55*f.lines)+')';ctx.lineWidth=5;for(let i=0;i<46;i++){const an=i*0.1366+t*0.5,r0=520+((i*37)%90),r1=1500;ctx.beginPath();ctx.moveTo(Math.cos(an)*r0,Math.sin(an)*r0*1.5);ctx.lineTo(Math.cos(an)*r1,Math.sin(an)*r1*1.5);ctx.stroke();}ctx.restore();}if(f.flash>0){ctx.fillStyle='rgba(255,255,255,'+f.flash+')';ctx.fillRect(0,0,1080,1920);}}
   // gentle vignette
   const g=ctx.createRadialGradient(540,960,700,540,960,1250);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(0,0,0,0.28)');ctx.fillStyle=g;ctx.fillRect(0,0,1080,1920);
 };

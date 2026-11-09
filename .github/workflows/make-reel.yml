@@ -4,6 +4,10 @@ on:
     inputs:
       key: {description: "queue folder name (contains script.txt and scene.js)", required: true}
       max_frames: {description: "limit frames (preview)", required: false, default: ""}
+      voice: {description: "kokoro voice", required: false, default: "am_liam"}
+      speed: {description: "speech speed", required: false, default: "1.08"}
+      lang: {description: "kokoro lang", required: false, default: "en-us"}
+      music: {description: "add synthesized music bed (true/false)", required: false, default: "true"}
 concurrency:
   group: make-reel-${{ github.event.inputs.key }}
   cancel-in-progress: false
@@ -33,11 +37,12 @@ jobs:
           curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
           ls -la kokoro-v1.0.onnx voices-v1.0.bin
       - name: voice + word timings
-        run: python scripts/voice.py "queue/${{ inputs.key }}/script.txt" /tmp/build | tee -a $GITHUB_STEP_SUMMARY
+        run: python scripts/voice.py "queue/${{ inputs.key }}/script.txt" /tmp/build --voice "${{ inputs.voice }}" --speed "${{ inputs.speed }}" --lang "${{ inputs.lang }}" | tee -a $GITHUB_STEP_SUMMARY
       - name: render frames
         run: node render/render.js "queue/${{ inputs.key }}" /tmp/build/words.json /tmp/build/silent.mp4 2.0 "${{ inputs.max_frames }}" | tee -a $GITHUB_STEP_SUMMARY
       - name: mix + mux
-        run: python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4
+        run: |
+          if [ "${{ inputs.music }}" = "true" ]; then d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/build/silent.mp4); python scripts/music_synth.py /tmp/build/bed.wav $d; python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4 /tmp/build/bed.wav; else python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4; fi
       - name: checks
         continue-on-error: true
         run: |

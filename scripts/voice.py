@@ -2,14 +2,14 @@
 Usage: python scripts/voice.py script.txt outdir [--voice bm_george] [--speed 1.0]"""
 import argparse, json, re, subprocess, sys, difflib, os
 import numpy as np, soundfile as sf
-ap=argparse.ArgumentParser();ap.add_argument("script");ap.add_argument("out");ap.add_argument("--voice",default="bm_george");ap.add_argument("--speed",type=float,default=1.0);ap.add_argument("--gap",type=float,default=0.38)
+ap=argparse.ArgumentParser();ap.add_argument("script");ap.add_argument("out");ap.add_argument("--voice",default="bm_george");ap.add_argument("--speed",type=float,default=1.0);ap.add_argument("--gap",type=float,default=0.38);ap.add_argument("--lang",default="en-gb")
 a=ap.parse_args();os.makedirs(a.out,exist_ok=True)
 from kokoro_onnx import Kokoro
 k=Kokoro("kokoro-v1.0.onnx","voices-v1.0.bin")
 lines=[l.strip() for l in open(a.script,encoding="utf-8") if l.strip()]
 parts=[];sr=24000
 for i,l in enumerate(lines):
-    s,sr=k.create(l,voice=a.voice,speed=a.speed,lang="en-gb");parts.append(np.asarray(s,dtype=np.float32))
+    s,sr=k.create(l,voice=a.voice,speed=a.speed,lang=a.lang);parts.append(np.asarray(s,dtype=np.float32))
     if i<len(lines)-1: parts.append(np.zeros(int(sr*a.gap),dtype=np.float32))
 audio=np.concatenate([np.zeros(int(sr*0.25),dtype=np.float32)]+parts)
 wav=os.path.join(a.out,"voice.wav");sf.write(wav,audio,sr)
