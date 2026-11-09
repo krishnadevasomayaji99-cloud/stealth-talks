@@ -116,10 +116,15 @@
    "upload_http": 400
   },
   {
+   "container": "18002742125822257",
    "key": "ST-20261109-launch-day-dave",
+   "media_id": "17919751803466964",
+   "permalink": "https://www.instagram.com/reel/Dfhaon1gsAJ/",
+   "published_at": "2026-11-09T13:31:26.243266+00:00",
+   "reused_container": true,
    "sha256": "d230061fde60f0afed432d3d936bd11dacf5c08284c3bf7f0f6120adf5673444",
    "started_at": "2026-11-09T13:31:05.595158+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
