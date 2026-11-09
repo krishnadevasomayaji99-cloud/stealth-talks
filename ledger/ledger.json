@@ -99,6 +99,12 @@
    "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
    "started_at": "2026-11-09T13:12:31.116478+00:00",
    "state": "failed_before_upload"
+  },
+  {
+   "key": "ST-20261109-launch-day-dave",
+   "sha256": "d230061fde60f0afed432d3d936bd11dacf5c08284c3bf7f0f6120adf5673444",
+   "started_at": "2026-11-09T13:15:28.636511+00:00",
+   "state": "uploading"
   }
  ]
 }
