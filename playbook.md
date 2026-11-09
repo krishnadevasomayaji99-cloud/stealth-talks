@@ -5,3 +5,4 @@
 - Never repost a verified Reel. Never retry an uncertain publish.
 ## Learned (add dated lines; cite the metric)
 - (empty: first entries come after the first metrics pull)
+- 9 Nov eve: Krishna asks for more brainrot/relatable/trend-riding content; encoded in skills/daily-loop. Judge by shares and avg watch after 24 h.

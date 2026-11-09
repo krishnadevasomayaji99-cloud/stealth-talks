@@ -39,3 +39,9 @@ Krishna wants meme-native, funny topics in the mix: "lock in", brain rot, study/
 
 ## Standing improvement rule (Krishna, 9 Nov)
 Every batch must target the previous batch's weakest metric (as of 9 Nov: avg watch past ~15 s, and shares = 0). Research new trends (<=10 days old) every run, change at least one visible thing (hook, animation, story shape, format), write the change and the reason in the playbook, and judge it against metrics 24 h later. Do not message Krishna unless something serious breaks.
+
+## Standing direction from Krishna (9 Nov 2026, evening): MORE BRAINROT, MORE RELATABLE, MORE CATCHY
+- At least 3 of 4 daily Reels must be meme-native: brainrot cadence (fast cuts, absurd escalation, loud SFX stingers, on-screen caption chaos, loop ending), "lock in", 3am thoughts, group-chat chaos, procrastination, "no thoughts head empty", POV skits. Relatable first, lore second.
+- Ride the current meme/news wave of the day (check <=10 days old, open the page, note the date). Includes viral tech-CEO moments such as the Jensen Huang street/noodle-dance/"AI said 121 times" memes: tell them as a sourced, neutral recap with an invented character reacting (e.g. a GPU-brained gamer), never with invented quotes, relationships, scandals or allegations about him. Search results on 9 Nov were undated, so re-verify dates before using any.
+- Hook shape: twist or absurd line in the first 1 s, one meme sound-style device per Reel, end on a loop or a share trigger ("send this to the friend who...").
+- Hard rules unchanged (real people: only straight sourced facts; original characters only; caption Sources + disclosure).
