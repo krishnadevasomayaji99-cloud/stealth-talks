@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "9f0e7ceb63c3270a1e60b58f0e45e3cbdf80a5a2a064b7fb91d8330becdd6c18",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:13:49.894306+00:00",
+  "note": "brainrot doomscroll skit, escalating beats, Thoreau/Oxford twist, loop+share CTA; 30s; script read",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "9f0e7ceb63c3270a1e60b58f0e45e3cbdf80a5a2a064b7fb91d8330becdd6c18",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:13:49.958463+00:00",
+  "note": "frames at 1.5,5,9,13,17,23,27,29s viewed after v2 (phone moved off face); captions legible; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "dd04d36aaf571634d1760b2f4384aff63cc66d997f69f28be74e34616aad6230",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:13:50.010112+00:00",
+  "note": "Opened wbhm.org/NPR page: Walden 1854 first recorded use per OUP; OUP Word of Year 2024; 230% growth 2023-24 per OUP monitoring",
+  "listened": false
+ }
+}
