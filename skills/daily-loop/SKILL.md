@@ -48,3 +48,6 @@ Every batch must target the previous batch's weakest metric (as of 9 Nov: avg wa
 - Ride the current meme/news wave of the day (check <=10 days old, open the page, note the date). Includes viral tech-CEO moments such as the Jensen Huang street/noodle-dance/"AI said 121 times" memes: tell them as a sourced, neutral recap with an invented character reacting (e.g. a GPU-brained gamer), never with invented quotes, relationships, scandals or allegations about him. Search results on 9 Nov were undated, so re-verify dates before using any.
 - Hook shape: twist or absurd line in the first 1 s, one meme sound-style device per Reel, end on a loop or a share trigger ("send this to the friend who...").
 - Hard rules unchanged (real people: only straight sourced facts; original characters only; caption Sources + disclosure).
+
+## Style rotation (Krishna, 10 Nov)
+Use the 51-style catalogue (skills/animation-styles/catalogue.md); Krishna remembers 52, the 52nd is missing (ask-free: note in status, use what exists). Each Reel uses a different skin than the last two published; brainrot Reels favour comic/pop-art, pixel art, retro CRT, glitch/split-screen, cut-paper.
