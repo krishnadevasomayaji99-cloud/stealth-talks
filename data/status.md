@@ -5,3 +5,4 @@
 - Planned for next run once fetch works: dancing plague of 1518 (group chat that will not stop), Phineas Gage (no thoughts head empty), snooze button ~9 min origin (3am/alarm skit), Mona Lisa as procrastination (lock in). All facts still to be verified from opened pages.
 - Today's improvement (not yet built): loop ending + on-screen caption chaos device; judge by avg watch/shares after 24 h.
 - Standing: ai_disclosure_line is empty by Krishna's request (9 Nov), so captions carry Sources only.
+- 10 Nov 10:30: READY queue: a-gta-preload (real news), gage-head-empty (history twist), zz-emu-war. Posted today: top-shelf 09:56. CI false-alarm fixed. KRISHNA-FEEDBACK.md added.

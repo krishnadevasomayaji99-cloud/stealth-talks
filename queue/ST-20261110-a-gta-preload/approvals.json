@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "ede880acde2575c33efbde201d2fead274437902b53ad8ded380fb9ef7eeca95",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:39.828644+00:00",
+  "note": "Cold-open hook, escalating deletions, ETA twist, share CTA; real news framing with fictional skit; 33.9s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "ede880acde2575c33efbde201d2fead274437902b53ad8ded380fb9ef7eeca95",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:39.877524+00:00",
+  "note": "Frames reviewed: storage bar, rows, GONE stamp, ETA overlay legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "b99430e3259b66bcc6e6c774ae9c0a4252b482c31236fb051b00c382323318d6",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:39.917859+00:00",
+  "note": "Preload 10 Nov, up to 212 GB, Xbox 12am GMT, PS5 midnight local, release 19 Nov: VGC 3 Nov 2026 (opened); release date also Insider Gaming/Take-Two (opened)",
+  "listened": false
+ }
+}

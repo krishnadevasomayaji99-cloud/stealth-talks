@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "27d8a6bfef1b196182bcb853c2f0b26a58b21d5eacc37797594712380453c000",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:39.972633+00:00",
+  "note": "Cold-open, two plot twists, myth-busting ending, share CTA; 36s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "27d8a6bfef1b196182bcb853c2f0b26a58b21d5eacc37797594712380453c000",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:40.023269+00:00",
+  "note": "Frames reviewed; cartoon, non-graphic, captions legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "a6bb2da2af7b4e4dbee1a341fdac50dfcb049f14e94509f56b7723c00e47d2b3",
+  "by": "Claude (model)",
+  "at": "2026-11-10T10:08:40.069303+00:00",
+  "note": "13 Sep 1848, 3ft7in 13.25lb tamping iron, spoke within minutes, died 1860 ~11-12 yrs later, personality story disputed: Wikipedia Phineas Gage (opened 10 Nov)",
+  "listened": false
+ }
+}
