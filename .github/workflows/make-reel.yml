@@ -46,8 +46,7 @@ jobs:
       - name: checks
         continue-on-error: true
         run: |
-          python scripts/audio_check.py /tmp/build/video.mp4 | tee -a $GITHUB_STEP_SUMMARY || true
-          python scripts/speech_check.py /tmp/build/video.mp4 "queue/${{ inputs.key }}/script.txt" | tee -a $GITHUB_STEP_SUMMARY || true
+          python scripts/audio_report.py /tmp/build/video.mp4 "queue/${{ inputs.key }}/script.txt" /tmp/build/audio_report.json | tee -a $GITHUB_STEP_SUMMARY || true
           ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,pix_fmt:format=duration,bit_rate -of default=nw=1 /tmp/build/video.mp4 | tee -a $GITHUB_STEP_SUMMARY
       - name: contact sheet frames
         run: |
@@ -57,7 +56,7 @@ jobs:
         run: |
           mkdir -p "review/${{ inputs.key }}"
           cp /tmp/build/f_*.jpg /tmp/build/words.json "review/${{ inputs.key }}/"
-          cp /tmp/build/video.mp4 "queue/${{ inputs.key }}/video.mp4"
+          cp /tmp/build/video.mp4 "queue/${{ inputs.key }}/video.mp4"; cp /tmp/build/audio_report.json "queue/${{ inputs.key }}/audio_report.json" || true
           git config user.name "stealth-talks-bot"; git config user.email "bot@users.noreply.github.com"
           git add review queue && git commit -qm "review frames for ${{ inputs.key }}" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done

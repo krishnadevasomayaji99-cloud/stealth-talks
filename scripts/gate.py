@@ -11,6 +11,16 @@ def check(key):
     if [m["w"], m["h"]] != c["resolution"]: fails.append(f"resolution {m['w']}x{m['h']}")
     if m["fps"] < c["fps_min"]: fails.append(f"fps {m['fps']}")
     if not m["audio"] or m["vcodec"] != "h264": fails.append("need h264 + audio")
+    # automated audio gate (objective, not listening) for Reels built from 11 Nov 2026
+    import re as _re
+    dm = _re.search(r"ST-(\d{8})", key)
+    if dm and dm.group(1) >= "20261111":
+        ar = d/"audio_report.json"
+        if not ar.exists(): fails.append("audio_report.json missing (rebuild with make-reel)")
+        else:
+            r = json.loads(ar.read_text())
+            if r.get("sha256") != sha256(v): fails.append("audio_report stale")
+            elif not r.get("pass"): fails.append("audio check failed: " + "; ".join(r.get("problems", [])))
     text = cap.read_text()
     if c.get("ai_disclosure_line") and c["ai_disclosure_line"] not in text: fails.append("missing AI disclosure line")
     if "Sources" not in text: fails.append("caption has no Sources list")
