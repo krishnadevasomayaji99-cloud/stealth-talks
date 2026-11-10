@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "7651c207e328c9003c7592e194a0ea0a160e6378f19352f80ae48000807808a4",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:48:47.562402+00:00",
+  "note": "Unexpected Contrast Twist (ViralSpy recipe): calm opening, rushing wave, molasses reveal, respectful treatment of the 21 deaths, share CTA; 38s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "7651c207e328c9003c7592e194a0ea0a160e6378f19352f80ae48000807808a4",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:48:47.622145+00:00",
+  "note": "Frames reviewed after card timeout fix; wave, twist, cards, fireboat legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "0020b11ffd2fa167934778d522e1181c191026ffce75154a33a480604298a48f",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:48:47.675623+00:00",
+  "note": "15 Jan 1919 ~12:30pm, ~2.3M US gal, 35 mph, height estimates 15-40 ft (Smithsonian 15, article 25, plaque 40), 21 dead ~150 injured, USIA blamed anarchists, auditor found USIA responsible, paid 628,000 dollars, fireboat salt water, harbour brown until summer: Wikipedia Great Molasses Flood (opened 10 Nov)",
+  "listened": false
+ }
+}
