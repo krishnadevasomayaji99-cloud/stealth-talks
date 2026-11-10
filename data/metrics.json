@@ -1,14 +1,14 @@
 {
- "at": "2026-11-09T16:40:36.637807+00:00",
+ "at": "2026-11-10T15:03:36.597430+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
-   "views": 178,
+   "views": 179,
    "reach": 117,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11940
+   "ig_reels_avg_watch_time": 11863
   },
   "ST-20261105-selfish-umbrella": {
    "views": 372,
@@ -20,31 +20,49 @@
    "ig_reels_avg_watch_time": 11389
   },
   "ST-20261105-shadow-chair": {
-   "views": 191,
+   "views": 192,
    "reach": 129,
    "likes": 6,
    "comments": 0,
    "shares": 0,
    "saved": 1,
-   "ig_reels_avg_watch_time": 65972
+   "ig_reels_avg_watch_time": 65545
   },
   "ST-20261109-biscuit-twist": {
-   "views": 247,
-   "reach": 167,
+   "views": 262,
+   "reach": 181,
    "likes": 6,
    "comments": 1,
    "shares": 0,
    "saved": 1,
-   "ig_reels_avg_watch_time": 17171
+   "ig_reels_avg_watch_time": 16446
   },
   "ST-20261109-launch-day-dave": {
-   "views": 1066,
-   "reach": 781,
-   "likes": 15,
+   "views": 1364,
+   "reach": 1048,
+   "likes": 23,
+   "comments": 1,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 14722
+  },
+  "ST-20261109-lock-in": {
+   "views": 131,
+   "reach": 103,
+   "likes": 1,
+   "comments": 0,
+   "shares": 1,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 11749
+  },
+  "ST-20261109-top-shelf": {
+   "views": 67,
+   "reach": 43,
+   "likes": 2,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 14488
+   "ig_reels_avg_watch_time": 12270
   }
  }
 }
