@@ -137,10 +137,14 @@
    "state": "verified"
   },
   {
+   "container": "18002965289822257",
    "key": "ST-20261109-top-shelf",
+   "media_id": "17978467920149721",
+   "permalink": "https://www.instagram.com/reel/Dfjop3njQC9/",
+   "published_at": "2026-11-10T09:57:09.066212+00:00",
    "sha256": "1ec9f948915a1a1e37f7e3fe8ec8ef5b4f9561cab5d19458550bb2292bf0adcf",
    "started_at": "2026-11-10T09:56:28.150916+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
