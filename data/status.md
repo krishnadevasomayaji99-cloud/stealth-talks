@@ -1,4 +1,7 @@
-# Status (evening watchdog 2026-11-09 18:30 London, Claude)
-- Posted today: biscuit-twist 10:22, launch-day-dave 13:31, lock-in v2 18:25 (manual dispatch; GitHub cron skipped the 17:30 slot again). https://www.instagram.com/reel/Dfh9_ZGCv0k/
-- READY: top-shelf (20:30 slot), zz-emu-war (spare). Only 1 spare for tomorrow (need 2): morning run must build evergreens first. last-biscuit has missing files (ignore).
-- Note: manual live publish needs JSON bool input: {"inputs":{"dry_run":false}} (gh -f sends string and breaks the run). Ledger/alerts healthy; old 13:xx alerts are resolved.
+# Status (morning run 2026-11-10 03:20 London, Claude)
+- Health: no new failed runs or alerts since 9 Nov 18:26 (only a ci failure on a push, later ci runs green). Ledger last row: lock-in verified. Old 13:xx alerts resolved.
+- READY now: ST-20261109-top-shelf, ST-20261109-zz-emu-war (both fact-checked on 9 Nov). Only these 2 cover today's slots; no spares for tomorrow.
+- BLOCKER: WebFetch to en.wikipedia.org was refused this run (permission prompt unanswered), and WebSearch returns titles only. Without opening sources I cannot fact-check captions, so I built and approved NO new Reels (no unverified claims published). Topical trend dates also could not be verified (<=10-day rule), so no topical Reels planned.
+- Planned for next run once fetch works: dancing plague of 1518 (group chat that will not stop), Phineas Gage (no thoughts head empty), snooze button ~9 min origin (3am/alarm skit), Mona Lisa as procrastination (lock in). All facts still to be verified from opened pages.
+- Today's improvement (not yet built): loop ending + on-screen caption chaos device; judge by avg watch/shares after 24 h.
+- Standing: ai_disclosure_line is empty by Krishna's request (9 Nov), so captions carry Sources only.
