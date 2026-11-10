@@ -6,6 +6,9 @@ description: The daily Stealth Talks routine run by the scheduled Claude task: q
 
 Division: **Claude = quality check + planning + building + approving. GitHub Actions = publishing (slots 08:30, 12:30, 17:30, 20:30 London), token refresh, metrics, health, ledger.** 4 Reels/day, 30-59 s each, uploaded to Instagram only.
 
+## 0. Emergency flagger
+`scripts/flagger.py` (workflow `flagger`, every 3 h) writes `data/flags.md`. Read it first every run. CRITICAL = slots cannot be covered: build/approve Reels before anything else. If source fetch is refused (WebFetch/Wikipedia), try other opened sources (Britannica, museum or archive pages) and the web-fetch agent; only if every source stays unreadable, record a BLOCKER in `data/status.md` and approve nothing unverified.
+
 ## 1. Quality check (before planning anything)
 1. `git pull`; read `skills/daily-loop/KRISHNA-FEEDBACK.md` FIRST, then `playbook.md`, `STYLE.md`, `skills/*`, `alerts/alerts.json`, `data/metrics.json`, `ledger/ledger.json`. If alerts exist, fix what you can (see `scripts/reconcile.py`) or record them in `data/status.md`.
 2. Dispatch `metrics` workflow first if data is older than a day. For every live Reel compare views, reach, likes, shares, saves, comments, average watch time against the others. Sample sizes are tiny: say so, never call a trend from 1-3 Reels. Note which hook shape, topic, length and twist each used.

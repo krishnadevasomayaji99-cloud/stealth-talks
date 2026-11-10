@@ -1,0 +1,20 @@
+name: flagger
+on: {schedule: [{cron: "7 */3 * * *"}], workflow_dispatch: {}}   # emergency flagger: CRITICAL fails the run, which emails the repo owner
+concurrency: {group: ledger, cancel-in-progress: false}
+permissions: {contents: write}
+jobs:
+  flag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: sudo apt-get install -y -qq ffmpeg
+      - id: f
+        continue-on-error: true
+        run: python scripts/flagger.py | tee -a $GITHUB_STEP_SUMMARY
+      - run: |
+          git config user.name stealth-talks-bot; git config user.email bot@users.noreply.github.com
+          git add data alerts; git commit -m "flagger" || true; git pull --rebase; git push || true
+      - if: steps.f.outcome == 'failure'
+        run: echo "CRITICAL flags, see data/flags.md"; exit 1
