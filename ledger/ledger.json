@@ -147,10 +147,15 @@
    "state": "verified"
   },
   {
+   "container": "18003046766822257",
    "key": "ST-20261109-zz-emu-war",
+   "media_id": "17873892837647826",
+   "permalink": "https://www.instagram.com/reel/DfkPF98CpqX/",
+   "published_at": "2026-11-10T15:33:08.341602+00:00",
    "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
    "started_at": "2026-11-10T15:32:19.035914+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
