@@ -135,6 +135,12 @@
    "sha256": "1bc4a02a0cb39ad5fecb75f460d40d83299d774f7b02b3df740b59b462d33201",
    "started_at": "2026-11-09T18:24:26.849988+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261109-top-shelf",
+   "sha256": "1ec9f948915a1a1e37f7e3fe8ec8ef5b4f9561cab5d19458550bb2292bf0adcf",
+   "started_at": "2026-11-10T09:56:28.150916+00:00",
+   "state": "uploading"
   }
  ]
 }
