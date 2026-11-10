@@ -158,10 +158,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003121820822257",
    "key": "ST-20261110-a-gta-preload",
+   "media_id": "17965313127232946",
+   "permalink": "https://www.instagram.com/reel/Dfk3ZJfDgrV/",
+   "published_at": "2026-11-10T21:25:10.793229+00:00",
    "sha256": "ede880acde2575c33efbde201d2fead274437902b53ad8ded380fb9ef7eeca95",
    "started_at": "2026-11-10T21:24:30.779724+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
