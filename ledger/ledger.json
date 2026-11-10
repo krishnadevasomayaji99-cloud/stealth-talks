@@ -145,6 +145,12 @@
    "sha256": "1ec9f948915a1a1e37f7e3fe8ec8ef5b4f9561cab5d19458550bb2292bf0adcf",
    "started_at": "2026-11-10T09:56:28.150916+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261109-zz-emu-war",
+   "sha256": "c1281022a8074a9864093fc9312234e674334137f686b562653d8eb0055b800c",
+   "started_at": "2026-11-10T15:32:19.035914+00:00",
+   "state": "uploading"
   }
  ]
 }
