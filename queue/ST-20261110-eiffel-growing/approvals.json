@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "fcd4118946869a17ec41628bd3ccb847c34af08dc0d32e61c1b7eb08fb1904df",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:41:57.991164+00:00",
+  "note": "Visual Misdirection and Correction (ViralSpy recipe): fake breaking-news premise corrected by thermal expansion; hook, twist, share CTA; 31.2s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "fcd4118946869a17ec41628bd3ccb847c34af08dc0d32e61c1b7eb08fb1904df",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:41:58.031213+00:00",
+  "note": "Frames reviewed: banner, tower, thermometer, night, captions legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "8ea37b70556d40dfe809551464b72d990b44efed003495106a98623e78c935e2",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:41:58.065835+00:00",
+  "note": "12-15 cm seasonal swing, 18,000+ iron pieces / 7,300 tonnes, all solids expand, slight lean away from sun evening out after dark: Interesting Engineering (opened 10 Nov); winter shrink stated there",
+  "listened": false
+ }
+}
