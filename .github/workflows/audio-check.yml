@@ -1,0 +1,26 @@
+name: audio-check
+on:
+  workflow_dispatch:
+    inputs:
+      key: {description: "queue folder name", required: true}
+permissions:
+  contents: read        # read-only on purpose: third-party tool, no secrets, no write access
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: sudo apt-get install -y ffmpeg
+      - name: loudness (ffmpeg)
+        run: ffmpeg -nostats -i "queue/${{ inputs.key }}/video.mp4" -af ebur128=peak=true -f null - 2>&1 | grep -A14 Summary
+      - name: install earshot (third-party, https://github.com/Leonxlnn/earshot, no API keys, no Gemini)
+        run: pip install "earshot @ https://github.com/Leonxlnx/earshot/archive/HEAD.zip" && earshot doctor --fetch
+        continue-on-error: true
+      - name: earshot reports
+        continue-on-error: true
+        run: |
+          ffmpeg -y -i "queue/${{ inputs.key }}/video.mp4" -ac 1 -ar 44100 /tmp/a.wav
+          for c in measure describe realness; do echo "=== earshot $c ==="; earshot $c /tmp/a.wav || true; done
