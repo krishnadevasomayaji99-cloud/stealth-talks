@@ -7,7 +7,7 @@ description: The daily Stealth Talks routine run by the scheduled Claude task: q
 Division: **Claude = quality check + planning + building + approving. GitHub Actions = publishing (slots 08:30, 12:30, 17:30, 20:30 London), token refresh, metrics, health, ledger.** 4 Reels/day, 30-59 s each, uploaded to Instagram only.
 
 ## 1. Quality check (before planning anything)
-1. `git pull`; read `playbook.md`, `STYLE.md`, `skills/*`, `alerts/alerts.json`, `data/metrics.json`, `ledger/ledger.json`. If alerts exist, fix what you can (see `scripts/reconcile.py`) or record them in `data/status.md`.
+1. `git pull`; read `skills/daily-loop/KRISHNA-FEEDBACK.md` FIRST, then `playbook.md`, `STYLE.md`, `skills/*`, `alerts/alerts.json`, `data/metrics.json`, `ledger/ledger.json`. If alerts exist, fix what you can (see `scripts/reconcile.py`) or record them in `data/status.md`.
 2. Dispatch `metrics` workflow first if data is older than a day. For every live Reel compare views, reach, likes, shares, saves, comments, average watch time against the others. Sample sizes are tiny: say so, never call a trend from 1-3 Reels. Note which hook shape, topic, length and twist each used.
 3. Research trends online (WebSearch extended): current Instagram Reels formats, news and cultural moments (e.g. game launches), what top Reels in the niche do. Open the pages; label anything unverified.
 4. If Krishna added reference Reels (`refs/`), study frames and timings per `skills/reference-style` and update `STYLE.md`.
