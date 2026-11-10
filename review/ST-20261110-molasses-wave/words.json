@@ -1,0 +1,542 @@
+[
+ {
+  "w": "Boston.",
+  "start": 0.0,
+  "end": 0.54
+ },
+ {
+  "w": "January",
+  "start": 0.68,
+  "end": 0.98
+ },
+ {
+  "w": "nineteen",
+  "start": 0.98,
+  "end": 1.598
+ },
+ {
+  "w": "nineteen.",
+  "start": 1.63,
+  "end": 2.247
+ },
+ {
+  "w": "A",
+  "start": 2.28,
+  "end": 2.42
+ },
+ {
+  "w": "calm",
+  "start": 2.42,
+  "end": 2.6
+ },
+ {
+  "w": "afternoon",
+  "start": 2.6,
+  "end": 3.14
+ },
+ {
+  "w": "in",
+  "start": 3.14,
+  "end": 3.38
+ },
+ {
+  "w": "the",
+  "start": 3.38,
+  "end": 3.44
+ },
+ {
+  "w": "North",
+  "start": 3.44,
+  "end": 3.66
+ },
+ {
+  "w": "End.",
+  "start": 3.66,
+  "end": 3.92
+ },
+ {
+  "w": "Suddenly",
+  "start": 4.54,
+  "end": 4.8
+ },
+ {
+  "w": "the",
+  "start": 4.96,
+  "end": 5.06
+ },
+ {
+  "w": "ground",
+  "start": 5.06,
+  "end": 5.28
+ },
+ {
+  "w": "rumbles.",
+  "start": 5.28,
+  "end": 5.78
+ },
+ {
+  "w": "A",
+  "start": 6.4,
+  "end": 6.4
+ },
+ {
+  "w": "wave",
+  "start": 6.4,
+  "end": 6.64
+ },
+ {
+  "w": "rushes",
+  "start": 6.64,
+  "end": 6.96
+ },
+ {
+  "w": "down",
+  "start": 6.96,
+  "end": 7.34
+ },
+ {
+  "w": "the",
+  "start": 7.34,
+  "end": 7.46
+ },
+ {
+  "w": "street.",
+  "start": 7.46,
+  "end": 7.68
+ },
+ {
+  "w": "Thirty",
+  "start": 7.68,
+  "end": 7.937
+ },
+ {
+  "w": "five",
+  "start": 7.95,
+  "end": 8.206
+ },
+ {
+  "w": "miles",
+  "start": 8.22,
+  "end": 8.68
+ },
+ {
+  "w": "an",
+  "start": 8.68,
+  "end": 8.88
+ },
+ {
+  "w": "hour.",
+  "start": 8.88,
+  "end": 9.14
+ },
+ {
+  "w": "Estimates",
+  "start": 9.48,
+  "end": 9.72
+ },
+ {
+  "w": "say",
+  "start": 9.72,
+  "end": 10.1
+ },
+ {
+  "w": "up",
+  "start": 10.1,
+  "end": 10.24
+ },
+ {
+  "w": "to",
+  "start": 10.24,
+  "end": 10.36
+ },
+ {
+  "w": "twenty",
+  "start": 10.36,
+  "end": 10.588
+ },
+ {
+  "w": "five",
+  "start": 10.6,
+  "end": 10.828
+ },
+ {
+  "w": "feet",
+  "start": 10.84,
+  "end": 11.08
+ },
+ {
+  "w": "tall.",
+  "start": 11.08,
+  "end": 11.34
+ },
+ {
+  "w": "Plot",
+  "start": 11.92,
+  "end": 12.14
+ },
+ {
+  "w": "twist.",
+  "start": 12.14,
+  "end": 12.38
+ },
+ {
+  "w": "The",
+  "start": 12.56,
+  "end": 12.66
+ },
+ {
+  "w": "wave",
+  "start": 12.66,
+  "end": 12.84
+ },
+ {
+  "w": "is",
+  "start": 12.84,
+  "end": 12.98
+ },
+ {
+  "w": "not",
+  "start": 12.98,
+  "end": 13.2
+ },
+ {
+  "w": "water.",
+  "start": 13.2,
+  "end": 13.46
+ },
+ {
+  "w": "It",
+  "start": 13.78,
+  "end": 13.86
+ },
+ {
+  "w": "is",
+  "start": 13.86,
+  "end": 13.98
+ },
+ {
+  "w": "molasses.",
+  "start": 13.98,
+  "end": 14.46
+ },
+ {
+  "w": "Two",
+  "start": 14.46,
+  "end": 14.903
+ },
+ {
+  "w": "point",
+  "start": 14.927,
+  "end": 15.37
+ },
+ {
+  "w": "three",
+  "start": 15.393,
+  "end": 15.837
+ },
+ {
+  "w": "million",
+  "start": 15.86,
+  "end": 16.1
+ },
+ {
+  "w": "gallons.",
+  "start": 16.1,
+  "end": 16.5
+ },
+ {
+  "w": "It",
+  "start": 16.92,
+  "end": 17.06
+ },
+ {
+  "w": "really",
+  "start": 17.06,
+  "end": 17.22
+ },
+ {
+  "w": "happened.",
+  "start": 17.22,
+  "end": 17.64
+ },
+ {
+  "w": "Twenty",
+  "start": 17.64,
+  "end": 17.992
+ },
+ {
+  "w": "one",
+  "start": 18.01,
+  "end": 18.361
+ },
+ {
+  "w": "people",
+  "start": 18.38,
+  "end": 18.8
+ },
+ {
+  "w": "died,",
+  "start": 18.8,
+  "end": 19.14
+ },
+ {
+  "w": "and",
+  "start": 19.14,
+  "end": 19.38
+ },
+ {
+  "w": "about",
+  "start": 19.38,
+  "end": 19.56
+ },
+ {
+  "w": "a",
+  "start": 19.56,
+  "end": 19.641
+ },
+ {
+  "w": "hundred",
+  "start": 19.645,
+  "end": 19.726
+ },
+ {
+  "w": "and",
+  "start": 19.73,
+  "end": 19.811
+ },
+ {
+  "w": "fifty",
+  "start": 19.815,
+  "end": 19.896
+ },
+ {
+  "w": "were",
+  "start": 19.9,
+  "end": 20.6
+ },
+ {
+  "w": "hurt.",
+  "start": 20.6,
+  "end": 20.8
+ },
+ {
+  "w": "Even",
+  "start": 21.44,
+  "end": 21.62
+ },
+ {
+  "w": "the",
+  "start": 21.62,
+  "end": 21.78
+ },
+ {
+  "w": "cleanup",
+  "start": 21.78,
+  "end": 21.98
+ },
+ {
+  "w": "was",
+  "start": 21.98,
+  "end": 22.26
+ },
+ {
+  "w": "wild.",
+  "start": 22.26,
+  "end": 22.46
+ },
+ {
+  "w": "A",
+  "start": 22.94,
+  "end": 23.02
+ },
+ {
+  "w": "boat",
+  "start": 23.02,
+  "end": 23.16
+ },
+ {
+  "w": "sprayed",
+  "start": 23.16,
+  "end": 23.5
+ },
+ {
+  "w": "salt",
+  "start": 23.5,
+  "end": 23.84
+ },
+ {
+  "w": "water",
+  "start": 23.84,
+  "end": 24.1
+ },
+ {
+  "w": "on",
+  "start": 24.1,
+  "end": 24.38
+ },
+ {
+  "w": "the",
+  "start": 24.38,
+  "end": 24.48
+ },
+ {
+  "w": "streets.",
+  "start": 24.48,
+  "end": 24.7
+ },
+ {
+  "w": "The",
+  "start": 25.26,
+  "end": 25.34
+ },
+ {
+  "w": "harbour",
+  "start": 25.34,
+  "end": 25.492
+ },
+ {
+  "w": "stayed",
+  "start": 25.5,
+  "end": 25.82
+ },
+ {
+  "w": "brown",
+  "start": 25.82,
+  "end": 26.14
+ },
+ {
+  "w": "until",
+  "start": 26.14,
+  "end": 26.42
+ },
+ {
+  "w": "summer.",
+  "start": 26.42,
+  "end": 26.78
+ },
+ {
+  "w": "The",
+  "start": 27.4,
+  "end": 27.52
+ },
+ {
+  "w": "company",
+  "start": 27.52,
+  "end": 27.8
+ },
+ {
+  "w": "blamed",
+  "start": 27.8,
+  "end": 28.1
+ },
+ {
+  "w": "anarchists.",
+  "start": 28.1,
+  "end": 28.56
+ },
+ {
+  "w": "A",
+  "start": 28.56,
+  "end": 29.18
+ },
+ {
+  "w": "court",
+  "start": 29.18,
+  "end": 29.54
+ },
+ {
+  "w": "disagreed.",
+  "start": 29.54,
+  "end": 30.02
+ },
+ {
+  "w": "They",
+  "start": 30.46,
+  "end": 30.6
+ },
+ {
+  "w": "paid",
+  "start": 30.6,
+  "end": 30.74
+ },
+ {
+  "w": "six",
+  "start": 30.74,
+  "end": 31.06
+ },
+ {
+  "w": "hundred",
+  "start": 31.077,
+  "end": 31.397
+ },
+ {
+  "w": "and",
+  "start": 31.414,
+  "end": 31.735
+ },
+ {
+  "w": "twenty",
+  "start": 31.751,
+  "end": 32.072
+ },
+ {
+  "w": "eight",
+  "start": 32.089,
+  "end": 32.409
+ },
+ {
+  "w": "thousand",
+  "start": 32.426,
+  "end": 32.746
+ },
+ {
+  "w": "dollars.",
+  "start": 32.763,
+  "end": 33.083
+ },
+ {
+  "w": "Send",
+  "start": 33.1,
+  "end": 33.46
+ },
+ {
+  "w": "this",
+  "start": 33.46,
+  "end": 33.7
+ },
+ {
+  "w": "to",
+  "start": 33.7,
+  "end": 33.82
+ },
+ {
+  "w": "someone",
+  "start": 33.82,
+  "end": 34.08
+ },
+ {
+  "w": "who",
+  "start": 34.08,
+  "end": 34.38
+ },
+ {
+  "w": "thinks",
+  "start": 34.38,
+  "end": 34.58
+ },
+ {
+  "w": "history",
+  "start": 34.58,
+  "end": 34.84
+ },
+ {
+  "w": "is",
+  "start": 34.84,
+  "end": 35.28
+ },
+ {
+  "w": "boring.",
+  "start": 35.28,
+  "end": 35.58
+ }
+]
