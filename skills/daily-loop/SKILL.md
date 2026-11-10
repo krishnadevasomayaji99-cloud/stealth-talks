@@ -51,3 +51,6 @@ Every batch must target the previous batch's weakest metric (as of 9 Nov: avg wa
 
 ## Style rotation (Krishna, 10 Nov)
 Use the 51-style catalogue (skills/animation-styles/catalogue.md); Krishna remembers 52, the 52nd is missing (ask-free: note in status, use what exists). Each Reel uses a different skin than the last two published; brainrot Reels favour comic/pop-art, pixel art, retro CRT, glitch/split-screen, cut-paper.
+
+## Hook templates
+Use skills/hook-templates (3 hooks from Krishna, 10 Nov) at least once per day, alongside ViralSpy recipes in the project (claude/viralspy-recipe-book.md).
