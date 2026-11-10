@@ -1,26 +1,19 @@
 {
- "at": "2026-11-10T10:44:48.200606+00:00",
- "london": "2026-11-10 10:44",
+ "at": "2026-11-10T19:38:23.857249+00:00",
+ "london": "2026-11-10 19:38",
  "ready": [
-  "ST-20261109-zz-emu-war",
   "ST-20261110-a-gta-preload",
-  "ST-20261110-gage-head-empty"
+  "ST-20261110-eiffel-growing",
+  "ST-20261110-gage-head-empty",
+  "ST-20261110-molasses-wave",
+  "ST-20261110-one-sec",
+  "ST-20261110-snooze-levels"
  ],
  "slots_left": [
-  "12:30",
-  "17:30",
   "20:30"
  ],
- "posted_today": 1,
+ "posted_today": 2,
  "flags": [
-  {
-   "level": "WARN",
-   "msg": "spares below target: 3 READY, want 5 (slots left + 2 spares for tomorrow)"
-  },
-  {
-   "level": "WARN",
-   "msg": "data/status.md records a BLOCKER (e.g. source fetch refused): check it"
-  },
   {
    "level": "INFO",
    "msg": "unapproved drafts: ST-20261108-last-biscuit"
