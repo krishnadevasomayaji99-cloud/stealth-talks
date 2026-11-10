@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "635a21a3cb567f958f7a691d3cb42f0f7dd8b3ac4891d814cd39c3192b8f2499",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:35:12.977787+00:00",
+  "note": "Progressive Levels Build (ViralSpy recipe): cold-open hook, 4 escalating levels, gear/9-minute twist, share CTA; 33s",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "635a21a3cb567f958f7a691d3cb42f0f7dd8b3ac4891d814cd39c3192b8f2499",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:35:13.040186+00:00",
+  "note": "Frames reviewed after fixing gear panel framing; clock times, level stamps, captions legible",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "16c7f8ba1f09f745e8314753f4f199cd0b553dcfef09ec34bee93087e9aa3474",
+  "by": "Claude (model)",
+  "at": "2026-11-10T16:35:13.091163+00:00",
+  "note": "1950s snooze, gears standardised, slightly over 9 or 10 min, nine chosen as ten may allow deep sleep: Mental Floss (opened); Straight Dope calls related explanation a theory (opened); caption hedged as one explanation",
+  "listened": false
+ }
+}
