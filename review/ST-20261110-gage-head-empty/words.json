@@ -1,0 +1,552 @@
+[
+ {
+  "w": "Quick",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "w": "story.",
+  "start": 0.36,
+  "end": 0.68
+ },
+ {
+  "w": "A",
+  "start": 1.04,
+  "end": 1.08
+ },
+ {
+  "w": "railroad",
+  "start": 1.08,
+  "end": 1.32
+ },
+ {
+  "w": "foreman",
+  "start": 1.32,
+  "end": 1.86
+ },
+ {
+  "w": "named",
+  "start": 1.86,
+  "end": 2.08
+ },
+ {
+  "w": "Phineas",
+  "start": 2.08,
+  "end": 2.46
+ },
+ {
+  "w": "Gage",
+  "start": 2.46,
+  "end": 2.72
+ },
+ {
+  "w": "had",
+  "start": 2.72,
+  "end": 2.94
+ },
+ {
+  "w": "the",
+  "start": 2.94,
+  "end": 3.02
+ },
+ {
+  "w": "worst",
+  "start": 3.02,
+  "end": 3.22
+ },
+ {
+  "w": "day",
+  "start": 3.22,
+  "end": 3.48
+ },
+ {
+  "w": "at",
+  "start": 3.48,
+  "end": 3.6
+ },
+ {
+  "w": "work.",
+  "start": 3.6,
+  "end": 3.76
+ },
+ {
+  "w": "Ever.",
+  "start": 4.3,
+  "end": 4.48
+ },
+ {
+  "w": "Eighteen",
+  "start": 4.48,
+  "end": 4.961
+ },
+ {
+  "w": "forty",
+  "start": 4.987,
+  "end": 5.468
+ },
+ {
+  "w": "eight.",
+  "start": 5.493,
+  "end": 5.975
+ },
+ {
+  "w": "Vermont.",
+  "start": 6.0,
+  "end": 6.52
+ },
+ {
+  "w": "He",
+  "start": 6.96,
+  "end": 7.04
+ },
+ {
+  "w": "is",
+  "start": 7.04,
+  "end": 7.1
+ },
+ {
+  "w": "packing",
+  "start": 7.1,
+  "end": 7.34
+ },
+ {
+  "w": "blasting",
+  "start": 7.34,
+  "end": 7.68
+ },
+ {
+  "w": "powder",
+  "start": 7.68,
+  "end": 8.1
+ },
+ {
+  "w": "with",
+  "start": 8.1,
+  "end": 8.4
+ },
+ {
+  "w": "a",
+  "start": 8.4,
+  "end": 8.46
+ },
+ {
+  "w": "metal",
+  "start": 8.46,
+  "end": 8.66
+ },
+ {
+  "w": "rod.",
+  "start": 8.66,
+  "end": 8.92
+ },
+ {
+  "w": "Three",
+  "start": 8.92,
+  "end": 9.34
+ },
+ {
+  "w": "feet",
+  "start": 9.34,
+  "end": 9.62
+ },
+ {
+  "w": "seven",
+  "start": 9.62,
+  "end": 9.96
+ },
+ {
+  "w": "inches",
+  "start": 9.96,
+  "end": 10.22
+ },
+ {
+  "w": "long.",
+  "start": 10.22,
+  "end": 10.52
+ },
+ {
+  "w": "Thirteen",
+  "start": 10.68,
+  "end": 10.86
+ },
+ {
+  "w": "pounds.",
+  "start": 10.86,
+  "end": 11.28
+ },
+ {
+  "w": "The",
+  "start": 11.98,
+  "end": 12.04
+ },
+ {
+  "w": "powder",
+  "start": 12.04,
+  "end": 12.26
+ },
+ {
+  "w": "explodes.",
+  "start": 12.26,
+  "end": 12.68
+ },
+ {
+  "w": "The",
+  "start": 13.12,
+  "end": 13.18
+ },
+ {
+  "w": "rod",
+  "start": 13.18,
+  "end": 13.36
+ },
+ {
+  "w": "goes",
+  "start": 13.36,
+  "end": 13.62
+ },
+ {
+  "w": "in",
+  "start": 13.62,
+  "end": 13.8
+ },
+ {
+  "w": "through",
+  "start": 13.8,
+  "end": 13.98
+ },
+ {
+  "w": "his",
+  "start": 13.98,
+  "end": 14.16
+ },
+ {
+  "w": "cheek.",
+  "start": 14.16,
+  "end": 14.38
+ },
+ {
+  "w": "Behind",
+  "start": 14.74,
+  "end": 14.88
+ },
+ {
+  "w": "his",
+  "start": 14.88,
+  "end": 15.12
+ },
+ {
+  "w": "left",
+  "start": 15.12,
+  "end": 15.3
+ },
+ {
+  "w": "eye.",
+  "start": 15.3,
+  "end": 15.62
+ },
+ {
+  "w": "And",
+  "start": 15.62,
+  "end": 15.88
+ },
+ {
+  "w": "out",
+  "start": 15.88,
+  "end": 16.0
+ },
+ {
+  "w": "of",
+  "start": 16.0,
+  "end": 16.08
+ },
+ {
+  "w": "the",
+  "start": 16.08,
+  "end": 16.16
+ },
+ {
+  "w": "top",
+  "start": 16.16,
+  "end": 16.36
+ },
+ {
+  "w": "of",
+  "start": 16.36,
+  "end": 16.5
+ },
+ {
+  "w": "his",
+  "start": 16.5,
+  "end": 16.6
+ },
+ {
+  "w": "head.",
+  "start": 16.6,
+  "end": 16.8
+ },
+ {
+  "w": "Phineas",
+  "start": 17.4,
+  "end": 17.76
+ },
+ {
+  "w": "sits",
+  "start": 17.76,
+  "end": 17.88
+ },
+ {
+  "w": "up.",
+  "start": 17.88,
+  "end": 18.1
+ },
+ {
+  "w": "Talks.",
+  "start": 18.1,
+  "end": 18.32
+ },
+ {
+  "w": "Walks.",
+  "start": 18.32,
+  "end": 18.7
+ },
+ {
+  "w": "Within",
+  "start": 18.7,
+  "end": 19.06
+ },
+ {
+  "w": "minutes.",
+  "start": 19.06,
+  "end": 19.4
+ },
+ {
+  "w": "Plot",
+  "start": 20.04,
+  "end": 20.24
+ },
+ {
+  "w": "twist.",
+  "start": 20.24,
+  "end": 20.58
+ },
+ {
+  "w": "He",
+  "start": 20.9,
+  "end": 20.96
+ },
+ {
+  "w": "lived",
+  "start": 20.96,
+  "end": 21.1
+ },
+ {
+  "w": "about",
+  "start": 21.1,
+  "end": 21.38
+ },
+ {
+  "w": "eleven",
+  "start": 21.38,
+  "end": 21.64
+ },
+ {
+  "w": "more",
+  "start": 21.64,
+  "end": 22.02
+ },
+ {
+  "w": "years.",
+  "start": 22.02,
+  "end": 22.26
+ },
+ {
+  "w": "The",
+  "start": 23.02,
+  "end": 23.08
+ },
+ {
+  "w": "internet",
+  "start": 23.08,
+  "end": 23.32
+ },
+ {
+  "w": "says",
+  "start": 23.32,
+  "end": 23.66
+ },
+ {
+  "w": "he",
+  "start": 23.66,
+  "end": 23.8
+ },
+ {
+  "w": "became",
+  "start": 23.8,
+  "end": 23.98
+ },
+ {
+  "w": "a",
+  "start": 23.98,
+  "end": 24.24
+ },
+ {
+  "w": "different",
+  "start": 24.24,
+  "end": 24.38
+ },
+ {
+  "w": "man.",
+  "start": 24.38,
+  "end": 24.72
+ },
+ {
+  "w": "Plot",
+  "start": 25.18,
+  "end": 25.26
+ },
+ {
+  "w": "twist",
+  "start": 25.26,
+  "end": 25.52
+ },
+ {
+  "w": "two.",
+  "start": 25.52,
+  "end": 25.9
+ },
+ {
+  "w": "Historians",
+  "start": 26.32,
+  "end": 26.52
+ },
+ {
+  "w": "say",
+  "start": 26.52,
+  "end": 27.04
+ },
+ {
+  "w": "that",
+  "start": 27.04,
+  "end": 27.2
+ },
+ {
+  "w": "story",
+  "start": 27.2,
+  "end": 27.42
+ },
+ {
+  "w": "is",
+  "start": 27.42,
+  "end": 27.74
+ },
+ {
+  "w": "exaggerated.",
+  "start": 27.74,
+  "end": 28.12
+ },
+ {
+  "w": "Moral.",
+  "start": 28.82,
+  "end": 29.22
+ },
+ {
+  "w": "Your",
+  "start": 29.4,
+  "end": 29.52
+ },
+ {
+  "w": "head",
+  "start": 29.52,
+  "end": 29.7
+ },
+ {
+  "w": "is",
+  "start": 29.7,
+  "end": 29.84
+ },
+ {
+  "w": "not",
+  "start": 29.84,
+  "end": 30.02
+ },
+ {
+  "w": "empty.",
+  "start": 30.02,
+  "end": 30.38
+ },
+ {
+  "w": "And",
+  "start": 30.38,
+  "end": 30.78
+ },
+ {
+  "w": "the",
+  "start": 30.78,
+  "end": 30.88
+ },
+ {
+  "w": "story",
+  "start": 30.88,
+  "end": 31.1
+ },
+ {
+  "w": "you",
+  "start": 31.1,
+  "end": 31.34
+ },
+ {
+  "w": "heard",
+  "start": 31.34,
+  "end": 31.52
+ },
+ {
+  "w": "might",
+  "start": 31.52,
+  "end": 31.76
+ },
+ {
+  "w": "be",
+  "start": 31.76,
+  "end": 31.92
+ },
+ {
+  "w": "wrong.",
+  "start": 31.92,
+  "end": 32.1
+ },
+ {
+  "w": "Send",
+  "start": 32.68,
+  "end": 32.68
+ },
+ {
+  "w": "this",
+  "start": 32.68,
+  "end": 32.94
+ },
+ {
+  "w": "to",
+  "start": 32.94,
+  "end": 33.06
+ },
+ {
+  "w": "someone",
+  "start": 33.06,
+  "end": 33.28
+ },
+ {
+  "w": "with",
+  "start": 33.28,
+  "end": 33.48
+ },
+ {
+  "w": "no",
+  "start": 33.48,
+  "end": 33.66
+ },
+ {
+  "w": "thoughts.",
+  "start": 33.66,
+  "end": 34.0
+ }
+]
