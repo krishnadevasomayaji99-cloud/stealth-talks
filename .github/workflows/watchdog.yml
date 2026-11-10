@@ -1,6 +1,6 @@
 name: watchdog
 on:
-  schedule: [{cron: "3,23,43 8-21 * * *"}]
+  schedule: [{cron: "3 8-21/2 * * *"}]
   workflow_dispatch: {}
 permissions:
   contents: read
