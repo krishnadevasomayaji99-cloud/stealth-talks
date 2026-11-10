@@ -156,6 +156,12 @@
    "started_at": "2026-11-10T15:32:19.035914+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261110-a-gta-preload",
+   "sha256": "ede880acde2575c33efbde201d2fead274437902b53ad8ded380fb9ef7eeca95",
+   "started_at": "2026-11-10T21:24:30.779724+00:00",
+   "state": "uploading"
   }
  ]
 }
