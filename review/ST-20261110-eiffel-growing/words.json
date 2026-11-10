@@ -42,16 +42,16 @@
  {
   "w": "is",
   "start": 2.6,
-  "end": 2.82
+  "end": 2.84
  },
  {
   "w": "panicking.",
-  "start": 2.82,
+  "start": 2.84,
   "end": 3.26
  },
  {
   "w": "On",
-  "start": 3.92,
+  "start": 3.88,
   "end": 4.02
  },
  {
@@ -62,11 +62,11 @@
  {
   "w": "days",
   "start": 4.2,
-  "end": 4.48
+  "end": 4.5
  },
  {
   "w": "it",
-  "start": 4.48,
+  "start": 4.5,
   "end": 4.68
  },
  {
@@ -87,21 +87,21 @@
  {
   "w": "fifteen",
   "start": 5.36,
-  "end": 6.016
+  "end": 6.006
  },
  {
   "w": "centimetres.",
-  "start": 6.05,
-  "end": 6.706
+  "start": 6.04,
+  "end": 6.686
  },
  {
   "w": "Scientists",
-  "start": 6.74,
-  "end": 7.06
+  "start": 6.72,
+  "end": 7.08
  },
  {
   "w": "are",
-  "start": 7.06,
+  "start": 7.08,
   "end": 7.46
  },
  {
@@ -137,26 +137,26 @@
  {
   "w": "baffled.",
   "start": 9.48,
-  "end": 9.74
+  "end": 9.76
  },
  {
   "w": "It",
   "start": 10.2,
-  "end": 10.38
+  "end": 10.36
  },
  {
   "w": "is",
-  "start": 10.38,
+  "start": 10.36,
   "end": 10.46
  },
  {
   "w": "just",
   "start": 10.46,
-  "end": 10.62
+  "end": 10.6
  },
  {
   "w": "iron",
-  "start": 10.62,
+  "start": 10.6,
   "end": 10.9
  },
  {
@@ -167,42 +167,42 @@
  {
   "w": "warm.",
   "start": 11.18,
-  "end": 11.52
+  "end": 11.54
  },
  {
   "w": "Seven",
-  "start": 11.52,
-  "end": 11.904
+  "start": 11.54,
+  "end": 11.916
  },
  {
   "w": "thousand",
-  "start": 11.924,
-  "end": 12.308
+  "start": 11.936,
+  "end": 12.312
  },
  {
   "w": "three",
-  "start": 12.328,
-  "end": 12.712
+  "start": 12.332,
+  "end": 12.708
  },
  {
   "w": "hundred",
-  "start": 12.732,
-  "end": 13.116
+  "start": 12.728,
+  "end": 13.104
  },
  {
   "w": "tonnes",
-  "start": 13.136,
-  "end": 13.52
+  "start": 13.124,
+  "end": 13.5
  },
  {
   "w": "of",
-  "start": 13.54,
+  "start": 13.52,
   "end": 13.78
  },
  {
   "w": "iron.",
   "start": 13.78,
-  "end": 14.04
+  "end": 14.1
  },
  {
   "w": "All",
@@ -252,46 +252,46 @@
  {
   "w": "leans",
   "start": 17.2,
-  "end": 17.52
+  "end": 17.48
  },
  {
   "w": "a",
-  "start": 17.52,
-  "end": 17.68
+  "start": 17.48,
+  "end": 17.66
  },
  {
   "w": "tiny",
-  "start": 17.68,
-  "end": 17.98
+  "start": 17.66,
+  "end": 17.94
  },
  {
   "w": "bit",
-  "start": 17.98,
-  "end": 18.26
+  "start": 17.94,
+  "end": 18.24
  },
  {
   "w": "away",
-  "start": 18.26,
-  "end": 18.42
+  "start": 18.24,
+  "end": 18.4
  },
  {
   "w": "from",
-  "start": 18.42,
-  "end": 18.68
+  "start": 18.4,
+  "end": 18.62
  },
  {
   "w": "the",
-  "start": 18.68,
-  "end": 18.8
+  "start": 18.62,
+  "end": 18.76
  },
  {
   "w": "sun.",
-  "start": 18.8,
-  "end": 19.02
+  "start": 18.76,
+  "end": 18.96
  },
  {
   "w": "Then",
-  "start": 19.42,
+  "start": 19.44,
   "end": 19.58
  },
  {
@@ -317,116 +317,146 @@
  {
   "w": "night.",
   "start": 20.34,
-  "end": 20.52
+  "end": 20.5
  },
  {
-  "w": "So",
-  "start": 21.24,
-  "end": 21.36
+  "w": "In",
+  "start": 20.5,
+  "end": 20.956
  },
  {
-  "w": "no,",
-  "start": 21.36,
-  "end": 21.52
+  "w": "winter",
+  "start": 20.98,
+  "end": 21.16
  },
  {
-  "w": "the",
-  "start": 21.7,
-  "end": 21.78
+  "w": "it",
+  "start": 21.16,
+  "end": 21.42
  },
  {
-  "w": "tower",
-  "start": 21.78,
-  "end": 21.98
+  "w": "shrinks",
+  "start": 21.42,
+  "end": 21.64
  },
  {
-  "w": "is",
-  "start": 21.98,
+  "w": "back",
+  "start": 21.64,
+  "end": 21.9
+ },
+ {
+  "w": "down.",
+  "start": 21.9,
   "end": 22.26
  },
  {
-  "w": "not",
-  "start": 22.26,
-  "end": 22.44
+  "w": "So",
+  "start": 22.92,
+  "end": 23.06
  },
  {
-  "w": "alive.",
-  "start": 22.44,
-  "end": 22.7
+  "w": "no,",
+  "start": 23.06,
+  "end": 23.22
  },
  {
-  "w": "It",
-  "start": 23.18,
-  "end": 23.36
+  "w": "the",
+  "start": 23.42,
+  "end": 23.48
+ },
+ {
+  "w": "tower",
+  "start": 23.48,
+  "end": 23.68
  },
  {
   "w": "is",
-  "start": 23.36,
-  "end": 23.44
+  "start": 23.68,
+  "end": 23.96
  },
  {
-  "w": "just",
-  "start": 23.44,
-  "end": 23.6
- },
- {
-  "w": "very",
-  "start": 23.6,
-  "end": 23.76
- },
- {
-  "w": "dramatic",
-  "start": 23.76,
+  "w": "not",
+  "start": 23.96,
   "end": 24.16
  },
  {
-  "w": "about",
+  "w": "alive.",
   "start": 24.16,
-  "end": 24.58
+  "end": 24.44
+ },
+ {
+  "w": "It",
+  "start": 24.88,
+  "end": 25.06
+ },
+ {
+  "w": "is",
+  "start": 25.06,
+  "end": 25.16
+ },
+ {
+  "w": "just",
+  "start": 25.16,
+  "end": 25.32
+ },
+ {
+  "w": "very",
+  "start": 25.32,
+  "end": 25.46
+ },
+ {
+  "w": "dramatic",
+  "start": 25.46,
+  "end": 25.88
+ },
+ {
+  "w": "about",
+  "start": 25.88,
+  "end": 26.28
  },
  {
   "w": "summer.",
-  "start": 24.58,
-  "end": 24.8
+  "start": 26.28,
+  "end": 26.52
  },
  {
   "w": "Send",
-  "start": 24.8,
-  "end": 25.68
+  "start": 26.52,
+  "end": 27.4
  },
  {
   "w": "this",
-  "start": 25.68,
-  "end": 25.92
+  "start": 27.4,
+  "end": 27.64
  },
  {
   "w": "to",
-  "start": 25.92,
-  "end": 26.06
+  "start": 27.64,
+  "end": 27.78
  },
  {
   "w": "someone",
-  "start": 26.06,
-  "end": 26.32
+  "start": 27.78,
+  "end": 28.04
  },
  {
   "w": "who",
-  "start": 26.32,
-  "end": 26.58
+  "start": 28.04,
+  "end": 28.28
  },
  {
   "w": "panics",
-  "start": 26.58,
-  "end": 26.96
+  "start": 28.28,
+  "end": 28.66
  },
  {
   "w": "at",
-  "start": 26.96,
-  "end": 27.1
+  "start": 28.66,
+  "end": 28.82
  },
  {
   "w": "headlines.",
-  "start": 27.1,
-  "end": 27.42
+  "start": 28.82,
+  "end": 29.14
  }
 ]
