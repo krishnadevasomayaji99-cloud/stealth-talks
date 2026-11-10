@@ -54,3 +54,6 @@ Use the 51-style catalogue (skills/animation-styles/catalogue.md); Krishna remem
 
 ## Hook templates
 Use skills/hook-templates (3 hooks from Krishna, 10 Nov) at least once per day, alongside ViralSpy recipes in the project (claude/viralspy-recipe-book.md).
+
+## Audio check (Krishna, 10 Nov 2026)
+Every Reel, before approving: `ffmpeg -nostats -i queue/KEY/video.mp4 -af ebur128=peak=true -f null -` and record integrated loudness. Target -16 to -14 LUFS, true peak below -1 dBTP, no clipping; if off, change the music/voice gain in the render and rebuild (counts toward the 2 fix rounds). Reference: 10 Nov Reels measured -15.3/-15.4 LUFS (good). The earshot MCP (Krishna's laptop, Windows) is NOT reachable from scheduled cloud runs: use ffmpeg. If an earshot tool ever appears in the session tool list, also run measure/describe/realness on the video's audio; never use llm_critique (Gemini, disabled). Earshot results are objective measurements, never a listening approval.
