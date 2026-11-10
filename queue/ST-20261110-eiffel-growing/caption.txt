@@ -1,0 +1,6 @@
+BREAKING: the Eiffel Tower is growing. (Calm down, it is physics.)
+
+Engineers have measured a seasonal swing of roughly 12 to 15 cm in the tower's height. The cause is thermal expansion: the tower is a lattice of over 18,000 iron pieces weighing 7,300 tonnes, and all solids expand when they warm. The sun-facing side lengthens slightly more, so the tower also leans a fraction of a degree away from the sun, then evens out after dark. The skit is fictional.
+
+Sources:
+- Interesting Engineering: https://interestingengineering.com/culture/the-eiffel-tower-grow-taller-each-summer
