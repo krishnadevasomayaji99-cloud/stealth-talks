@@ -1,0 +1,25 @@
+{
+ "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
+ "audio": {
+  "lufs": -15.8,
+  "true_peak_dbtp": -1.6,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 35.0,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.045,
+  "expected_words": 111,
+  "heard_words": 111,
+  "missing_or_wrong": [
+   "wifi",
+   "coffeehouse",
+   "sixteen fifty two"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
