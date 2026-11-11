@@ -190,9 +190,10 @@
   },
   {
    "key": "ST-20261110-molasses-wave",
+   "note": "reconciled: confirmed nothing posted",
    "sha256": "7651c207e328c9003c7592e194a0ea0a160e6378f19352f80ae48000807808a4",
    "started_at": "2026-11-11T21:04:08.597922+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }
