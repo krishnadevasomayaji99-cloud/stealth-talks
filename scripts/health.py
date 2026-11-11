@@ -1,4 +1,4 @@
-import os, sys, requests
+import os, sys, json, requests
 from common import *
 c = cfg(); bad = []
 tok = get_token(); print("TOKEN SHAPE:", token_shape())
@@ -17,5 +17,10 @@ if any(x["state"] == "needs_reconcile" for x in rows): bad.append("unreconciled 
 ready = [d.name for d in (ROOT/"queue").glob("*/") if not d.name.startswith("_") and (d/"approvals.json").exists() and not __import__("gate").check(d.name)]
 ver = [x for x in rows if x["state"] == "verified" and x.get("published_at")]
 if ver and (now() - dt.datetime.fromisoformat(max(x["published_at"] for x in ver))).days >= 2 and not ready: bad.append("nothing published for 2+ days and nothing queued")
+if len(ready) < 2: bad.append(f"queue low: only {len(ready)} READY Reel(s) (target 6, need >= 4 per day)")
+try:
+    ts = json.loads((ROOT/"data/token-status.json").read_text()); age = (now() - dt.datetime.fromisoformat(ts["refreshed_at"])).days
+    if age >= 10: bad.append(f"IG token last refreshed {age} days ago (weekly refresh should run Mondays); token may expire")
+except Exception as e: bad.append(f"token-status.json unreadable: {e}")
 for b in bad: alert("health", b)
 print("HEALTH", "OK" if not bad else bad); sys.exit(1 if bad else 0)
