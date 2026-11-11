@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: sudo apt-get install -y -qq ffmpeg
+      - uses: ./.github/actions/ffmpeg
       - id: f
         continue-on-error: true
         run: python scripts/flagger.py | tee -a $GITHUB_STEP_SUMMARY
