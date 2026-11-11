@@ -166,6 +166,12 @@
    "sha256": "ede880acde2575c33efbde201d2fead274437902b53ad8ded380fb9ef7eeca95",
    "started_at": "2026-11-10T21:24:30.779724+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261110-eiffel-growing",
+   "sha256": "fcd4118946869a17ec41628bd3ccb847c34af08dc0d32e61c1b7eb08fb1904df",
+   "started_at": "2026-11-11T11:35:30.381006+00:00",
+   "state": "uploading"
   }
  ]
 }
