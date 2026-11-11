@@ -6,3 +6,5 @@
 ## Learned (add dated lines; cite the metric)
 - (empty: first entries come after the first metrics pull)
 - 9 Nov eve: Krishna asks for more brainrot/relatable/trend-riding content; encoded in skills/daily-loop. Judge by shares and avg watch after 24 h.
+- 11 Nov: metrics (10 Nov 15:03, tiny n): launch-day-dave (real current event) best, 1364 views/1048 reach vs 67-372 for skits; shares still ~0, avg watch 11-16 s (shadow-chair 65 s, n=1). Confidence low. Trend search found only older memes (penguin Jan 2026, 6-7 2025): no fresh <=10-day safe topic; Jensen "honeypot" story is allegation-type, skipped.
+- 11 Nov change today: new character skin (cartoon penguin flock, snow set) + "Plot twist = real footage" reveal, hook template 1-style "lock in" skit. Judge on watch time/shares 12 Nov.

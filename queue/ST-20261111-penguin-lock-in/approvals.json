@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "dd49de6004fd99f8e2f3b8a131fdccea639a0fb3d8e0ffc33c75aa700eec4708",
+  "by": "Claude (model)",
+  "at": "2026-11-11T03:33:08.655982+00:00",
+  "note": "script frames viewed; skit fiction, real-footage claim matches opened source",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "dd49de6004fd99f8e2f3b8a131fdccea639a0fb3d8e0ffc33c75aa700eec4708",
+  "by": "Claude (model)",
+  "at": "2026-11-11T03:33:08.701177+00:00",
+  "note": "frames 3,7,13,17,25,29 viewed after fix round 1: penguin and bursts in frame; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "753cd7babc97af2dc192bdf3fad1c902bfa7241d3bbd9a62d936861d426f8003",
+  "by": "Claude (model)",
+  "at": "2026-11-11T03:33:08.738168+00:00",
+  "note": "Wikipedia Nihilistic penguin opened: Adelie penguin, Herzog 2007 Encounters at the End of the World, narrates heading to death, viral Jan 2026",
+  "listened": false
+ }
+}
