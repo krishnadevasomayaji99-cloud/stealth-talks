@@ -118,7 +118,11 @@ if __name__ == "__main__":
     if why: print("skip:", why); sys.exit(0)
     tok = get_token()
     if not tok and not a.dry_run: alert("token", "IG_TOKEN secret missing"); sys.exit(1)
-    for d in sorted((ROOT/"queue").glob("*/")):
+    fails = {}
+    for r in L["rows"]:
+        if r["state"] == "failed_before_upload": fails[r["key"]] = fails.get(r["key"], 0) + 1
+    # a Reel Instagram keeps rejecting must not block the slot: try the least-failed Reel first (stable order otherwise)
+    for d in sorted((ROOT/"queue").glob("*/"), key=lambda x: (fails.get(x.name, 0) >= 2, x.name)):
         if d.name.startswith("_") or not (d/"approvals.json").exists(): continue
         f = gate.check(d.name)
         if f: print("not ready", d.name, f); continue
