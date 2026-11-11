@@ -49,10 +49,16 @@ def publish(key, tok, dry):
         if not reuse:
             size = v.stat().st_size
             for attempt in range(1, 4):   # safe to retry: nothing is published until media_publish
-                with open(v, "rb") as f:
-                    r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
+                try:
+                    with open(v, "rb") as f:
+                        r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=(15, 120))   # short timeout: a stalled upload hung a run for 15 min on 11 Nov
+                except requests.exceptions.RequestException as e:
+                    print(f"WARN upload attempt {attempt} failed: {type(e).__name__}", flush=True); row["upload_http"] = type(e).__name__
+                    s1, j1 = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
+                    if j1.get("status_code") in ("IN_PROGRESS", "FINISHED"): break
+                    time.sleep(15 * attempt); continue
                 if r.status_code == 200: break
-                print(f"WARN upload attempt {attempt} returned {r.status_code} {r.text[:200]}"); row["upload_http"] = r.status_code
+                print(f"WARN upload attempt {attempt} returned {r.status_code} {r.text[:200]}", flush=True); row["upload_http"] = r.status_code
                 s1, j1 = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
                 if j1.get("status_code") in ("IN_PROGRESS", "FINISHED"): break   # Meta already has the video
                 time.sleep(15 * attempt)
