@@ -19,13 +19,32 @@ window.init=function(cfg){
 function drawCaptions(ctx,t){
   let ch=null;for(const c of chunks){const a=words[c[0]].start-0.05,b=words[c[c.length-1]].end+0.25;if(t>=a&&t<=b)ch=c;}
   if(!ch)return;
-  ctx.save();ctx.font='900 92px "DejaVu Sans", Arial, sans-serif';ctx.textBaseline='middle';ctx.lineJoin='round';
+  const V=(S&&S.caption)||'bar',capY=(S&&S.capY)||1390;
   const txt=ch.map(i=>words[i].w.replace(/^[\s]+|[\s]+$/g,'').toUpperCase());
+  ctx.save();ctx.textBaseline='middle';ctx.lineJoin='round';
+  const font={bar:'900 92px "DejaVu Sans", Arial, sans-serif',typewriter:'700 64px "DejaVu Sans Mono", monospace',crt:'700 66px "DejaVu Sans Mono", monospace',scribble:'italic 900 88px "DejaVu Sans", Arial, sans-serif',comic:'900 84px "DejaVu Sans", Arial, sans-serif'}[V]||'900 92px "DejaVu Sans", Arial, sans-serif';
+  ctx.font=font;
   const sp=ctx.measureText(' ').width;const ws=txt.map(s=>ctx.measureText(s).width);
   const total=ws.reduce((a,b)=>a+b,0)+sp*(txt.length-1);let sc=Math.min(1,900/total);
-  const age=t-words[ch[0]].start;const pop=0.92+0.08*outBack(age/0.12);
-  ctx.translate(540,1390);ctx.scale(sc*pop,sc*pop);let x=-total/2;
-  txt.forEach((s,j)=>{const w=words[ch[j]];const on=t>=w.start&&t<w.end+0.05;ctx.lineWidth=22;ctx.strokeStyle='#111';ctx.strokeText(s,x,0);ctx.fillStyle=on?'#ffd23f':'#fff';ctx.fillText(s,x,0);x+=ws[j]+sp;});
+  const age=t-words[ch[0]].start;const pop=V==='bar'||V==='comic'?0.92+0.08*outBack(age/0.12):1;
+  ctx.translate(540,capY);
+  if(V==='typewriter'){ // suspense: lower-third, letterspaced, reveals word by word, thin gold underline
+    ctx.scale(sc,sc);let x=-total/2;ctx.fillStyle='rgba(0,0,0,0.55)';ctx.fillRect(-total/2-24,-46,total+48,92);ctx.fillStyle='#ffd27a';ctx.fillRect(-total/2-24,46,total+48,4);
+    txt.forEach((s,j)=>{const w=words[ch[j]];if(t>=w.start-0.02){ctx.fillStyle=(t<w.end+0.05)?'#fff3cf':'#d9c79a';ctx.fillText(s,x,0);}x+=ws[j]+sp;});
+  }else if(V==='crt'){ // green phosphor on black bar, blinking cursor
+    ctx.scale(sc,sc);let x=-total/2;ctx.fillStyle='rgba(0,8,3,0.78)';ctx.fillRect(-total/2-26,-48,total+52,96);
+    txt.forEach((s,j)=>{const w=words[ch[j]];if(t>=w.start-0.02){ctx.fillStyle='#7dffb0';ctx.shadowColor='#3dff8a';ctx.shadowBlur=14;ctx.fillText(s,x,0);ctx.shadowBlur=0;}x+=ws[j]+sp;});
+    if(Math.floor(t*3)%2===0){ctx.fillStyle='#7dffb0';ctx.fillRect(total/2+4,-26,18,52);}
+  }else if(V==='scribble'){ // marker highlight behind handwritten-feel words, slight tilt
+    ctx.rotate(-0.03);ctx.scale(sc,sc);let x=-total/2;
+    txt.forEach((s,j)=>{const w=words[ch[j]];const on=t>=w.start&&t<w.end+0.05;if(on){ctx.fillStyle='rgba(255,226,60,0.85)';ctx.fillRect(x-8,-44,ws[j]+16,88);}ctx.fillStyle='#1d2a4a';ctx.fillText(s,x,0);x+=ws[j]+sp;});
+  }else if(V==='comic'){ // white speech box, thick black border, red accent on active word
+    ctx.scale(sc*pop,sc*pop);let x=-total/2;ctx.fillStyle='#fff';ctx.strokeStyle='#111';ctx.lineWidth=10;ctx.beginPath();ctx.roundRect(-total/2-30,-60,total+60,120,18);ctx.fill();ctx.stroke();
+    txt.forEach((s,j)=>{const w=words[ch[j]];const on=t>=w.start&&t<w.end+0.05;ctx.fillStyle=on?'#e63946':'#111';ctx.fillText(s,x,0);x+=ws[j]+sp;});
+  }else{ // default (original look)
+    ctx.scale(sc*pop,sc*pop);let x=-total/2;
+    txt.forEach((s,j)=>{const w=words[ch[j]];const on=t>=w.start&&t<w.end+0.05;ctx.lineWidth=22;ctx.strokeStyle='#111';ctx.strokeText(s,x,0);ctx.fillStyle=on?'#ffd23f':'#fff';ctx.fillText(s,x,0);x+=ws[j]+sp;});
+  }
   ctx.restore();
 }
 window.renderAt=function(t){
@@ -36,6 +55,7 @@ window.renderAt=function(t){
   S.draw(ctx,t);ctx.restore();
   drawCaptions(ctx,t);
   if(S.fx){const f=S.fx(t);if(f.lines>0){ctx.save();ctx.translate(540,960);ctx.strokeStyle='rgba(255,255,255,'+(0.55*f.lines)+')';ctx.lineWidth=5;for(let i=0;i<46;i++){const an=i*0.1366+t*0.5,r0=520+((i*37)%90),r1=1500;ctx.beginPath();ctx.moveTo(Math.cos(an)*r0,Math.sin(an)*r0*1.5);ctx.lineTo(Math.cos(an)*r1,Math.sin(an)*r1*1.5);ctx.stroke();}ctx.restore();}if(f.flash>0){ctx.fillStyle='rgba(255,255,255,'+f.flash+')';ctx.fillRect(0,0,1080,1920);}}
+  if(S.post){ctx.save();S.post(ctx,t);ctx.restore();}
   // gentle vignette
   const g=ctx.createRadialGradient(540,960,700,540,960,1250);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(0,0,0,0.28)');ctx.fillStyle=g;ctx.fillRect(0,0,1080,1920);
 };

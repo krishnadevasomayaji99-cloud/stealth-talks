@@ -1,3 +1,6 @@
-# STYLE.md (taste file: filled from reference Reels; rules reused by every brief)
-Status: EMPTY. Needs 3 reference Reels (same vibe) from Krishna. Learn the style only; never copy their footage, text, music or graphics.
-Sections to fill from frames + word timings: shot length and cut rate; caption style (weight, size, position, word reveal, colours); zooms/punch-ins (when, strength); colour and mood; graphics (what pops up and when); music and SFX energy; final short "rules" list.
+# STYLE.md (taste file)
+Status 11 Nov 2026: rewritten after Krishna's verdict (boring, no suspense, no variety). The single flat-vector look is retired as the default.
+- Look: five dialects in render/styles.js (noir, crt, notebook, comic, paper), each with its own caption variant; pick per Reel, never the same as the last two.
+- Pace: pattern break every 8-12 s, hook in <=3 s, turn by the halfway point, reveal after 65%, silence 0.6-1.0 s before the reveal.
+- Captions: typewriter (noir), phosphor (crt), marker (notebook), speech box (comic/paper). Never the old yellow bar on every Reel.
+- Rules: see skills/story-craft/SKILL.md. Reference Reels from Krishna (refs/) still welcome: learn style only.
