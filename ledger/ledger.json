@@ -187,6 +187,12 @@
    "sha256": "27d8a6bfef1b196182bcb853c2f0b26a58b21d5eacc37797594712380453c000",
    "started_at": "2026-11-11T17:14:44.738564+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261110-molasses-wave",
+   "sha256": "7651c207e328c9003c7592e194a0ea0a160e6378f19352f80ae48000807808a4",
+   "started_at": "2026-11-11T21:04:08.597922+00:00",
+   "state": "uploading"
   }
  ]
 }
