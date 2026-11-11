@@ -18,14 +18,14 @@ return {cues,
   c.fillStyle='#f6fbff';c.fillRect(-300,1000,1680,1200);
   mountain(c);
   const flock=Math.min(1,t/3);
-  for(let i=0;i<7;i++){const x=900-i*110-((t*60)%1200)*0+Math.sin(t*3+i)*6;penguin(c,x-80*flock,1250+(i%2)*70,0.55,-1,t+i,0.06);}
-  const px=540+clamp((t-tSnow)/(tKeep-tSnow))*420;
-  penguin(c,px,1100,0.9,1,t,0.05,'#101020');
+  for(let i=0;i<7;i++){const x=900-i*110-((t*60)%1200)*0+Math.sin(t*3+i)*6;penguin(c,x-620+flock*0+(i%3)*30,1450+(i%2)*110,0.8,-1,t+i,0.06);}
+  const px=520+clamp((t-tSnow)/(tKeep-tSnow))*200;
+  penguin(c,px,1130-clamp((t-tSnow)/(tKeep-tSnow))*140,1.5-0.5*clamp((t-tSnow)/(tKeep-tSnow)),1,t,0.05,'#101020');
   for(let i=0;i<60;i++){c.fillStyle='rgba(255,255,255,.8)';c.fillRect((i*97+t*(80+i%5*30))%1080,(i*173+t*140)%1920,6,6);}
-  burst(c,'POV: GROUP PROJECT',540,420,tPov,t,'#ffd23f',90,1.4);
-  burst(c,'LOCK IN',540,380,tLock,t,'#ff6b6b',130,1.2);
-  burst(c,'NO.',540,560,tNo,t,'#fff',150,1.2);
-  burst(c,'PLOT TWIST!',540,380,tTw,t,'#ffd23f',120);
+  burst(c,'POV: GROUP PROJECT',540,420,tPov,t,'#ffd23f',90,2.4);
+  burst(c,'LOCK IN',540,380,tLock,t,'#ff6b6b',130,1.8);
+  burst(c,'NO.',540,560,tNo,t,'#fff',150,1.8);
+  burst(c,'PLOT TWIST!',540,380,tTw,t,'#ffd23f',120,2);
   stamp(c,'REAL FOOTAGE, 2007',540,820,tHer+0.1,t,'#c0392b',70);
   burst(c,'HERZOG',540,560,tHer,t,'#fff',120,1.4);
   burst(c,'SEND THIS',540,520,tKeep+3,t,'#b6e36a',130,1.6);
