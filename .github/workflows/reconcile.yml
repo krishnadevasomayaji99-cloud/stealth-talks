@@ -11,8 +11,8 @@ jobs:
   reconcile:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
       - run: pip install requests
       - run: python scripts/reconcile.py "${{ inputs.key }}" "${{ inputs.action }}" --media-id "${{ inputs.media_id }}"

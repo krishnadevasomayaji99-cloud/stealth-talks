@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with: {node-version: "20"}
       - run: npm install playwright@1.49.1 && npx playwright install --with-deps chromium && sudo apt-get install -y ffmpeg
       - name: timed capture
         run: node render/time_html_render.js 90 | tee -a $GITHUB_STEP_SUMMARY
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with: {name: html-test, path: /tmp/html-test.mp4}

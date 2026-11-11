@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: sudo apt-get update && sudo apt-get install -y blender ffmpeg xvfb libgl1-mesa-dri libegl1
       - name: timed SAMPLE render (60 frames of 45s @30fps, 1080x1920, EEVEE-class settings)
         run: |
@@ -14,5 +14,5 @@ jobs:
           ffmpeg -y -framerate 30 -i /tmp/out/%04d.png -c:v libx264 -pix_fmt yuv420p /tmp/test.mp4
           T=$(( $(date +%s) - START ))
           echo "SAMPLE (60 frames) SECONDS: $T; ESTIMATED 45s REEL (1350 frames) MINUTES: $(( T * 1350 / 60 / 60 ))" | tee -a $GITHUB_STEP_SUMMARY
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with: {name: test-render, path: /tmp/test.mp4}

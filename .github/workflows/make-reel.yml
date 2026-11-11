@@ -21,10 +21,10 @@ jobs:
       run:
         shell: bash -eo pipefail {0}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with: {node-version: "20"}
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
       - name: install
         run: |
@@ -60,5 +60,5 @@ jobs:
           git config user.name "stealth-talks-bot"; git config user.email "bot@users.noreply.github.com"
           git add review queue && git commit -qm "review frames for ${{ inputs.key }}" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with: {name: "reel-${{ inputs.key }}", path: "/tmp/build/*", retention-days: 7}
