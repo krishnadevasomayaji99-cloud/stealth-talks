@@ -168,10 +168,15 @@
    "state": "verified"
   },
   {
+   "container": "18003262907822257",
    "key": "ST-20261110-eiffel-growing",
+   "media_id": "18080476400436110",
+   "permalink": "https://www.instagram.com/reel/DfmYyNNiATn/",
+   "published_at": "2026-11-11T11:36:30.492200+00:00",
    "sha256": "fcd4118946869a17ec41628bd3ccb847c34af08dc0d32e61c1b7eb08fb1904df",
    "started_at": "2026-11-11T11:35:30.381006+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
