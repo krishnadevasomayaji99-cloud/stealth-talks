@@ -1,0 +1,467 @@
+[
+ {
+  "w": "POV.",
+  "start": 0.25,
+  "end": 0.374
+ },
+ {
+  "w": "Everyone",
+  "start": 0.38,
+  "end": 0.86
+ },
+ {
+  "w": "is",
+  "start": 0.86,
+  "end": 1.1
+ },
+ {
+  "w": "doing",
+  "start": 1.1,
+  "end": 1.28
+ },
+ {
+  "w": "the",
+  "start": 1.28,
+  "end": 1.44
+ },
+ {
+  "w": "group",
+  "start": 1.44,
+  "end": 1.6
+ },
+ {
+  "w": "project.",
+  "start": 1.6,
+  "end": 2.0
+ },
+ {
+  "w": "You",
+  "start": 2.36,
+  "end": 2.52
+ },
+ {
+  "w": "are",
+  "start": 2.52,
+  "end": 2.68
+ },
+ {
+  "w": "the",
+  "start": 2.68,
+  "end": 2.78
+ },
+ {
+  "w": "penguin.",
+  "start": 2.78,
+  "end": 3.22
+ },
+ {
+  "w": "Everyone",
+  "start": 3.64,
+  "end": 3.98
+ },
+ {
+  "w": "walks",
+  "start": 3.98,
+  "end": 4.28
+ },
+ {
+  "w": "left.",
+  "start": 4.28,
+  "end": 4.6
+ },
+ {
+  "w": "You",
+  "start": 4.92,
+  "end": 4.94
+ },
+ {
+  "w": "look",
+  "start": 4.94,
+  "end": 5.06
+ },
+ {
+  "w": "at",
+  "start": 5.06,
+  "end": 5.18
+ },
+ {
+  "w": "the",
+  "start": 5.18,
+  "end": 5.24
+ },
+ {
+  "w": "mountain.",
+  "start": 5.24,
+  "end": 5.44
+ },
+ {
+  "w": "Seventy",
+  "start": 5.44,
+  "end": 6.086
+ },
+ {
+  "w": "kilometers",
+  "start": 6.12,
+  "end": 6.4
+ },
+ {
+  "w": "away.",
+  "start": 6.4,
+  "end": 6.92
+ },
+ {
+  "w": "No",
+  "start": 7.2,
+  "end": 7.28
+ },
+ {
+  "w": "snacks.",
+  "start": 7.28,
+  "end": 7.52
+ },
+ {
+  "w": "No",
+  "start": 7.88,
+  "end": 7.98
+ },
+ {
+  "w": "wifi.",
+  "start": 7.98,
+  "end": 8.911
+ },
+ {
+  "w": "Group",
+  "start": 8.96,
+  "end": 9.16
+ },
+ {
+  "w": "chat",
+  "start": 9.16,
+  "end": 9.36
+ },
+ {
+  "w": "says",
+  "start": 9.36,
+  "end": 9.62
+ },
+ {
+  "w": "lock",
+  "start": 9.62,
+  "end": 9.84
+ },
+ {
+  "w": "in.",
+  "start": 9.84,
+  "end": 10.1
+ },
+ {
+  "w": "Penguin",
+  "start": 10.42,
+  "end": 10.8
+ },
+ {
+  "w": "says",
+  "start": 10.8,
+  "end": 11.0
+ },
+ {
+  "w": "no.",
+  "start": 11.0,
+  "end": 11.22
+ },
+ {
+  "w": "Penguin",
+  "start": 11.52,
+  "end": 11.84
+ },
+ {
+  "w": "has",
+  "start": 11.84,
+  "end": 11.96
+ },
+ {
+  "w": "a",
+  "start": 11.96,
+  "end": 12.06
+ },
+ {
+  "w": "vision.",
+  "start": 12.06,
+  "end": 12.3
+ },
+ {
+  "w": "Deadline",
+  "start": 13.02,
+  "end": 13.14
+ },
+ {
+  "w": "in",
+  "start": 13.14,
+  "end": 13.46
+ },
+ {
+  "w": "ten,",
+  "start": 13.46,
+  "end": 13.897
+ },
+ {
+  "w": "nine,",
+  "start": 13.92,
+  "end": 14.357
+ },
+ {
+  "w": "eight.",
+  "start": 14.38,
+  "end": 14.817
+ },
+ {
+  "w": "Penguin",
+  "start": 14.84,
+  "end": 15.18
+ },
+ {
+  "w": "is",
+  "start": 15.18,
+  "end": 15.28
+ },
+ {
+  "w": "not",
+  "start": 15.28,
+  "end": 15.44
+ },
+ {
+  "w": "even",
+  "start": 15.44,
+  "end": 15.7
+ },
+ {
+  "w": "in",
+  "start": 15.7,
+  "end": 15.8
+ },
+ {
+  "w": "the",
+  "start": 15.8,
+  "end": 15.88
+ },
+ {
+  "w": "chat",
+  "start": 15.88,
+  "end": 16.1
+ },
+ {
+  "w": "anymore.",
+  "start": 16.1,
+  "end": 16.36
+ },
+ {
+  "w": "Plot",
+  "start": 17.06,
+  "end": 17.28
+ },
+ {
+  "w": "twist.",
+  "start": 17.28,
+  "end": 17.58
+ },
+ {
+  "w": "This",
+  "start": 17.86,
+  "end": 17.96
+ },
+ {
+  "w": "is",
+  "start": 17.96,
+  "end": 18.1
+ },
+ {
+  "w": "real",
+  "start": 18.1,
+  "end": 18.3
+ },
+ {
+  "w": "footage.",
+  "start": 18.3,
+  "end": 18.66
+ },
+ {
+  "w": "Werner",
+  "start": 19.4,
+  "end": 19.4
+ },
+ {
+  "w": "Herzog",
+  "start": 19.4,
+  "end": 19.86
+ },
+ {
+  "w": "filmed",
+  "start": 19.86,
+  "end": 20.06
+ },
+ {
+  "w": "him",
+  "start": 20.06,
+  "end": 20.34
+ },
+ {
+  "w": "in",
+  "start": 20.34,
+  "end": 20.46
+ },
+ {
+  "w": "two",
+  "start": 20.46,
+  "end": 20.954
+ },
+ {
+  "w": "thousand",
+  "start": 20.98,
+  "end": 21.474
+ },
+ {
+  "w": "seven.",
+  "start": 21.5,
+  "end": 21.994
+ },
+ {
+  "w": "The",
+  "start": 22.02,
+  "end": 22.04
+ },
+ {
+  "w": "documentary",
+  "start": 22.04,
+  "end": 22.4
+ },
+ {
+  "w": "is",
+  "start": 22.4,
+  "end": 22.96
+ },
+ {
+  "w": "called",
+  "start": 22.96,
+  "end": 23.2
+ },
+ {
+  "w": "Encounters",
+  "start": 23.2,
+  "end": 23.78
+ },
+ {
+  "w": "at",
+  "start": 23.78,
+  "end": 24.1
+ },
+ {
+  "w": "the",
+  "start": 24.1,
+  "end": 24.2
+ },
+ {
+  "w": "End",
+  "start": 24.2,
+  "end": 24.38
+ },
+ {
+  "w": "of",
+  "start": 24.38,
+  "end": 24.5
+ },
+ {
+  "w": "the",
+  "start": 24.5,
+  "end": 24.6
+ },
+ {
+  "w": "World.",
+  "start": 24.6,
+  "end": 24.74
+ },
+ {
+  "w": "Penguin",
+  "start": 24.74,
+  "end": 25.62
+ },
+ {
+  "w": "keeps",
+  "start": 25.62,
+  "end": 26.0
+ },
+ {
+  "w": "walking.",
+  "start": 26.0,
+  "end": 26.36
+ },
+ {
+  "w": "Your",
+  "start": 26.66,
+  "end": 26.74
+ },
+ {
+  "w": "homework",
+  "start": 26.74,
+  "end": 27.06
+ },
+ {
+  "w": "is",
+  "start": 27.06,
+  "end": 27.3
+ },
+ {
+  "w": "still",
+  "start": 27.3,
+  "end": 27.52
+ },
+ {
+  "w": "due.",
+  "start": 27.52,
+  "end": 27.74
+ },
+ {
+  "w": "Send",
+  "start": 28.22,
+  "end": 28.38
+ },
+ {
+  "w": "this",
+  "start": 28.38,
+  "end": 28.58
+ },
+ {
+  "w": "to",
+  "start": 28.58,
+  "end": 28.72
+ },
+ {
+  "w": "the",
+  "start": 28.72,
+  "end": 28.8
+ },
+ {
+  "w": "friend",
+  "start": 28.8,
+  "end": 28.98
+ },
+ {
+  "w": "who",
+  "start": 28.98,
+  "end": 29.24
+ },
+ {
+  "w": "never",
+  "start": 29.24,
+  "end": 29.42
+ },
+ {
+  "w": "locks",
+  "start": 29.42,
+  "end": 29.74
+ },
+ {
+  "w": "in.",
+  "start": 29.74,
+  "end": 30.04
+ }
+]
