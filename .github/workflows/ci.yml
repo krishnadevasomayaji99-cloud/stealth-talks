@@ -8,7 +8,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
-      - run: pip install requests && sudo apt-get install -y ffmpeg
+      - run: pip install requests
+      - uses: ./.github/actions/ffmpeg
       - run: python -m py_compile scripts/*.py
       - run: python scripts/publish.py --dry-run || echo "dry-run non-zero (live ledger state, e.g. a post in flight); code compiled OK, ignored"
       - run: python -c "import json;L=json.load(open('ledger/ledger.json'))['rows'];h=[r['sha256'] for r in L if r['state']!='failed_before_upload'];assert len(h)==len(set(h)),'duplicate hash in ledger';[json.load(open(f)) for f in ('config/config.json','alerts/alerts.json')];print('ledger ok',len(L))"

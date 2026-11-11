@@ -13,13 +13,6 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install requests
-      - name: ffmpeg (ffprobe is required by publish.py; bounded retries so a bad apt mirror cannot hang the job)
-        run: |
-          for i in 1 2 3; do
-            which ffprobe && break
-            sudo timeout 150 apt-get update -qq || true
-            sudo timeout 240 apt-get install -y -qq --no-install-recommends ffmpeg && break || echo "apt attempt $i failed"
-          done
-          which ffprobe
+      - uses: ./.github/actions/ffmpeg
       - run: python scripts/publish.py ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '--dry-run' || '' }}
         env: {IG_TOKEN: "${{ secrets.IG_TOKEN }}", MANUAL: "${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}"}
