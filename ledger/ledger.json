@@ -196,10 +196,14 @@
    "state": "failed_before_upload"
   },
   {
+   "container": "18003401549822257",
    "key": "ST-20261110-molasses-wave",
+   "media_id": "18141486397624157",
+   "permalink": "https://www.instagram.com/reel/DfncGvUgVCa/",
+   "published_at": "2026-11-11T21:24:24.520714+00:00",
    "sha256": "7651c207e328c9003c7592e194a0ea0a160e6378f19352f80ae48000807808a4",
    "started_at": "2026-11-11T21:23:46.380135+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
