@@ -1,0 +1,35 @@
+{
+ "sha256": "99fc6530a959420a01e058829c17de0b2f7383b6127331b68870605a3cf15ccc",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.7,
+  "clipped_samples": 0,
+  "trailing_silence_s": 1.48,
+  "duration_s": 39.73,
+  "problems": [
+   "trailing silence 1.5s"
+  ],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.163,
+  "expected_words": 98,
+  "heard_words": 92,
+  "missing_or_wrong": [
+   "nineteen ninety two",
+   "nineteen ninety eight",
+   "nineteen ninety nine",
+   "gillogly",
+   "clock",
+   "kryptos",
+   "third nineteen ninety",
+   "codebreakers"
+  ]
+ },
+ "problems": [
+  "trailing silence 1.5s",
+  "speech wer 0.163 > 0.15 (voice unclear or buried)"
+ ],
+ "pass": false,
+ "listened": false
+}
