@@ -48,9 +48,14 @@ def publish(key, tok, dry):
             cid = j["id"]; row["container"] = cid
         if not reuse:
             size = v.stat().st_size
-            with open(v, "rb") as f:
+            for attempt in range(1, 4):   # safe to retry: nothing is published until media_publish
+                with open(v, "rb") as f:
                     r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{c['graph_version']}/{cid}", headers={"Authorization": f"OAuth {tok}", "offset": "0", "file_size": str(size)}, data=f, timeout=600)
-            if r.status_code != 200: print(f"WARN upload returned {r.status_code} {r.text[:200]}; polling container status instead"); row["upload_http"] = r.status_code
+                if r.status_code == 200: break
+                print(f"WARN upload attempt {attempt} returned {r.status_code} {r.text[:200]}"); row["upload_http"] = r.status_code
+                s1, j1 = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
+                if j1.get("status_code") in ("IN_PROGRESS", "FINISHED"): break   # Meta already has the video
+                time.sleep(15 * attempt)
         for _ in range(120):
             s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
             if j.get("status_code") == "FINISHED": break
