@@ -1,25 +1,21 @@
 {
- "at": "2026-11-11T01:13:30.081240+00:00",
- "london": "2026-11-11 01:13",
+ "at": "2026-11-11T10:42:24.089751+00:00",
+ "london": "2026-11-11 10:42",
  "ready": [
   "ST-20261110-eiffel-growing",
   "ST-20261110-gage-head-empty",
   "ST-20261110-molasses-wave",
   "ST-20261110-one-sec",
-  "ST-20261110-snooze-levels"
+  "ST-20261110-snooze-levels",
+  "ST-20261111-penguin-lock-in"
  ],
  "slots_left": [
-  "08:30",
   "12:30",
   "17:30",
   "20:30"
  ],
  "posted_today": 0,
  "flags": [
-  {
-   "level": "WARN",
-   "msg": "spares below target: 5 READY, want 6 (slots left + 2 spares for tomorrow)"
-  },
   {
    "level": "INFO",
    "msg": "unapproved drafts: ST-20261108-last-biscuit"
