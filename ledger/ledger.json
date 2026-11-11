@@ -179,10 +179,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003346313822257",
    "key": "ST-20261110-gage-head-empty",
+   "media_id": "17968141518209876",
+   "permalink": "https://www.instagram.com/reel/Dfm_nI_kq60/",
+   "published_at": "2026-11-11T17:15:26.158105+00:00",
    "sha256": "27d8a6bfef1b196182bcb853c2f0b26a58b21d5eacc37797594712380453c000",
    "started_at": "2026-11-11T17:14:44.738564+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
