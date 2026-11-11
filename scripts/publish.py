@@ -1,12 +1,13 @@
 import json
 """Publish ONE ready Reel. Never retries an uncertain publish: marks needs_reconcile + alert."""
 import os, sys, time, json, argparse, requests
+import datetime as dt
 from common import *
 import gate
 def window_ok(c, rows):
     t = now().astimezone(LON)
     if not c["window_hours_london"][0] <= t.hour < c["window_hours_london"][1]: return "outside window"
-    today = [r for r in rows if r["state"] in ("verified","needs_reconcile","uploading") and r.get("started_at","")[:10] == t.date().isoformat()]
+    today = [r for r in rows if r["state"] in ("verified","needs_reconcile","uploading") and r.get("started_at") and london_date(r["started_at"]) == t.date().isoformat()]
     if len(today) >= c["max_per_day"]: return "daily cap reached"
     if today and (now()-dt.datetime.fromisoformat(max(r["started_at"] for r in today))).total_seconds() < c["min_gap_minutes"]*60: return "min gap"
     manual = os.environ.get("MANUAL") == "1"
@@ -62,7 +63,7 @@ def publish(key, tok, dry):
                 s1, j1 = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
                 if j1.get("status_code") in ("IN_PROGRESS", "FINISHED"): break   # Meta already has the video
                 time.sleep(15 * attempt)
-        for _ in range(120):
+        for _ in range(66):   # 11 min max: must end inside the 15 min job timeout so a failure is recorded instead of leaving the job cancelled with a held lock
             s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
             if j.get("status_code") == "FINISHED": break
             if j.get("status_code") in ("ERROR", "EXPIRED"): row["state"] = "failed_before_upload"; raise RuntimeError(f"processing {j}")
@@ -81,12 +82,37 @@ def publish(key, tok, dry):
 def commit_ledger(msg):
     if not os.environ.get("GITHUB_ACTIONS"): return
     subprocess.run(["git","config","user.name","stealth-talks-bot"]); subprocess.run(["git","config","user.email","bot@users.noreply.github.com"])
-    subprocess.run(["git","add","ledger","alerts"]); subprocess.run(["git","commit","-m",msg]); subprocess.run(["git","pull","--rebase"]); subprocess.run(["git","push"])
+    subprocess.run(["git","add","ledger","alerts"]); subprocess.run(["git","commit","-m",msg])
+    for i in range(5):   # a lost ledger push after a real post could cause a repost: retry hard
+        subprocess.run(["git","pull","--rebase"], timeout=120)
+        if subprocess.run(["git","push"], timeout=120).returncode == 0: return
+        time.sleep(3 * (i + 1))
+    print("ERROR: ledger push failed after 5 tries", flush=True)
+def recover_stale_lock(L, tok):
+    """A cancelled/crashed run leaves a row in 'uploading' forever and halts all publishing. Runs are serialized (concurrency group 'ledger'),
+    so an 'uploading' row older than 20 min has no live owner. If Instagram shows NO media newer than its start, nothing posted: mark failed_before_upload.
+    If new media exists we cannot tell whose it is: leave halted and alert (never guess, never repost)."""
+    c = cfg(); changed = False
+    for r in L["rows"]:
+        if r["state"] != "uploading": continue
+        age = (now() - dt.datetime.fromisoformat(r["started_at"])).total_seconds()
+        if age < 20 * 60: continue
+        try:
+            s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media", tok, params={"fields": "id,timestamp", "limit": 5})
+            if s != 200 or "data" not in j: print("stale-lock check: cannot list media", s, flush=True); continue
+            newer = [m for m in j["data"] if dt.datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z") > dt.datetime.fromisoformat(r["started_at"])]
+            if newer: alert(r["key"], f"stale 'uploading' lock but {len(newer)} newer media exist: manual reconcile needed"); continue
+            r["state"] = "failed_before_upload"; r["note"] = f"auto-recovered stale lock after {int(age/60)} min (cancelled run, no new media on account)"; changed = True
+            print("auto-recovered stale lock", r["key"], flush=True)
+        except Exception as e: print("stale-lock check failed:", e, flush=True)
+    if changed: save_ledger(L); commit_ledger("ledger: auto-recover stale uploading lock")
+    return L
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); a = ap.parse_args()
     c = cfg()
     if not c["enabled"]: print("kill switch: disabled"); sys.exit(0)
     L = load_ledger()
+    if not a.dry_run and any(r["state"] == "uploading" for r in L["rows"]) and get_token(): L = recover_stale_lock(L, get_token())
     if any(r["state"] in ("needs_reconcile", "uploading") for r in L["rows"]): alert("ledger", "unreconciled row: publishing halted"); sys.exit(1)
     why = window_ok(c, L["rows"])
     if why: print("skip:", why); sys.exit(0)

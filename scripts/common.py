@@ -10,6 +10,7 @@ def sha256(p):
         for b in iter(lambda: f.read(1 << 20), b""): h.update(b)
     return h.hexdigest()
 def now(): return dt.datetime.now(dt.timezone.utc)
+def london_date(iso): return dt.datetime.fromisoformat(iso).astimezone(LON).date().isoformat()   # rows store UTC; slots/caps are London days
 def ledger_path(): return ROOT/"ledger/ledger.json"
 def load_ledger():
     p = ledger_path()
