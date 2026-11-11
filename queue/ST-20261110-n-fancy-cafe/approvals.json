@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
+  "by": "Claude (model)",
+  "at": "2026-11-11T18:11:14.673169+00:00",
+  "note": "Fancy-cafe misperception (KYM 3 Nov 2026 structure, invented character) + progressive levels 1-3, chair/table twist, coffeehouse fact slot, loop CTA; 35s, 111 words",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
+  "by": "Claude (model)",
+  "at": "2026-11-11T18:11:14.713483+00:00",
+  "note": "Contact sheet frames 0-21s reviewed: Mo/block/chair/woman/TABLE stamp/level stamps legible, captions readable; no overlaps blocking the story",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "825153ab6e45130dfea567ae22b0435674397fbee3f4eb1e2e211124f3cb2aa6",
+  "by": "Claude (model)",
+  "at": "2026-11-11T18:11:14.761160+00:00",
+  "note": "Wikipedia Coffeehouse (read verbatim): first London coffeehouse 1652 by Pasqua Rosee; 'penny universities' because of the sometimes one penny entry fee; access to books or print news. Skit marked fictional.",
+  "listened": false
+ }
+}
