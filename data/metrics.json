@@ -1,14 +1,14 @@
 {
- "at": "2026-11-10T15:03:36.597430+00:00",
+ "at": "2026-11-11T14:34:45.126040+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
-   "views": 179,
+   "views": 180,
    "reach": 117,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11863
+   "ig_reels_avg_watch_time": 11772
   },
   "ST-20261105-selfish-umbrella": {
    "views": 372,
@@ -29,40 +29,67 @@
    "ig_reels_avg_watch_time": 65545
   },
   "ST-20261109-biscuit-twist": {
-   "views": 262,
+   "views": 263,
    "reach": 181,
    "likes": 6,
    "comments": 1,
    "shares": 0,
    "saved": 1,
-   "ig_reels_avg_watch_time": 16446
+   "ig_reels_avg_watch_time": 16278
   },
   "ST-20261109-launch-day-dave": {
-   "views": 1364,
+   "views": 1366,
    "reach": 1048,
    "likes": 23,
    "comments": 1,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 14722
+   "ig_reels_avg_watch_time": 14697
   },
   "ST-20261109-lock-in": {
-   "views": 131,
-   "reach": 103,
+   "views": 133,
+   "reach": 104,
    "likes": 1,
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11749
+   "ig_reels_avg_watch_time": 11484
   },
   "ST-20261109-top-shelf": {
-   "views": 67,
-   "reach": 43,
+   "views": 133,
+   "reach": 109,
    "likes": 2,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 12270
+   "ig_reels_avg_watch_time": 9377
+  },
+  "ST-20261109-zz-emu-war": {
+   "views": 142,
+   "reach": 107,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 16349
+  },
+  "ST-20261110-a-gta-preload": {
+   "views": 1226,
+   "reach": 1039,
+   "likes": 18,
+   "comments": 0,
+   "shares": 1,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 16005
+  },
+  "ST-20261110-eiffel-growing": {
+   "views": 29,
+   "reach": 24,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 10801
   }
  }
 }
