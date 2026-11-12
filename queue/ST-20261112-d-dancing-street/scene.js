@@ -1,5 +1,5 @@
 window.SCENE=function(a){const {k,ease,clamp,W,E}=a;const S=window.STYLES.comic;
-const tWom=W('woman'),tMove=W('moving'),tDay=W('day'),tHund=W('hundreds'),tDoc=W('doctors'),tHot=W('hot'),tCity=W('city'),tGuild=W('guildhalls'),tMus=W('musicians'),tStras=W('strasbourg'),tEnd=E('ago')+0.4;
+const tWom=W('woman'),tMove=W('moving'),tDay=W('day'),tHund=W('hundreds'),tDoc=W('doctors'),tHot=W('overheated'),tCity=W('city'),tGuild=W('guildhalls'),tMus=W('musicians'),tStras=W('strasbourg'),tEnd=E('ago')+0.4;
 const cues=[{t:0.05,sfx:'pop',gain:0.7},{t:tMove,sfx:'whoosh',gain:0.7},{t:tHund-0.3,sfx:'rise',gain:0.9},{t:tHund,sfx:'thud',gain:1},{t:tDoc,sfx:'click',gain:0.9},{t:tHot,sfx:'thud',gain:0.9},{t:tGuild,sfx:'thud',gain:1},{t:tMus-0.3,sfx:'rise',gain:0.9},{t:tMus,sfx:'chime',gain:1},{t:tStras,sfx:'click',gain:0.7}];
 for(let x=tMove;x<tHund;x+=0.6)cues.push({t:x,sfx:'tick',gain:0.5});
 const cols=['#e63946','#2a9d8f','#9b5de5','#f4a261','#1d70d8','#06d6a0','#ef476f','#118ab2'];
@@ -16,7 +16,7 @@ return {cues,caption:S.caption,capY:1620,
   // doctors
   if(t>=tDoc&&t<tCity){S.fig(c,t,{x:180,y:900,s:0.8,shirt:'#ffffff',mood:'shock',look:8});}
   // stage
-  if(t>=tCity){const d=clamp((t-tGuild)/0.4);if(t>=tGuild)stage(c,1250+(1-d)*300,150);}
+  if(t>=tCity){const d=clamp((t-tGuild)/0.4);if(t>=tGuild)stage(c,1300+(1-d)*300,90);}
   // musicians appear
   if(t>=tMus){const d=a.outBack((t-tMus)/0.4);c.save();c.translate(0,(1-d)*300);[0,1,2].forEach(i=>S.fig(c,t+i*0.3,{x:300+i*240,y:1230,s:0.6,shirt:cols[(i*3+1)%8],hop:28,mood:'ok'}));c.restore();}
  },

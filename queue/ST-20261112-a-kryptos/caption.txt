@@ -1,10 +1,10 @@
 Outside the CIA there is a sculpture with a message nobody could fully read.
 
-Kryptos is a sculpture by the American artist Jim Sanborn on the grounds of CIA headquarters in Langley, Virginia, dedicated on 3 November 1990. It carries four encrypted messages. The first three were solved: an NSA team led by Ken Miller reportedly cracked them in late 1992, CIA analyst David Stein did the same with pencil and paper in 1998, and the first public announcement came in 1999 from computer scientist Jim Gillogly. The fourth message stayed unsolved for decades, with clue words released in 2010 (BERLIN) and 2014 (CLOCK).
+Kryptos is a sculpture by the American artist Jim Sanborn on the grounds of CIA headquarters in Langley, Virginia, dedicated on 3 November 1990. It carries four encrypted messages. The first three were solved: an NSA team led by Ken Miller reportedly cracked them in late 1992 (NSA documents show by June 1993), CIA analyst David Stein did the same with pencil and paper in 1998, and computer scientist Jim Gillogly made the first public announcement in 1999. The fourth message stayed unsolved for decades, with clue words released in 2010 (BERLIN) and 2014 (CLOCK). In 2025, journalists reported finding papers in Sanborn's archive that appear to give its plaintext, which Sanborn confirmed.
 
 Which code would you try to crack first?
 
-Sources: Wikipedia, "Kryptos" https://en.wikipedia.org/wiki/Kryptos (read 11 Nov 2026).
+Sources: Wikipedia, "Kryptos" https://en.wikipedia.org/wiki/Kryptos (read 12 Nov 2026).
 Animated illustration with an original silhouette character, not the actual sculpture.
 
 #kryptos #cia #codebreaking #mystery #truestory
