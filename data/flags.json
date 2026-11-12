@@ -1,29 +1,23 @@
 {
- "at": "2026-11-12T10:54:14.524864+00:00",
- "london": "2026-11-12 10:54",
+ "at": "2026-11-12T19:50:41.061973+00:00",
+ "london": "2026-11-12 19:50",
  "ready": [
-  "ST-20261110-one-sec",
-  "ST-20261110-snooze-levels",
-  "ST-20261111-penguin-lock-in"
+  "ST-20261111-penguin-lock-in",
+  "ST-20261112-a-kryptos",
+  "ST-20261112-b-ladder-cam",
+  "ST-20261112-c-tomato-timer",
+  "ST-20261112-d-dancing-street",
+  "ST-20261113-a-mona-apron",
+  "ST-20261113-b-wow-signal"
  ],
  "slots_left": [
-  "12:30",
-  "17:30",
   "20:30"
  ],
- "posted_today": 1,
+ "posted_today": 3,
  "flags": [
   {
-   "level": "WARN",
-   "msg": "spares below target: 3 READY, want 5 (slots left + 2 spares for tomorrow)"
-  },
-  {
-   "level": "WARN",
-   "msg": "data/status.md records a BLOCKER (e.g. source fetch refused): check it"
-  },
-  {
    "level": "INFO",
-   "msg": "unapproved drafts: ST-20261112-a-kryptos, ST-20261112-d-dancing-street, ST-20261112-b-ladder-cam, ST-20261112-c-tomato-timer, ST-20261108-last-biscuit"
+   "msg": "unapproved drafts: ST-20261108-last-biscuit"
   }
  ]
 }
