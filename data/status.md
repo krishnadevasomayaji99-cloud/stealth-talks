@@ -1,6 +1,5 @@
-# Status (morning run, finished ~14:00 London 2026-11-12, Claude)
-- Health OK (all workflows green; one transient make-reel model-download failure rerun fine).
-- Fact-check unblocked after a second fetch: Kryptos script/caption updated (K4 plaintext surfaced Sept 2025, Sanborn confirmed), dancing plague corrected (overheated blood, no stage claim, 50-400 dancers), Pomodoro break wording.
-- READY new-craft: a-kryptos (noir), b-ladder-cam (crt), c-tomato-timer (notebook), d-dancing-street (comic) + 2 older (snooze-levels, penguin-lock-in) = 6 READY (n-fancy-cafe and one-sec already posted). Audio gates pass (LUFS ~-15.5, tp <= -1.6).
-- Learned: spoken years/numbers inflate WER; add closing sfx when tail silence >0.5 s; check duration >=30 s before approving.
-- Next: evening watchdog verifies slots posted, tops up spares.
+# Status (evening watchdog 2026-11-12 ~18:55 London, Claude)
+- Health OK: today's 3 due slots posted (n-fancy-cafe, one-sec, snooze-levels), no needs_reconcile, workflows green.
+- READY: 7 (penguin-lock-in, a-kryptos, b-ladder-cam, c-tomato-timer, d-dancing-street, plus new ST-20261113-a-mona-apron paper/true_story and b-wow-signal crt/countdown). 20:30 slot covered; 6 remain for tomorrow.
+- Built two evergreen true-story Reels (sources: History.com, Wikipedia); audio gates pass. Fix this run: reveal ratio gate (>65%) needed a trimmed script and rebuild.
+- Notes: 52nd animation style still missing; last-biscuit unapproved draft.

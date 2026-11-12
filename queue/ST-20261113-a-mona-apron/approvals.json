@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "0790834720980ecb25dae08bf6f2eba43c24a3bde574c02f8914e3b6dc806806",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:49:27.615849+00:00",
+  "note": "Script re-read after trim; reveal ratio now passes gate; duration checked >=30 s; frames viewed (not full playback)",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "0790834720980ecb25dae08bf6f2eba43c24a3bde574c02f8914e3b6dc806806",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:49:27.652173+00:00",
+  "note": "Rebuilt video; same scene.js as the reviewed build (frames 1.5/7/13/19/25/31 viewed on previous build); audio gate passed",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "8a94d7f51165c935c7b15ebc93f221c172d83d039fadd1ad190eed3b376ce718",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:49:27.683935+00:00",
+  "note": "Checked vs history.com (updated Aug 2026): ex-handyman, closet evening 20 Aug 1911, white apron, plumber, noticed ~noon Tuesday, arrested Florence Dec 1913, returned Jan 1914",
+  "listened": false
+ }
+}
