@@ -1,21 +1,22 @@
 {
- "sha256": "f85f64602cc93bff17992521e9a44d2e2e0b136d9f95c3798a48c8a05e7c0609",
+ "sha256": "2e6c84451fe4067ffd3ed83d15d1f11f5f6516c3faacb2a37f35b60dacf9c637",
  "audio": {
   "lufs": -15.6,
-  "true_peak_dbtp": -1.9,
+  "true_peak_dbtp": -1.6,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 31.0,
+  "duration_s": 29.27,
   "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.044,
-  "expected_words": 91,
-  "heard_words": 91,
+  "approx_wer": 0.061,
+  "expected_words": 82,
+  "heard_words": 82,
   "missing_or_wrong": [
    "then",
    "guildhalls",
+   "strasbourg",
    "five hundred"
   ]
  },
