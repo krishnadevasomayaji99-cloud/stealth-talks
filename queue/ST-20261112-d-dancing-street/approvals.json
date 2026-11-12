@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:37:33.975629+00:00",
+  "note": "script read; open loops, reveal word withheld, brief valid; frames 0-33s reviewed (not full playback)",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:37:34.038207+00:00",
+  "note": "contact sheet of 17 frames reviewed: style distinct (notebook/comic), captions legible, no overlaps blocking text; frames viewed, not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "652f07217078fdd7be0ff2bfe65fa618fbc7c2cde1382bfcb6a0110a2e674cef",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:37:34.092258+00:00",
+  "note": "claims checked 12 Nov 2026 against opened Wikipedia page (Pomodoro_Technique / Dancing_plague_of_1518): creator, late 1980s, tomato timer, 25 min; July 1518 Strasbourg, overheated blood, guild halls, musicians, 50-400 dancers, deaths disputed",
+  "listened": false
+ }
+}
