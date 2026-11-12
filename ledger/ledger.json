@@ -222,6 +222,12 @@
    "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
    "started_at": "2026-11-12T09:47:03.456922+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261110-one-sec",
+   "sha256": "9f0e7ceb63c3270a1e60b58f0e45e3cbdf80a5a2a064b7fb91d8330becdd6c18",
+   "started_at": "2026-11-12T12:33:07.895473+00:00",
+   "state": "uploading"
   }
  ]
 }
