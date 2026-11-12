@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "dcb613eab285373b1d259d9a6057c629cbe67789e84912938a0ca99d2aae6679",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:48:16.194533+00:00",
+  "note": "script read; reveal withheld; K4 outcome handled; frames reviewed (not full playback)",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "dcb613eab285373b1d259d9a6057c629cbe67789e84912938a0ca99d2aae6679",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:48:16.286591+00:00",
+  "note": "17-frame contact sheet reviewed: noir style, captions legible; frames viewed, not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "d8b9827ae2f0fc8657490966402d254c1a690e489bdf8069fdd26ade402ee886",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:48:16.344036+00:00",
+  "note": "checked 12 Nov 2026 vs opened Wikipedia Kryptos: dedicated 3 Nov 1990, NSA team late 1992 (docs: by June 1993), Stein 1998, Gillogly 1999, BERLIN 2010, CLOCK 2014, K4 plaintext found Sept 2025 and confirmed by Sanborn",
+  "listened": false
+ }
+}
