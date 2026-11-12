@@ -31,17 +31,17 @@
  },
  {
   "w": "Nobody",
-  "start": 2.26,
+  "start": 2.2,
   "end": 2.54
  },
  {
   "w": "has",
   "start": 2.54,
-  "end": 2.78
+  "end": 2.8
  },
  {
   "w": "seen",
-  "start": 2.78,
+  "start": 2.8,
   "end": 3.0
  },
  {
@@ -51,42 +51,42 @@
  },
  {
   "w": "Monday,",
-  "start": 3.8,
-  "end": 4.12
+  "start": 3.76,
+  "end": 4.1
  },
  {
   "w": "the",
-  "start": 4.12,
+  "start": 4.1,
   "end": 4.32
  },
  {
   "w": "ladder",
   "start": 4.32,
-  "end": 4.52
+  "end": 4.54
  },
  {
   "w": "is",
-  "start": 4.52,
-  "end": 4.76
+  "start": 4.54,
+  "end": 4.78
  },
  {
   "w": "by",
-  "start": 4.76,
+  "start": 4.78,
   "end": 4.92
  },
  {
   "w": "the",
   "start": 4.92,
-  "end": 5.02
+  "end": 5.04
  },
  {
   "w": "barn.",
-  "start": 5.02,
+  "start": 5.04,
   "end": 5.22
  },
  {
   "w": "Tuesday,",
-  "start": 5.64,
+  "start": 5.6,
   "end": 5.74
  },
  {
@@ -112,16 +112,16 @@
  {
   "w": "wall.",
   "start": 6.56,
-  "end": 6.76
+  "end": 6.8
  },
  {
   "w": "Wednesday,",
-  "start": 7.48,
-  "end": 7.48
+  "start": 7.18,
+  "end": 7.36
  },
  {
   "w": "it",
-  "start": 7.48,
+  "start": 7.36,
   "end": 7.76
  },
  {
@@ -132,11 +132,11 @@
  {
   "w": "on",
   "start": 7.86,
-  "end": 8.0
+  "end": 7.98
  },
  {
   "w": "the",
-  "start": 8.0,
+  "start": 7.98,
   "end": 8.1
  },
  {
@@ -145,308 +145,428 @@
   "end": 8.26
  },
  {
-  "w": "The",
-  "start": 9.02,
-  "end": 9.04
+  "w": "Each",
+  "start": 8.96,
+  "end": 9.08
  },
  {
-  "w": "farmer",
-  "start": 9.04,
-  "end": 9.24
- },
- {
-  "w": "sets",
-  "start": 9.24,
-  "end": 9.56
- },
- {
-  "w": "a",
-  "start": 9.56,
-  "end": 9.68
- },
- {
-  "w": "camera.",
-  "start": 9.68,
-  "end": 9.98
- },
- {
-  "w": "Three",
-  "start": 9.98,
-  "end": 10.3
- },
- {
-  "w": "in",
-  "start": 10.3,
-  "end": 10.44
+  "w": "night",
+  "start": 9.08,
+  "end": 9.32
  },
  {
   "w": "the",
-  "start": 10.44,
-  "end": 10.52
- },
- {
-  "w": "morning.",
-  "start": 10.52,
-  "end": 10.78
- },
- {
-  "w": "The",
-  "start": 11.08,
-  "end": 11.18
- },
- {
-  "w": "footage",
-  "start": 11.18,
-  "end": 11.32
- },
- {
-  "w": "shakes.",
-  "start": 11.32,
-  "end": 11.68
- },
- {
-  "w": "A",
-  "start": 12.5,
-  "end": 12.52
- },
- {
-  "w": "shape",
-  "start": 12.52,
-  "end": 12.7
- },
- {
-  "w": "steps",
-  "start": 12.7,
-  "end": 13.0
- },
- {
-  "w": "into",
-  "start": 13.0,
-  "end": 13.22
- },
- {
-  "w": "the",
-  "start": 13.22,
-  "end": 13.36
- },
- {
-  "w": "frame.",
-  "start": 13.36,
-  "end": 13.64
- },
- {
-  "w": "Small.",
-  "start": 14.06,
-  "end": 14.26
- },
- {
-  "w": "Patient.",
-  "start": 14.54,
-  "end": 14.76
- },
- {
-  "w": "Not",
-  "start": 15.06,
-  "end": 15.18
- },
- {
-  "w": "afraid",
-  "start": 15.18,
-  "end": 15.42
- },
- {
-  "w": "at",
-  "start": 15.42,
-  "end": 15.64
- },
- {
-  "w": "all.",
-  "start": 15.64,
-  "end": 15.82
- },
- {
-  "w": "It",
-  "start": 16.52,
-  "end": 16.58
- },
- {
-  "w": "looks",
-  "start": 16.58,
-  "end": 16.72
- },
- {
-  "w": "straight",
-  "start": 16.72,
-  "end": 17.0
- },
- {
-  "w": "into",
-  "start": 17.0,
-  "end": 17.2
- },
- {
-  "w": "the",
-  "start": 17.2,
-  "end": 17.34
- },
- {
-  "w": "lens.",
-  "start": 17.34,
-  "end": 17.56
- },
- {
-  "w": "It",
-  "start": 17.92,
-  "end": 17.98
- },
- {
-  "w": "is",
-  "start": 17.98,
-  "end": 18.12
- },
- {
-  "w": "a",
-  "start": 18.12,
-  "end": 18.2
- },
- {
-  "w": "goat.",
-  "start": 18.2,
-  "end": 18.36
- },
- {
-  "w": "Goats",
-  "start": 19.24,
-  "end": 19.38
- },
- {
-  "w": "are",
-  "start": 19.38,
-  "end": 19.48
- },
- {
-  "w": "famously",
-  "start": 19.48,
-  "end": 19.92
- },
- {
-  "w": "agile",
-  "start": 19.92,
-  "end": 20.24
- },
- {
-  "w": "climbers,",
-  "start": 20.24,
-  "end": 20.72
- },
- {
-  "w": "and",
-  "start": 20.72,
-  "end": 21.0
- },
- {
-  "w": "some",
-  "start": 21.0,
-  "end": 21.18
- },
- {
-  "w": "even",
-  "start": 21.18,
-  "end": 21.38
- },
- {
-  "w": "climb",
-  "start": 21.38,
-  "end": 21.62
- },
- {
-  "w": "trees.",
-  "start": 21.62,
-  "end": 21.94
- },
- {
-  "w": "To",
-  "start": 22.6,
-  "end": 22.7
- },
- {
-  "w": "a",
-  "start": 22.7,
-  "end": 22.8
- },
- {
-  "w": "goat,",
-  "start": 22.8,
-  "end": 22.98
- },
- {
-  "w": "a",
-  "start": 23.28,
-  "end": 23.3
+  "start": 9.32,
+  "end": 9.5
  },
  {
   "w": "ladder",
-  "start": 23.3,
-  "end": 23.5
+  "start": 9.5,
+  "end": 9.7
  },
  {
-  "w": "is",
-  "start": 23.5,
-  "end": 23.8
- },
- {
-  "w": "just",
-  "start": 23.8,
-  "end": 23.98
+  "w": "goes",
+  "start": 9.7,
+  "end": 9.98
  },
  {
   "w": "a",
-  "start": 23.98,
-  "end": 24.12
+  "start": 9.98,
+  "end": 10.1
  },
  {
-  "w": "lazy",
-  "start": 24.12,
-  "end": 24.26
+  "w": "little",
+  "start": 10.1,
+  "end": 10.24
  },
  {
-  "w": "tree.",
-  "start": 24.26,
-  "end": 24.62
+  "w": "higher.",
+  "start": 10.24,
+  "end": 10.5
  },
  {
-  "w": "Thursday.",
-  "start": 25.2,
-  "end": 25.66
+  "w": "Each",
+  "start": 11.08,
+  "end": 11.14
  },
  {
-  "w": "The",
-  "start": 25.66,
-  "end": 25.86
- },
- {
-  "w": "camera",
-  "start": 25.86,
-  "end": 26.14
- },
- {
-  "w": "is",
-  "start": 26.14,
-  "end": 26.4
- },
- {
-  "w": "on",
-  "start": 26.4,
-  "end": 26.56
+  "w": "morning",
+  "start": 11.14,
+  "end": 11.44
  },
  {
   "w": "the",
-  "start": 26.56,
-  "end": 26.68
+  "start": 11.44,
+  "end": 11.64
+ },
+ {
+  "w": "farmer",
+  "start": 11.64,
+  "end": 11.86
+ },
+ {
+  "w": "checks",
+  "start": 11.86,
+  "end": 12.18
+ },
+ {
+  "w": "the",
+  "start": 12.18,
+  "end": 12.4
+ },
+ {
+  "w": "knots",
+  "start": 12.4,
+  "end": 12.6
+ },
+ {
+  "w": "on",
+  "start": 12.6,
+  "end": 12.86
+ },
+ {
+  "w": "the",
+  "start": 12.86,
+  "end": 12.94
+ },
+ {
+  "w": "barn",
+  "start": 12.94,
+  "end": 13.18
+ },
+ {
+  "w": "door.",
+  "start": 13.18,
+  "end": 13.42
+ },
+ {
+  "w": "It",
+  "start": 13.78,
+  "end": 13.88
+ },
+ {
+  "w": "does",
+  "start": 13.88,
+  "end": 13.96
+ },
+ {
+  "w": "not",
+  "start": 13.96,
+  "end": 14.14
+ },
+ {
+  "w": "help.",
+  "start": 14.14,
+  "end": 14.4
+ },
+ {
+  "w": "So",
+  "start": 15.08,
+  "end": 15.16
+ },
+ {
+  "w": "the",
+  "start": 15.16,
+  "end": 15.26
+ },
+ {
+  "w": "farmer",
+  "start": 15.26,
+  "end": 15.44
+ },
+ {
+  "w": "sets",
+  "start": 15.44,
+  "end": 15.78
+ },
+ {
+  "w": "a",
+  "start": 15.78,
+  "end": 15.9
+ },
+ {
+  "w": "camera.",
+  "start": 15.9,
+  "end": 16.14
+ },
+ {
+  "w": "Three",
+  "start": 16.14,
+  "end": 16.5
+ },
+ {
+  "w": "in",
+  "start": 16.5,
+  "end": 16.64
+ },
+ {
+  "w": "the",
+  "start": 16.64,
+  "end": 16.72
+ },
+ {
+  "w": "morning.",
+  "start": 16.72,
+  "end": 16.98
+ },
+ {
+  "w": "The",
+  "start": 17.18,
+  "end": 17.28
+ },
+ {
+  "w": "footage",
+  "start": 17.28,
+  "end": 17.42
+ },
+ {
+  "w": "shakes.",
+  "start": 17.42,
+  "end": 17.8
+ },
+ {
+  "w": "A",
+  "start": 18.6,
+  "end": 18.62
+ },
+ {
+  "w": "shape",
+  "start": 18.62,
+  "end": 18.8
+ },
+ {
+  "w": "steps",
+  "start": 18.8,
+  "end": 19.1
+ },
+ {
+  "w": "into",
+  "start": 19.1,
+  "end": 19.32
+ },
+ {
+  "w": "the",
+  "start": 19.32,
+  "end": 19.46
+ },
+ {
+  "w": "frame.",
+  "start": 19.46,
+  "end": 19.72
+ },
+ {
+  "w": "Small.",
+  "start": 20.14,
+  "end": 20.36
+ },
+ {
+  "w": "Patient.",
+  "start": 20.68,
+  "end": 20.82
+ },
+ {
+  "w": "Not",
+  "start": 21.2,
+  "end": 21.26
+ },
+ {
+  "w": "afraid",
+  "start": 21.26,
+  "end": 21.5
+ },
+ {
+  "w": "at",
+  "start": 21.5,
+  "end": 21.74
+ },
+ {
+  "w": "all.",
+  "start": 21.74,
+  "end": 21.94
+ },
+ {
+  "w": "It",
+  "start": 22.58,
+  "end": 22.68
+ },
+ {
+  "w": "looks",
+  "start": 22.68,
+  "end": 22.82
+ },
+ {
+  "w": "straight",
+  "start": 22.82,
+  "end": 23.1
+ },
+ {
+  "w": "into",
+  "start": 23.1,
+  "end": 23.28
+ },
+ {
+  "w": "the",
+  "start": 23.28,
+  "end": 23.44
+ },
+ {
+  "w": "lens.",
+  "start": 23.44,
+  "end": 23.64
+ },
+ {
+  "w": "It",
+  "start": 23.98,
+  "end": 24.08
+ },
+ {
+  "w": "is",
+  "start": 24.08,
+  "end": 24.2
+ },
+ {
+  "w": "a",
+  "start": 24.2,
+  "end": 24.28
+ },
+ {
+  "w": "goat.",
+  "start": 24.28,
+  "end": 24.48
+ },
+ {
+  "w": "Goats",
+  "start": 25.28,
+  "end": 25.48
+ },
+ {
+  "w": "are",
+  "start": 25.48,
+  "end": 25.58
+ },
+ {
+  "w": "famously",
+  "start": 25.58,
+  "end": 25.96
+ },
+ {
+  "w": "agile",
+  "start": 25.96,
+  "end": 26.34
+ },
+ {
+  "w": "climbers,",
+  "start": 26.34,
+  "end": 26.78
+ },
+ {
+  "w": "and",
+  "start": 26.78,
+  "end": 27.1
+ },
+ {
+  "w": "some",
+  "start": 27.1,
+  "end": 27.28
+ },
+ {
+  "w": "even",
+  "start": 27.28,
+  "end": 27.5
+ },
+ {
+  "w": "climb",
+  "start": 27.5,
+  "end": 27.72
+ },
+ {
+  "w": "trees.",
+  "start": 27.72,
+  "end": 28.02
+ },
+ {
+  "w": "To",
+  "start": 28.02,
+  "end": 28.78
+ },
+ {
+  "w": "a",
+  "start": 28.78,
+  "end": 28.88
+ },
+ {
+  "w": "goat,",
+  "start": 28.88,
+  "end": 29.08
+ },
+ {
+  "w": "a",
+  "start": 29.36,
+  "end": 29.4
+ },
+ {
+  "w": "ladder",
+  "start": 29.4,
+  "end": 29.62
+ },
+ {
+  "w": "is",
+  "start": 29.62,
+  "end": 29.9
+ },
+ {
+  "w": "just",
+  "start": 29.9,
+  "end": 30.06
+ },
+ {
+  "w": "a",
+  "start": 30.06,
+  "end": 30.2
+ },
+ {
+  "w": "lazy",
+  "start": 30.2,
+  "end": 30.44
+ },
+ {
+  "w": "tree.",
+  "start": 30.44,
+  "end": 30.74
+ },
+ {
+  "w": "Thursday.",
+  "start": 31.36,
+  "end": 31.66
+ },
+ {
+  "w": "The",
+  "start": 31.66,
+  "end": 31.96
+ },
+ {
+  "w": "camera",
+  "start": 31.96,
+  "end": 32.22
+ },
+ {
+  "w": "is",
+  "start": 32.22,
+  "end": 32.5
+ },
+ {
+  "w": "on",
+  "start": 32.5,
+  "end": 32.64
+ },
+ {
+  "w": "the",
+  "start": 32.64,
+  "end": 32.78
  },
  {
   "w": "roof.",
-  "start": 26.68,
-  "end": 26.86
+  "start": 32.78,
+  "end": 32.94
  }
 ]
