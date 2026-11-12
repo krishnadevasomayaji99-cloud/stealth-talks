@@ -18,5 +18,10 @@
   "at": "2026-11-09T13:29:51.209501+00:00",
   "key": "ST-20261109-launch-day-dave",
   "msg": "failed_before_upload: processing timeout"
+ },
+ {
+  "at": "2026-11-12T09:45:34.477470+00:00",
+  "key": "ST-20261110-n-fancy-cafe",
+  "msg": "failed_before_upload: processing timeout"
  }
 ]

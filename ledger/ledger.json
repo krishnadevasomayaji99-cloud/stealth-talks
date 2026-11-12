@@ -206,10 +206,12 @@
    "state": "verified"
   },
   {
+   "container": "18003509699822257",
    "key": "ST-20261110-n-fancy-cafe",
    "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
    "started_at": "2026-11-12T09:33:07.571958+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
