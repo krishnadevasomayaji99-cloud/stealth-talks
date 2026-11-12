@@ -1,18 +1,18 @@
 {
- "sha256": "2e6c84451fe4067ffd3ed83d15d1f11f5f6516c3faacb2a37f35b60dacf9c637",
+ "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
  "audio": {
   "lufs": -15.6,
-  "true_peak_dbtp": -1.6,
+  "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 29.27,
+  "duration_s": 32.43,
   "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.061,
-  "expected_words": 82,
-  "heard_words": 82,
+  "approx_wer": 0.054,
+  "expected_words": 92,
+  "heard_words": 92,
   "missing_or_wrong": [
    "then",
    "guildhalls",

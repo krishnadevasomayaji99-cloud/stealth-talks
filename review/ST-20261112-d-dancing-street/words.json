@@ -5,408 +5,458 @@
   "end": 0.32
  },
  {
-  "w": "woman",
+  "w": "narrow",
   "start": 0.32,
-  "end": 0.5
+  "end": 0.46
  },
  {
-  "w": "steps",
-  "start": 0.5,
-  "end": 0.78
+  "w": "street,",
+  "start": 0.46,
+  "end": 0.9
  },
  {
-  "w": "into",
-  "start": 0.78,
+  "w": "in",
+  "start": 0.9,
   "end": 1.1
  },
  {
-  "w": "a",
+  "w": "the",
   "start": 1.1,
-  "end": 1.2
+  "end": 1.18
  },
  {
-  "w": "street",
-  "start": 1.2,
-  "end": 1.42
+  "w": "summer",
+  "start": 1.18,
+  "end": 1.36
  },
  {
-  "w": "and",
-  "start": 1.42,
-  "end": 1.74
- },
- {
-  "w": "cannot",
-  "start": 1.74,
-  "end": 1.92
- },
- {
-  "w": "stop",
-  "start": 1.92,
-  "end": 2.34
- },
- {
-  "w": "moving.",
-  "start": 2.34,
-  "end": 2.7
- },
- {
-  "w": "No",
-  "start": 3.38,
-  "end": 3.54
- },
- {
-  "w": "music.",
-  "start": 3.54,
-  "end": 3.9
- },
- {
-  "w": "No",
-  "start": 4.04,
-  "end": 4.18
- },
- {
-  "w": "reason.",
-  "start": 4.18,
-  "end": 4.54
- },
- {
-  "w": "One",
-  "start": 4.8,
-  "end": 4.9
- },
- {
-  "w": "day",
-  "start": 4.9,
-  "end": 5.1
- },
- {
-  "w": "goes",
-  "start": 5.1,
-  "end": 5.32
- },
- {
-  "w": "by.",
-  "start": 5.32,
-  "end": 5.56
- },
- {
-  "w": "Then",
-  "start": 5.56,
-  "end": 5.826
- },
- {
-  "w": "another.",
-  "start": 5.84,
-  "end": 6.12
- },
- {
-  "w": "Within",
-  "start": 6.72,
-  "end": 6.88
- },
- {
-  "w": "days,",
-  "start": 6.88,
-  "end": 7.2
- },
- {
-  "w": "dozens",
-  "start": 7.2,
-  "end": 7.52
- },
- {
-  "w": "of",
-  "start": 7.52,
-  "end": 7.78
- },
- {
-  "w": "strangers",
-  "start": 7.78,
-  "end": 8.02
- },
- {
-  "w": "have",
-  "start": 8.02,
-  "end": 8.44
- },
- {
-  "w": "joined",
-  "start": 8.44,
-  "end": 8.68
- },
- {
-  "w": "her.",
-  "start": 8.68,
-  "end": 8.9
- },
- {
-  "w": "By",
-  "start": 9.36,
-  "end": 9.4
- },
- {
-  "w": "August,",
-  "start": 9.4,
-  "end": 9.68
- },
- {
-  "w": "hundreds.",
-  "start": 9.88,
-  "end": 10.18
- },
- {
-  "w": "They",
-  "start": 10.58,
-  "end": 10.7
- },
- {
-  "w": "dance",
-  "start": 10.7,
-  "end": 10.86
- },
- {
-  "w": "for",
-  "start": 10.86,
-  "end": 11.14
- },
- {
-  "w": "days,",
-  "start": 11.14,
-  "end": 11.36
+  "w": "heat,",
+  "start": 1.36,
+  "end": 1.66
  },
  {
   "w": "with",
-  "start": 11.36,
-  "end": 11.66
+  "start": 1.66,
+  "end": 1.98
  },
  {
-  "w": "barely",
-  "start": 11.66,
-  "end": 11.92
+  "w": "no",
+  "start": 1.98,
+  "end": 2.2
  },
  {
-  "w": "any",
-  "start": 11.92,
-  "end": 12.2
+  "w": "music",
+  "start": 2.2,
+  "end": 2.58
  },
  {
-  "w": "rest.",
-  "start": 12.2,
-  "end": 12.42
+  "w": "anywhere.",
+  "start": 2.58,
+  "end": 2.84
  },
  {
-  "w": "The",
-  "start": 13.16,
-  "end": 13.24
+  "w": "A",
+  "start": 3.66,
+  "end": 3.72
  },
  {
-  "w": "doctors",
-  "start": 13.24,
-  "end": 13.52
+  "w": "woman",
+  "start": 3.72,
+  "end": 3.94
  },
  {
-  "w": "rule",
-  "start": 13.52,
-  "end": 13.9
+  "w": "steps",
+  "start": 3.94,
+  "end": 4.22
  },
  {
-  "w": "out",
-  "start": 13.9,
-  "end": 14.1
- },
- {
-  "w": "the",
-  "start": 14.1,
-  "end": 14.22
- },
- {
-  "w": "stars.",
-  "start": 14.22,
-  "end": 14.46
- },
- {
-  "w": "They",
-  "start": 14.92,
-  "end": 15.0
- },
- {
-  "w": "blame",
-  "start": 15.0,
-  "end": 15.2
- },
- {
-  "w": "overheated",
-  "start": 15.2,
-  "end": 15.88
- },
- {
-  "w": "blood.",
-  "start": 15.88,
-  "end": 16.14
- },
- {
-  "w": "So",
-  "start": 16.82,
-  "end": 16.94
- },
- {
-  "w": "the",
-  "start": 16.94,
-  "end": 17.04
- },
- {
-  "w": "city",
-  "start": 17.04,
-  "end": 17.22
- },
- {
-  "w": "makes",
-  "start": 17.22,
-  "end": 17.5
- },
- {
-  "w": "a",
-  "start": 17.5,
-  "end": 17.62
- },
- {
-  "w": "choice.",
-  "start": 17.62,
-  "end": 17.9
- },
- {
-  "w": "It",
-  "start": 18.3,
-  "end": 18.4
- },
- {
-  "w": "opens",
-  "start": 18.4,
-  "end": 18.68
- },
- {
-  "w": "the",
-  "start": 18.68,
-  "end": 18.92
- },
- {
-  "w": "guildhalls.",
-  "start": 18.92,
-  "end": 19.984
- },
- {
-  "w": "Then",
-  "start": 20.04,
-  "end": 20.18
+  "w": "into",
+  "start": 4.22,
+  "end": 4.6
  },
  {
   "w": "it",
-  "start": 20.18,
-  "end": 20.3
+  "start": 4.6,
+  "end": 4.74
  },
  {
-  "w": "hires",
-  "start": 20.3,
-  "end": 20.48
+  "w": "and",
+  "start": 4.74,
+  "end": 4.94
  },
  {
-  "w": "musicians.",
-  "start": 20.48,
-  "end": 20.84
+  "w": "cannot",
+  "start": 4.94,
+  "end": 5.1
  },
  {
-  "w": "Nobody",
-  "start": 22.02,
-  "end": 22.34
+  "w": "stop",
+  "start": 5.1,
+  "end": 5.5
  },
  {
-  "w": "has",
-  "start": 22.34,
-  "end": 22.58
+  "w": "moving.",
+  "start": 5.5,
+  "end": 5.86
  },
  {
-  "w": "ever",
-  "start": 22.58,
-  "end": 22.86
+  "w": "No",
+  "start": 6.56,
+  "end": 6.7
  },
  {
-  "w": "agreed",
-  "start": 22.86,
-  "end": 23.16
+  "w": "music.",
+  "start": 6.7,
+  "end": 7.08
  },
  {
-  "w": "on",
-  "start": 23.16,
-  "end": 23.36
+  "w": "No",
+  "start": 7.22,
+  "end": 7.36
  },
  {
-  "w": "what",
-  "start": 23.36,
-  "end": 23.52
+  "w": "reason.",
+  "start": 7.36,
+  "end": 7.7
  },
  {
-  "w": "caused",
-  "start": 23.52,
-  "end": 23.8
+  "w": "One",
+  "start": 8.0,
+  "end": 8.08
  },
  {
-  "w": "it.",
-  "start": 23.8,
-  "end": 24.0
+  "w": "day",
+  "start": 8.08,
+  "end": 8.26
+ },
+ {
+  "w": "goes",
+  "start": 8.26,
+  "end": 8.5
+ },
+ {
+  "w": "by.",
+  "start": 8.5,
+  "end": 8.74
+ },
+ {
+  "w": "Then",
+  "start": 8.74,
+  "end": 9.006
+ },
+ {
+  "w": "another.",
+  "start": 9.02,
+  "end": 9.28
+ },
+ {
+  "w": "Within",
+  "start": 9.86,
+  "end": 10.06
+ },
+ {
+  "w": "days,",
+  "start": 10.06,
+  "end": 10.4
+ },
+ {
+  "w": "dozens",
+  "start": 10.56,
+  "end": 10.72
+ },
+ {
+  "w": "of",
+  "start": 10.72,
+  "end": 10.96
+ },
+ {
+  "w": "strangers",
+  "start": 10.96,
+  "end": 11.2
+ },
+ {
+  "w": "have",
+  "start": 11.2,
+  "end": 11.62
+ },
+ {
+  "w": "joined",
+  "start": 11.62,
+  "end": 11.82
+ },
+ {
+  "w": "her.",
+  "start": 11.82,
+  "end": 12.08
+ },
+ {
+  "w": "By",
+  "start": 12.54,
+  "end": 12.58
+ },
+ {
+  "w": "August,",
+  "start": 12.58,
+  "end": 12.86
+ },
+ {
+  "w": "hundreds.",
+  "start": 12.86,
+  "end": 13.2
+ },
+ {
+  "w": "They",
+  "start": 13.78,
+  "end": 13.88
+ },
+ {
+  "w": "dance",
+  "start": 13.88,
+  "end": 14.02
+ },
+ {
+  "w": "for",
+  "start": 14.02,
+  "end": 14.32
+ },
+ {
+  "w": "days,",
+  "start": 14.32,
+  "end": 14.52
+ },
+ {
+  "w": "with",
+  "start": 14.52,
+  "end": 14.84
+ },
+ {
+  "w": "barely",
+  "start": 14.84,
+  "end": 15.12
+ },
+ {
+  "w": "any",
+  "start": 15.12,
+  "end": 15.36
+ },
+ {
+  "w": "rest.",
+  "start": 15.36,
+  "end": 15.6
  },
  {
   "w": "The",
-  "start": 24.0,
-  "end": 24.36
+  "start": 16.34,
+  "end": 16.4
+ },
+ {
+  "w": "doctors",
+  "start": 16.4,
+  "end": 16.66
+ },
+ {
+  "w": "rule",
+  "start": 16.66,
+  "end": 17.08
+ },
+ {
+  "w": "out",
+  "start": 17.08,
+  "end": 17.28
+ },
+ {
+  "w": "the",
+  "start": 17.28,
+  "end": 17.4
+ },
+ {
+  "w": "stars.",
+  "start": 17.4,
+  "end": 17.64
+ },
+ {
+  "w": "They",
+  "start": 18.12,
+  "end": 18.18
+ },
+ {
+  "w": "blame",
+  "start": 18.18,
+  "end": 18.38
+ },
+ {
+  "w": "overheated",
+  "start": 18.38,
+  "end": 19.06
+ },
+ {
+  "w": "blood.",
+  "start": 19.06,
+  "end": 19.32
+ },
+ {
+  "w": "So",
+  "start": 19.98,
+  "end": 20.1
+ },
+ {
+  "w": "the",
+  "start": 20.1,
+  "end": 20.22
  },
  {
   "w": "city",
-  "start": 24.36,
-  "end": 24.56
+  "start": 20.22,
+  "end": 20.4
+ },
+ {
+  "w": "makes",
+  "start": 20.4,
+  "end": 20.66
+ },
+ {
+  "w": "a",
+  "start": 20.66,
+  "end": 20.82
+ },
+ {
+  "w": "choice.",
+  "start": 20.82,
+  "end": 21.08
+ },
+ {
+  "w": "It",
+  "start": 21.48,
+  "end": 21.58
+ },
+ {
+  "w": "opens",
+  "start": 21.58,
+  "end": 21.84
+ },
+ {
+  "w": "the",
+  "start": 21.84,
+  "end": 22.1
+ },
+ {
+  "w": "guildhalls.",
+  "start": 22.1,
+  "end": 23.164
+ },
+ {
+  "w": "Then",
+  "start": 23.22,
+  "end": 23.36
+ },
+ {
+  "w": "it",
+  "start": 23.36,
+  "end": 23.46
+ },
+ {
+  "w": "hires",
+  "start": 23.46,
+  "end": 23.68
+ },
+ {
+  "w": "musicians.",
+  "start": 23.68,
+  "end": 24.04
+ },
+ {
+  "w": "Nobody",
+  "start": 25.14,
+  "end": 25.52
+ },
+ {
+  "w": "has",
+  "start": 25.52,
+  "end": 25.76
+ },
+ {
+  "w": "ever",
+  "start": 25.76,
+  "end": 26.06
+ },
+ {
+  "w": "agreed",
+  "start": 26.06,
+  "end": 26.34
+ },
+ {
+  "w": "on",
+  "start": 26.34,
+  "end": 26.52
+ },
+ {
+  "w": "what",
+  "start": 26.52,
+  "end": 26.68
+ },
+ {
+  "w": "caused",
+  "start": 26.68,
+  "end": 26.98
+ },
+ {
+  "w": "it.",
+  "start": 26.98,
+  "end": 27.18
+ },
+ {
+  "w": "The",
+  "start": 27.18,
+  "end": 27.54
+ },
+ {
+  "w": "city",
+  "start": 27.54,
+  "end": 27.74
  },
  {
   "w": "was",
-  "start": 24.56,
-  "end": 24.76
+  "start": 27.74,
+  "end": 27.94
  },
  {
   "w": "Strasbourg.",
-  "start": 24.76,
-  "end": 25.596
+  "start": 27.94,
+  "end": 28.757
  },
  {
   "w": "This",
-  "start": 25.64,
-  "end": 25.82
+  "start": 28.8,
+  "end": 29.0
  },
  {
   "w": "was",
-  "start": 25.82,
-  "end": 26.02
+  "start": 29.0,
+  "end": 29.18
  },
  {
   "w": "over",
-  "start": 26.02,
-  "end": 26.22
+  "start": 29.18,
+  "end": 29.4
  },
  {
   "w": "five",
-  "start": 26.22,
-  "end": 26.382
+  "start": 29.4,
+  "end": 29.571
  },
  {
   "w": "hundred",
-  "start": 26.39,
-  "end": 26.552
+  "start": 29.58,
+  "end": 29.751
  },
  {
   "w": "years",
-  "start": 26.56,
-  "end": 26.92
+  "start": 29.76,
+  "end": 30.1
  },
  {
   "w": "ago.",
-  "start": 26.92,
-  "end": 27.24
+  "start": 30.1,
+  "end": 30.42
  }
 ]
