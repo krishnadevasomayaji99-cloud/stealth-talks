@@ -233,6 +233,12 @@
    "started_at": "2026-11-12T12:33:07.895473+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261110-snooze-levels",
+   "sha256": "635a21a3cb567f958f7a691d3cb42f0f7dd8b3ac4891d814cd39c3192b8f2499",
+   "started_at": "2026-11-12T17:34:07.829596+00:00",
+   "state": "uploading"
   }
  ]
 }
