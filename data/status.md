@@ -1,5 +1,6 @@
-# Status (morning run 2026-11-12 ~04:00 London, Claude)
-- Health: last 24 h OK (publish/flagger/watchdog green; molasses-wave retried and verified 21:24). No new alerts. READY: n-fancy-cafe, one-sec, snooze-levels, penguin-lock-in (4, covers today's slots; 0 spare).
-- Built (story-craft, 4 styles/4 genres, briefs pass): a-kryptos (noir, true_story; audio now passes after removing spoken years), b-ladder-cam (crt, found_footage; extended to >30 s, rebuild in progress), c-tomato-timer (notebook, horror_comedy), d-dancing-street (comic, mystery). Frames reviewed, audio reports pass for a/c/d.
-- BLOCKER: caption fact-check cannot be done: WebFetch/web-fetch agent got PROVENANCE_REQUIRED on every Wikipedia page, WebSearch gives titles only. Per rules NOTHING approved. Also a Scientific American title ("How the CIA's Kryptos Sculpture Gave Up Its Final Secret") suggests K4 may have been solved recently: a-kryptos caption/script ("fourth kept guessing") must be re-checked before approval. Evening run: retry fetches, then approve b/c/d (and a only if facts hold) with scripts/approve.py, confirm gate READY.
-- Learned/changed: logged in playbook.md (12 Nov).
+# Status (morning run, finished ~14:00 London 2026-11-12, Claude)
+- Health OK (all workflows green; one transient make-reel model-download failure rerun fine).
+- Fact-check unblocked after a second fetch: Kryptos script/caption updated (K4 plaintext surfaced Sept 2025, Sanborn confirmed), dancing plague corrected (overheated blood, no stage claim, 50-400 dancers), Pomodoro break wording.
+- READY new-craft: a-kryptos (noir), b-ladder-cam (crt), c-tomato-timer (notebook), d-dancing-street (comic) + 4 older (n-fancy-cafe, one-sec, snooze-levels, penguin-lock-in) = 8 READY. Audio gates pass (LUFS ~-15.5, tp <= -1.6).
+- Learned: spoken years/numbers inflate WER; add closing sfx when tail silence >0.5 s; check duration >=30 s before approving.
+- Next: evening watchdog verifies slots posted, tops up spares.

@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "210882decc032c5205eb4dd20ea21ee9ddc5ed768fc39dc2de39a4ee6662d276",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:50:29.191796+00:00",
+  "note": "script read; goat reveal withheld to 70%+; frames reviewed (not full playback)",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "210882decc032c5205eb4dd20ea21ee9ddc5ed768fc39dc2de39a4ee6662d276",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:50:29.252588+00:00",
+  "note": "17-frame sheet reviewed: crt found-footage look, captions legible; frames viewed, not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "bb35d8bffe5a6ef1569165c08d66742c9ffbafa403d71fb7d1058ad1aabaee09",
+  "by": "Claude (model)",
+  "at": "2026-11-12T13:50:29.306091+00:00",
+  "note": "checked 12 Nov 2026 vs opened Wikipedia Goat: agile climbers able to balance in precarious places, climb trees; farm/camera/goat story labelled fictional",
+  "listened": false
+ }
+}
