@@ -1,0 +1,577 @@
+[
+ {
+  "w": "A",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "w": "painting",
+  "start": 0.34,
+  "end": 0.6
+ },
+ {
+  "w": "vanished",
+  "start": 0.6,
+  "end": 0.94
+ },
+ {
+  "w": "from",
+  "start": 0.94,
+  "end": 1.34
+ },
+ {
+  "w": "the",
+  "start": 1.34,
+  "end": 1.46
+ },
+ {
+  "w": "Louvre,",
+  "start": 1.46,
+  "end": 1.86
+ },
+ {
+  "w": "and",
+  "start": 1.86,
+  "end": 2.0
+ },
+ {
+  "w": "nobody",
+  "start": 2.0,
+  "end": 2.26
+ },
+ {
+  "w": "noticed",
+  "start": 2.26,
+  "end": 2.68
+ },
+ {
+  "w": "for",
+  "start": 2.68,
+  "end": 2.92
+ },
+ {
+  "w": "a",
+  "start": 2.92,
+  "end": 3.04
+ },
+ {
+  "w": "day.",
+  "start": 3.04,
+  "end": 3.24
+ },
+ {
+  "w": "Sunday",
+  "start": 3.78,
+  "end": 4.02
+ },
+ {
+  "w": "night,",
+  "start": 4.02,
+  "end": 4.32
+ },
+ {
+  "w": "a",
+  "start": 4.54,
+  "end": 4.56
+ },
+ {
+  "w": "man",
+  "start": 4.56,
+  "end": 4.76
+ },
+ {
+  "w": "slipped",
+  "start": 4.76,
+  "end": 5.02
+ },
+ {
+  "w": "into",
+  "start": 5.02,
+  "end": 5.34
+ },
+ {
+  "w": "a",
+  "start": 5.34,
+  "end": 5.46
+ },
+ {
+  "w": "storage",
+  "start": 5.46,
+  "end": 5.64
+ },
+ {
+  "w": "closet",
+  "start": 5.64,
+  "end": 6.08
+ },
+ {
+  "w": "and",
+  "start": 6.08,
+  "end": 6.48
+ },
+ {
+  "w": "waited.",
+  "start": 6.48,
+  "end": 6.68
+ },
+ {
+  "w": "At",
+  "start": 7.46,
+  "end": 7.52
+ },
+ {
+  "w": "dawn",
+  "start": 7.52,
+  "end": 7.74
+ },
+ {
+  "w": "he",
+  "start": 7.94,
+  "end": 8.0
+ },
+ {
+  "w": "walked",
+  "start": 8.0,
+  "end": 8.16
+ },
+ {
+  "w": "out,",
+  "start": 8.16,
+  "end": 8.46
+ },
+ {
+  "w": "lifted",
+  "start": 8.68,
+  "end": 8.94
+ },
+ {
+  "w": "the",
+  "start": 8.94,
+  "end": 9.12
+ },
+ {
+  "w": "painting",
+  "start": 9.12,
+  "end": 9.4
+ },
+ {
+  "w": "off",
+  "start": 9.4,
+  "end": 9.62
+ },
+ {
+  "w": "the",
+  "start": 9.62,
+  "end": 9.76
+ },
+ {
+  "w": "wall,",
+  "start": 9.76,
+  "end": 9.98
+ },
+ {
+  "w": "and",
+  "start": 9.98,
+  "end": 10.2
+ },
+ {
+  "w": "carried",
+  "start": 10.2,
+  "end": 10.46
+ },
+ {
+  "w": "it",
+  "start": 10.46,
+  "end": 10.62
+ },
+ {
+  "w": "to",
+  "start": 10.62,
+  "end": 10.74
+ },
+ {
+  "w": "a",
+  "start": 10.74,
+  "end": 10.8
+ },
+ {
+  "w": "stairwell.",
+  "start": 10.8,
+  "end": 11.24
+ },
+ {
+  "w": "But",
+  "start": 11.74,
+  "end": 11.88
+ },
+ {
+  "w": "the",
+  "start": 11.88,
+  "end": 11.98
+ },
+ {
+  "w": "courtyard",
+  "start": 11.98,
+  "end": 12.18
+ },
+ {
+  "w": "door",
+  "start": 12.18,
+  "end": 12.6
+ },
+ {
+  "w": "was",
+  "start": 12.6,
+  "end": 12.8
+ },
+ {
+  "w": "locked.",
+  "start": 12.8,
+  "end": 13.12
+ },
+ {
+  "w": "He",
+  "start": 13.42,
+  "end": 13.54
+ },
+ {
+  "w": "was",
+  "start": 13.54,
+  "end": 13.64
+ },
+ {
+  "w": "trapped.",
+  "start": 13.64,
+  "end": 13.86
+ },
+ {
+  "w": "A",
+  "start": 14.66,
+  "end": 14.74
+ },
+ {
+  "w": "plumber",
+  "start": 14.74,
+  "end": 15.02
+ },
+ {
+  "w": "saw",
+  "start": 15.02,
+  "end": 15.26
+ },
+ {
+  "w": "him",
+  "start": 15.26,
+  "end": 15.42
+ },
+ {
+  "w": "fighting",
+  "start": 15.42,
+  "end": 15.74
+ },
+ {
+  "w": "the",
+  "start": 15.74,
+  "end": 16.02
+ },
+ {
+  "w": "doorknob",
+  "start": 16.02,
+  "end": 16.42
+ },
+ {
+  "w": "and",
+  "start": 16.42,
+  "end": 16.6
+ },
+ {
+  "w": "opened",
+  "start": 16.6,
+  "end": 16.84
+ },
+ {
+  "w": "it",
+  "start": 16.84,
+  "end": 17.06
+ },
+ {
+  "w": "for",
+  "start": 17.06,
+  "end": 17.22
+ },
+ {
+  "w": "him.",
+  "start": 17.22,
+  "end": 17.4
+ },
+ {
+  "w": "He",
+  "start": 17.82,
+  "end": 17.9
+ },
+ {
+  "w": "thought",
+  "start": 17.9,
+  "end": 18.06
+ },
+ {
+  "w": "the",
+  "start": 18.06,
+  "end": 18.18
+ },
+ {
+  "w": "man",
+  "start": 18.18,
+  "end": 18.38
+ },
+ {
+  "w": "was",
+  "start": 18.38,
+  "end": 18.54
+ },
+ {
+  "w": "a",
+  "start": 18.54,
+  "end": 18.66
+ },
+ {
+  "w": "coworker.",
+  "start": 18.66,
+  "end": 19.705
+ },
+ {
+  "w": "Why?",
+  "start": 19.76,
+  "end": 19.92
+ },
+ {
+  "w": "Because",
+  "start": 20.24,
+  "end": 20.24
+ },
+ {
+  "w": "the",
+  "start": 20.24,
+  "end": 20.42
+ },
+ {
+  "w": "thief",
+  "start": 20.42,
+  "end": 20.68
+ },
+ {
+  "w": "was",
+  "start": 20.68,
+  "end": 20.84
+ },
+ {
+  "w": "wearing",
+  "start": 20.84,
+  "end": 21.1
+ },
+ {
+  "w": "a",
+  "start": 21.1,
+  "end": 21.28
+ },
+ {
+  "w": "white",
+  "start": 21.28,
+  "end": 21.5
+ },
+ {
+  "w": "apron,",
+  "start": 21.5,
+  "end": 21.96
+ },
+ {
+  "w": "just",
+  "start": 22.36,
+  "end": 22.48
+ },
+ {
+  "w": "like",
+  "start": 22.48,
+  "end": 22.68
+ },
+ {
+  "w": "the",
+  "start": 22.68,
+  "end": 22.82
+ },
+ {
+  "w": "museum",
+  "start": 22.82,
+  "end": 22.96
+ },
+ {
+  "w": "staff.",
+  "start": 22.96,
+  "end": 23.48
+ },
+ {
+  "w": "His",
+  "start": 23.96,
+  "end": 24.3
+ },
+ {
+  "w": "name",
+  "start": 24.3,
+  "end": 24.56
+ },
+ {
+  "w": "was",
+  "start": 24.56,
+  "end": 24.78
+ },
+ {
+  "w": "Vincenzo",
+  "start": 24.78,
+  "end": 25.44
+ },
+ {
+  "w": "Peruggia,",
+  "start": 25.44,
+  "end": 26.162
+ },
+ {
+  "w": "a",
+  "start": 26.2,
+  "end": 26.34
+ },
+ {
+  "w": "former",
+  "start": 26.34,
+  "end": 26.58
+ },
+ {
+  "w": "Louvre",
+  "start": 26.58,
+  "end": 26.98
+ },
+ {
+  "w": "handyman.",
+  "start": 26.98,
+  "end": 27.36
+ },
+ {
+  "w": "He",
+  "start": 27.38,
+  "end": 27.92
+ },
+ {
+  "w": "hid",
+  "start": 27.92,
+  "end": 28.06
+ },
+ {
+  "w": "the",
+  "start": 28.06,
+  "end": 28.16
+ },
+ {
+  "w": "painting",
+  "start": 28.16,
+  "end": 28.42
+ },
+ {
+  "w": "for",
+  "start": 28.42,
+  "end": 28.7
+ },
+ {
+  "w": "two",
+  "start": 28.7,
+  "end": 28.9
+ },
+ {
+  "w": "years",
+  "start": 28.9,
+  "end": 29.16
+ },
+ {
+  "w": "before",
+  "start": 29.16,
+  "end": 29.48
+ },
+ {
+  "w": "he",
+  "start": 29.48,
+  "end": 29.68
+ },
+ {
+  "w": "was",
+  "start": 29.68,
+  "end": 29.78
+ },
+ {
+  "w": "arrested",
+  "start": 29.78,
+  "end": 30.06
+ },
+ {
+  "w": "in",
+  "start": 30.06,
+  "end": 30.34
+ },
+ {
+  "w": "Florence.",
+  "start": 30.34,
+  "end": 30.64
+ },
+ {
+  "w": "Tuesday",
+  "start": 31.4,
+  "end": 31.56
+ },
+ {
+  "w": "at",
+  "start": 31.56,
+  "end": 31.86
+ },
+ {
+  "w": "noon,",
+  "start": 31.86,
+  "end": 32.02
+ },
+ {
+  "w": "a",
+  "start": 32.34,
+  "end": 32.38
+ },
+ {
+  "w": "visiting",
+  "start": 32.38,
+  "end": 32.64
+ },
+ {
+  "w": "artist",
+  "start": 32.64,
+  "end": 32.98
+ },
+ {
+  "w": "finally",
+  "start": 32.98,
+  "end": 33.42
+ },
+ {
+  "w": "asked",
+  "start": 33.42,
+  "end": 33.84
+ },
+ {
+  "w": "where",
+  "start": 33.84,
+  "end": 34.16
+ },
+ {
+  "w": "it",
+  "start": 34.16,
+  "end": 34.26
+ },
+ {
+  "w": "was.",
+  "start": 34.26,
+  "end": 34.46
+ }
+]
