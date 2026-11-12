@@ -1,6 +1,6 @@
 window.SCENE=function(a){const {k,ease,outBack,clamp,W,E}=a;const S=window.STYLES.noir;const K=window.KIT;
 const tCIA0=W('cia'),tFour=W('four'),tNSA=W('cracked'),tAn=W('analyst'),tPub=W('gillogly'),tHold=W('fourth'),tBer=W('berlin'),tClk=W('clock'),tKry=W('kryptos'),tEnd=E('decades')+0.3;
-const cues=[{t:0.05,sfx:'pop',gain:0.6},{t:tFour,sfx:'tick',gain:0.7},{t:tNSA,sfx:'whoosh',gain:0.9},{t:tAn,sfx:'click',gain:0.8},{t:tPub,sfx:'chime',gain:0.7},{t:tHold-0.35,sfx:'rise',gain:0.9},{t:tHold,sfx:'thud',gain:1},{t:tBer,sfx:'thud',gain:0.9},{t:tClk,sfx:'tick',gain:0.9},{t:tKry,sfx:'chime',gain:1}];
+const cues=[{t:tEnd-0.2,sfx:'thud',gain:0.8},{t:tEnd+0.5,sfx:'chime',gain:0.7},{t:tEnd+1.1,sfx:'tick',gain:0.6},{t:0.05,sfx:'pop',gain:0.6},{t:tFour,sfx:'tick',gain:0.7},{t:tNSA,sfx:'whoosh',gain:0.9},{t:tAn,sfx:'click',gain:0.8},{t:tPub,sfx:'chime',gain:0.7},{t:tHold-0.35,sfx:'rise',gain:0.9},{t:tHold,sfx:'thud',gain:1},{t:tBer,sfx:'thud',gain:0.9},{t:tClk,sfx:'tick',gain:0.9},{t:tKry,sfx:'chime',gain:1}];
 const solved=t=>[tNSA,tAn,tPub].map(x=>clamp((t-x)/0.8));
 function sculpture(c,t){const sv=solved(t);const px=170,py=470,w=740,h=860;
  c.save();c.shadowColor='rgba(255,200,90,0.5)';c.shadowBlur=40;c.fillStyle='#14313a';c.beginPath();c.moveTo(px,py+30);c.quadraticCurveTo(px+w/2,py-50,px+w,py+30);c.lineTo(px+w,py+h-30);c.quadraticCurveTo(px+w/2,py+h+50,px,py+h-30);c.closePath();c.fill();c.restore();
