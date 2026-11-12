@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:38:00.243533+00:00",
+  "note": "Script read; brief gate rules met (reveal withheld, 3 loops, no banned phrases); duration 36.5 s; 6 frames viewed (not full playback)",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:38:00.292551+00:00",
+  "note": "Contact sheet frames 1.5/7/13/19/25/31 viewed: style distinct (paper/crt), captions legible, reveal visible; audio gate passed (audio_report.json)",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "2ac60a5e1cfa50cf3107d25ebc16f1082212d01a9d3a5039485ce481ea19b226",
+  "by": "Claude (model)",
+  "at": "2026-11-12T18:38:00.360917+00:00",
+  "note": "Checked vs Wikipedia Wow! signal: 15 Aug 1977, Big Ear Ohio State, 72 s window, Ehman circled and wrote Wow!, 6EQUJ5 is intensity over time, Sagittarius, never recurred; cause stated as unconfirmed",
+  "listened": false
+ }
+}
