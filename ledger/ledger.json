@@ -214,10 +214,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003511913822257",
    "key": "ST-20261110-n-fancy-cafe",
+   "media_id": "18133720771756087",
+   "permalink": "https://www.instagram.com/reel/DfoxKiCjsxs/",
+   "published_at": "2026-11-12T09:47:40.390565+00:00",
    "sha256": "5acb72d1718003b014c66de150cd43e2ba66c5fcd37fdb9074866c42b46589c5",
    "started_at": "2026-11-12T09:47:03.456922+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
