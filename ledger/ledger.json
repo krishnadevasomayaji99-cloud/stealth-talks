@@ -254,10 +254,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003659492822257",
    "key": "ST-20261111-penguin-lock-in",
+   "media_id": "18135330046703545",
+   "permalink": "https://www.instagram.com/reel/DfqDw6miSCw/",
+   "published_at": "2026-11-12T21:49:28.876792+00:00",
    "sha256": "dd49de6004fd99f8e2f3b8a131fdccea639a0fb3d8e0ffc33c75aa700eec4708",
    "started_at": "2026-11-12T21:48:45.498868+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
