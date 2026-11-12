@@ -1,0 +1,522 @@
+[
+ {
+  "w": "Something",
+  "start": 0.0,
+  "end": 0.44
+ },
+ {
+  "w": "in",
+  "start": 0.44,
+  "end": 0.72
+ },
+ {
+  "w": "my",
+  "start": 0.72,
+  "end": 0.86
+ },
+ {
+  "w": "room",
+  "start": 0.86,
+  "end": 1.1
+ },
+ {
+  "w": "has",
+  "start": 1.1,
+  "end": 1.4
+ },
+ {
+  "w": "been",
+  "start": 1.4,
+  "end": 1.58
+ },
+ {
+  "w": "ticking",
+  "start": 1.58,
+  "end": 1.76
+ },
+ {
+  "w": "for",
+  "start": 1.76,
+  "end": 2.06
+ },
+ {
+  "w": "twenty",
+  "start": 2.06,
+  "end": 2.212
+ },
+ {
+  "w": "five",
+  "start": 2.22,
+  "end": 2.372
+ },
+ {
+  "w": "minutes.",
+  "start": 2.38,
+  "end": 2.94
+ },
+ {
+  "w": "I",
+  "start": 3.64,
+  "end": 3.76
+ },
+ {
+  "w": "have",
+  "start": 3.76,
+  "end": 3.86
+ },
+ {
+  "w": "not",
+  "start": 3.86,
+  "end": 4.02
+ },
+ {
+  "w": "moved.",
+  "start": 4.02,
+  "end": 4.3
+ },
+ {
+  "w": "It",
+  "start": 4.46,
+  "end": 4.64
+ },
+ {
+  "w": "has",
+  "start": 4.64,
+  "end": 4.72
+ },
+ {
+  "w": "not",
+  "start": 4.72,
+  "end": 4.94
+ },
+ {
+  "w": "stopped.",
+  "start": 4.94,
+  "end": 5.32
+ },
+ {
+  "w": "First,",
+  "start": 6.08,
+  "end": 6.26
+ },
+ {
+  "w": "I",
+  "start": 6.26,
+  "end": 6.5
+ },
+ {
+  "w": "open",
+  "start": 6.5,
+  "end": 6.72
+ },
+ {
+  "w": "the",
+  "start": 6.72,
+  "end": 6.88
+ },
+ {
+  "w": "notebook.",
+  "start": 6.88,
+  "end": 7.1
+ },
+ {
+  "w": "The",
+  "start": 7.48,
+  "end": 7.6
+ },
+ {
+  "w": "ticking",
+  "start": 7.6,
+  "end": 7.84
+ },
+ {
+  "w": "gets",
+  "start": 7.84,
+  "end": 8.14
+ },
+ {
+  "w": "louder.",
+  "start": 8.14,
+  "end": 8.42
+ },
+ {
+  "w": "Then",
+  "start": 9.28,
+  "end": 9.32
+ },
+ {
+  "w": "I",
+  "start": 9.32,
+  "end": 9.42
+ },
+ {
+  "w": "write",
+  "start": 9.42,
+  "end": 9.64
+ },
+ {
+  "w": "one",
+  "start": 9.64,
+  "end": 9.88
+ },
+ {
+  "w": "word.",
+  "start": 9.88,
+  "end": 10.18
+ },
+ {
+  "w": "The",
+  "start": 10.28,
+  "end": 10.4
+ },
+ {
+  "w": "ticking",
+  "start": 10.4,
+  "end": 10.62
+ },
+ {
+  "w": "gets",
+  "start": 10.62,
+  "end": 10.92
+ },
+ {
+  "w": "faster.",
+  "start": 10.92,
+  "end": 11.2
+ },
+ {
+  "w": "Then",
+  "start": 12.14,
+  "end": 12.24
+ },
+ {
+  "w": "I",
+  "start": 12.24,
+  "end": 12.34
+ },
+ {
+  "w": "look",
+  "start": 12.34,
+  "end": 12.52
+ },
+ {
+  "w": "under",
+  "start": 12.52,
+  "end": 12.62
+ },
+ {
+  "w": "the",
+  "start": 12.62,
+  "end": 12.78
+ },
+ {
+  "w": "desk.",
+  "start": 12.78,
+  "end": 13.06
+ },
+ {
+  "w": "It",
+  "start": 13.22,
+  "end": 13.3
+ },
+ {
+  "w": "is",
+  "start": 13.3,
+  "end": 13.4
+ },
+ {
+  "w": "round.",
+  "start": 13.4,
+  "end": 13.62
+ },
+ {
+  "w": "It",
+  "start": 14.08,
+  "end": 14.18
+ },
+ {
+  "w": "is",
+  "start": 14.18,
+  "end": 14.26
+ },
+ {
+  "w": "red.",
+  "start": 14.26,
+  "end": 14.48
+ },
+ {
+  "w": "It",
+  "start": 14.7,
+  "end": 14.78
+ },
+ {
+  "w": "is",
+  "start": 14.78,
+  "end": 14.86
+ },
+ {
+  "w": "smiling.",
+  "start": 14.86,
+  "end": 15.12
+ },
+ {
+  "w": "Then",
+  "start": 16.08,
+  "end": 16.1
+ },
+ {
+  "w": "the",
+  "start": 16.1,
+  "end": 16.24
+ },
+ {
+  "w": "bell",
+  "start": 16.24,
+  "end": 16.4
+ },
+ {
+  "w": "rings.",
+  "start": 16.4,
+  "end": 16.66
+ },
+ {
+  "w": "Twenty",
+  "start": 16.66,
+  "end": 17.05
+ },
+ {
+  "w": "five",
+  "start": 17.07,
+  "end": 17.46
+ },
+ {
+  "w": "minutes,",
+  "start": 17.48,
+  "end": 17.72
+ },
+ {
+  "w": "exactly.",
+  "start": 17.72,
+  "end": 17.96
+ },
+ {
+  "w": "I",
+  "start": 17.96,
+  "end": 18.54
+ },
+ {
+  "w": "breathe",
+  "start": 18.54,
+  "end": 18.74
+ },
+ {
+  "w": "out.",
+  "start": 18.74,
+  "end": 19.02
+ },
+ {
+  "w": "In",
+  "start": 19.72,
+  "end": 19.78
+ },
+ {
+  "w": "the",
+  "start": 19.78,
+  "end": 19.88
+ },
+ {
+  "w": "eighties,",
+  "start": 19.88,
+  "end": 20.469
+ },
+ {
+  "w": "a",
+  "start": 20.5,
+  "end": 20.62
+ },
+ {
+  "w": "student",
+  "start": 20.62,
+  "end": 20.9
+ },
+ {
+  "w": "named",
+  "start": 20.9,
+  "end": 21.12
+ },
+ {
+  "w": "Francesco",
+  "start": 21.12,
+  "end": 21.76
+ },
+ {
+  "w": "Cirillo",
+  "start": 21.76,
+  "end": 22.121
+ },
+ {
+  "w": "timed",
+  "start": 22.14,
+  "end": 22.46
+ },
+ {
+  "w": "his",
+  "start": 22.46,
+  "end": 22.74
+ },
+ {
+  "w": "studying",
+  "start": 22.74,
+  "end": 23.1
+ },
+ {
+  "w": "with",
+  "start": 23.1,
+  "end": 23.4
+ },
+ {
+  "w": "a",
+  "start": 23.4,
+  "end": 23.48
+ },
+ {
+  "w": "kitchen",
+  "start": 23.48,
+  "end": 23.68
+ },
+ {
+  "w": "timer",
+  "start": 23.68,
+  "end": 24.08
+ },
+ {
+  "w": "shaped",
+  "start": 24.08,
+  "end": 24.46
+ },
+ {
+  "w": "like",
+  "start": 24.46,
+  "end": 24.76
+ },
+ {
+  "w": "a",
+  "start": 24.76,
+  "end": 24.86
+ },
+ {
+  "w": "tomato.",
+  "start": 24.86,
+  "end": 25.04
+ },
+ {
+  "w": "Pomodoro",
+  "start": 25.88,
+  "end": 26.36
+ },
+ {
+  "w": "is",
+  "start": 26.36,
+  "end": 26.62
+ },
+ {
+  "w": "the",
+  "start": 26.62,
+  "end": 26.72
+ },
+ {
+  "w": "Italian",
+  "start": 26.72,
+  "end": 27.04
+ },
+ {
+  "w": "word",
+  "start": 27.04,
+  "end": 27.48
+ },
+ {
+  "w": "for",
+  "start": 27.48,
+  "end": 27.7
+ },
+ {
+  "w": "tomato.",
+  "start": 27.7,
+  "end": 28.0
+ },
+ {
+  "w": "Now",
+  "start": 28.94,
+  "end": 29.0
+ },
+ {
+  "w": "I",
+  "start": 29.0,
+  "end": 29.24
+ },
+ {
+  "w": "take",
+  "start": 29.24,
+  "end": 29.42
+ },
+ {
+  "w": "my",
+  "start": 29.42,
+  "end": 29.6
+ },
+ {
+  "w": "five",
+  "start": 29.6,
+  "end": 29.923
+ },
+ {
+  "w": "minute",
+  "start": 29.94,
+  "end": 30.18
+ },
+ {
+  "w": "break.",
+  "start": 30.18,
+  "end": 30.46
+ },
+ {
+  "w": "Under",
+  "start": 30.98,
+  "end": 31.0
+ },
+ {
+  "w": "the",
+  "start": 31.0,
+  "end": 31.18
+ },
+ {
+  "w": "desk,",
+  "start": 31.18,
+  "end": 31.42
+ },
+ {
+  "w": "it",
+  "start": 31.64,
+  "end": 31.7
+ },
+ {
+  "w": "is",
+  "start": 31.7,
+  "end": 31.8
+ },
+ {
+  "w": "already",
+  "start": 31.8,
+  "end": 32.02
+ },
+ {
+  "w": "ticking",
+  "start": 32.02,
+  "end": 32.32
+ },
+ {
+  "w": "again.",
+  "start": 32.32,
+  "end": 32.66
+ }
+]

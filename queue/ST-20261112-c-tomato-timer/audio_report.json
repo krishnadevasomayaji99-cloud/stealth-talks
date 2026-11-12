@@ -1,0 +1,27 @@
+{
+ "sha256": "89b98e7a4b11e43f608a3eb5c3b5a6ae65526956a70d90035cad40fe3c88d89e",
+ "audio": {
+  "lufs": -15.7,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 34.67,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.067,
+  "expected_words": 104,
+  "heard_words": 102,
+  "missing_or_wrong": [
+   "twenty five",
+   "twenty five",
+   "eighties",
+   "cirillo",
+   "five"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
