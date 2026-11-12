@@ -23,5 +23,10 @@
   "at": "2026-11-12T09:45:34.477470+00:00",
   "key": "ST-20261110-n-fancy-cafe",
   "msg": "failed_before_upload: processing timeout"
+ },
+ {
+  "at": "2026-11-12T21:47:24.912052+00:00",
+  "key": "ST-20261111-penguin-lock-in",
+  "msg": "failed_before_upload: processing timeout"
  }
 ]

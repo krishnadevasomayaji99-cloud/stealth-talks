@@ -246,10 +246,12 @@
    "upload_http": 400
   },
   {
+   "container": "18003655994822257",
    "key": "ST-20261111-penguin-lock-in",
    "sha256": "dd49de6004fd99f8e2f3b8a131fdccea639a0fb3d8e0ffc33c75aa700eec4708",
    "started_at": "2026-11-12T21:33:34.628921+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
