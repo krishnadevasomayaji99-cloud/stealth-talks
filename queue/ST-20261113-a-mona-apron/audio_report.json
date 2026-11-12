@@ -1,21 +1,20 @@
 {
- "sha256": "cbd76b3282650a1cd60c8b30ca22fe8cefb8b67560fc0d0134fc1aa6827bef5e",
+ "sha256": "0790834720980ecb25dae08bf6f2eba43c24a3bde574c02f8914e3b6dc806806",
  "audio": {
   "lufs": -15.6,
   "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 36.47,
+  "duration_s": 34.33,
   "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.035,
-  "expected_words": 115,
-  "heard_words": 116,
+  "approx_wer": 0.028,
+  "expected_words": 106,
+  "heard_words": 107,
   "missing_or_wrong": [
    "coworker",
-   "museum",
    "peruggia",
    "handyman"
   ]
