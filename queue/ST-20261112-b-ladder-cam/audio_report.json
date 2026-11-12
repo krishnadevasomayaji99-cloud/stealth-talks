@@ -1,18 +1,18 @@
 {
- "sha256": "8e835ee8d0af8c84e93fe7990eaba905ddc74bc3aa1b62086a1a52f7cbb2895d",
+ "sha256": "b0c49beaaacff39be47c484694b67ccdaf8fde7880323aa7b0988283d5b749b0",
  "audio": {
-  "lufs": -15.4,
-  "true_peak_dbtp": -1.9,
+  "lufs": -15.5,
+  "true_peak_dbtp": -1.8,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 28.6,
+  "duration_s": 28.87,
   "problems": [],
   "listened": false
  },
  "speech": {
   "approx_wer": 0.0,
-  "expected_words": 89,
-  "heard_words": 89,
+  "expected_words": 90,
+  "heard_words": 90,
   "missing_or_wrong": []
  },
  "problems": [],
