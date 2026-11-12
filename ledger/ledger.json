@@ -224,10 +224,15 @@
    "state": "verified"
   },
   {
+   "container": "18003544583822257",
    "key": "ST-20261110-one-sec",
+   "media_id": "18120983788781555",
+   "permalink": "https://www.instagram.com/reel/DfpELHcjanK/",
+   "published_at": "2026-11-12T12:33:58.095538+00:00",
    "sha256": "9f0e7ceb63c3270a1e60b58f0e45e3cbdf80a5a2a064b7fb91d8330becdd6c18",
    "started_at": "2026-11-12T12:33:07.895473+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
