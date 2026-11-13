@@ -332,6 +332,12 @@
    "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
    "started_at": "2026-11-13T17:46:54.268187+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261113-a-mona-apron",
+   "sha256": "0790834720980ecb25dae08bf6f2eba43c24a3bde574c02f8914e3b6dc806806",
+   "started_at": "2026-11-13T20:34:04.296607+00:00",
+   "state": "uploading"
   }
  ]
 }
