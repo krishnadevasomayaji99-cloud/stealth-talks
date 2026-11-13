@@ -48,5 +48,10 @@
   "at": "2026-11-13T13:22:26.866935+00:00",
   "key": "ST-20261112-c-tomato-timer",
   "msg": "failed_before_upload: processing timeout"
+ },
+ {
+  "at": "2026-11-13T17:45:45.316183+00:00",
+  "key": "ST-20261112-d-dancing-street",
+  "msg": "failed_before_upload: processing timeout"
  }
 ]
