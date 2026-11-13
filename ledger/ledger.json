@@ -306,10 +306,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003840761822257",
    "key": "ST-20261112-c-tomato-timer",
+   "media_id": "18081174335754245",
+   "permalink": "https://www.instagram.com/reel/DfrwGgMCbE6/",
+   "published_at": "2026-11-13T13:36:12.409354+00:00",
    "sha256": "89b98e7a4b11e43f608a3eb5c3b5a6ae65526956a70d90035cad40fe3c88d89e",
    "started_at": "2026-11-13T13:35:26.663697+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
