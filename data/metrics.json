@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T03:19:21.847821+00:00",
+ "at": "2026-11-13T14:44:17.173328+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "views": 180,
@@ -74,76 +74,94 @@
    "ig_reels_avg_watch_time": 16073
   },
   "ST-20261110-a-gta-preload": {
-   "views": 1232,
+   "views": 1233,
    "reach": 1046,
    "likes": 18,
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15914
+   "ig_reels_avg_watch_time": 15900
   },
   "ST-20261110-eiffel-growing": {
-   "views": 57,
+   "views": 58,
    "reach": 44,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 12234
+   "ig_reels_avg_watch_time": 12007
   },
   "ST-20261110-gage-head-empty": {
-   "views": 120,
+   "views": 121,
    "reach": 100,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 9078
+   "ig_reels_avg_watch_time": 8997
   },
   "ST-20261110-molasses-wave": {
-   "views": 75,
+   "views": 76,
    "reach": 63,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 10640
+   "ig_reels_avg_watch_time": 10493
   },
   "ST-20261110-n-fancy-cafe": {
-   "views": 176,
+   "views": 177,
    "reach": 152,
    "likes": 3,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 12702
+   "ig_reels_avg_watch_time": 12626
   },
   "ST-20261110-one-sec": {
-   "views": 12,
-   "reach": 9,
+   "views": 16,
+   "reach": 11,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 6511
+   "ig_reels_avg_watch_time": 5140
   },
   "ST-20261110-snooze-levels": {
-   "views": 144,
-   "reach": 120,
+   "views": 148,
+   "reach": 122,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 13277
+   "ig_reels_avg_watch_time": 13359
   },
   "ST-20261111-penguin-lock-in": {
-   "views": 9,
+   "views": 11,
    "reach": 3,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 13745
+   "ig_reels_avg_watch_time": 9530
+  },
+  "ST-20261112-a-kryptos": {
+   "views": 21,
+   "reach": 17,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 6145
+  },
+  "ST-20261112-c-tomato-timer": {
+   "views": 152,
+   "reach": 102,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 11587
   }
  }
 }
