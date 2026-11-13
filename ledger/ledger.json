@@ -288,6 +288,12 @@
    "started_at": "2026-11-13T12:32:59.022613+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261112-b-ladder-cam",
+   "sha256": "210882decc032c5205eb4dd20ea21ee9ddc5ed768fc39dc2de39a4ee6662d276",
+   "started_at": "2026-11-13T12:46:33.808087+00:00",
+   "state": "uploading"
   }
  ]
 }
