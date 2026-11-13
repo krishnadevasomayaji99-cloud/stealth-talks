@@ -38,5 +38,10 @@
   "at": "2026-11-13T12:45:10.742303+00:00",
   "key": "ST-20261112-b-ladder-cam",
   "msg": "failed_before_upload: processing timeout"
+ },
+ {
+  "at": "2026-11-13T12:58:41.824081+00:00",
+  "key": "ST-20261112-b-ladder-cam",
+  "msg": "failed_before_upload: processing timeout"
  }
 ]
