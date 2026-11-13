@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T15:27:45.752465+00:00",
+ "at": "2026-11-13T03:19:21.847821+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "views": 180,
@@ -75,12 +75,12 @@
   },
   "ST-20261110-a-gta-preload": {
    "views": 1232,
-   "reach": 1043,
+   "reach": 1046,
    "likes": 18,
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15928
+   "ig_reels_avg_watch_time": 15914
   },
   "ST-20261110-eiffel-growing": {
    "views": 57,
@@ -92,40 +92,58 @@
    "ig_reels_avg_watch_time": 12234
   },
   "ST-20261110-gage-head-empty": {
-   "views": 108,
-   "reach": 87,
+   "views": 120,
+   "reach": 100,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 9512
+   "ig_reels_avg_watch_time": 9078
   },
   "ST-20261110-molasses-wave": {
-   "views": 66,
-   "reach": 55,
+   "views": 75,
+   "reach": 63,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 10734
+   "ig_reels_avg_watch_time": 10640
   },
   "ST-20261110-n-fancy-cafe": {
-   "views": 170,
-   "reach": 148,
+   "views": 176,
+   "reach": 152,
    "likes": 3,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 13084
+   "ig_reels_avg_watch_time": 12702
   },
   "ST-20261110-one-sec": {
-   "views": 2,
-   "reach": 1,
+   "views": 12,
+   "reach": 9,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 1154
+   "ig_reels_avg_watch_time": 6511
+  },
+  "ST-20261110-snooze-levels": {
+   "views": 144,
+   "reach": 120,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 13277
+  },
+  "ST-20261111-penguin-lock-in": {
+   "views": 9,
+   "reach": 3,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 13745
   }
  }
 }
