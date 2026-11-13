@@ -298,10 +298,12 @@
    "upload_http": 400
   },
   {
+   "container": "18003833411822257",
    "key": "ST-20261112-c-tomato-timer",
    "sha256": "89b98e7a4b11e43f608a3eb5c3b5a6ae65526956a70d90035cad40fe3c88d89e",
    "started_at": "2026-11-13T13:10:17.376530+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
