@@ -270,6 +270,12 @@
    "started_at": "2026-11-13T09:33:46.872286+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261112-a-kryptos",
+   "sha256": "dcb613eab285373b1d259d9a6057c629cbe67789e84912938a0ca99d2aae6679",
+   "started_at": "2026-11-13T09:47:16.324028+00:00",
+   "state": "uploading"
   }
  ]
 }
