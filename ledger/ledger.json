@@ -324,10 +324,14 @@
    "upload_http": 400
   },
   {
+   "container": "18003906308822257",
    "key": "ST-20261112-d-dancing-street",
+   "media_id": "18386732749239303",
+   "permalink": "https://www.instagram.com/reel/DfsM4TIHQMs/",
+   "published_at": "2026-11-13T17:47:34.657688+00:00",
    "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
    "started_at": "2026-11-13T17:46:54.268187+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
