@@ -1,8 +1,7 @@
 {
- "at": "2026-11-12T19:50:41.061973+00:00",
- "london": "2026-11-12 19:50",
+ "at": "2026-11-13T01:46:17.792086+00:00",
+ "london": "2026-11-13 01:46",
  "ready": [
-  "ST-20261111-penguin-lock-in",
   "ST-20261112-a-kryptos",
   "ST-20261112-b-ladder-cam",
   "ST-20261112-c-tomato-timer",
@@ -11,9 +10,12 @@
   "ST-20261113-b-wow-signal"
  ],
  "slots_left": [
+  "08:30",
+  "12:30",
+  "17:30",
   "20:30"
  ],
- "posted_today": 3,
+ "posted_today": 0,
  "flags": [
   {
    "level": "INFO",
