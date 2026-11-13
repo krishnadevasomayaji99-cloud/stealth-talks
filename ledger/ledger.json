@@ -334,10 +334,15 @@
    "state": "verified"
   },
   {
+   "container": "18003941984822257",
    "key": "ST-20261113-a-mona-apron",
+   "media_id": "18342420559261748",
+   "permalink": "https://www.instagram.com/reel/DfsgAZ0jqKz/",
+   "published_at": "2026-11-13T20:34:57.854959+00:00",
    "sha256": "0790834720980ecb25dae08bf6f2eba43c24a3bde574c02f8914e3b6dc806806",
    "started_at": "2026-11-13T20:34:04.296607+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
