@@ -322,6 +322,12 @@
    "started_at": "2026-11-13T17:33:27.386157+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261112-d-dancing-street",
+   "sha256": "110a533d5adcd89b2de3e62f451273ba9ec7adfb349001f88ad692dea6e6d6b7",
+   "started_at": "2026-11-13T17:46:54.268187+00:00",
+   "state": "uploading"
   }
  ]
 }
