@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
+  "by": "Claude (model)",
+  "at": "2026-11-14T18:34:42.784867+00:00",
+  "note": "brief rules checked by gate (reveal word late, 3 loops, genre/style rotate); script claims taken only from sources read 14 Nov",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
+  "by": "Claude (model)",
+  "at": "2026-11-14T18:34:42.862368+00:00",
+  "note": "contact-sheet frames viewed (not full playback); style distinct from previous two; caption legible; loudness/WER report passes",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "33b096fada4c22d066cf4fba37d5b85c584a7bc5c17c420d6078eb4606d1f273",
+  "by": "Claude (model)",
+  "at": "2026-11-14T18:34:42.926285+00:00",
+  "note": "every claim checked against sources opened 14 Nov 2026 (listed in caption); source disagreements flagged in caption",
+  "listened": false
+ }
+}
