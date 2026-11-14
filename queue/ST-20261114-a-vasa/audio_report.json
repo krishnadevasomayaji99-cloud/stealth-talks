@@ -1,0 +1,28 @@
+{
+ "sha256": "7bbf86afbe722568db27cb375ef731b3902284c555f3a4be6c581be118b49eea",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 34.8,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.089,
+  "expected_words": 112,
+  "heard_words": 109,
+  "missing_or_wrong": [
+   "two hundred twenty",
+   "sixty four",
+   "harbour",
+   "twenty five",
+   "thirty",
+   "thirty"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
