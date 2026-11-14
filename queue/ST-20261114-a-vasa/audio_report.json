@@ -1,5 +1,5 @@
 {
- "sha256": "7bbf86afbe722568db27cb375ef731b3902284c555f3a4be6c581be118b49eea",
+ "sha256": "e74eeee8ac937ba32a10e67651975641acf1462329f8f9854362382de6fd576e",
  "audio": {
   "lufs": -15.4,
   "true_peak_dbtp": -1.8,
@@ -10,7 +10,7 @@
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.089,
+  "approx_wer": 0.08,
   "expected_words": 112,
   "heard_words": 109,
   "missing_or_wrong": [
@@ -18,7 +18,6 @@
    "sixty four",
    "harbour",
    "twenty five",
-   "thirty",
    "thirty"
   ]
  },
