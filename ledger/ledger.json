@@ -353,10 +353,12 @@
    "upload_http": 400
   },
   {
+   "container": "18004075301822257",
    "key": "ST-20261113-b-wow-signal",
    "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
    "started_at": "2026-11-14T08:46:43.195724+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
