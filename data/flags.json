@@ -1,15 +1,17 @@
 {
- "at": "2026-11-14T17:59:11.597749+00:00",
- "london": "2026-11-14 17:59",
+ "at": "2026-11-14T22:16:17.599893+00:00",
+ "london": "2026-11-14 22:16",
  "ready": [
   "ST-20261112-b-ladder-cam",
   "ST-20261113-b-wow-signal",
-  "ST-20261114-d-celeste"
+  "ST-20261114-c-synod",
+  "ST-20261115-a-gertie",
+  "ST-20261115-b-mincemeat",
+  "ST-20261115-c-kashasha",
+  "ST-20261115-d-gimli"
  ],
- "slots_left": [
-  "20:30"
- ],
- "posted_today": 2,
+ "slots_left": [],
+ "posted_today": 3,
  "flags": [
   {
    "level": "INFO",
