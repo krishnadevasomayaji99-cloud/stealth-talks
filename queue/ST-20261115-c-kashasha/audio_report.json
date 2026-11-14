@@ -1,0 +1,28 @@
+{
+ "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 36.9,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.113,
+  "expected_words": 97,
+  "heard_words": 92,
+  "missing_or_wrong": [
+   "thirtieth",
+   "girls'",
+   "ninety five",
+   "one hundred fifty nine",
+   "sixteen",
+   "class it"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}

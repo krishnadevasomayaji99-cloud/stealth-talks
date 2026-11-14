@@ -1,0 +1,487 @@
+[
+ {
+  "w": "A",
+  "start": 0.0,
+  "end": 0.3
+ },
+ {
+  "w": "school",
+  "start": 0.3,
+  "end": 0.52
+ },
+ {
+  "w": "was",
+  "start": 0.52,
+  "end": 0.76
+ },
+ {
+  "w": "shut",
+  "start": 0.76,
+  "end": 0.98
+ },
+ {
+  "w": "down",
+  "start": 0.98,
+  "end": 1.28
+ },
+ {
+  "w": "because",
+  "start": 1.28,
+  "end": 1.58
+ },
+ {
+  "w": "nobody",
+  "start": 1.58,
+  "end": 2.06
+ },
+ {
+  "w": "could",
+  "start": 2.06,
+  "end": 2.26
+ },
+ {
+  "w": "stop",
+  "start": 2.26,
+  "end": 2.52
+ },
+ {
+  "w": "making",
+  "start": 2.52,
+  "end": 2.82
+ },
+ {
+  "w": "one",
+  "start": 2.82,
+  "end": 3.06
+ },
+ {
+  "w": "sound.",
+  "start": 3.06,
+  "end": 3.42
+ },
+ {
+  "w": "It",
+  "start": 4.12,
+  "end": 4.18
+ },
+ {
+  "w": "began",
+  "start": 4.18,
+  "end": 4.4
+ },
+ {
+  "w": "on",
+  "start": 4.4,
+  "end": 4.62
+ },
+ {
+  "w": "the",
+  "start": 4.62,
+  "end": 4.7
+ },
+ {
+  "w": "thirtieth",
+  "start": 4.7,
+  "end": 5.631
+ },
+ {
+  "w": "of",
+  "start": 5.68,
+  "end": 5.68
+ },
+ {
+  "w": "January,",
+  "start": 5.68,
+  "end": 5.68
+ },
+ {
+  "w": "at",
+  "start": 5.68,
+  "end": 6.12
+ },
+ {
+  "w": "a",
+  "start": 6.12,
+  "end": 6.18
+ },
+ {
+  "w": "girls'",
+  "start": 6.18,
+  "end": 6.503
+ },
+ {
+  "w": "boarding",
+  "start": 6.52,
+  "end": 6.66
+ },
+ {
+  "w": "school",
+  "start": 6.66,
+  "end": 7.1
+ },
+ {
+  "w": "in",
+  "start": 7.1,
+  "end": 7.28
+ },
+ {
+  "w": "Kashasha,",
+  "start": 7.28,
+  "end": 7.86
+ },
+ {
+  "w": "near",
+  "start": 7.86,
+  "end": 8.16
+ },
+ {
+  "w": "Lake",
+  "start": 8.16,
+  "end": 8.42
+ },
+ {
+  "w": "Victoria.",
+  "start": 8.42,
+  "end": 8.86
+ },
+ {
+  "w": "Three",
+  "start": 9.64,
+  "end": 9.84
+ },
+ {
+  "w": "girls",
+  "start": 9.84,
+  "end": 10.12
+ },
+ {
+  "w": "started,",
+  "start": 10.12,
+  "end": 10.48
+ },
+ {
+  "w": "and",
+  "start": 10.48,
+  "end": 10.74
+ },
+ {
+  "w": "could",
+  "start": 10.74,
+  "end": 10.9
+ },
+ {
+  "w": "not",
+  "start": 10.9,
+  "end": 11.12
+ },
+ {
+  "w": "stop.",
+  "start": 11.12,
+  "end": 11.48
+ },
+ {
+  "w": "Within",
+  "start": 12.26,
+  "end": 12.34
+ },
+ {
+  "w": "weeks,",
+  "start": 12.34,
+  "end": 12.62
+ },
+ {
+  "w": "ninety",
+  "start": 12.62,
+  "end": 13.0
+ },
+ {
+  "w": "five",
+  "start": 13.02,
+  "end": 13.4
+ },
+ {
+  "w": "of",
+  "start": 13.42,
+  "end": 13.6
+ },
+ {
+  "w": "one",
+  "start": 13.6,
+  "end": 13.647
+ },
+ {
+  "w": "hundred",
+  "start": 13.65,
+  "end": 13.698
+ },
+ {
+  "w": "fifty",
+  "start": 13.7,
+  "end": 13.747
+ },
+ {
+  "w": "nine",
+  "start": 13.75,
+  "end": 13.798
+ },
+ {
+  "w": "pupils",
+  "start": 13.8,
+  "end": 14.7
+ },
+ {
+  "w": "were",
+  "start": 14.7,
+  "end": 15.08
+ },
+ {
+  "w": "affected.",
+  "start": 15.08,
+  "end": 15.42
+ },
+ {
+  "w": "The",
+  "start": 16.18,
+  "end": 16.24
+ },
+ {
+  "w": "school",
+  "start": 16.24,
+  "end": 16.46
+ },
+ {
+  "w": "closed",
+  "start": 16.46,
+  "end": 16.8
+ },
+ {
+  "w": "in",
+  "start": 16.8,
+  "end": 17.18
+ },
+ {
+  "w": "March.",
+  "start": 17.18,
+  "end": 17.44
+ },
+ {
+  "w": "The",
+  "start": 18.34,
+  "end": 18.38
+ },
+ {
+  "w": "girls",
+  "start": 18.38,
+  "end": 18.58
+ },
+ {
+  "w": "went",
+  "start": 18.58,
+  "end": 18.82
+ },
+ {
+  "w": "home,",
+  "start": 18.82,
+  "end": 19.06
+ },
+ {
+  "w": "and",
+  "start": 19.06,
+  "end": 19.44
+ },
+ {
+  "w": "it",
+  "start": 19.44,
+  "end": 19.54
+ },
+ {
+  "w": "followed",
+  "start": 19.54,
+  "end": 19.82
+ },
+ {
+  "w": "them",
+  "start": 19.82,
+  "end": 20.1
+ },
+ {
+  "w": "to",
+  "start": 20.1,
+  "end": 20.24
+ },
+ {
+  "w": "nearby",
+  "start": 20.24,
+  "end": 20.46
+ },
+ {
+  "w": "villages",
+  "start": 20.46,
+  "end": 20.96
+ },
+ {
+  "w": "and",
+  "start": 20.96,
+  "end": 21.34
+ },
+ {
+  "w": "another",
+  "start": 21.34,
+  "end": 21.58
+ },
+ {
+  "w": "school.",
+  "start": 21.58,
+  "end": 21.9
+ },
+ {
+  "w": "Attacks",
+  "start": 22.6,
+  "end": 22.76
+ },
+ {
+  "w": "lasted",
+  "start": 22.76,
+  "end": 23.14
+ },
+ {
+  "w": "anywhere",
+  "start": 23.14,
+  "end": 23.54
+ },
+ {
+  "w": "from",
+  "start": 23.54,
+  "end": 23.9
+ },
+ {
+  "w": "hours",
+  "start": 23.9,
+  "end": 24.12
+ },
+ {
+  "w": "to",
+  "start": 24.12,
+  "end": 24.46
+ },
+ {
+  "w": "sixteen",
+  "start": 24.46,
+  "end": 24.688
+ },
+ {
+  "w": "days.",
+  "start": 24.7,
+  "end": 25.1
+ },
+ {
+  "w": "Doctors",
+  "start": 25.8,
+  "end": 25.98
+ },
+ {
+  "w": "tested",
+  "start": 25.98,
+  "end": 26.42
+ },
+ {
+  "w": "food",
+  "start": 26.42,
+  "end": 26.84
+ },
+ {
+  "w": "and",
+  "start": 26.84,
+  "end": 27.06
+ },
+ {
+  "w": "toxins.",
+  "start": 27.06,
+  "end": 27.3
+ },
+ {
+  "w": "They",
+  "start": 27.58,
+  "end": 27.84
+ },
+ {
+  "w": "found",
+  "start": 27.84,
+  "end": 28.02
+ },
+ {
+  "w": "nothing.",
+  "start": 28.02,
+  "end": 28.36
+ },
+ {
+  "w": "The",
+  "start": 28.74,
+  "end": 29.08
+ },
+ {
+  "w": "sound",
+  "start": 29.08,
+  "end": 29.34
+ },
+ {
+  "w": "was",
+  "start": 29.34,
+  "end": 29.5
+ },
+ {
+  "w": "laughing.",
+  "start": 29.5,
+  "end": 29.88
+ },
+ {
+  "w": "Real,",
+  "start": 30.24,
+  "end": 30.36
+ },
+ {
+  "w": "uncontrollable",
+  "start": 30.36,
+  "end": 31.36
+ },
+ {
+  "w": "laughing.",
+  "start": 31.36,
+  "end": 31.68
+ },
+ {
+  "w": "Researchers",
+  "start": 32.4,
+  "end": 32.66
+ },
+ {
+  "w": "class",
+  "start": 32.66,
+  "end": 33.002
+ },
+ {
+  "w": "it",
+  "start": 33.02,
+  "end": 33.362
+ },
+ {
+  "w": "as",
+  "start": 33.38,
+  "end": 33.54
+ },
+ {
+  "w": "mass",
+  "start": 33.54,
+  "end": 33.78
+ },
+ {
+  "w": "psychogenic",
+  "start": 33.78,
+  "end": 34.56
+ },
+ {
+  "w": "illness.",
+  "start": 34.56,
+  "end": 34.88
+ }
+]
