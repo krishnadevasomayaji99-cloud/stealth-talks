@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "2cbf3d2f5b7ecc04cbcdb50772bb2fa20091ba6318204d1aa3e4c28882529d7f",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:39:05.256084+00:00",
+  "note": "script read: reveal after 65pct, brief valid, genre/style rotated",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "2cbf3d2f5b7ecc04cbcdb50772bb2fa20091ba6318204d1aa3e4c28882529d7f",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:39:05.290885+00:00",
+  "note": "contact sheet frames 0.5/8/15/24/30s viewed; style distinct; audio_report pass (LUFS ~-15.5, TP -1.8)",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "fcbeaef56f39ba99d1e708913b84dd381503ece8f241f13dd5e192d19e620093",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:39:05.321870+00:00",
+  "note": "every claim checked against opened pages (JSTOR/AVClub, London Museum/Historic UK, History.com/American Heritage), fetched 14 Nov 2026",
+  "listened": false
+ }
+}
