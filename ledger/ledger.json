@@ -359,6 +359,12 @@
    "started_at": "2026-11-14T08:46:43.195724+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261114-a-vasa",
+   "sha256": "e74eeee8ac937ba32a10e67651975641acf1462329f8f9854362382de6fd576e",
+   "started_at": "2026-11-14T09:00:40.049006+00:00",
+   "state": "uploading"
   }
  ]
 }
