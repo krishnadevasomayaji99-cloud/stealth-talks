@@ -1,4 +1,3 @@
-# Status (evening run 2026-11-13 ~18:30 London, Claude)
-- Posted today: kryptos (09:47), tomato-timer (13:36), dancing-street (17:47), all verified; ladder-cam failed 400 twice at 12:30 and was not posted. No needs_reconcile, no alerts needing action.
-- READY unposted: 3 (b-ladder-cam, a-mona-apron, b-wow-signal): 20:30 slot is covered; tomorrow is thin (target 6).
-- BLOCKER (persists): WebFetch/web-fetch agent return PROVENANCE_REQUIRED for Wikipedia/Britannica (permission request times out), so no new source can be opened; nothing unverified approved, no new Reels built. Needs a permission/provenance fix or a different readable source.
+# Status (morning run 2026-11-14, Claude)
+- Health: last 24 h publishes verified except ladder-cam (failed 400 twice, not posted); no needs_reconcile. Built 4 new Reels (a-vasa noir, b-stink comic, c-synod notebook, d-celeste paper), all gate READY with audio reports passing. READY now: ST-20261112-b-ladder-cam ST-20261113-b-wow-signal ST-20261114-a-vasa ST-20261114-b-stink ST-20261114-c-synod ST-20261114-d-celeste 
+- Fix: source blocker bypassed (search first, fetch exact result URLs on non-Wikipedia domains). Remaining: 52nd style missing; last-biscuit unapproved draft; no fresh topical (<=10 d) story verified.

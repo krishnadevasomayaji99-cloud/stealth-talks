@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "e74eeee8ac937ba32a10e67651975641acf1462329f8f9854362382de6fd576e",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:50:37.033319+00:00",
+  "note": "script read: reveal 'heavy' after 65pct, brief valid",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "e74eeee8ac937ba32a10e67651975641acf1462329f8f9854362382de6fd576e",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:50:37.088475+00:00",
+  "note": "frames 8/12/20/27s viewed after sink rebuild; noir distinct; audio_report pass LUFS -15.4 TP -1.8",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "2a38d323247fbfe576eaf15375e951d2b6ec84a58e123705ec4a46c4d9a0a8c2",
+  "by": "Claude (model)",
+  "at": "2026-11-14T03:50:37.144900+00:00",
+  "note": "claims checked vs opened Archaeology magazine and Discover (18 Feb 2025) pages 14 Nov 2026",
+  "listened": false
+ }
+}
