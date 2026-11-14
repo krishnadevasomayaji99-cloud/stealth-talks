@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T14:44:17.173328+00:00",
+ "at": "2026-11-14T13:41:39.063512+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "views": 180,
@@ -146,22 +146,58 @@
    "ig_reels_avg_watch_time": 9530
   },
   "ST-20261112-a-kryptos": {
-   "views": 21,
-   "reach": 17,
-   "likes": 1,
+   "views": 41,
+   "reach": 33,
+   "likes": 2,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 6145
+   "ig_reels_avg_watch_time": 7340
   },
   "ST-20261112-c-tomato-timer": {
-   "views": 152,
-   "reach": 102,
+   "views": 209,
+   "reach": 168,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11587
+   "ig_reels_avg_watch_time": 11455
+  },
+  "ST-20261112-d-dancing-street": {
+   "views": 26,
+   "reach": 26,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 4233
+  },
+  "ST-20261113-a-mona-apron": {
+   "views": 168,
+   "reach": 127,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 14154
+  },
+  "ST-20261114-a-vasa": {
+   "views": 31,
+   "reach": 24,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 7626
+  },
+  "ST-20261114-b-stink": {
+   "views": 117,
+   "reach": 97,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 7286
   }
  }
 }
