@@ -407,10 +407,12 @@
    "state": "verified"
   },
   {
+   "container": "18004237460822257",
    "key": "ST-20261115-a-gertie",
    "sha256": "99c7a2bde49eb7881589680d2abbd2197b299cdee7542a0771851c865339782a",
    "started_at": "2026-11-14T20:32:45.139533+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
