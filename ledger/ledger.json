@@ -379,6 +379,12 @@
    "sha256": "66b4acc035fe02bcb6bd138b1921563debaae036f49d2d04b1eb61ac38c888cc",
    "started_at": "2026-11-14T12:33:15.401093+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261114-c-synod",
+   "sha256": "2cbf3d2f5b7ecc04cbcdb50772bb2fa20091ba6318204d1aa3e4c28882529d7f",
+   "started_at": "2026-11-14T17:33:17.359226+00:00",
+   "state": "uploading"
   }
  ]
 }
