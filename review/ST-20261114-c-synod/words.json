@@ -1,0 +1,542 @@
+[
+ {
+  "w": "A",
+  "start": 0.0,
+  "end": 0.32
+ },
+ {
+  "w": "dead",
+  "start": 0.32,
+  "end": 0.5
+ },
+ {
+  "w": "man",
+  "start": 0.5,
+  "end": 0.76
+ },
+ {
+  "w": "was",
+  "start": 0.76,
+  "end": 0.94
+ },
+ {
+  "w": "put",
+  "start": 0.94,
+  "end": 1.1
+ },
+ {
+  "w": "on",
+  "start": 1.1,
+  "end": 1.24
+ },
+ {
+  "w": "trial,",
+  "start": 1.24,
+  "end": 1.52
+ },
+ {
+  "w": "and",
+  "start": 1.52,
+  "end": 1.82
+ },
+ {
+  "w": "he",
+  "start": 1.82,
+  "end": 1.92
+ },
+ {
+  "w": "was",
+  "start": 1.92,
+  "end": 2.02
+ },
+ {
+  "w": "in",
+  "start": 2.02,
+  "end": 2.18
+ },
+ {
+  "w": "the",
+  "start": 2.18,
+  "end": 2.28
+ },
+ {
+  "w": "room.",
+  "start": 2.28,
+  "end": 2.5
+ },
+ {
+  "w": "Pope",
+  "start": 3.12,
+  "end": 3.32
+ },
+ {
+  "w": "Stephen",
+  "start": 3.32,
+  "end": 3.68
+ },
+ {
+  "w": "the",
+  "start": 3.68,
+  "end": 3.87
+ },
+ {
+  "w": "sixth",
+  "start": 3.88,
+  "end": 4.07
+ },
+ {
+  "w": "had",
+  "start": 4.08,
+  "end": 4.36
+ },
+ {
+  "w": "his",
+  "start": 4.36,
+  "end": 4.5
+ },
+ {
+  "w": "predecessor,",
+  "start": 4.5,
+  "end": 4.86
+ },
+ {
+  "w": "Formosus,",
+  "start": 4.86,
+  "end": 5.455
+ },
+ {
+  "w": "dug",
+  "start": 5.487,
+  "end": 6.082
+ },
+ {
+  "w": "up.",
+  "start": 6.113,
+  "end": 6.709
+ },
+ {
+  "w": "The",
+  "start": 6.74,
+  "end": 6.9
+ },
+ {
+  "w": "body",
+  "start": 6.9,
+  "end": 7.08
+ },
+ {
+  "w": "was",
+  "start": 7.08,
+  "end": 7.32
+ },
+ {
+  "w": "dressed",
+  "start": 7.32,
+  "end": 7.54
+ },
+ {
+  "w": "in",
+  "start": 7.54,
+  "end": 7.82
+ },
+ {
+  "w": "papal",
+  "start": 7.82,
+  "end": 8.24
+ },
+ {
+  "w": "robes",
+  "start": 8.24,
+  "end": 8.46
+ },
+ {
+  "w": "and",
+  "start": 8.46,
+  "end": 8.78
+ },
+ {
+  "w": "propped",
+  "start": 8.78,
+  "end": 9.14
+ },
+ {
+  "w": "up",
+  "start": 9.14,
+  "end": 9.24
+ },
+ {
+  "w": "on",
+  "start": 9.24,
+  "end": 9.4
+ },
+ {
+  "w": "the",
+  "start": 9.4,
+  "end": 9.48
+ },
+ {
+  "w": "throne.",
+  "start": 9.48,
+  "end": 9.74
+ },
+ {
+  "w": "A",
+  "start": 10.5,
+  "end": 10.56
+ },
+ {
+  "w": "deacon",
+  "start": 10.56,
+  "end": 10.88
+ },
+ {
+  "w": "was",
+  "start": 10.88,
+  "end": 11.08
+ },
+ {
+  "w": "appointed",
+  "start": 11.08,
+  "end": 11.34
+ },
+ {
+  "w": "to",
+  "start": 11.34,
+  "end": 11.7
+ },
+ {
+  "w": "speak",
+  "start": 11.7,
+  "end": 11.92
+ },
+ {
+  "w": "for",
+  "start": 11.92,
+  "end": 12.18
+ },
+ {
+  "w": "the",
+  "start": 12.18,
+  "end": 12.28
+ },
+ {
+  "w": "corpse.",
+  "start": 12.28,
+  "end": 12.48
+ },
+ {
+  "w": "The",
+  "start": 13.36,
+  "end": 13.38
+ },
+ {
+  "w": "charge",
+  "start": 13.38,
+  "end": 13.6
+ },
+ {
+  "w": "was",
+  "start": 13.6,
+  "end": 13.98
+ },
+ {
+  "w": "usurping",
+  "start": 13.98,
+  "end": 14.42
+ },
+ {
+  "w": "the",
+  "start": 14.42,
+  "end": 14.54
+ },
+ {
+  "w": "papacy.",
+  "start": 14.54,
+  "end": 14.92
+ },
+ {
+  "w": "The",
+  "start": 15.38,
+  "end": 15.44
+ },
+ {
+  "w": "verdict",
+  "start": 15.44,
+  "end": 15.62
+ },
+ {
+  "w": "was",
+  "start": 15.62,
+  "end": 15.92
+ },
+ {
+  "w": "guilty.",
+  "start": 15.92,
+  "end": 16.12
+ },
+ {
+  "w": "Every",
+  "start": 17.02,
+  "end": 17.08
+ },
+ {
+  "w": "act",
+  "start": 17.08,
+  "end": 17.4
+ },
+ {
+  "w": "of",
+  "start": 17.4,
+  "end": 17.56
+ },
+ {
+  "w": "his",
+  "start": 17.56,
+  "end": 17.68
+ },
+ {
+  "w": "reign",
+  "start": 17.68,
+  "end": 17.9
+ },
+ {
+  "w": "was",
+  "start": 17.9,
+  "end": 18.12
+ },
+ {
+  "w": "declared",
+  "start": 18.12,
+  "end": 18.42
+ },
+ {
+  "w": "null",
+  "start": 18.42,
+  "end": 18.8
+ },
+ {
+  "w": "and",
+  "start": 18.8,
+  "end": 19.08
+ },
+ {
+  "w": "void.",
+  "start": 19.08,
+  "end": 19.28
+ },
+ {
+  "w": "Three",
+  "start": 20.2,
+  "end": 20.2
+ },
+ {
+  "w": "fingers,",
+  "start": 20.2,
+  "end": 20.6
+ },
+ {
+  "w": "the",
+  "start": 20.64,
+  "end": 20.84
+ },
+ {
+  "w": "ones",
+  "start": 20.84,
+  "end": 20.96
+ },
+ {
+  "w": "used",
+  "start": 20.96,
+  "end": 21.16
+ },
+ {
+  "w": "for",
+  "start": 21.16,
+  "end": 21.34
+ },
+ {
+  "w": "blessing,",
+  "start": 21.34,
+  "end": 21.58
+ },
+ {
+  "w": "were",
+  "start": 21.86,
+  "end": 21.92
+ },
+ {
+  "w": "cut",
+  "start": 21.92,
+  "end": 22.1
+ },
+ {
+  "w": "off,",
+  "start": 22.1,
+  "end": 22.3
+ },
+ {
+  "w": "and",
+  "start": 22.72,
+  "end": 22.86
+ },
+ {
+  "w": "the",
+  "start": 22.86,
+  "end": 22.94
+ },
+ {
+  "w": "body",
+  "start": 22.94,
+  "end": 23.16
+ },
+ {
+  "w": "was",
+  "start": 23.16,
+  "end": 23.4
+ },
+ {
+  "w": "thrown",
+  "start": 23.4,
+  "end": 23.66
+ },
+ {
+  "w": "into",
+  "start": 23.66,
+  "end": 23.88
+ },
+ {
+  "w": "the",
+  "start": 23.88,
+  "end": 24.06
+ },
+ {
+  "w": "Tiber.",
+  "start": 24.06,
+  "end": 24.3
+ },
+ {
+  "w": "Then",
+  "start": 25.06,
+  "end": 25.08
+ },
+ {
+  "w": "the",
+  "start": 25.08,
+  "end": 25.16
+ },
+ {
+  "w": "judge's",
+  "start": 25.16,
+  "end": 25.369
+ },
+ {
+  "w": "luck",
+  "start": 25.38,
+  "end": 25.72
+ },
+ {
+  "w": "ended.",
+  "start": 25.72,
+  "end": 25.98
+ },
+ {
+  "w": "Within",
+  "start": 26.58,
+  "end": 26.66
+ },
+ {
+  "w": "months,",
+  "start": 26.66,
+  "end": 26.9
+ },
+ {
+  "w": "Stephen",
+  "start": 27.16,
+  "end": 27.36
+ },
+ {
+  "w": "was",
+  "start": 27.36,
+  "end": 27.58
+ },
+ {
+  "w": "imprisoned",
+  "start": 27.58,
+  "end": 27.8
+ },
+ {
+  "w": "and",
+  "start": 27.8,
+  "end": 28.32
+ },
+ {
+  "w": "strangled.",
+  "start": 28.32,
+  "end": 28.76
+ },
+ {
+  "w": "And",
+  "start": 28.76,
+  "end": 29.54
+ },
+ {
+  "w": "the",
+  "start": 29.54,
+  "end": 29.64
+ },
+ {
+  "w": "dead",
+  "start": 29.64,
+  "end": 29.8
+ },
+ {
+  "w": "pope?",
+  "start": 29.8,
+  "end": 30.06
+ },
+ {
+  "w": "Pulled",
+  "start": 30.06,
+  "end": 30.46
+ },
+ {
+  "w": "from",
+  "start": 30.46,
+  "end": 30.72
+ },
+ {
+  "w": "the",
+  "start": 30.72,
+  "end": 30.82
+ },
+ {
+  "w": "river",
+  "start": 30.82,
+  "end": 30.98
+ },
+ {
+  "w": "and",
+  "start": 30.98,
+  "end": 31.24
+ },
+ {
+  "w": "returned",
+  "start": 31.24,
+  "end": 31.5
+ },
+ {
+  "w": "to",
+  "start": 31.5,
+  "end": 31.76
+ },
+ {
+  "w": "his",
+  "start": 31.76,
+  "end": 31.88
+ },
+ {
+  "w": "tomb.",
+  "start": 31.88,
+  "end": 32.08
+ }
+]

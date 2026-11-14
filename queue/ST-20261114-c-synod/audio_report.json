@@ -1,0 +1,24 @@
+{
+ "sha256": "2cbf3d2f5b7ecc04cbcdb50772bb2fa20091ba6318204d1aa3e4c28882529d7f",
+ "audio": {
+  "lufs": -15.5,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 34.1,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.028,
+  "expected_words": 108,
+  "heard_words": 107,
+  "missing_or_wrong": [
+   "the sixth",
+   "formosus"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
