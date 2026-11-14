@@ -343,6 +343,12 @@
    "started_at": "2026-11-13T20:34:04.296607+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261113-b-wow-signal",
+   "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
+   "started_at": "2026-11-14T08:33:05.867012+00:00",
+   "state": "uploading"
   }
  ]
 }
