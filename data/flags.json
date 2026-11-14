@@ -1,16 +1,26 @@
 {
- "at": "2026-11-13T19:33:34.674717+00:00",
- "london": "2026-11-13 19:33",
+ "at": "2026-11-14T01:24:24.607431+00:00",
+ "london": "2026-11-14 01:24",
  "ready": [
   "ST-20261112-b-ladder-cam",
-  "ST-20261113-a-mona-apron",
   "ST-20261113-b-wow-signal"
  ],
  "slots_left": [
+  "08:30",
+  "12:30",
+  "17:30",
   "20:30"
  ],
- "posted_today": 3,
+ "posted_today": 0,
  "flags": [
+  {
+   "level": "CRITICAL",
+   "msg": "2 READY Reel(s) but 4 slot(s) left today: build or approve more now"
+  },
+  {
+   "level": "WARN",
+   "msg": "spares below target: 2 READY, want 6 (slots left + 2 spares for tomorrow)"
+  },
   {
    "level": "WARN",
    "msg": "data/status.md records a BLOCKER (e.g. source fetch refused): check it"

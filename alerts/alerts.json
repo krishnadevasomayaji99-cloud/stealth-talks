@@ -53,5 +53,10 @@
   "at": "2026-11-13T17:45:45.316183+00:00",
   "key": "ST-20261112-d-dancing-street",
   "msg": "failed_before_upload: processing timeout"
+ },
+ {
+  "at": "2026-11-14T01:24:24.611817+00:00",
+  "key": "flagger",
+  "msg": "2 READY Reel(s) but 4 slot(s) left today: build or approve more now"
  }
 ]
