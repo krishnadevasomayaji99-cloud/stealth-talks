@@ -1,6 +1,3 @@
-# Flags 2026-11-14 01:24 London
-READY: ST-20261112-b-ladder-cam, ST-20261113-b-wow-signal
-- CRITICAL: 2 READY Reel(s) but 4 slot(s) left today: build or approve more now
-- WARN: spares below target: 2 READY, want 6 (slots left + 2 spares for tomorrow)
-- WARN: data/status.md records a BLOCKER (e.g. source fetch refused): check it
+# Flags 2026-11-14 10:06 London
+READY: ST-20261112-b-ladder-cam, ST-20261113-b-wow-signal, ST-20261114-b-stink, ST-20261114-c-synod, ST-20261114-d-celeste
 - INFO: unapproved drafts: ST-20261108-last-biscuit
