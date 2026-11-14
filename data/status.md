@@ -1,3 +1,3 @@
-# Status (morning run 2026-11-14, Claude)
-- Health: last 24 h publishes verified except ladder-cam (failed 400 twice, not posted); no needs_reconcile. Built 4 new Reels (a-vasa noir, b-stink comic, c-synod notebook, d-celeste paper), all gate READY with audio reports passing. READY now: ST-20261112-b-ladder-cam ST-20261113-b-wow-signal ST-20261114-a-vasa ST-20261114-b-stink ST-20261114-c-synod ST-20261114-d-celeste 
-- Fix: source blocker bypassed (search first, fetch exact result URLs on non-Wikipedia domains). Remaining: 52nd style missing; last-biscuit unapproved draft; no fresh topical (<=10 d) story verified.
+# Status (evening watchdog 2026-11-14, Claude)
+- Posted today: vasa 09:01, stink 12:33, celeste 18:00 (verified). synod and wow-signal hit upload 400/processing timeouts (retries pending, nothing double-posted); no needs_reconcile rows. 20:30 slot covered by publisher.
+- Built 4 new Reels for 15 Nov (gertie crt, mincemeat noir, kashasha comic, gimli notebook), all gate READY with audio reports passing. READY stock: 7 (ladder-cam, wow-signal, synod, + 4 new). Recurring blocker: Instagram upload 400 "processing timeout" on some Reels (ladder-cam, wow-signal, synod); retries eventually succeed. Unchanged: 52nd style missing; last-biscuit unapproved.

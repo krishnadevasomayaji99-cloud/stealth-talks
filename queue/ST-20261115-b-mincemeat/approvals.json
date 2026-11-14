@@ -1,26 +1,26 @@
 {
  "story_check": {
   "verdict": "PASS",
-  "sha256": "d4814be595311aac9f00e5b97fbdd1d7b3a14105f1bc2852151c9a5f39246612",
+  "sha256": "a64ffca7732ba7bff84e595113b9dffe0b341cb1b668014f67e23c0ff32a7c3f",
   "by": "Claude (model)",
-  "at": "2026-11-14T18:34:42.474539+00:00",
-  "note": "brief rules checked by gate (reveal word late, 3 loops, genre/style rotate); script claims taken only from sources read 14 Nov",
+  "at": "2026-11-14T18:46:17.057434+00:00",
+  "note": "brief rules via gate; claims from sources read 14 Nov 2026",
   "listened": false
  },
  "visual_qa": {
   "verdict": "PASS",
-  "sha256": "d4814be595311aac9f00e5b97fbdd1d7b3a14105f1bc2852151c9a5f39246612",
+  "sha256": "a64ffca7732ba7bff84e595113b9dffe0b341cb1b668014f67e23c0ff32a7c3f",
   "by": "Claude (model)",
-  "at": "2026-11-14T18:34:42.532545+00:00",
-  "note": "contact-sheet frames viewed (not full playback); style distinct from previous two; caption legible; loudness/WER report passes",
+  "at": "2026-11-14T18:46:17.118658+00:00",
+  "note": "contact-sheet frames viewed (not full playback); noir style distinct; audio report passes",
   "listened": false
  },
  "caption_facts": {
   "verdict": "PASS",
   "sha256": "bf2a4cfa2201051731298be20cbff9a6cad5e44ea85d030303022bf8fbf20a0a",
   "by": "Claude (model)",
-  "at": "2026-11-14T18:34:42.579363+00:00",
-  "note": "every claim checked against sources opened 14 Nov 2026 (listed in caption); source disagreements flagged in caption",
+  "at": "2026-11-14T18:46:17.167133+00:00",
+  "note": "claims checked against IWM, National WWII Museum, History.co.uk opened 14 Nov; disagreements flagged",
   "listened": false
  }
 }
