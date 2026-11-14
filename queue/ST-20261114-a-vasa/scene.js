@@ -1,7 +1,7 @@
 window.SCENE=function(a){const {k,ease,clamp,W,E}=a;const S=window.STYLES.noir;
 const tSank=W('sank'),tLen=W('long'),tMin=W('minutes'),tThirty=W('Thirty'),tRoll=W('roll'),tInq=W('inquest'),tHeavy=W('heavy'),tHere=W('here'),tEnd=a.words[a.words.length-1].end+0.4;
 const cues=[{t:0.05,sfx:'pop',gain:0.6},{t:tSank,sfx:'thud',gain:0.9},{t:tMin,sfx:'tick',gain:0.8},{t:tThirty,sfx:'thud',gain:1},{t:tRoll,sfx:'whoosh',gain:0.8},{t:tInq,sfx:'click',gain:0.8},{t:tHeavy-0.5,sfx:'rise',gain:0.9},{t:tHeavy,sfx:'chime',gain:1},{t:tHere,sfx:'tick',gain:0.7}];
-function ship(c,t){const tilt=t<tRoll?Math.sin(t*1.2)*0.03:(t<tInq?Math.sin((t-tRoll)*6)*0.16:0.05+Math.sin(t*2)*0.02);const sink=t>tHeavy?clamp((t-tHeavy)/3)*0:0;
+function ship(c,t){const tilt=t<tRoll?Math.sin(t*1.2)*0.03:(t<tInq?Math.sin((t-tRoll)*6)*0.16:0.05+Math.sin(t*2)*0.02);const sink=t<tThirty?0:(t<tRoll?clamp((t-tThirty)/1.2)*330:(t<tHere?330-clamp((t-tHeavy)/3)*330*(t>tHeavy?1:0):0));
  c.save();c.translate(540,1330+sink);c.rotate(tilt);c.fillStyle='#0d1018';c.strokeStyle='rgba(255,210,120,0.8)';c.lineWidth=5;
  c.beginPath();c.moveTo(-380,-60);c.lineTo(380,-60);c.lineTo(300,110);c.lineTo(-300,110);c.closePath();c.fill();c.stroke();
  for(let i=0;i<3;i++){const mx=-200+i*200;c.beginPath();c.moveTo(mx,-60);c.lineTo(mx,-520+i*40);c.stroke();c.fillStyle='rgba(235,225,190,0.25)';c.beginPath();c.moveTo(mx,-500+i*40);c.lineTo(mx+130,-420+i*40);c.lineTo(mx+130,-200);c.lineTo(mx,-160);c.closePath();c.fill();c.stroke();}
