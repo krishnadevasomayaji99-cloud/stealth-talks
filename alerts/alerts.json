@@ -58,5 +58,10 @@
   "at": "2026-11-14T01:24:24.611817+00:00",
   "key": "flagger",
   "msg": "2 READY Reel(s) but 4 slot(s) left today: build or approve more now"
+ },
+ {
+  "at": "2026-11-14T08:45:34.293283+00:00",
+  "key": "ST-20261113-b-wow-signal",
+  "msg": "failed_before_upload: processing timeout"
  }
 ]
