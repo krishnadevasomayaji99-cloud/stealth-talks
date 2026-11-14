@@ -437,6 +437,12 @@
    "started_at": "2026-11-14T21:33:17.320039+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261115-c-kashasha",
+   "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
+   "started_at": "2026-11-14T21:46:55.138605+00:00",
+   "state": "uploading"
   }
  ]
 }
