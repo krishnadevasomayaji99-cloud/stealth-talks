@@ -397,10 +397,14 @@
    "upload_http": 400
   },
   {
+   "container": "18004199828822257",
    "key": "ST-20261114-d-celeste",
+   "media_id": "17898830253414341",
+   "permalink": "https://www.instagram.com/reel/DfuzKP2D3FU/",
+   "published_at": "2026-11-14T18:00:34.752928+00:00",
    "sha256": "26a111a37853c8aa958b9936e9e75806758437a74022ec4f26fd97b49ebf2d38",
    "started_at": "2026-11-14T17:59:55.080112+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
