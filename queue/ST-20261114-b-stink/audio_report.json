@@ -1,0 +1,26 @@
+{
+ "sha256": "66b4acc035fe02bcb6bd138b1921563debaae036f49d2d04b1eb61ac38c888cc",
+ "audio": {
+  "lufs": -15.7,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 31.4,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.045,
+  "expected_words": 88,
+  "heard_words": 88,
+  "missing_or_wrong": [
+   "thirty",
+   "typhoid",
+   "eighteen",
+   "bazalgette"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}

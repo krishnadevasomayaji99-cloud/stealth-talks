@@ -1,0 +1,442 @@
+[
+ {
+  "w": "One",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "w": "hot",
+  "start": 0.4,
+  "end": 0.66
+ },
+ {
+  "w": "summer,",
+  "start": 0.66,
+  "end": 1.0
+ },
+ {
+  "w": "a",
+  "start": 1.26,
+  "end": 1.32
+ },
+ {
+  "w": "river",
+  "start": 1.32,
+  "end": 1.5
+ },
+ {
+  "w": "drove",
+  "start": 1.5,
+  "end": 1.84
+ },
+ {
+  "w": "politicians",
+  "start": 1.84,
+  "end": 2.34
+ },
+ {
+  "w": "out",
+  "start": 2.34,
+  "end": 2.8
+ },
+ {
+  "w": "of",
+  "start": 2.8,
+  "end": 2.88
+ },
+ {
+  "w": "Parliament.",
+  "start": 2.88,
+  "end": 3.06
+ },
+ {
+  "w": "Temperatures",
+  "start": 3.86,
+  "end": 4.34
+ },
+ {
+  "w": "hit",
+  "start": 4.34,
+  "end": 4.6
+ },
+ {
+  "w": "thirty",
+  "start": 4.6,
+  "end": 4.885
+ },
+ {
+  "w": "degrees",
+  "start": 4.9,
+  "end": 5.18
+ },
+ {
+  "w": "and",
+  "start": 5.18,
+  "end": 5.54
+ },
+ {
+  "w": "stayed",
+  "start": 5.54,
+  "end": 5.74
+ },
+ {
+  "w": "high",
+  "start": 5.74,
+  "end": 5.98
+ },
+ {
+  "w": "for",
+  "start": 5.98,
+  "end": 6.22
+ },
+ {
+  "w": "weeks.",
+  "start": 6.22,
+  "end": 6.42
+ },
+ {
+  "w": "Curtains",
+  "start": 7.12,
+  "end": 7.52
+ },
+ {
+  "w": "and",
+  "start": 7.52,
+  "end": 7.7
+ },
+ {
+  "w": "blinds",
+  "start": 7.7,
+  "end": 8.22
+ },
+ {
+  "w": "were",
+  "start": 8.22,
+  "end": 8.28
+ },
+ {
+  "w": "soaked",
+  "start": 8.28,
+  "end": 8.48
+ },
+ {
+  "w": "in",
+  "start": 8.48,
+  "end": 8.78
+ },
+ {
+  "w": "chloride",
+  "start": 8.78,
+  "end": 9.06
+ },
+ {
+  "w": "of",
+  "start": 9.06,
+  "end": 9.32
+ },
+ {
+  "w": "lime",
+  "start": 9.32,
+  "end": 9.5
+ },
+ {
+  "w": "to",
+  "start": 9.5,
+  "end": 9.78
+ },
+ {
+  "w": "block",
+  "start": 9.78,
+  "end": 9.96
+ },
+ {
+  "w": "the",
+  "start": 9.96,
+  "end": 10.16
+ },
+ {
+  "w": "smell.",
+  "start": 10.16,
+  "end": 10.38
+ },
+ {
+  "w": "Cholera",
+  "start": 11.0,
+  "end": 11.36
+ },
+ {
+  "w": "and",
+  "start": 11.36,
+  "end": 11.56
+ },
+ {
+  "w": "typhoid",
+  "start": 11.56,
+  "end": 11.978
+ },
+ {
+  "w": "spread",
+  "start": 12.0,
+  "end": 12.26
+ },
+ {
+  "w": "quickly",
+  "start": 12.26,
+  "end": 12.6
+ },
+ {
+  "w": "through",
+  "start": 12.6,
+  "end": 12.94
+ },
+ {
+  "w": "the",
+  "start": 12.94,
+  "end": 13.1
+ },
+ {
+  "w": "city.",
+  "start": 13.1,
+  "end": 13.32
+ },
+ {
+  "w": "So",
+  "start": 14.02,
+  "end": 14.12
+ },
+ {
+  "w": "the",
+  "start": 14.12,
+  "end": 14.22
+ },
+ {
+  "w": "government",
+  "start": 14.22,
+  "end": 14.46
+ },
+ {
+  "w": "rushed",
+  "start": 14.46,
+  "end": 14.8
+ },
+ {
+  "w": "through",
+  "start": 14.8,
+  "end": 15.1
+ },
+ {
+  "w": "a",
+  "start": 15.1,
+  "end": 15.24
+ },
+ {
+  "w": "bill",
+  "start": 15.24,
+  "end": 15.38
+ },
+ {
+  "w": "to",
+  "start": 15.38,
+  "end": 15.56
+ },
+ {
+  "w": "pay",
+  "start": 15.56,
+  "end": 15.74
+ },
+ {
+  "w": "for",
+  "start": 15.74,
+  "end": 15.96
+ },
+ {
+  "w": "a",
+  "start": 15.96,
+  "end": 16.04
+ },
+ {
+  "w": "new",
+  "start": 16.04,
+  "end": 16.18
+ },
+ {
+  "w": "sewer,",
+  "start": 16.18,
+  "end": 16.5
+ },
+ {
+  "w": "proposed",
+  "start": 16.92,
+  "end": 17.16
+ },
+ {
+  "w": "by",
+  "start": 17.16,
+  "end": 17.54
+ },
+ {
+  "w": "Benjamin",
+  "start": 17.54,
+  "end": 17.9
+ },
+ {
+  "w": "Disraeli.",
+  "start": 17.9,
+  "end": 18.74
+ },
+ {
+  "w": "It",
+  "start": 19.3,
+  "end": 19.32
+ },
+ {
+  "w": "became",
+  "start": 19.32,
+  "end": 19.56
+ },
+ {
+  "w": "law",
+  "start": 19.56,
+  "end": 19.88
+ },
+ {
+  "w": "in",
+  "start": 19.88,
+  "end": 20.14
+ },
+ {
+  "w": "just",
+  "start": 20.14,
+  "end": 20.3
+ },
+ {
+  "w": "eighteen",
+  "start": 20.3,
+  "end": 20.566
+ },
+ {
+  "w": "days.",
+  "start": 20.58,
+  "end": 21.02
+ },
+ {
+  "w": "Joseph",
+  "start": 22.1,
+  "end": 22.1
+ },
+ {
+  "w": "Bazalgette",
+  "start": 22.1,
+  "end": 22.689
+ },
+ {
+  "w": "built",
+  "start": 22.72,
+  "end": 23.06
+ },
+ {
+  "w": "brick",
+  "start": 23.06,
+  "end": 23.3
+ },
+ {
+  "w": "lined",
+  "start": 23.3,
+  "end": 23.58
+ },
+ {
+  "w": "tunnels",
+  "start": 23.58,
+  "end": 24.0
+ },
+ {
+  "w": "that",
+  "start": 24.0,
+  "end": 24.4
+ },
+ {
+  "w": "still",
+  "start": 24.4,
+  "end": 24.6
+ },
+ {
+  "w": "form",
+  "start": 24.6,
+  "end": 24.92
+ },
+ {
+  "w": "the",
+  "start": 24.92,
+  "end": 25.04
+ },
+ {
+  "w": "basis",
+  "start": 25.04,
+  "end": 25.32
+ },
+ {
+  "w": "of",
+  "start": 25.32,
+  "end": 25.54
+ },
+ {
+  "w": "London's",
+  "start": 25.54,
+  "end": 25.94
+ },
+ {
+  "w": "sewers",
+  "start": 25.94,
+  "end": 26.26
+ },
+ {
+  "w": "today.",
+  "start": 26.26,
+  "end": 26.54
+ },
+ {
+  "w": "And",
+  "start": 27.2,
+  "end": 27.32
+ },
+ {
+  "w": "the",
+  "start": 27.32,
+  "end": 27.38
+ },
+ {
+  "w": "curtains?",
+  "start": 27.38,
+  "end": 27.6
+ },
+ {
+  "w": "Still",
+  "start": 27.6,
+  "end": 28.14
+ },
+ {
+  "w": "soaked",
+  "start": 28.14,
+  "end": 28.44
+ },
+ {
+  "w": "in",
+  "start": 28.44,
+  "end": 28.66
+ },
+ {
+  "w": "chloride",
+  "start": 28.66,
+  "end": 28.92
+ },
+ {
+  "w": "of",
+  "start": 28.92,
+  "end": 29.2
+ },
+ {
+  "w": "lime.",
+  "start": 29.2,
+  "end": 29.38
+ }
+]
