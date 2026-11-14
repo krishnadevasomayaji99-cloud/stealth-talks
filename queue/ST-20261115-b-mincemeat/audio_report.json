@@ -1,0 +1,27 @@
+{
+ "sha256": "d4814be595311aac9f00e5b97fbdd1d7b3a14105f1bc2852151c9a5f39246612",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.6,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 47.93,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.05,
+  "expected_words": 140,
+  "heard_words": 138,
+  "missing_or_wrong": [
+   "e's",
+   "thirty eight",
+   "ninety",
+   "thirty four",
+   "glyndwr"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
