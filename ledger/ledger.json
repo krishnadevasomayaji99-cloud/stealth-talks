@@ -371,10 +371,14 @@
    "state": "verified"
   },
   {
+   "container": "18004118258822257",
    "key": "ST-20261114-b-stink",
+   "media_id": "17879623344573897",
+   "permalink": "https://www.instagram.com/reel/DfuNx1vCURz/",
+   "published_at": "2026-11-14T12:33:55.018930+00:00",
    "sha256": "66b4acc035fe02bcb6bd138b1921563debaae036f49d2d04b1eb61ac38c888cc",
    "started_at": "2026-11-14T12:33:15.401093+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
