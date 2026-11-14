@@ -1,19 +1,15 @@
 {
- "at": "2026-11-14T10:06:59.384993+00:00",
- "london": "2026-11-14 10:06",
+ "at": "2026-11-14T17:59:11.597749+00:00",
+ "london": "2026-11-14 17:59",
  "ready": [
   "ST-20261112-b-ladder-cam",
   "ST-20261113-b-wow-signal",
-  "ST-20261114-b-stink",
-  "ST-20261114-c-synod",
   "ST-20261114-d-celeste"
  ],
  "slots_left": [
-  "12:30",
-  "17:30",
   "20:30"
  ],
- "posted_today": 1,
+ "posted_today": 2,
  "flags": [
   {
    "level": "INFO",
