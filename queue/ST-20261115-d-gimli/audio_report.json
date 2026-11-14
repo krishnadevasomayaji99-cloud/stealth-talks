@@ -1,0 +1,25 @@
+{
+ "sha256": "05bf7f61896181e604b2f725ab6e0fb526fea7a5aaa7684acedecab0d5e6d0b7",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 38.57,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.062,
+  "expected_words": 113,
+  "heard_words": 110,
+  "missing_or_wrong": [
+   "seven six seven",
+   "sixty nine",
+   "maurice quintal"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}

@@ -1,0 +1,567 @@
+[
+ {
+  "w": "Both",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "w": "engines",
+  "start": 0.36,
+  "end": 0.68
+ },
+ {
+  "w": "died",
+  "start": 0.68,
+  "end": 1.2
+ },
+ {
+  "w": "at",
+  "start": 1.2,
+  "end": 1.36
+ },
+ {
+  "w": "cruising",
+  "start": 1.36,
+  "end": 1.52
+ },
+ {
+  "w": "height,",
+  "start": 1.52,
+  "end": 1.9
+ },
+ {
+  "w": "and",
+  "start": 1.9,
+  "end": 2.3
+ },
+ {
+  "w": "the",
+  "start": 2.3,
+  "end": 2.38
+ },
+ {
+  "w": "cockpit",
+  "start": 2.38,
+  "end": 2.6
+ },
+ {
+  "w": "went",
+  "start": 2.6,
+  "end": 2.94
+ },
+ {
+  "w": "quiet.",
+  "start": 2.94,
+  "end": 3.3
+ },
+ {
+  "w": "It",
+  "start": 4.0,
+  "end": 4.06
+ },
+ {
+  "w": "was",
+  "start": 4.06,
+  "end": 4.14
+ },
+ {
+  "w": "a",
+  "start": 4.14,
+  "end": 4.22
+ },
+ {
+  "w": "brand",
+  "start": 4.22,
+  "end": 4.42
+ },
+ {
+  "w": "new",
+  "start": 4.42,
+  "end": 4.72
+ },
+ {
+  "w": "Boeing",
+  "start": 4.72,
+  "end": 4.92
+ },
+ {
+  "w": "seven",
+  "start": 4.92,
+  "end": 5.363
+ },
+ {
+  "w": "six",
+  "start": 5.387,
+  "end": 5.83
+ },
+ {
+  "w": "seven,",
+  "start": 5.853,
+  "end": 6.297
+ },
+ {
+  "w": "flying",
+  "start": 6.32,
+  "end": 6.72
+ },
+ {
+  "w": "from",
+  "start": 6.72,
+  "end": 7.04
+ },
+ {
+  "w": "Montreal",
+  "start": 7.04,
+  "end": 7.28
+ },
+ {
+  "w": "to",
+  "start": 7.28,
+  "end": 7.72
+ },
+ {
+  "w": "Edmonton",
+  "start": 7.72,
+  "end": 7.96
+ },
+ {
+  "w": "with",
+  "start": 7.96,
+  "end": 8.42
+ },
+ {
+  "w": "sixty",
+  "start": 8.42,
+  "end": 8.562
+ },
+ {
+  "w": "nine",
+  "start": 8.57,
+  "end": 8.712
+ },
+ {
+  "w": "people",
+  "start": 8.72,
+  "end": 9.32
+ },
+ {
+  "w": "aboard.",
+  "start": 9.32,
+  "end": 9.58
+ },
+ {
+  "w": "The",
+  "start": 10.38,
+  "end": 10.44
+ },
+ {
+  "w": "captain,",
+  "start": 10.44,
+  "end": 10.7
+ },
+ {
+  "w": "Robert",
+  "start": 10.7,
+  "end": 11.04
+ },
+ {
+  "w": "Pearson,",
+  "start": 11.04,
+  "end": 11.42
+ },
+ {
+  "w": "flew",
+  "start": 11.42,
+  "end": 11.9
+ },
+ {
+  "w": "gliders",
+  "start": 11.9,
+  "end": 12.32
+ },
+ {
+  "w": "in",
+  "start": 12.32,
+  "end": 12.54
+ },
+ {
+  "w": "his",
+  "start": 12.54,
+  "end": 12.62
+ },
+ {
+  "w": "spare",
+  "start": 12.62,
+  "end": 12.8
+ },
+ {
+  "w": "time.",
+  "start": 12.8,
+  "end": 13.18
+ },
+ {
+  "w": "The",
+  "start": 13.82,
+  "end": 13.92
+ },
+ {
+  "w": "first",
+  "start": 13.92,
+  "end": 14.08
+ },
+ {
+  "w": "officer,",
+  "start": 14.08,
+  "end": 14.44
+ },
+ {
+  "w": "Maurice",
+  "start": 14.44,
+  "end": 15.086
+ },
+ {
+  "w": "Quintal,",
+  "start": 15.12,
+  "end": 15.766
+ },
+ {
+  "w": "had",
+  "start": 15.8,
+  "end": 15.86
+ },
+ {
+  "w": "once",
+  "start": 15.86,
+  "end": 16.06
+ },
+ {
+  "w": "served",
+  "start": 16.06,
+  "end": 16.36
+ },
+ {
+  "w": "at",
+  "start": 16.36,
+  "end": 16.56
+ },
+ {
+  "w": "an",
+  "start": 16.56,
+  "end": 16.66
+ },
+ {
+  "w": "old",
+  "start": 16.66,
+  "end": 16.82
+ },
+ {
+  "w": "air",
+  "start": 16.82,
+  "end": 17.06
+ },
+ {
+  "w": "force",
+  "start": 17.06,
+  "end": 17.3
+ },
+ {
+  "w": "base",
+  "start": 17.3,
+  "end": 17.6
+ },
+ {
+  "w": "in",
+  "start": 17.6,
+  "end": 17.8
+ },
+ {
+  "w": "Gimli,",
+  "start": 17.8,
+  "end": 18.2
+ },
+ {
+  "w": "Manitoba.",
+  "start": 18.36,
+  "end": 18.54
+ },
+ {
+  "w": "The",
+  "start": 19.42,
+  "end": 19.5
+ },
+ {
+  "w": "nearest",
+  "start": 19.5,
+  "end": 19.7
+ },
+ {
+  "w": "runway",
+  "start": 19.7,
+  "end": 20.02
+ },
+ {
+  "w": "was",
+  "start": 20.02,
+  "end": 20.4
+ },
+ {
+  "w": "too",
+  "start": 20.4,
+  "end": 20.62
+ },
+ {
+  "w": "far",
+  "start": 20.62,
+  "end": 20.88
+ },
+ {
+  "w": "away.",
+  "start": 20.88,
+  "end": 21.2
+ },
+ {
+  "w": "So",
+  "start": 21.66,
+  "end": 22.1
+ },
+ {
+  "w": "they",
+  "start": 22.1,
+  "end": 22.24
+ },
+ {
+  "w": "glided",
+  "start": 22.24,
+  "end": 22.62
+ },
+ {
+  "w": "toward",
+  "start": 22.62,
+  "end": 22.86
+ },
+ {
+  "w": "Gimli.",
+  "start": 22.86,
+  "end": 23.44
+ },
+ {
+  "w": "The",
+  "start": 23.94,
+  "end": 24.22
+ },
+ {
+  "w": "runway",
+  "start": 24.22,
+  "end": 24.4
+ },
+ {
+  "w": "was",
+  "start": 24.4,
+  "end": 24.76
+ },
+ {
+  "w": "being",
+  "start": 24.76,
+  "end": 24.92
+ },
+ {
+  "w": "used",
+  "start": 24.92,
+  "end": 25.16
+ },
+ {
+  "w": "as",
+  "start": 25.16,
+  "end": 25.38
+ },
+ {
+  "w": "a",
+  "start": 25.38,
+  "end": 25.46
+ },
+ {
+  "w": "drag",
+  "start": 25.46,
+  "end": 25.64
+ },
+ {
+  "w": "strip,",
+  "start": 25.64,
+  "end": 26.0
+ },
+ {
+  "w": "and",
+  "start": 26.0,
+  "end": 26.46
+ },
+ {
+  "w": "they",
+  "start": 26.46,
+  "end": 26.6
+ },
+ {
+  "w": "landed",
+  "start": 26.6,
+  "end": 26.84
+ },
+ {
+  "w": "on",
+  "start": 26.84,
+  "end": 27.22
+ },
+ {
+  "w": "it.",
+  "start": 27.22,
+  "end": 27.34
+ },
+ {
+  "w": "Nobody",
+  "start": 27.9,
+  "end": 28.12
+ },
+ {
+  "w": "died.",
+  "start": 28.12,
+  "end": 29.735
+ },
+ {
+  "w": "Canada",
+  "start": 29.82,
+  "end": 29.82
+ },
+ {
+  "w": "had",
+  "start": 29.82,
+  "end": 30.06
+ },
+ {
+  "w": "just",
+  "start": 30.06,
+  "end": 30.24
+ },
+ {
+  "w": "switched",
+  "start": 30.24,
+  "end": 30.44
+ },
+ {
+  "w": "to",
+  "start": 30.44,
+  "end": 30.66
+ },
+ {
+  "w": "metric,",
+  "start": 30.66,
+  "end": 30.88
+ },
+ {
+  "w": "and",
+  "start": 31.44,
+  "end": 31.52
+ },
+ {
+  "w": "the",
+  "start": 31.52,
+  "end": 31.6
+ },
+ {
+  "w": "fuel",
+  "start": 31.6,
+  "end": 31.8
+ },
+ {
+  "w": "had",
+  "start": 31.8,
+  "end": 32.08
+ },
+ {
+  "w": "been",
+  "start": 32.08,
+  "end": 32.22
+ },
+ {
+  "w": "worked",
+  "start": 32.22,
+  "end": 32.44
+ },
+ {
+  "w": "out",
+  "start": 32.44,
+  "end": 32.64
+ },
+ {
+  "w": "in",
+  "start": 32.64,
+  "end": 32.78
+ },
+ {
+  "w": "pounds",
+  "start": 32.78,
+  "end": 33.04
+ },
+ {
+  "w": "instead",
+  "start": 33.04,
+  "end": 33.42
+ },
+ {
+  "w": "of",
+  "start": 33.42,
+  "end": 33.64
+ },
+ {
+  "w": "kilograms,",
+  "start": 33.64,
+  "end": 33.84
+ },
+ {
+  "w": "so",
+  "start": 34.64,
+  "end": 34.76
+ },
+ {
+  "w": "the",
+  "start": 34.76,
+  "end": 34.84
+ },
+ {
+  "w": "tanks",
+  "start": 34.84,
+  "end": 35.02
+ },
+ {
+  "w": "held",
+  "start": 35.02,
+  "end": 35.34
+ },
+ {
+  "w": "about",
+  "start": 35.34,
+  "end": 35.6
+ },
+ {
+  "w": "half",
+  "start": 35.6,
+  "end": 35.86
+ },
+ {
+  "w": "of",
+  "start": 35.86,
+  "end": 36.02
+ },
+ {
+  "w": "what",
+  "start": 36.02,
+  "end": 36.18
+ },
+ {
+  "w": "they",
+  "start": 36.18,
+  "end": 36.32
+ },
+ {
+  "w": "needed.",
+  "start": 36.32,
+  "end": 36.54
+ }
+]
