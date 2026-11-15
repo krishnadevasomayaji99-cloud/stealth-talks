@@ -478,10 +478,15 @@
    "state": "verified"
   },
   {
+   "container": "18004503656822257",
    "key": "ST-20261113-b-wow-signal",
+   "media_id": "18127595221904841",
+   "permalink": "https://www.instagram.com/reel/DfxU7mdkVuG/",
+   "published_at": "2026-11-15T17:34:07.013748+00:00",
+   "reencoded": true,
    "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
    "started_at": "2026-11-15T17:32:56.719926+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
