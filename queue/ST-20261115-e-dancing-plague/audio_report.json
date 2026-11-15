@@ -1,23 +1,24 @@
 {
- "sha256": "79d2313773e1c4b487fd4d599066be2e0d6e36528a52d28e5c7e5ff36d8a55c5",
+ "sha256": "7e5d261ef546fe42be9d6c033e61cc96c986f5992307e7e845e6293ef05d6b6e",
  "audio": {
   "lufs": -15.5,
-  "true_peak_dbtp": -1.8,
+  "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 35.6,
+  "duration_s": 35.33,
   "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.074,
+  "approx_wer": 0.085,
   "expected_words": 94,
   "heard_words": 95,
   "missing_or_wrong": [
    "summer 1518",
-   "frau troffea",
+   "troffea",
    "four hundred",
-   "guildhalls"
+   "guildhalls",
+   "mid step"
   ]
  },
  "problems": [],

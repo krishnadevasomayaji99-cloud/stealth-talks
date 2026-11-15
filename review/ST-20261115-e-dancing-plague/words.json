@@ -27,11 +27,11 @@
  {
   "w": "dancing",
   "start": 3.18,
-  "end": 3.4
+  "end": 3.42
  },
  {
   "w": "in",
-  "start": 3.4,
+  "start": 3.42,
   "end": 3.72
  },
  {
@@ -52,16 +52,16 @@
  {
   "w": "and",
   "start": 4.54,
-  "end": 4.82
+  "end": 4.84
  },
  {
   "w": "she",
-  "start": 4.82,
-  "end": 4.94
+  "start": 4.84,
+  "end": 4.96
  },
  {
   "w": "cannot",
-  "start": 4.94,
+  "start": 4.96,
   "end": 5.12
  },
  {
@@ -92,11 +92,11 @@
  {
   "w": "Troffea.",
   "start": 7.16,
-  "end": 8.3
+  "end": 8.281
  },
  {
   "w": "Within",
-  "start": 8.36,
+  "start": 8.34,
   "end": 8.48
  },
  {
@@ -116,12 +116,12 @@
  },
  {
   "w": "more",
-  "start": 9.34,
-  "end": 9.48
+  "start": 9.3,
+  "end": 9.46
  },
  {
   "w": "people",
-  "start": 9.48,
+  "start": 9.46,
   "end": 9.84
  },
  {
@@ -152,27 +152,27 @@
  {
   "w": "there",
   "start": 11.64,
-  "end": 11.72
+  "end": 11.7
  },
  {
   "w": "are",
-  "start": 11.72,
+  "start": 11.7,
   "end": 11.8
  },
  {
   "w": "supposedly",
   "start": 11.8,
-  "end": 12.2
+  "end": 12.22
  },
  {
   "w": "four",
-  "start": 12.2,
-  "end": 12.447
+  "start": 12.22,
+  "end": 12.458
  },
  {
   "w": "hundred",
-  "start": 12.46,
-  "end": 12.707
+  "start": 12.47,
+  "end": 12.708
  },
  {
   "w": "dancers.",
@@ -182,16 +182,16 @@
  {
   "w": "Nobody",
   "start": 14.22,
-  "end": 14.42
+  "end": 14.46
  },
  {
   "w": "knows",
-  "start": 14.42,
-  "end": 14.78
+  "start": 14.46,
+  "end": 14.76
  },
  {
   "w": "why",
-  "start": 14.78,
+  "start": 14.76,
   "end": 15.08
  },
  {
@@ -206,17 +206,17 @@
  },
  {
   "w": "and",
-  "start": 15.46,
-  "end": 15.82
+  "start": 15.74,
+  "end": 15.84
  },
  {
   "w": "nobody",
-  "start": 15.82,
-  "end": 16.1
+  "start": 15.84,
+  "end": 16.06
  },
  {
   "w": "can",
-  "start": 16.1,
+  "start": 16.06,
   "end": 16.4
  },
  {
@@ -236,22 +236,22 @@
  },
  {
   "w": "So",
-  "start": 17.7,
-  "end": 17.78
+  "start": 17.68,
+  "end": 17.76
  },
  {
   "w": "the",
-  "start": 17.78,
+  "start": 17.76,
   "end": 17.9
  },
  {
   "w": "authorities",
   "start": 17.9,
-  "end": 18.32
+  "end": 18.3
  },
  {
   "w": "try",
-  "start": 18.32,
+  "start": 18.3,
   "end": 18.66
  },
  {
@@ -262,7 +262,7 @@
  {
   "w": "strange.",
   "start": 19.02,
-  "end": 19.44
+  "end": 19.42
  },
  {
   "w": "They",
@@ -327,7 +327,7 @@
  {
   "w": "stage.",
   "start": 23.14,
-  "end": 23.5
+  "end": 23.52
  },
  {
   "w": "Then",
@@ -342,16 +342,16 @@
  {
   "w": "hire",
   "start": 24.58,
-  "end": 24.76
+  "end": 24.78
  },
  {
   "w": "musicians,",
-  "start": 24.76,
-  "end": 25.18
+  "start": 24.78,
+  "end": 25.2
  },
  {
   "w": "hoping",
-  "start": 25.8,
+  "start": 25.78,
   "end": 26.0
  },
  {
@@ -362,11 +362,11 @@
  {
   "w": "dancers",
   "start": 26.24,
-  "end": 26.54
+  "end": 26.5
  },
  {
   "w": "will",
-  "start": 26.54,
+  "start": 26.5,
   "end": 26.84
  },
  {
@@ -377,11 +377,11 @@
  {
   "w": "themselves",
   "start": 27.0,
-  "end": 27.36
+  "end": 27.34
  },
  {
   "w": "out.",
-  "start": 27.36,
+  "start": 27.34,
   "end": 27.8
  },
  {
@@ -397,21 +397,21 @@
  {
   "w": "not",
   "start": 28.68,
-  "end": 28.88
+  "end": 28.9
  },
  {
   "w": "work",
-  "start": 28.88,
-  "end": 29.22
+  "start": 28.9,
+  "end": 29.2
  },
  {
   "w": "well.",
-  "start": 29.22,
+  "start": 29.2,
   "end": 29.46
  },
  {
   "w": "Historians",
-  "start": 30.1,
+  "start": 30.08,
   "end": 30.66
  },
  {
@@ -462,6 +462,6 @@
  {
   "w": "mid-step.",
   "start": 32.82,
-  "end": 33.582
+  "end": 33.32
  }
 ]
