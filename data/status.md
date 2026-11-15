@@ -1,3 +1,4 @@
-# Status (evening watchdog 2026-11-14, Claude)
-- Posted today: vasa 09:01, stink 12:33, celeste 18:00 (verified). synod and wow-signal hit upload 400/processing timeouts (retries pending, nothing double-posted); no needs_reconcile rows. 20:30 slot covered by publisher.
-- Built 4 new Reels for 15 Nov (gertie crt, mincemeat noir, kashasha comic, gimli notebook), all gate READY with audio reports passing. READY stock: 7 (ladder-cam, wow-signal, synod, + 4 new). Recurring blocker: Instagram upload 400 "processing timeout" on some Reels (ladder-cam, wow-signal, synod); retries eventually succeed. Unchanged: 52nd style missing; last-biscuit unapproved.
+# Status (morning run 2026-11-15 03:20 London, Claude)
+- Health: 14 Nov posted 3/4 (vasa, stink, celeste); 20:30 slot missed: gertie, mincemeat, kashasha all hit upload 400/processing timeout; window closed 22:00. No needs_reconcile or stale rows; flagger clean. READY stock 7 (all gate READY) but 5 have failed uploads before (ladder-cam, wow-signal, synod, gertie, mincemeat); fresh: kashasha (1 fail), gimli.
+- Fix today: publish.py re-encodes a Reel to a Meta-safe profile after its first failure (tested locally with ffmpeg). Evening watchdog must check whether it worked; if not, build new Reels with an alternate encode in make-reel.
+- Not done this run: new Reels and trend research (stock covers the 4 slots). Unchanged: 52nd style missing; last-biscuit unapproved.

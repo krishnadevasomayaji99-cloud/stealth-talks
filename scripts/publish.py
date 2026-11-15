@@ -48,6 +48,13 @@ def publish(key, tok, dry):
             if s != 200 or "id" not in j: row["state"] = "failed_before_upload"; row["err"] = str(j)[:300]; raise RuntimeError(f"container create failed: {j}")
             cid = j["id"]; row["container"] = cid
         if not reuse:
+            # 15 Nov: some Reels get an immediate 400 ProcessingFailedError from rupload and never process. After one failure, upload a
+            # re-encoded Meta-safe copy (yuv420p, bt709 tv-range, closed GOP, stereo 44.1k AAC, faststart); ledger/gate still bind the original sha.
+            if sum(1 for pr in L["rows"][:-1] if pr["key"] == key and pr["state"] == "failed_before_upload") >= 1:
+                import subprocess, tempfile
+                alt = os.path.join(tempfile.gettempdir(), "upload_safe.mp4")
+                rc = subprocess.run(["ffmpeg","-y","-v","error","-i",str(v),"-c:v","libx264","-profile:v","high","-level","4.0","-pix_fmt","yuv420p","-vf","scale=in_range=auto:out_range=tv,format=yuv420p","-color_range","tv","-colorspace","bt709","-color_primaries","bt709","-color_trc","bt709","-r","30","-g","60","-keyint_min","60","-sc_threshold","0","-crf","21","-maxrate","5M","-bufsize","10M","-c:a","aac","-b:a","128k","-ar","44100","-ac","2","-movflags","+faststart",alt]).returncode
+                if rc == 0 and os.path.getsize(alt) > 100000: v = type(v)(alt); row["reencoded"] = True; print("uploading re-encoded safe copy", flush=True)
             size = v.stat().st_size
             for attempt in range(1, 4):   # safe to retry: nothing is published until media_publish
                 try:
