@@ -1,18 +1,15 @@
 {
- "at": "2026-11-15T16:16:37.589423+00:00",
- "london": "2026-11-15 16:16",
+ "at": "2026-11-15T22:44:09.022900+00:00",
+ "london": "2026-11-15 22:44",
  "ready": [
-  "ST-20261113-b-wow-signal",
   "ST-20261114-c-synod",
   "ST-20261115-a-gertie",
   "ST-20261115-b-mincemeat",
-  "ST-20261115-c-kashasha"
+  "ST-20261115-c-kashasha",
+  "ST-20261115-f-beer-wave"
  ],
- "slots_left": [
-  "17:30",
-  "20:30"
- ],
- "posted_today": 2,
+ "slots_left": [],
+ "posted_today": 4,
  "flags": [
   {
    "level": "INFO",
