@@ -487,6 +487,12 @@
    "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
    "started_at": "2026-11-15T17:32:56.719926+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261115-e-dancing-plague",
+   "sha256": "7e5d261ef546fe42be9d6c033e61cc96c986f5992307e7e845e6293ef05d6b6e",
+   "started_at": "2026-11-15T20:32:54.298296+00:00",
+   "state": "uploading"
   }
  ]
 }
