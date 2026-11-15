@@ -6,7 +6,7 @@ return {cues,caption:S.caption,capY:1560,
  cam(t){const z=k(t,[[0,1],[tMore,1],[tFour,1.12],[tStage,1],[tMus,1.3],[tMus+1.2,1],[tEnd,1.05]]);const [sx,sy]=a.shake(t,(t>tFour&&t<tStage)?3:0);return{x:540+sx,y:960+sy,z};},
  draw(c,t){S.bg(c,t,{vx:0});
   const n=t<tHer?1:t<tMore?1:t<tFour?Math.round(2+34*clamp((t-tMore)/(tFour-tMore))):Math.round(36+364*clamp((t-tFour)/1.5));
-  c.font='700 120px "DejaVu Sans Mono",monospace';c.textAlign='center';c.fillStyle=t>=tFour?'#ff5050':g;c.fillText(n+' DANCERS',540,420);
+  c.font='700 120px "DejaVu Sans Mono",monospace';c.textAlign='center';c.fillStyle=t>=tFour?'#ff5050':g;c.fillText(n+(n===1?' DANCER':' DANCERS'),540,420);
   c.strokeStyle=g;c.lineWidth=8;c.beginPath();c.moveTo(0,1250);c.lineTo(1080,1250);c.stroke();
   if(t>=tStage){c.fillStyle='rgba(190,255,215,0.35)';c.fillRect(200,1100,680,150);c.strokeRect(200,1100,680,150);c.font='900 70px sans-serif';c.fillStyle=g;c.fillText('STAGE',540,1190);}
   const m=Math.min(n,40);

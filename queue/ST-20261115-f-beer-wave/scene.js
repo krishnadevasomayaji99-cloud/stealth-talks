@@ -14,9 +14,9 @@ return {cues,caption:S.caption,capY:1600,
   // buildings
   c.fillStyle='#d8c9a0';c.fillRect(60,860,260,300);c.strokeRect(60,860,260,300);
   const hy=t>=tHouse?Math.min(260,(t-tHouse)*300):0;c.fillRect(760,860+hy,260,300-hy);c.strokeRect(760,860+hy,260,300-hy);
-  if(t>=tWall){c.font='900 100px sans-serif';c.fillStyle='#d94b4b';c.textAlign='center';c.fillText('CRASH',540,420);}
+  if(t>=tWall&&t<tEight){c.font='900 100px sans-serif';c.fillStyle='#d94b4b';c.textAlign='center';c.fillText('CRASH',540,420);}
   if(t>=tEight){c.font='900 220px sans-serif';c.fillStyle='#111';c.textAlign='center';c.fillText('8',540,330);}
-  if(t>=tVer){burst(c,540,820,380,'#fff');c.font='900 90px sans-serif';c.fillStyle='#e63946';c.textAlign='center';c.fillText('BY MISFORTUNE',540,840+Math.sin(t*30)*6);}
+  if(t>=tVer){burst(c,540,820,330,'#fff');c.font='900 64px sans-serif';c.fillStyle='#e63946';c.textAlign='center';c.fillText('MISFORTUNE',540,840+Math.sin(t*30)*6);}
   S.fig(c,t,{x:900,y:1560,s:0.9,hop:t>=tVer?30:0});
   if(Math.abs(t-tVer)<0.1){c.fillStyle='rgba(255,255,255,0.5)';c.fillRect(0,0,1080,1920);}
  },
