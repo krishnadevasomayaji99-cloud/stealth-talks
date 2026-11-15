@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "7e5d261ef546fe42be9d6c033e61cc96c986f5992307e7e845e6293ef05d6b6e",
+  "by": "Claude (model)",
+  "at": "2026-11-15T18:47:54.046195+00:00",
+  "note": "script read; hook withholds reveal; frames viewed 0.1/13/23/31 s; loops and pattern breaks per brief; not full playback",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "7e5d261ef546fe42be9d6c033e61cc96c986f5992307e7e845e6293ef05d6b6e",
+  "by": "Claude (model)",
+  "at": "2026-11-15T18:47:54.123176+00:00",
+  "note": "contact sheet of frames viewed after 1 fix round (singular DANCER, crash/8 overlap fixed); look differs from previous two; audio_report LUFS -15.5/-15.4, peak <-1.8",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "1616ec056e8e2c150e9b03f4b3ed7a5a4baf16af982b46360da271f52117202a",
+  "by": "Claude (model)",
+  "at": "2026-11-15T18:47:54.181270+00:00",
+  "note": "caption claims checked against opened pages (dancing: pastmedicalhistory 31 Oct 2016, 400 hedged; beer flood: history.com + British Library, differences stated)",
+  "listened": false
+ }
+}
