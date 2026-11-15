@@ -454,6 +454,12 @@
    "started_at": "2026-11-15T08:33:14.569114+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261115-d-gimli",
+   "sha256": "05bf7f61896181e604b2f725ab6e0fb526fea7a5aaa7684acedecab0d5e6d0b7",
+   "started_at": "2026-11-15T08:47:24.322071+00:00",
+   "state": "uploading"
   }
  ]
 }
