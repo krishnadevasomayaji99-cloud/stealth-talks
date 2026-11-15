@@ -476,6 +476,12 @@
    "sha256": "210882decc032c5205eb4dd20ea21ee9ddc5ed768fc39dc2de39a4ee6662d276",
    "started_at": "2026-11-15T12:33:54.046254+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261113-b-wow-signal",
+   "sha256": "c211be1960510adcd8b3a30ef430dcb1bc22025c1f9a3e1bcd381b6472d13daa",
+   "started_at": "2026-11-15T17:32:56.719926+00:00",
+   "state": "uploading"
   }
  ]
 }
