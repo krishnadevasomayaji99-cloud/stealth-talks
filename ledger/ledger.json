@@ -456,10 +456,15 @@
    "upload_http": 400
   },
   {
+   "container": "18004367510822257",
    "key": "ST-20261115-d-gimli",
+   "media_id": "17954677050291698",
+   "permalink": "https://www.instagram.com/reel/DfwYuZaCrZt/",
+   "published_at": "2026-11-15T08:48:22.277813+00:00",
    "sha256": "05bf7f61896181e604b2f725ab6e0fb526fea7a5aaa7684acedecab0d5e6d0b7",
    "started_at": "2026-11-15T08:47:24.322071+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
