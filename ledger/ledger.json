@@ -489,10 +489,15 @@
    "state": "verified"
   },
   {
+   "container": "18004540745822257",
    "key": "ST-20261115-e-dancing-plague",
+   "media_id": "18134788996690204",
+   "permalink": "https://www.instagram.com/reel/DfxpeDgkeEm/",
+   "published_at": "2026-11-15T20:33:47.011098+00:00",
    "sha256": "7e5d261ef546fe42be9d6c033e61cc96c986f5992307e7e845e6293ef05d6b6e",
    "started_at": "2026-11-15T20:32:54.298296+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
