@@ -1,0 +1,467 @@
+[
+ {
+  "w": "Summer",
+  "start": 0.25,
+  "end": 1.338
+ },
+ {
+  "w": "1518.",
+  "start": 1.395,
+  "end": 2.483
+ },
+ {
+  "w": "One",
+  "start": 2.54,
+  "end": 2.7
+ },
+ {
+  "w": "woman",
+  "start": 2.7,
+  "end": 2.98
+ },
+ {
+  "w": "is",
+  "start": 2.98,
+  "end": 3.18
+ },
+ {
+  "w": "dancing",
+  "start": 3.18,
+  "end": 3.4
+ },
+ {
+  "w": "in",
+  "start": 3.4,
+  "end": 3.72
+ },
+ {
+  "w": "a",
+  "start": 3.72,
+  "end": 3.78
+ },
+ {
+  "w": "Strasbourg",
+  "start": 3.78,
+  "end": 4.26
+ },
+ {
+  "w": "street,",
+  "start": 4.26,
+  "end": 4.54
+ },
+ {
+  "w": "and",
+  "start": 4.54,
+  "end": 4.82
+ },
+ {
+  "w": "she",
+  "start": 4.82,
+  "end": 4.94
+ },
+ {
+  "w": "cannot",
+  "start": 4.94,
+  "end": 5.12
+ },
+ {
+  "w": "stop.",
+  "start": 5.12,
+  "end": 5.56
+ },
+ {
+  "w": "Her",
+  "start": 6.28,
+  "end": 6.36
+ },
+ {
+  "w": "name",
+  "start": 6.36,
+  "end": 6.6
+ },
+ {
+  "w": "is",
+  "start": 6.6,
+  "end": 6.84
+ },
+ {
+  "w": "Frau",
+  "start": 6.84,
+  "end": 7.16
+ },
+ {
+  "w": "Troffea.",
+  "start": 7.16,
+  "end": 8.3
+ },
+ {
+  "w": "Within",
+  "start": 8.36,
+  "end": 8.48
+ },
+ {
+  "w": "a",
+  "start": 8.48,
+  "end": 8.64
+ },
+ {
+  "w": "few",
+  "start": 8.64,
+  "end": 8.8
+ },
+ {
+  "w": "days,",
+  "start": 8.8,
+  "end": 9.08
+ },
+ {
+  "w": "more",
+  "start": 9.34,
+  "end": 9.48
+ },
+ {
+  "w": "people",
+  "start": 9.48,
+  "end": 9.84
+ },
+ {
+  "w": "join",
+  "start": 9.84,
+  "end": 10.1
+ },
+ {
+  "w": "her.",
+  "start": 10.1,
+  "end": 10.44
+ },
+ {
+  "w": "A",
+  "start": 11.04,
+  "end": 11.12
+ },
+ {
+  "w": "month",
+  "start": 11.12,
+  "end": 11.28
+ },
+ {
+  "w": "in,",
+  "start": 11.28,
+  "end": 11.5
+ },
+ {
+  "w": "there",
+  "start": 11.64,
+  "end": 11.72
+ },
+ {
+  "w": "are",
+  "start": 11.72,
+  "end": 11.8
+ },
+ {
+  "w": "supposedly",
+  "start": 11.8,
+  "end": 12.2
+ },
+ {
+  "w": "four",
+  "start": 12.2,
+  "end": 12.447
+ },
+ {
+  "w": "hundred",
+  "start": 12.46,
+  "end": 12.707
+ },
+ {
+  "w": "dancers.",
+  "start": 12.72,
+  "end": 13.3
+ },
+ {
+  "w": "Nobody",
+  "start": 14.22,
+  "end": 14.42
+ },
+ {
+  "w": "knows",
+  "start": 14.42,
+  "end": 14.78
+ },
+ {
+  "w": "why",
+  "start": 14.78,
+  "end": 15.08
+ },
+ {
+  "w": "it",
+  "start": 15.08,
+  "end": 15.2
+ },
+ {
+  "w": "started,",
+  "start": 15.2,
+  "end": 15.46
+ },
+ {
+  "w": "and",
+  "start": 15.46,
+  "end": 15.82
+ },
+ {
+  "w": "nobody",
+  "start": 15.82,
+  "end": 16.1
+ },
+ {
+  "w": "can",
+  "start": 16.1,
+  "end": 16.4
+ },
+ {
+  "w": "make",
+  "start": 16.4,
+  "end": 16.56
+ },
+ {
+  "w": "it",
+  "start": 16.56,
+  "end": 16.68
+ },
+ {
+  "w": "stop.",
+  "start": 16.68,
+  "end": 16.94
+ },
+ {
+  "w": "So",
+  "start": 17.7,
+  "end": 17.78
+ },
+ {
+  "w": "the",
+  "start": 17.78,
+  "end": 17.9
+ },
+ {
+  "w": "authorities",
+  "start": 17.9,
+  "end": 18.32
+ },
+ {
+  "w": "try",
+  "start": 18.32,
+  "end": 18.66
+ },
+ {
+  "w": "something",
+  "start": 18.66,
+  "end": 19.02
+ },
+ {
+  "w": "strange.",
+  "start": 19.02,
+  "end": 19.44
+ },
+ {
+  "w": "They",
+  "start": 20.26,
+  "end": 20.36
+ },
+ {
+  "w": "open",
+  "start": 20.36,
+  "end": 20.52
+ },
+ {
+  "w": "two",
+  "start": 20.52,
+  "end": 20.88
+ },
+ {
+  "w": "guildhalls",
+  "start": 20.88,
+  "end": 21.298
+ },
+ {
+  "w": "and",
+  "start": 21.32,
+  "end": 21.56
+ },
+ {
+  "w": "a",
+  "start": 21.56,
+  "end": 21.64
+ },
+ {
+  "w": "grain",
+  "start": 21.64,
+  "end": 21.82
+ },
+ {
+  "w": "market,",
+  "start": 21.82,
+  "end": 22.14
+ },
+ {
+  "w": "and",
+  "start": 22.14,
+  "end": 22.62
+ },
+ {
+  "w": "build",
+  "start": 22.62,
+  "end": 22.84
+ },
+ {
+  "w": "a",
+  "start": 22.84,
+  "end": 22.98
+ },
+ {
+  "w": "wooden",
+  "start": 22.98,
+  "end": 23.14
+ },
+ {
+  "w": "stage.",
+  "start": 23.14,
+  "end": 23.5
+ },
+ {
+  "w": "Then",
+  "start": 24.32,
+  "end": 24.44
+ },
+ {
+  "w": "they",
+  "start": 24.44,
+  "end": 24.58
+ },
+ {
+  "w": "hire",
+  "start": 24.58,
+  "end": 24.76
+ },
+ {
+  "w": "musicians,",
+  "start": 24.76,
+  "end": 25.18
+ },
+ {
+  "w": "hoping",
+  "start": 25.8,
+  "end": 26.0
+ },
+ {
+  "w": "the",
+  "start": 26.0,
+  "end": 26.24
+ },
+ {
+  "w": "dancers",
+  "start": 26.24,
+  "end": 26.54
+ },
+ {
+  "w": "will",
+  "start": 26.54,
+  "end": 26.84
+ },
+ {
+  "w": "tire",
+  "start": 26.84,
+  "end": 27.0
+ },
+ {
+  "w": "themselves",
+  "start": 27.0,
+  "end": 27.36
+ },
+ {
+  "w": "out.",
+  "start": 27.36,
+  "end": 27.8
+ },
+ {
+  "w": "It",
+  "start": 27.8,
+  "end": 28.52
+ },
+ {
+  "w": "did",
+  "start": 28.52,
+  "end": 28.68
+ },
+ {
+  "w": "not",
+  "start": 28.68,
+  "end": 28.88
+ },
+ {
+  "w": "work",
+  "start": 28.88,
+  "end": 29.22
+ },
+ {
+  "w": "well.",
+  "start": 29.22,
+  "end": 29.46
+ },
+ {
+  "w": "Historians",
+  "start": 30.1,
+  "end": 30.66
+ },
+ {
+  "w": "still",
+  "start": 30.66,
+  "end": 30.98
+ },
+ {
+  "w": "argue",
+  "start": 30.98,
+  "end": 31.28
+ },
+ {
+  "w": "about",
+  "start": 31.28,
+  "end": 31.56
+ },
+ {
+  "w": "the",
+  "start": 31.56,
+  "end": 31.68
+ },
+ {
+  "w": "cause,",
+  "start": 31.68,
+  "end": 31.92
+ },
+ {
+  "w": "and",
+  "start": 31.92,
+  "end": 32.24
+ },
+ {
+  "w": "the",
+  "start": 32.24,
+  "end": 32.32
+ },
+ {
+  "w": "tape",
+  "start": 32.32,
+  "end": 32.52
+ },
+ {
+  "w": "ends",
+  "start": 32.52,
+  "end": 32.82
+ },
+ {
+  "w": "mid-step.",
+  "start": 32.82,
+  "end": 33.582
+ }
+]

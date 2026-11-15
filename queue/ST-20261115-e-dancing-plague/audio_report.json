@@ -1,0 +1,26 @@
+{
+ "sha256": "79d2313773e1c4b487fd4d599066be2e0d6e36528a52d28e5c7e5ff36d8a55c5",
+ "audio": {
+  "lufs": -15.5,
+  "true_peak_dbtp": -1.8,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 35.6,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.074,
+  "expected_words": 94,
+  "heard_words": 95,
+  "missing_or_wrong": [
+   "summer 1518",
+   "frau troffea",
+   "four hundred",
+   "guildhalls"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
