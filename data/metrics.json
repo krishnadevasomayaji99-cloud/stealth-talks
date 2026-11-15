@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14T13:41:39.063512+00:00",
+ "at": "2026-11-15T14:09:18.577385+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "views": 180,
@@ -137,67 +137,94 @@
    "ig_reels_avg_watch_time": 13359
   },
   "ST-20261111-penguin-lock-in": {
-   "views": 11,
+   "views": 12,
    "reach": 3,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 9530
+   "ig_reels_avg_watch_time": 8285
   },
   "ST-20261112-a-kryptos": {
-   "views": 41,
+   "views": 42,
    "reach": 33,
    "likes": 2,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7340
+   "ig_reels_avg_watch_time": 7157
   },
   "ST-20261112-c-tomato-timer": {
-   "views": 209,
+   "views": 210,
    "reach": 168,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11455
+   "ig_reels_avg_watch_time": 11392
   },
   "ST-20261112-d-dancing-street": {
-   "views": 26,
-   "reach": 26,
+   "views": 30,
+   "reach": 28,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 4233
+   "ig_reels_avg_watch_time": 4950
   },
   "ST-20261113-a-mona-apron": {
-   "views": 168,
-   "reach": 127,
+   "views": 170,
+   "reach": 128,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 14154
+   "ig_reels_avg_watch_time": 13947
   },
   "ST-20261114-a-vasa": {
-   "views": 31,
-   "reach": 24,
+   "views": 88,
+   "reach": 76,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7626
+   "ig_reels_avg_watch_time": 6679
   },
   "ST-20261114-b-stink": {
-   "views": 117,
-   "reach": 97,
+   "views": 127,
+   "reach": 113,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7286
+   "ig_reels_avg_watch_time": 7418
+  },
+  "ST-20261114-d-celeste": {
+   "views": 28,
+   "reach": 22,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 7582
+  },
+  "ST-20261115-d-gimli": {
+   "views": 116,
+   "reach": 101,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 7725
+  },
+  "ST-20261112-b-ladder-cam": {
+   "views": 156,
+   "reach": 128,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 10435
   }
  }
 }
