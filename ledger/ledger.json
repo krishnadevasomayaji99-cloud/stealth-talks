@@ -509,6 +509,12 @@
    "started_at": "2026-11-16T08:33:38.433809+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261113-z-town1",
+   "sha256": "0d61018ea79a567a491d8fddb241f24d34b78eb8d631008cfcc3195ad9670db4",
+   "started_at": "2026-11-16T11:11:04.347386+00:00",
+   "state": "uploading"
   }
  ]
 }
