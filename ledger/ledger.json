@@ -577,6 +577,12 @@
    "sha256": "99c7a2bde49eb7881589680d2abbd2197b299cdee7542a0771851c865339782a",
    "started_at": "2026-11-16T16:38:39.688579+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261116-t-wanted",
+   "sha256": "5eaedec9489cfb2d604d9fe662eb2bad1002e2229857a124c54be94b87921c08",
+   "started_at": "2026-11-16T17:33:06.638758+00:00",
+   "state": "uploading"
   }
  ]
 }
