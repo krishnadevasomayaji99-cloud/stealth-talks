@@ -530,10 +530,13 @@
    "upload_http": 400
   },
   {
+   "container": "18004752956822257",
    "key": "ST-20261116-t-wanted",
+   "reencoded": true,
    "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
    "started_at": "2026-11-16T14:03:31.220884+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
