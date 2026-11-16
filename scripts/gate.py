@@ -33,7 +33,7 @@ def check(key):
         if r["sha256"] == vh and r["state"] != "failed_before_upload": fails.append(f"duplicate of {r['key']} ({r['state']})")
     fails += craft_check(key, text)
     return fails
-STYLES = {"noir", "crt", "notebook", "comic", "paper", "flat"}
+STYLES = {"noir", "crt", "notebook", "comic", "paper", "flat", "blocky3d"}
 GENRES = {"thriller", "mystery", "horror_comedy", "countdown", "found_footage", "heist", "documentary", "absurd_skit", "true_story"}
 BANNED = ["plot twist", "send this to someone who"]
 def craft_check(key, caption_text):
