@@ -17,6 +17,24 @@ def note(f,L,wave="sine",d=4.0):
     t=np.arange(int(L*sr))/sr
     s=np.sin(2*np.pi*f*t) if wave=="sine" else (np.sign(np.sin(2*np.pi*f*t))*0.5+np.sin(2*np.pi*f*2*t)*0.3)
     return s*env(len(t),0.004,d)
+if "--style" in sys.argv and sys.argv[sys.argv.index("--style")+1]=="backrooms":
+    # suspense "backrooms" bed: detuned drone, fluorescent hum, tritone pad, sparse detuned music-box, sub pulses
+    t=np.arange(n)/sr;rng=np.random.default_rng(7)
+    lfo=0.5+0.5*np.sin(2*np.pi*0.07*t)
+    y+=np.sin(2*np.pi*55*t)*0.5+np.sin(2*np.pi*58.3*t)*0.35*lfo            # beating minor-second drone
+    hum=np.sin(2*np.pi*120*t)+0.6*np.sin(2*np.pi*240*t+1)+0.3*np.sin(2*np.pi*360*t)
+    y+=hum*0.05*(0.7+0.3*np.sin(2*np.pi*0.9*t))                            # fluorescent light hum
+    y+=(np.sin(2*np.pi*311.1*t)+np.sin(2*np.pi*440*t*1.003))*0.06*(0.3+0.7*np.sin(2*np.pi*0.05*t)**2)  # tritone pad swell
+    hiss=np.convolve(rng.standard_normal(n),np.ones(40)/40,mode="same");y+=hiss*0.25*(0.4+0.6*lfo)  # room air
+    mb=[329.63,311.13,293.66,277.18,246.94]                                  # slow falling detuned music-box line
+    k=0;tt=1.2
+    while tt<dur-0.5:
+        f=mb[k%len(mb)]*(1.0+0.012*rng.standard_normal());L=int(1.6*sr);tn=np.arange(L)/sr
+        sig=(np.sin(2*np.pi*f*tn)+0.4*np.sin(2*np.pi*f*2.01*tn))*np.exp(-tn*2.2)*0.12
+        add(sig,tt);add(sig*0.45,tt+0.37);k+=1;tt+=beatgap if (beatgap:=2.1+0.8*rng.random()) else 0
+    for tp in np.arange(4.0,dur,6.5):                                        # slow sub pulse, heartbeat of the place
+        L=int(0.9*sr);tn=np.arange(L)/sr;add(np.sin(2*np.pi*(48*np.exp(-tn*2)+34)*tn)*np.exp(-tn*3.5)*0.7,tp)
+    y/=max(1e-6,np.abs(y).max());sf.write(out,(y*0.8).astype(np.float32),sr);print("bed backrooms",out,round(dur,1),"s");sys.exit(0)
 roots=[110.0,87.31,130.81,98.0]   # A2 F2 C3 G2
 chords=[[220,261.63,329.63],[174.61,220,261.63],[261.63,329.63,392],[196,246.94,293.66]]
 nb=int(dur/beat)+2

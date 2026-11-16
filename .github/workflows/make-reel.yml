@@ -7,7 +7,7 @@ on:
       voice: {description: "kokoro voice", required: false, default: "am_liam"}
       speed: {description: "speech speed", required: false, default: "1.08"}
       lang: {description: "kokoro lang", required: false, default: "en-us"}
-      music: {description: "add synthesized music bed (true/false)", required: false, default: "true"}
+      music: {description: "music bed: true (upbeat) / backrooms (suspense) / false", required: false, default: "true"}
       tail: {description: "seconds of picture after the last word", required: false, default: "2.0"}
 concurrency:
   group: make-reel-${{ github.event.inputs.key }}
@@ -43,7 +43,7 @@ jobs:
         run: node render/render.js "queue/${{ inputs.key }}" /tmp/build/words.json /tmp/build/silent.mp4 "${{ inputs.tail }}" "${{ inputs.max_frames }}" | tee -a $GITHUB_STEP_SUMMARY
       - name: mix + mux
         run: |
-          if [ "${{ inputs.music }}" = "true" ]; then d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/build/silent.mp4); python scripts/music_synth.py /tmp/build/bed.wav $d; python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4 /tmp/build/bed.wav; else python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4; fi
+          if [ "${{ inputs.music }}" != "false" ]; then d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 /tmp/build/silent.mp4); python scripts/music_synth.py /tmp/build/bed.wav $d $( [ "${{ inputs.music }}" = "backrooms" ] && echo "--style backrooms"); python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4 /tmp/build/bed.wav; else python scripts/mix.py /tmp/build/voice.wav /tmp/build/cues.json /tmp/build/silent.mp4 /tmp/build/video.mp4; fi
       - name: checks
         continue-on-error: true
         run: |
