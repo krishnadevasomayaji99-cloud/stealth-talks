@@ -556,10 +556,16 @@
    "upload_http": 400
   },
   {
+   "container": "18004773779822257",
    "key": "ST-20261114-c-synod",
+   "media_id": "17913868431482010",
+   "permalink": "https://www.instagram.com/reel/DfzqpLYCDd1/",
+   "published_at": "2026-11-16T15:22:39.265540+00:00",
+   "reencoded": true,
    "sha256": "2cbf3d2f5b7ecc04cbcdb50772bb2fa20091ba6318204d1aa3e4c28882529d7f",
    "started_at": "2026-11-16T15:21:25.106085+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
