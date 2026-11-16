@@ -5,7 +5,7 @@
     8,
     22
   ],
-  "min_gap_minutes": 150,
+  "min_gap_minutes": 30,
   "duration_seconds": [
     30,
     59
