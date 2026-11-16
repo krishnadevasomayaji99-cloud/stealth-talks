@@ -71,11 +71,14 @@ def publish(key, tok, dry):
                 if j1.get("status_code") in ("IN_PROGRESS", "FINISHED"): break   # Meta already has the video
                 time.sleep(15 * attempt)
         for _ in range(66):   # 11 min max: must end inside the 15 min job timeout so a failure is recorded instead of leaving the job cancelled with a held lock
-            s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code"})
+            s, j = api("GET", f"{graph_host()}/{c['graph_version']}/{cid}", tok, params={"fields": "status_code,status"})
             if j.get("status_code") == "FINISHED": break
             if j.get("status_code") in ("ERROR", "EXPIRED"): row["state"] = "failed_before_upload"; raise RuntimeError(f"processing {j}")
             time.sleep(10)
-        else: row["state"] = "failed_before_upload"; raise RuntimeError("processing timeout")
+        else:
+            row["state"] = "failed_before_upload"
+            qs, qj = api("GET", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/content_publishing_limit", tok, params={"fields": "quota_usage,config"})
+            raise RuntimeError(f"processing timeout; last container status: {j}; quota: {qj}")
         row["state"] = "needs_reconcile"; save_ledger(L)   # from here on, never retry blindly
         s, j = api("POST", f"{graph_host()}/{c['graph_version']}/{c['account_id']}/media_publish", tok, data={"creation_id": cid})
         if s != 200 or "id" not in j: raise RuntimeError(f"publish uncertain: {s} {j}")
