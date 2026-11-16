@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T14:09:18.577385+00:00",
+ "at": "2026-11-16T03:19:18.972008+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "views": 180,
@@ -74,13 +74,13 @@
    "ig_reels_avg_watch_time": 16073
   },
   "ST-20261110-a-gta-preload": {
-   "views": 1233,
-   "reach": 1046,
+   "views": 1234,
+   "reach": 1048,
    "likes": 18,
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15900
+   "ig_reels_avg_watch_time": 15885
   },
   "ST-20261110-eiffel-growing": {
    "views": 58,
@@ -155,13 +155,13 @@
    "ig_reels_avg_watch_time": 7157
   },
   "ST-20261112-c-tomato-timer": {
-   "views": 210,
+   "views": 211,
    "reach": 168,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 11392
+   "ig_reels_avg_watch_time": 11325
   },
   "ST-20261112-d-dancing-street": {
    "views": 30,
@@ -170,7 +170,7 @@
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 4950
+   "ig_reels_avg_watch_time": 4788
   },
   "ST-20261113-a-mona-apron": {
    "views": 170,
@@ -179,7 +179,7 @@
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 13947
+   "ig_reels_avg_watch_time": 13842
   },
   "ST-20261114-a-vasa": {
    "views": 88,
@@ -188,7 +188,7 @@
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 6679
+   "ig_reels_avg_watch_time": 6595
   },
   "ST-20261114-b-stink": {
    "views": 127,
@@ -197,34 +197,52 @@
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7418
+   "ig_reels_avg_watch_time": 7356
   },
   "ST-20261114-d-celeste": {
-   "views": 28,
-   "reach": 22,
+   "views": 35,
+   "reach": 26,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7582
+   "ig_reels_avg_watch_time": 7043
   },
   "ST-20261115-d-gimli": {
-   "views": 116,
-   "reach": 101,
+   "views": 118,
+   "reach": 102,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 7725
+   "ig_reels_avg_watch_time": 7580
   },
   "ST-20261112-b-ladder-cam": {
-   "views": 156,
-   "reach": 128,
+   "views": 172,
+   "reach": 139,
    "likes": 0,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 10435
+   "ig_reels_avg_watch_time": 10250
+  },
+  "ST-20261113-b-wow-signal": {
+   "views": 4,
+   "reach": 2,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 23272
+  },
+  "ST-20261115-e-dancing-plague": {
+   "views": 47,
+   "reach": 35,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 8596
   }
  }
 }
