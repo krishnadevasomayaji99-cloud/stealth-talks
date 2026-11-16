@@ -1,8 +1,8 @@
 {
- "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+ "sha256": "5eaedec9489cfb2d604d9fe662eb2bad1002e2229857a124c54be94b87921c08",
  "audio": {
-  "lufs": -15.5,
-  "true_peak_dbtp": -1.9,
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.8,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
   "duration_s": 33.03,
