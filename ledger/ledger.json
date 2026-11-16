@@ -568,10 +568,15 @@
    "upload_http": 400
   },
   {
+   "container": "18004796180822257",
    "key": "ST-20261115-a-gertie",
+   "media_id": "17957501829039301",
+   "permalink": "https://www.instagram.com/reel/Dfzzf3FEpO3/",
+   "published_at": "2026-11-16T16:39:39.807782+00:00",
+   "reencoded": true,
    "sha256": "99c7a2bde49eb7881589680d2abbd2197b299cdee7542a0771851c865339782a",
    "started_at": "2026-11-16T16:38:39.688579+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
