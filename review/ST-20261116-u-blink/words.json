@@ -7,21 +7,21 @@
  {
   "w": "this",
   "start": 0.34,
-  "end": 0.46
+  "end": 0.48
  },
  {
   "w": "town,",
-  "start": 0.46,
-  "end": 0.74
+  "start": 0.48,
+  "end": 0.72
  },
  {
   "w": "every",
-  "start": 0.74,
-  "end": 1.16
+  "start": 0.72,
+  "end": 1.14
  },
  {
   "w": "time",
-  "start": 1.16,
+  "start": 1.14,
   "end": 1.48
  },
  {
@@ -36,7 +36,7 @@
  },
  {
   "w": "a",
-  "start": 2.12,
+  "start": 2.1,
   "end": 2.16
  },
  {
@@ -61,18 +61,18 @@
  },
  {
   "w": "Her",
-  "start": 4.52,
+  "start": 4.48,
   "end": 4.6
  },
  {
   "w": "kitchen",
   "start": 4.6,
-  "end": 4.9
+  "end": 4.88
  },
  {
   "w": "vanished.",
-  "start": 4.9,
-  "end": 5.22
+  "start": 4.88,
+  "end": 5.2
  },
  {
   "w": "Everyone",
@@ -87,31 +87,31 @@
  {
   "w": "Eyes",
   "start": 6.72,
-  "end": 7.28
+  "end": 7.26
  },
  {
   "w": "watering.",
-  "start": 7.28,
-  "end": 7.62
+  "start": 7.26,
+  "end": 7.6
  },
  {
   "w": "Nobody",
-  "start": 7.92,
-  "end": 8.04
+  "start": 7.94,
+  "end": 8.02
  },
  {
   "w": "dared.",
-  "start": 8.04,
-  "end": 8.46
+  "start": 8.02,
+  "end": 8.44
  },
  {
   "w": "Jake",
   "start": 9.4,
-  "end": 9.42
+  "end": 9.4
  },
  {
   "w": "sneezed,",
-  "start": 9.42,
+  "start": 9.4,
   "end": 10.0
  },
  {
@@ -126,7 +126,7 @@
  },
  {
   "w": "The",
-  "start": 10.68,
+  "start": 10.66,
   "end": 10.74
  },
  {
@@ -142,21 +142,21 @@
  {
   "w": "gone.",
   "start": 11.28,
-  "end": 11.54
+  "end": 11.52
  },
  {
   "w": "Twenty",
   "start": 12.34,
-  "end": 12.5
+  "end": 12.48
  },
  {
   "w": "houses",
-  "start": 12.5,
-  "end": 12.96
+  "start": 12.48,
+  "end": 12.94
  },
  {
   "w": "left.",
-  "start": 12.96,
+  "start": 12.94,
   "end": 13.38
  },
  {
@@ -165,158 +165,248 @@
   "end": 14.38
  },
  {
-  "w": "mayor",
+  "w": "baker",
   "start": 14.38,
   "end": 14.54
  },
  {
-  "w": "never",
+  "w": "cried.",
   "start": 14.54,
-  "end": 14.8
- },
- {
-  "w": "blinked.",
-  "start": 14.8,
-  "end": 15.12
- },
- {
-  "w": "He",
-  "start": 15.52,
-  "end": 15.6
- },
- {
-  "w": "had",
-  "start": 15.6,
-  "end": 15.72
- },
- {
-  "w": "no",
-  "start": 15.72,
-  "end": 15.94
- },
- {
-  "w": "eyelids.",
-  "start": 15.94,
-  "end": 16.5
- },
- {
-  "w": "He",
-  "start": 17.08,
-  "end": 17.18
- },
- {
-  "w": "smiled.",
-  "start": 17.18,
-  "end": 17.44
+  "end": 14.98
  },
  {
   "w": "His",
-  "start": 17.84,
-  "end": 17.92
+  "start": 15.3,
+  "end": 15.4
  },
  {
-  "w": "house",
-  "start": 17.92,
-  "end": 18.12
- },
- {
-  "w": "stood",
-  "start": 18.12,
-  "end": 18.34
- },
- {
-  "w": "perfectly",
-  "start": 18.34,
-  "end": 18.72
- },
- {
-  "w": "still.",
-  "start": 18.72,
-  "end": 19.14
- },
- {
-  "w": "Then",
-  "start": 19.94,
-  "end": 20.0
- },
- {
-  "w": "the",
-  "start": 20.0,
-  "end": 20.1
- },
- {
-  "w": "mayor",
-  "start": 20.1,
-  "end": 20.34
- },
- {
-  "w": "looked",
-  "start": 20.34,
-  "end": 20.52
- },
- {
-  "w": "at",
-  "start": 20.52,
-  "end": 20.72
- },
- {
-  "w": "you",
-  "start": 20.72,
-  "end": 20.9
- },
- {
-  "w": "and",
-  "start": 20.9,
-  "end": 21.1
- },
- {
-  "w": "whispered,",
-  "start": 21.1,
-  "end": 21.34
- },
- {
-  "w": "your",
-  "start": 21.34,
-  "end": 21.74
- },
- {
-  "w": "turn.",
-  "start": 21.74,
-  "end": 21.94
- },
- {
-  "w": "You",
-  "start": 22.82,
-  "end": 22.94
- },
- {
-  "w": "blinked.",
-  "start": 22.94,
-  "end": 23.16
- },
- {
-  "w": "The",
-  "start": 23.78,
-  "end": 24.3
- },
- {
-  "w": "last",
-  "start": 24.3,
-  "end": 24.48
- },
- {
-  "w": "house",
-  "start": 24.48,
-  "end": 24.86
+  "w": "bread",
+  "start": 15.4,
+  "end": 15.62
  },
  {
   "w": "was",
-  "start": 24.86,
-  "end": 25.12
+  "start": 15.62,
+  "end": 15.82
+ },
+ {
+  "w": "still",
+  "start": 15.82,
+  "end": 16.06
+ },
+ {
+  "w": "inside.",
+  "start": 16.06,
+  "end": 16.24
+ },
+ {
+  "w": "The",
+  "start": 17.32,
+  "end": 17.42
+ },
+ {
+  "w": "mayor",
+  "start": 17.42,
+  "end": 17.62
+ },
+ {
+  "w": "never",
+  "start": 17.62,
+  "end": 17.86
+ },
+ {
+  "w": "blinked.",
+  "start": 17.86,
+  "end": 18.16
+ },
+ {
+  "w": "He",
+  "start": 18.56,
+  "end": 18.66
+ },
+ {
+  "w": "had",
+  "start": 18.66,
+  "end": 18.76
+ },
+ {
+  "w": "no",
+  "start": 18.76,
+  "end": 19.0
+ },
+ {
+  "w": "eyelids.",
+  "start": 19.0,
+  "end": 19.56
+ },
+ {
+  "w": "He",
+  "start": 20.12,
+  "end": 20.24
+ },
+ {
+  "w": "smiled.",
+  "start": 20.24,
+  "end": 20.44
+ },
+ {
+  "w": "His",
+  "start": 20.88,
+  "end": 20.96
+ },
+ {
+  "w": "house",
+  "start": 20.96,
+  "end": 21.18
+ },
+ {
+  "w": "stood",
+  "start": 21.18,
+  "end": 21.4
+ },
+ {
+  "w": "perfectly",
+  "start": 21.4,
+  "end": 21.7
+ },
+ {
+  "w": "still.",
+  "start": 21.7,
+  "end": 22.18
+ },
+ {
+  "w": "Even",
+  "start": 22.98,
+  "end": 23.16
+ },
+ {
+  "w": "the",
+  "start": 23.16,
+  "end": 23.3
+ },
+ {
+  "w": "sun",
+  "start": 23.3,
+  "end": 23.5
+ },
+ {
+  "w": "looked",
+  "start": 23.5,
+  "end": 23.72
+ },
+ {
+  "w": "away,",
+  "start": 23.72,
+  "end": 24.04
+ },
+ {
+  "w": "so",
+  "start": 24.04,
+  "end": 24.4
+ },
+ {
+  "w": "it",
+  "start": 24.4,
+  "end": 24.5
+ },
+ {
+  "w": "would",
+  "start": 24.5,
+  "end": 24.58
+ },
+ {
+  "w": "not",
+  "start": 24.58,
+  "end": 24.76
+ },
+ {
+  "w": "blink.",
+  "start": 24.76,
+  "end": 25.0
+ },
+ {
+  "w": "Then",
+  "start": 25.8,
+  "end": 25.9
+ },
+ {
+  "w": "the",
+  "start": 25.9,
+  "end": 25.98
+ },
+ {
+  "w": "mayor",
+  "start": 25.98,
+  "end": 26.22
+ },
+ {
+  "w": "looked",
+  "start": 26.22,
+  "end": 26.42
+ },
+ {
+  "w": "at",
+  "start": 26.42,
+  "end": 26.62
+ },
+ {
+  "w": "you",
+  "start": 26.62,
+  "end": 26.8
+ },
+ {
+  "w": "and",
+  "start": 26.8,
+  "end": 27.0
+ },
+ {
+  "w": "whispered,",
+  "start": 27.0,
+  "end": 27.22
+ },
+ {
+  "w": "your",
+  "start": 27.22,
+  "end": 27.64
+ },
+ {
+  "w": "turn.",
+  "start": 27.64,
+  "end": 27.84
+ },
+ {
+  "w": "You",
+  "start": 27.84,
+  "end": 28.82
+ },
+ {
+  "w": "blinked.",
+  "start": 28.82,
+  "end": 29.08
+ },
+ {
+  "w": "The",
+  "start": 29.26,
+  "end": 29.54
+ },
+ {
+  "w": "last",
+  "start": 29.54,
+  "end": 30.38
+ },
+ {
+  "w": "house",
+  "start": 30.38,
+  "end": 30.74
+ },
+ {
+  "w": "was",
+  "start": 30.74,
+  "end": 31.02
  },
  {
   "w": "yours.",
-  "start": 25.12,
-  "end": 25.38
+  "start": 31.02,
+  "end": 31.32
  }
 ]
