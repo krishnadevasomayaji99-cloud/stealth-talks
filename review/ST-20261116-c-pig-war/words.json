@@ -1,0 +1,467 @@
+[
+ {
+  "w": "One",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "w": "dead",
+  "start": 0.4,
+  "end": 0.64
+ },
+ {
+  "w": "pig",
+  "start": 0.64,
+  "end": 0.9
+ },
+ {
+  "w": "nearly",
+  "start": 0.9,
+  "end": 1.2
+ },
+ {
+  "w": "started",
+  "start": 1.2,
+  "end": 1.6
+ },
+ {
+  "w": "a",
+  "start": 1.6,
+  "end": 1.72
+ },
+ {
+  "w": "war",
+  "start": 1.72,
+  "end": 1.94
+ },
+ {
+  "w": "between",
+  "start": 1.94,
+  "end": 2.26
+ },
+ {
+  "w": "two",
+  "start": 2.26,
+  "end": 2.52
+ },
+ {
+  "w": "empires.",
+  "start": 2.52,
+  "end": 2.8
+ },
+ {
+  "w": "In",
+  "start": 3.7,
+  "end": 3.78
+ },
+ {
+  "w": "June,",
+  "start": 3.78,
+  "end": 3.98
+ },
+ {
+  "w": "an",
+  "start": 4.34,
+  "end": 4.42
+ },
+ {
+  "w": "American",
+  "start": 4.42,
+  "end": 4.72
+ },
+ {
+  "w": "farmer",
+  "start": 4.72,
+  "end": 5.12
+ },
+ {
+  "w": "shot",
+  "start": 5.12,
+  "end": 5.54
+ },
+ {
+  "w": "a",
+  "start": 5.54,
+  "end": 5.66
+ },
+ {
+  "w": "pig",
+  "start": 5.66,
+  "end": 5.84
+ },
+ {
+  "w": "rooting",
+  "start": 5.84,
+  "end": 6.08
+ },
+ {
+  "w": "in",
+  "start": 6.08,
+  "end": 6.34
+ },
+ {
+  "w": "his",
+  "start": 6.34,
+  "end": 6.46
+ },
+ {
+  "w": "garden.",
+  "start": 6.46,
+  "end": 6.7
+ },
+ {
+  "w": "The",
+  "start": 7.46,
+  "end": 7.54
+ },
+ {
+  "w": "pig",
+  "start": 7.54,
+  "end": 7.72
+ },
+ {
+  "w": "belonged",
+  "start": 7.72,
+  "end": 8.08
+ },
+ {
+  "w": "to",
+  "start": 8.08,
+  "end": 8.42
+ },
+ {
+  "w": "a",
+  "start": 8.42,
+  "end": 8.52
+ },
+ {
+  "w": "British",
+  "start": 8.52,
+  "end": 8.68
+ },
+ {
+  "w": "company.",
+  "start": 8.68,
+  "end": 9.06
+ },
+ {
+  "w": "Soon",
+  "start": 9.86,
+  "end": 10.02
+ },
+ {
+  "w": "American",
+  "start": 10.02,
+  "end": 10.32
+ },
+ {
+  "w": "soldiers",
+  "start": 10.32,
+  "end": 10.76
+ },
+ {
+  "w": "landed",
+  "start": 10.76,
+  "end": 11.3
+ },
+ {
+  "w": "on",
+  "start": 11.3,
+  "end": 11.58
+ },
+ {
+  "w": "the",
+  "start": 11.58,
+  "end": 11.7
+ },
+ {
+  "w": "island,",
+  "start": 11.7,
+  "end": 11.98
+ },
+ {
+  "w": "and",
+  "start": 11.98,
+  "end": 12.46
+ },
+ {
+  "w": "British",
+  "start": 12.46,
+  "end": 12.7
+ },
+ {
+  "w": "warships",
+  "start": 12.7,
+  "end": 12.96
+ },
+ {
+  "w": "followed.",
+  "start": 12.96,
+  "end": 13.56
+ },
+ {
+  "w": "By",
+  "start": 14.26,
+  "end": 14.34
+ },
+ {
+  "w": "the",
+  "start": 14.34,
+  "end": 14.44
+ },
+ {
+  "w": "end",
+  "start": 14.44,
+  "end": 14.56
+ },
+ {
+  "w": "of",
+  "start": 14.56,
+  "end": 14.68
+ },
+ {
+  "w": "August,",
+  "start": 14.68,
+  "end": 14.94
+ },
+ {
+  "w": "four",
+  "start": 14.94,
+  "end": 15.172
+ },
+ {
+  "w": "hundred",
+  "start": 15.184,
+  "end": 15.416
+ },
+ {
+  "w": "and",
+  "start": 15.428,
+  "end": 15.66
+ },
+ {
+  "w": "sixty",
+  "start": 15.672,
+  "end": 15.904
+ },
+ {
+  "w": "one",
+  "start": 15.916,
+  "end": 16.148
+ },
+ {
+  "w": "Americans",
+  "start": 16.16,
+  "end": 16.74
+ },
+ {
+  "w": "with",
+  "start": 16.74,
+  "end": 17.08
+ },
+ {
+  "w": "fourteen",
+  "start": 17.08,
+  "end": 17.308
+ },
+ {
+  "w": "cannons",
+  "start": 17.32,
+  "end": 17.74
+ },
+ {
+  "w": "faced",
+  "start": 17.74,
+  "end": 18.18
+ },
+ {
+  "w": "them.",
+  "start": 18.18,
+  "end": 18.48
+ },
+ {
+  "w": "The",
+  "start": 19.16,
+  "end": 19.18
+ },
+ {
+  "w": "only",
+  "start": 19.18,
+  "end": 19.42
+ },
+ {
+  "w": "casualty",
+  "start": 19.42,
+  "end": 19.88
+ },
+ {
+  "w": "was",
+  "start": 19.88,
+  "end": 20.3
+ },
+ {
+  "w": "the",
+  "start": 20.3,
+  "end": 20.46
+ },
+ {
+  "w": "pig.",
+  "start": 20.46,
+  "end": 20.64
+ },
+ {
+  "w": "Leaders",
+  "start": 21.68,
+  "end": 21.68
+ },
+ {
+  "w": "far",
+  "start": 21.68,
+  "end": 21.9
+ },
+ {
+  "w": "away",
+  "start": 21.9,
+  "end": 22.22
+ },
+ {
+  "w": "ordered",
+  "start": 22.22,
+  "end": 22.56
+ },
+ {
+  "w": "everyone",
+  "start": 22.56,
+  "end": 23.04
+ },
+ {
+  "w": "to",
+  "start": 23.04,
+  "end": 23.32
+ },
+ {
+  "w": "calm",
+  "start": 23.32,
+  "end": 23.46
+ },
+ {
+  "w": "down.",
+  "start": 23.46,
+  "end": 23.88
+ },
+ {
+  "w": "Both",
+  "start": 24.52,
+  "end": 24.7
+ },
+ {
+  "w": "sides",
+  "start": 24.7,
+  "end": 24.98
+ },
+ {
+  "w": "shared",
+  "start": 24.98,
+  "end": 25.34
+ },
+ {
+  "w": "the",
+  "start": 25.34,
+  "end": 25.54
+ },
+ {
+  "w": "island",
+  "start": 25.54,
+  "end": 25.76
+ },
+ {
+  "w": "for",
+  "start": 25.76,
+  "end": 26.06
+ },
+ {
+  "w": "about",
+  "start": 26.06,
+  "end": 26.24
+ },
+ {
+  "w": "twelve",
+  "start": 26.24,
+  "end": 26.544
+ },
+ {
+  "w": "years.",
+  "start": 26.56,
+  "end": 26.84
+ },
+ {
+  "w": "In",
+  "start": 27.46,
+  "end": 27.64
+ },
+ {
+  "w": "the",
+  "start": 27.64,
+  "end": 27.74
+ },
+ {
+  "w": "end,",
+  "start": 27.74,
+  "end": 27.94
+ },
+ {
+  "w": "they",
+  "start": 28.16,
+  "end": 28.22
+ },
+ {
+  "w": "asked",
+  "start": 28.22,
+  "end": 28.5
+ },
+ {
+  "w": "a",
+  "start": 28.5,
+  "end": 28.64
+ },
+ {
+  "w": "commission",
+  "start": 28.64,
+  "end": 28.84
+ },
+ {
+  "w": "set",
+  "start": 28.84,
+  "end": 29.26
+ },
+ {
+  "w": "up",
+  "start": 29.26,
+  "end": 29.42
+ },
+ {
+  "w": "by",
+  "start": 29.42,
+  "end": 29.62
+ },
+ {
+  "w": "Germany's",
+  "start": 29.62,
+  "end": 30.12
+ },
+ {
+  "w": "Kaiser",
+  "start": 30.12,
+  "end": 30.28
+ },
+ {
+  "w": "to",
+  "start": 30.28,
+  "end": 30.62
+ },
+ {
+  "w": "decide.",
+  "start": 30.62,
+  "end": 30.76
+ }
+]
