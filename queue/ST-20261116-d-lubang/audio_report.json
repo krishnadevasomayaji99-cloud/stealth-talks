@@ -1,8 +1,8 @@
 {
- "sha256": "7ecd1f3f46c960572c3cfccb34ce98c34ae5c066818ec8367ff6055ea6273f1c",
+ "sha256": "0995d60cbc7f460d440bea2419e988a1e3f3adf757c258bc66ed1c0147106ffc",
  "audio": {
   "lufs": -15.6,
-  "true_peak_dbtp": -1.8,
+  "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
   "duration_s": 30.7,
@@ -10,14 +10,14 @@
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.053,
+  "approx_wer": 0.043,
   "expected_words": 94,
-  "heard_words": 95,
+  "heard_words": 94,
   "missing_or_wrong": [
    "thirty",
    "leaflets",
    "traveller",
-   "hiroo onoda"
+   "hiroo"
   ]
  },
  "problems": [],
