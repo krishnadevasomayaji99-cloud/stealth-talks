@@ -498,6 +498,12 @@
    "started_at": "2026-11-15T20:32:54.298296+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261115-f-beer-wave",
+   "sha256": "dc717ede4ba19ca20dcc3b85d88f6b9056e8decc5128808f8bc502e54eefadcf",
+   "started_at": "2026-11-16T08:33:38.433809+00:00",
+   "state": "uploading"
   }
  ]
 }
