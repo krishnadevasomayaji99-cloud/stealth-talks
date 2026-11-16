@@ -15,7 +15,7 @@ function cam(t){
  const P=(pts)=>k(t,pts);
  const px=P([[0,0],[tMia,0],[tHate,-1],[tSaid-0.2,-1],[tSaid+0.25,0],[tMay-0.2,0],[tMay+0.3,2.2],[tFroze,3],[tPan,3],[tSec-0.3,0],[tSec+0.3,0],[tLoud-0.5,0],[tLoud+0.4,0],[tAnn,2.4],[tRac,3.6],[tWave,3.6],[tWave+0.9,0],[tKnew,-1.2],[tWh-0.4,0],[tWh+0.5,0],[tEnd,0]]);
  const py=P([[0,10],[tMia,8],[tHate,7.2],[tSaid-0.2,7],[tSaid+0.25,14],[tSaid+1.4,14],[tMay-0.2,9],[tMay+0.3,6.8],[tFroze,6.4],[tPan,7],[tSec-0.3,9],[tSec+0.3,12],[tLoud-0.5,12],[tLoud+0.4,16],[tAnn,9],[tRac,8],[tWave+0.8,10],[tKnew,6.8],[tWh-0.4,12],[tWh+0.5,18],[tEnd,18]]);
- const pz=P([[0,26],[tMia,20],[tHate,17],[tSaid-0.2,17],[tSaid+0.25,-3],[tSaid+1.4,-3],[tMay-0.2,16],[tMay+0.3,8],[tFroze,6],[tPan,9],[tSec-0.3,18],[tSec+0.3,-3],[tLoud-0.5,-3],[tLoud+0.4,-8],[tAnn,12],[tRac,6],[tWave+0.8,18],[tKnew,14],[tWh-0.4,10],[tWh+0.5,-8],[tEnd,-9]]);
+ const pz=P([[0,26],[tMia,20],[tHate,17],[tSaid-0.2,17],[tSaid+0.25,-3],[tSaid+1.4,-3],[tMay-0.2,16],[tMay+0.3,8],[tFroze,6],[tPan,9],[tSec-0.3,18],[tSec+0.3,-3],[tLoud-0.5,-3],[tLoud+0.4,-8],[tAnn,12],[tRac,6],[tWave+0.8,18],[tKnew,14],[tWh-0.4,10],[tWh+0.5,-1],[tEnd,0]]);
  const lx=P([[0,0],[tHate,-2.5],[tSaid+0.25,0],[tMay+0.3,3.2],[tSec,0],[tAnn,3.4],[tWave,3.4],[tKnew-0.3,-2.8],[tWh,0],[tEnd,0]]);
  const ly=P([[0,8],[tHate,6],[tSaid+0.25,17],[tSaid+1.4,17],[tMay+0.3,6.2],[tSec+0.3,14],[tLoud+0.4,17],[tAnn,7],[tRac,8.5],[tWave,8.5],[tKnew-0.3,6],[tWh,16],[tEnd,17.5]]);
  const lz=P([[0,-14],[tHate,2],[tSaid-0.2,0],[tSaid+0.25,-26],[tSaid+1.4,-26],[tMay-0.2,-4],[tMay+0.3,-8],[tSec-0.3,-6],[tSec+0.3,-26],[tLoud+0.4,-26],[tAnn,-8],[tRac,-8],[tWave,-8],[tKnew-0.3,2],[tWh,-26],[tEnd,-26]]);
