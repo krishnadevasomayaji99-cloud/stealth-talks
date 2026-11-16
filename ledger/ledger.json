@@ -511,10 +511,15 @@
    "upload_http": 400
   },
   {
+   "container": "18004707017822257",
    "key": "ST-20261113-z-town1",
+   "media_id": "17917799031551150",
+   "permalink": "https://www.instagram.com/reel/DfzN-GOCcRf/",
+   "published_at": "2026-11-16T11:11:56.962159+00:00",
    "sha256": "0d61018ea79a567a491d8fddb241f24d34b78eb8d631008cfcc3195ad9670db4",
    "started_at": "2026-11-16T11:11:04.347386+00:00",
-   "state": "uploading"
+   "state": "verified",
+   "upload_http": 400
   }
  ]
 }
