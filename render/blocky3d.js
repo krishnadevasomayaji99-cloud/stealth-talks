@@ -12,11 +12,12 @@ function box(w,h,d,c,x,y,z,p){const m=new T.Mesh(new T.BoxGeometry(w,h,d),mat(c)
 function faceTex(skin,mood){const c=document.createElement('canvas');c.width=c.height=128;const g=c.getContext('2d');g.fillStyle=skin;g.fillRect(0,0,128,128);g.fillStyle='#1b1b1b';
   if(mood==='shock'){g.fillRect(30,38,20,34);g.fillRect(78,38,20,34);g.beginPath();g.ellipse(64,98,14,18,0,0,7);g.fill();}
   else if(mood==='panic'){g.fillRect(28,34,24,30);g.fillRect(76,34,24,30);g.fillStyle='#fff';g.fillRect(36,40,8,8);g.fillRect(84,40,8,8);g.fillStyle='#1b1b1b';g.fillRect(36,92,56,10);g.fillRect(30,24,34,6);g.fillRect(70,24,34,6);}
+  else if(mood==='blink'){g.fillRect(26,56,28,7);g.fillRect(74,56,28,7);g.lineWidth=8;g.strokeStyle='#1b1b1b';g.beginPath();g.arc(64,88,16,0.1*Math.PI,0.9*Math.PI);g.stroke();}
   else if(mood==='smug'){g.fillRect(30,50,22,8);g.fillRect(78,50,22,8);g.lineWidth=8;g.strokeStyle='#1b1b1b';g.beginPath();g.arc(64,78,26,0.15*Math.PI,0.85*Math.PI);g.stroke();}
   else{g.fillRect(32,44,16,24);g.fillRect(80,44,16,24);g.lineWidth=8;g.strokeStyle='#1b1b1b';g.beginPath();g.arc(64,86,18,0.1*Math.PI,0.9*Math.PI);g.stroke();}
   const t=new T.CanvasTexture(c);t.encoding=T.sRGBEncoding;return new T.MeshLambertMaterial({map:t});}
 function person(o){const g=new T.Group(),skin=o.skin||'#f1c27d';
-  const side=mat(skin),faces={};['ok','shock','panic','smug'].forEach(m=>faces[m]=faceTex(skin,m));
+  const side=mat(skin),faces={};['ok','shock','panic','smug','blink'].forEach(m=>faces[m]=faceTex(skin,m));
   const head=new T.Mesh(new T.BoxGeometry(1.7,1.7,1.7),[side,side,side,side,faces.ok,side]);head.position.set(0,5.7,0);g.add(head);
   if(o.hair){box(1.85,0.65,1.85,o.hair,0,6.7,-0.05,g);box(1.85,1.5,0.5,o.hair,0,5.9,-0.8,g);if(o.style==='long'){box(0.4,2.2,1.4,o.hair,-0.95,5.2,-0.1,g);box(0.4,2.2,1.4,o.hair,0.95,5.2,-0.1,g);}if(o.style==='spike'){for(let i=-1;i<=1;i++)box(0.5,0.7,0.5,o.hair,i*0.6,7.3,0,g);}if(o.style==='band'){box(1.9,0.25,1.9,'#222',0,6.45,0,g);}}
   if(o.glasses){box(0.55,0.4,0.1,'#111',-0.45,5.75,0.86,g);box(0.55,0.4,0.1,'#111',0.45,5.75,0.86,g);}
@@ -51,8 +52,8 @@ function world(o){o=o||{};
   for(let z=30;z>-130;z-=8)box(0.5,0.1,3.4,'#f2f2f2',0,0.3,z,scene);
   box(5,0.7,300,'#c9c9c9',-9,0.15,-60,scene);box(5,0.7,300,'#c9c9c9',9,0.15,-60,scene);
   const cols=['#ffd6a5','#fdffb6','#caffbf','#9bf6ff','#ffc6ff','#bdb2ff'],roofs=['#c0392b','#8e44ad','#d35400','#2c82c9'];
-  for(let i=0;i<12;i++){const z=18-i*14;house(scene,-19,z,cols[i%6],roofs[i%4],1);house(scene,19,z-7,cols[(i+3)%6],roofs[(i+1)%4],-1);}
-  for(let i=0;i<14;i++){tree(scene,-12.5,12-i*10,1+rnd(i)*0.4);tree(scene,12.5,6-i*10,1+rnd(i+9)*0.4);}
+  const houses=[];for(let i=0;i<12;i++){const z=18-i*14;let g=new T.Group();house(g,-19,z,cols[i%6],roofs[i%4],1);scene.add(g);g.userData.c=[-19,z];houses.push(g);g=new T.Group();house(g,19,z-7,cols[(i+3)%6],roofs[(i+1)%4],-1);scene.add(g);g.userData.c=[19,z-7];houses.push(g);}
+  const trees=new T.Group();scene.add(trees);for(let i=0;i<14;i++){tree(trees,-12.5,12-i*10,1+rnd(i)*0.4);tree(trees,12.5,6-i*10,1+rnd(i+9)*0.4);}
   for(let i=0;i<7;i++)box(10+rnd(i)*8,2,5,'#ffffff',-60+i*22,38+rnd(i+4)*10,-90-rnd(i+2)*40,scene);
   // loudspeaker tower
   const zS=o.speakerZ==null?-26:o.speakerZ,tower=new T.Group();tower.position.set(0,0,zS);scene.add(tower);
@@ -60,7 +61,7 @@ function world(o){o=o||{};
   [-2,2].forEach(x=>{const c=new T.Mesh(new T.CylinderGeometry(1.35,1.35,0.5,18),mat('#d9dde3'));c.rotation.x=Math.PI/2;c.position.set(x,17.8,1.8);tower.add(c);
     const c2=new T.Mesh(new T.CylinderGeometry(0.6,0.6,0.6,14),mat('#1b1d21'));c2.rotation.x=Math.PI/2;c2.position.set(x,17.8,1.9);tower.add(c2);});
   const rings=[];for(let i=0;i<4;i++){const m=new T.Mesh(new T.TorusGeometry(1.6,0.22,6,28),new T.MeshBasicMaterial({color:'#fff36b',transparent:true,opacity:0}));m.position.set(0,17.8,2.2);tower.add(m);rings.push(m);}
-  const w={scene,cam,tower,rings,events:[],person,pose,tag,raccoon,box,mat,ease,outBack,clamp,rnd,
+  const w={scene,cam,tower,rings,houses,trees,events:[],person,pose,tag,raccoon,box,mat,ease,outBack,clamp,rnd,
     setCam(p,l){cam.position.set(p[0],p[1],p[2]);cam.lookAt(l[0],l[1],l[2]);},
     pulse(t){let v=0;for(const e of w.events){const d=t-e;if(d>=0&&d<0.9)v=Math.max(v,1-d/0.9);}return v;},
     update(t){rings.forEach((m,i)=>{let op=0,sc=1;for(const e of w.events){const d=t-e-i*0.11;if(d>=0&&d<0.8){op=Math.max(op,1-d/0.8);sc=1+d*7;}}m.material.opacity=op*0.9;m.scale.set(sc,sc,sc);});},
