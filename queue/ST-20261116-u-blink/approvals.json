@@ -1,26 +1,26 @@
 {
  "story_check": {
   "verdict": "PASS",
-  "sha256": "436b34023e4ffe934c033fab6939dabbb085f742586d09b10db2ab624dc93cbe",
+  "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
   "by": "Claude (model)",
-  "at": "2026-11-16T13:47:56.948482+00:00",
-  "note": "original fiction (town, Mia, Jake, mayor, blink rule); no real people, no facts claimed",
+  "at": "2026-11-16T14:09:35.894147+00:00",
+  "note": "original fiction (town, Mia, Jake, baker, mayor, blink rule); no real people",
   "listened": false
  },
  "visual_qa": {
   "verdict": "PASS",
-  "sha256": "436b34023e4ffe934c033fab6939dabbb085f742586d09b10db2ab624dc93cbe",
+  "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
   "by": "Claude (model)",
-  "at": "2026-11-16T13:47:56.990667+00:00",
-  "note": "frames at 1,4,8,12,16,20,22,24,25.5 s of the real render viewed 16 Nov: blocky 3D town, HOUSES LEFT counter 24->20->1, blink faces, mayor closeups, yellow backrooms void ending with last house; audio_report pass (-15.2 LUFS, tp -1.7, WER 0.0, no trailing silence); backrooms bed; not full playback",
+  "at": "2026-11-16T14:09:35.940094+00:00",
+  "note": "frames at 2,9,14,18,21,25,28,30,31.5 s of real 32 s render viewed 16 Nov: HOUSES LEFT counter 24->20->1, blink/OPEN tags, mayor closeups, yellow backrooms void and last house; audio_report pass (-15.3 LUFS, WER 0.0, no trailing silence); not full playback",
   "listened": false
  },
  "caption_facts": {
   "verdict": "PASS",
-  "sha256": "5eef7336cbbf9591d39f0101a1177082a72438c82eec38da14b21a130d331f61",
+  "sha256": "725c61092cbbe39b0ca82fc98c4019b4d26e60ba08e3bd0f0ac7dba46d536627",
   "by": "Claude (model)",
-  "at": "2026-11-16T13:47:57.028498+00:00",
-  "note": "caption is fiction only with disclaimer; no factual claims",
+  "at": "2026-11-16T14:09:35.977109+00:00",
+  "note": "blink rate 14-17/min from Cleveland Clinic 'Blinking' (updated 4 Oct 2023, read 16 Nov 2026); rest is fiction",
   "listened": false
  }
 }
