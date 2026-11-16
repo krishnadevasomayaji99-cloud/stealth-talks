@@ -71,6 +71,7 @@ def craft_check(key, caption_text):
         pb = q/"brief.json"
         try: prev.append(json.loads(pb.read_text()) if pb.exists() else {"style": "flat", "genre": "legacy"})
         except Exception: prev.append({"style": "flat", "genre": "legacy"})
+    if b.get("series"): return f   # deliberate series (same style/genre allowed)
     for p2 in prev[-2:]:
         if p2.get("style") == b.get("style"): f.append(f"style '{b.get('style')}' repeats one of the previous two Reels")
     if prev and prev[-1].get("genre") == b.get("genre"): f.append(f"genre '{b.get('genre')}' repeats the previous Reel")
