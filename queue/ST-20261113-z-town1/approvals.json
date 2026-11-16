@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "0d61018ea79a567a491d8fddb241f24d34b78eb8d631008cfcc3195ad9670db4",
+  "by": "Claude (model)",
+  "at": "2026-11-16T11:10:10.638663+00:00",
+  "note": "script is original fiction (invented town, characters, rule); no real people; caption claim is the only fact",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "0d61018ea79a567a491d8fddb241f24d34b78eb8d631008cfcc3195ad9670db4",
+  "by": "Claude (model)",
+  "at": "2026-11-16T11:10:10.695493+00:00",
+  "note": "contact sheet of 17 committed frames (0-31 s) plus local renders of 29-41 s viewed 16 Nov: blocky 3D town, readable bar captions, raccoon reveal and loudspeaker ending visible, no clipping; audio_report pass (-15.6 LUFS, tp -1.8, WER 0.041, no trailing silence); not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "b74c04a94ff710c5cd80b609b9a536edea2a64eefd0dc6116f7eba68bcec4ebb",
+  "by": "Claude (model)",
+  "at": "2026-11-16T11:10:10.738561+00:00",
+  "note": "Opened HealthDay (18 Apr 2014) and Radomsky et al. abstract (acikerisim.ibu.edu.tr, JOCRD 3(3) 2014) 16 Nov 2026: 93.6% of 777 university students at 15 sites in 13 countries reported at least one intrusion in prior 3 months; caption notes student sample",
+  "listened": false
+ }
+}
