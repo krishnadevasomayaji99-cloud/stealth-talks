@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:47.241243+00:00",
+  "note": "script follows NPS+HistoryLink facts, no invented quotes",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:47.310533+00:00",
+  "note": "contact sheet of 8 frames viewed 16 Nov: caption readable, style distinct, no clipping; audio_report pass (-15.5 LUFS, tp<-1.8); not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "c8e1e7bbb1e69704ea00a1e2485bf5260c2a0a1d001edf154aaee0d5eb9ff7ca",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:47.370995+00:00",
+  "note": "Opened NPS (upd 18 Nov 2025) and HistoryLink 5037 16 Nov 2026; 461 men/14 cannons agree; pig only casualty; 12 yr joint occupation; Kaiser commission hedge stated",
+  "listened": false
+ }
+}

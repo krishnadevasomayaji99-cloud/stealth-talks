@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "b5c5664463b8388aadbded94ff96e0383fd04383afcd8791f399523d76d487ce",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:46.861418+00:00",
+  "note": "script follows verified facts, reveal flare last, hedged cause",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "b5c5664463b8388aadbded94ff96e0383fd04383afcd8791f399523d76d487ce",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:46.925236+00:00",
+  "note": "contact sheet of 8 frames viewed 16 Nov: caption readable, style distinct, no clipping; audio_report pass (-15.5 LUFS, tp<-1.8); not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "7ea0e2792fe8d7507b830f0b4eed0cacf96295bd3818796c4734dfca9d618d34",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:34:46.966796+00:00",
+  "note": "Opened Space.com, NOAA, NASA NTRS paper 16 Nov 2026; every claim in script/caption matches; disagreements (dates, places) stated or kept general; fires phrased small fires per NOAA",
+  "listened": false
+ }
+}
