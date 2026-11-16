@@ -1,0 +1,472 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "w": "this",
+  "start": 0.34,
+  "end": 0.44
+ },
+ {
+  "w": "town,",
+  "start": 0.44,
+  "end": 0.72
+ },
+ {
+  "w": "every",
+  "start": 1.04,
+  "end": 1.2
+ },
+ {
+  "w": "tiny",
+  "start": 1.2,
+  "end": 1.52
+ },
+ {
+  "w": "crime",
+  "start": 1.52,
+  "end": 1.86
+ },
+ {
+  "w": "adds",
+  "start": 1.86,
+  "end": 2.18
+ },
+ {
+  "w": "a",
+  "start": 2.18,
+  "end": 2.3
+ },
+ {
+  "w": "wanted",
+  "start": 2.3,
+  "end": 2.48
+ },
+ {
+  "w": "star",
+  "start": 2.48,
+  "end": 2.9
+ },
+ {
+  "w": "above",
+  "start": 2.9,
+  "end": 3.16
+ },
+ {
+  "w": "your",
+  "start": 3.16,
+  "end": 3.36
+ },
+ {
+  "w": "head.",
+  "start": 3.36,
+  "end": 3.58
+ },
+ {
+  "w": "Jake",
+  "start": 4.14,
+  "end": 4.4
+ },
+ {
+  "w": "jaywalked.",
+  "start": 4.4,
+  "end": 4.913
+ },
+ {
+  "w": "One",
+  "start": 4.94,
+  "end": 5.24
+ },
+ {
+  "w": "star.",
+  "start": 5.24,
+  "end": 5.62
+ },
+ {
+  "w": "He",
+  "start": 6.32,
+  "end": 6.48
+ },
+ {
+  "w": "said",
+  "start": 6.48,
+  "end": 6.64
+ },
+ {
+  "w": "he",
+  "start": 6.64,
+  "end": 6.74
+ },
+ {
+  "w": "was",
+  "start": 6.74,
+  "end": 6.84
+ },
+ {
+  "w": "five",
+  "start": 6.84,
+  "end": 7.12
+ },
+ {
+  "w": "minutes",
+  "start": 7.12,
+  "end": 7.34
+ },
+ {
+  "w": "away.",
+  "start": 7.34,
+  "end": 7.62
+ },
+ {
+  "w": "He",
+  "start": 7.9,
+  "end": 7.98
+ },
+ {
+  "w": "was",
+  "start": 7.98,
+  "end": 8.06
+ },
+ {
+  "w": "still",
+  "start": 8.06,
+  "end": 8.26
+ },
+ {
+  "w": "home.",
+  "start": 8.26,
+  "end": 8.5
+ },
+ {
+  "w": "Two",
+  "start": 8.8,
+  "end": 8.9
+ },
+ {
+  "w": "stars.",
+  "start": 8.9,
+  "end": 9.24
+ },
+ {
+  "w": "He",
+  "start": 10.04,
+  "end": 10.1
+ },
+ {
+  "w": "ate",
+  "start": 10.1,
+  "end": 10.22
+ },
+ {
+  "w": "a",
+  "start": 10.22,
+  "end": 10.32
+ },
+ {
+  "w": "cookie",
+  "start": 10.32,
+  "end": 10.52
+ },
+ {
+  "w": "before",
+  "start": 10.52,
+  "end": 10.86
+ },
+ {
+  "w": "dinner.",
+  "start": 10.86,
+  "end": 11.12
+ },
+ {
+  "w": "Three",
+  "start": 11.36,
+  "end": 11.5
+ },
+ {
+  "w": "stars.",
+  "start": 11.5,
+  "end": 11.92
+ },
+ {
+  "w": "The",
+  "start": 12.72,
+  "end": 12.78
+ },
+ {
+  "w": "radio",
+  "start": 12.78,
+  "end": 12.98
+ },
+ {
+  "w": "said",
+  "start": 12.98,
+  "end": 13.44
+ },
+ {
+  "w": "Rockstar's",
+  "start": 13.44,
+  "end": 14.08
+ },
+ {
+  "w": "GTA",
+  "start": 14.08,
+  "end": 14.28
+ },
+ {
+  "w": "6",
+  "start": 14.28,
+  "end": 14.94
+ },
+ {
+  "w": "launches",
+  "start": 14.94,
+  "end": 15.2
+ },
+ {
+  "w": "November",
+  "start": 15.2,
+  "end": 15.7
+ },
+ {
+  "w": "nineteenth.",
+  "start": 15.7,
+  "end": 17.125
+ },
+ {
+  "w": "Everyone",
+  "start": 17.2,
+  "end": 17.2
+ },
+ {
+  "w": "cheered.",
+  "start": 17.2,
+  "end": 17.46
+ },
+ {
+  "w": "Then",
+  "start": 18.32,
+  "end": 18.32
+ },
+ {
+  "w": "the",
+  "start": 18.32,
+  "end": 18.42
+ },
+ {
+  "w": "sirens",
+  "start": 18.42,
+  "end": 18.76
+ },
+ {
+  "w": "started.",
+  "start": 18.76,
+  "end": 19.14
+ },
+ {
+  "w": "Jake",
+  "start": 19.58,
+  "end": 19.72
+ },
+ {
+  "w": "ran",
+  "start": 19.72,
+  "end": 19.96
+ },
+ {
+  "w": "and",
+  "start": 19.96,
+  "end": 20.16
+ },
+ {
+  "w": "hid",
+  "start": 20.16,
+  "end": 20.34
+ },
+ {
+  "w": "behind",
+  "start": 20.34,
+  "end": 20.62
+ },
+ {
+  "w": "a",
+  "start": 20.62,
+  "end": 20.78
+ },
+ {
+  "w": "bush.",
+  "start": 20.78,
+  "end": 20.96
+ },
+ {
+  "w": "The",
+  "start": 21.7,
+  "end": 21.78
+ },
+ {
+  "w": "bush",
+  "start": 21.78,
+  "end": 22.02
+ },
+ {
+  "w": "had",
+  "start": 22.02,
+  "end": 22.22
+ },
+ {
+  "w": "five",
+  "start": 22.22,
+  "end": 22.5
+ },
+ {
+  "w": "stars.",
+  "start": 22.5,
+  "end": 22.82
+ },
+ {
+  "w": "The",
+  "start": 23.76,
+  "end": 23.84
+ },
+ {
+  "w": "bush",
+  "start": 23.84,
+  "end": 24.0
+ },
+ {
+  "w": "stood",
+  "start": 24.0,
+  "end": 24.24
+ },
+ {
+  "w": "up.",
+  "start": 24.24,
+  "end": 24.46
+ },
+ {
+  "w": "It",
+  "start": 24.56,
+  "end": 24.7
+ },
+ {
+  "w": "was",
+  "start": 24.7,
+  "end": 24.84
+ },
+ {
+  "w": "the",
+  "start": 24.84,
+  "end": 25.02
+ },
+ {
+  "w": "mayor.",
+  "start": 25.02,
+  "end": 25.22
+ },
+ {
+  "w": "He",
+  "start": 26.1,
+  "end": 26.16
+ },
+ {
+  "w": "whispered,",
+  "start": 26.16,
+  "end": 26.34
+ },
+ {
+  "w": "I",
+  "start": 26.66,
+  "end": 26.72
+ },
+ {
+  "w": "stole",
+  "start": 26.72,
+  "end": 26.92
+ },
+ {
+  "w": "the",
+  "start": 26.92,
+  "end": 27.14
+ },
+ {
+  "w": "town's",
+  "start": 27.14,
+  "end": 27.56
+ },
+ {
+  "w": "internet.",
+  "start": 27.56,
+  "end": 27.76
+ },
+ {
+  "w": "Jake",
+  "start": 28.36,
+  "end": 28.84
+ },
+ {
+  "w": "turned",
+  "start": 28.84,
+  "end": 29.12
+ },
+ {
+  "w": "to",
+  "start": 29.12,
+  "end": 29.36
+ },
+ {
+  "w": "you.",
+  "start": 29.36,
+  "end": 29.5
+ },
+ {
+  "w": "You",
+  "start": 29.6,
+  "end": 29.68
+ },
+ {
+  "w": "had",
+  "start": 29.68,
+  "end": 29.82
+ },
+ {
+  "w": "a",
+  "start": 29.82,
+  "end": 29.9
+ },
+ {
+  "w": "star",
+  "start": 29.9,
+  "end": 30.14
+ },
+ {
+  "w": "too.",
+  "start": 30.14,
+  "end": 30.44
+ },
+ {
+  "w": "You",
+  "start": 31.12,
+  "end": 31.24
+ },
+ {
+  "w": "watched",
+  "start": 31.24,
+  "end": 31.5
+ },
+ {
+  "w": "this",
+  "start": 31.5,
+  "end": 31.78
+ },
+ {
+  "w": "whole",
+  "start": 31.78,
+  "end": 32.0
+ },
+ {
+  "w": "Reel.",
+  "start": 32.0,
+  "end": 32.32
+ }
+]

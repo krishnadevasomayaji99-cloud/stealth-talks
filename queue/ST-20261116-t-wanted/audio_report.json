@@ -1,0 +1,25 @@
+{
+ "sha256": "387912be2248d6ba063df5604924a53a5821d671b3ca225ef6699a43ce082a6f",
+ "audio": {
+  "lufs": -15.5,
+  "true_peak_dbtp": -1.9,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 33.03,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.032,
+  "expected_words": 94,
+  "heard_words": 95,
+  "missing_or_wrong": [
+   "jaywalked",
+   "nineteenth",
+   "sirens"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
