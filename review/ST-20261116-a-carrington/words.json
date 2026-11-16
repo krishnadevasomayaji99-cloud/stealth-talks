@@ -1,0 +1,462 @@
+[
+ {
+  "w": "On",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "w": "one",
+  "start": 0.36,
+  "end": 0.52
+ },
+ {
+  "w": "night,",
+  "start": 0.52,
+  "end": 0.74
+ },
+ {
+  "w": "telegraph",
+  "start": 0.94,
+  "end": 1.24
+ },
+ {
+  "w": "machines",
+  "start": 1.24,
+  "end": 1.62
+ },
+ {
+  "w": "began",
+  "start": 1.62,
+  "end": 2.08
+ },
+ {
+  "w": "sparking",
+  "start": 2.08,
+  "end": 2.48
+ },
+ {
+  "w": "with",
+  "start": 2.48,
+  "end": 2.82
+ },
+ {
+  "w": "nobody",
+  "start": 2.82,
+  "end": 3.1
+ },
+ {
+  "w": "touching",
+  "start": 3.1,
+  "end": 3.58
+ },
+ {
+  "w": "them.",
+  "start": 3.58,
+  "end": 3.8
+ },
+ {
+  "w": "Operators",
+  "start": 4.34,
+  "end": 4.8
+ },
+ {
+  "w": "got",
+  "start": 4.8,
+  "end": 5.04
+ },
+ {
+  "w": "shocks",
+  "start": 5.04,
+  "end": 5.28
+ },
+ {
+  "w": "strong",
+  "start": 5.28,
+  "end": 5.76
+ },
+ {
+  "w": "enough",
+  "start": 5.76,
+  "end": 5.96
+ },
+ {
+  "w": "to",
+  "start": 5.96,
+  "end": 6.22
+ },
+ {
+  "w": "throw",
+  "start": 6.22,
+  "end": 6.44
+ },
+ {
+  "w": "them",
+  "start": 6.44,
+  "end": 6.6
+ },
+ {
+  "w": "back.",
+  "start": 6.6,
+  "end": 6.82
+ },
+ {
+  "w": "Lights",
+  "start": 7.46,
+  "end": 7.62
+ },
+ {
+  "w": "moved",
+  "start": 7.62,
+  "end": 7.94
+ },
+ {
+  "w": "across",
+  "start": 7.94,
+  "end": 8.18
+ },
+ {
+  "w": "the",
+  "start": 8.18,
+  "end": 8.48
+ },
+ {
+  "w": "sky,",
+  "start": 8.48,
+  "end": 8.68
+ },
+ {
+  "w": "as",
+  "start": 8.68,
+  "end": 9.06
+ },
+ {
+  "w": "far",
+  "start": 9.06,
+  "end": 9.26
+ },
+ {
+  "w": "south",
+  "start": 9.26,
+  "end": 9.52
+ },
+ {
+  "w": "as",
+  "start": 9.52,
+  "end": 9.76
+ },
+ {
+  "w": "Cuba.",
+  "start": 9.76,
+  "end": 9.96
+ },
+ {
+  "w": "Some",
+  "start": 10.74,
+  "end": 10.86
+ },
+ {
+  "w": "offices",
+  "start": 10.86,
+  "end": 11.24
+ },
+ {
+  "w": "reported",
+  "start": 11.24,
+  "end": 11.68
+ },
+ {
+  "w": "small",
+  "start": 11.68,
+  "end": 12.12
+ },
+ {
+  "w": "fires.",
+  "start": 12.12,
+  "end": 12.56
+ },
+ {
+  "w": "One",
+  "start": 13.48,
+  "end": 13.5
+ },
+ {
+  "w": "operator",
+  "start": 13.5,
+  "end": 13.88
+ },
+ {
+  "w": "watched",
+  "start": 13.88,
+  "end": 14.24
+ },
+ {
+  "w": "a",
+  "start": 14.24,
+  "end": 14.46
+ },
+ {
+  "w": "spark",
+  "start": 14.46,
+  "end": 14.64
+ },
+ {
+  "w": "jump",
+  "start": 14.64,
+  "end": 14.98
+ },
+ {
+  "w": "from",
+  "start": 14.98,
+  "end": 15.18
+ },
+ {
+  "w": "his",
+  "start": 15.18,
+  "end": 15.32
+ },
+ {
+  "w": "forehead",
+  "start": 15.32,
+  "end": 15.54
+ },
+ {
+  "w": "to",
+  "start": 15.54,
+  "end": 15.86
+ },
+ {
+  "w": "the",
+  "start": 15.86,
+  "end": 15.94
+ },
+ {
+  "w": "machine.",
+  "start": 15.94,
+  "end": 16.16
+ },
+ {
+  "w": "Then",
+  "start": 17.0,
+  "end": 17.06
+ },
+ {
+  "w": "the",
+  "start": 17.06,
+  "end": 17.2
+ },
+ {
+  "w": "strangest",
+  "start": 17.2,
+  "end": 17.78
+ },
+ {
+  "w": "report",
+  "start": 17.78,
+  "end": 17.96
+ },
+ {
+  "w": "came",
+  "start": 17.96,
+  "end": 18.38
+ },
+ {
+  "w": "from",
+  "start": 18.38,
+  "end": 18.62
+ },
+ {
+  "w": "Boston",
+  "start": 18.62,
+  "end": 18.88
+ },
+ {
+  "w": "and",
+  "start": 18.88,
+  "end": 19.22
+ },
+ {
+  "w": "Portland.",
+  "start": 19.22,
+  "end": 19.52
+ },
+ {
+  "w": "They",
+  "start": 20.26,
+  "end": 20.4
+ },
+ {
+  "w": "switched",
+  "start": 20.4,
+  "end": 20.56
+ },
+ {
+  "w": "their",
+  "start": 20.56,
+  "end": 20.82
+ },
+ {
+  "w": "batteries",
+  "start": 20.82,
+  "end": 21.18
+ },
+ {
+  "w": "off,",
+  "start": 21.18,
+  "end": 21.54
+ },
+ {
+  "w": "and",
+  "start": 21.54,
+  "end": 21.8
+ },
+ {
+  "w": "the",
+  "start": 21.8,
+  "end": 21.9
+ },
+ {
+  "w": "line",
+  "start": 21.9,
+  "end": 22.06
+ },
+ {
+  "w": "kept",
+  "start": 22.06,
+  "end": 22.38
+ },
+ {
+  "w": "working.",
+  "start": 22.38,
+  "end": 22.84
+ },
+ {
+  "w": "For",
+  "start": 23.44,
+  "end": 23.56
+ },
+ {
+  "w": "about",
+  "start": 23.56,
+  "end": 23.7
+ },
+ {
+  "w": "two",
+  "start": 23.7,
+  "end": 23.92
+ },
+ {
+  "w": "hours,",
+  "start": 23.92,
+  "end": 24.24
+ },
+ {
+  "w": "messages",
+  "start": 24.5,
+  "end": 24.74
+ },
+ {
+  "w": "crossed",
+  "start": 24.74,
+  "end": 25.14
+ },
+ {
+  "w": "on",
+  "start": 25.14,
+  "end": 25.38
+ },
+ {
+  "w": "the",
+  "start": 25.38,
+  "end": 25.48
+ },
+ {
+  "w": "sky's",
+  "start": 25.48,
+  "end": 25.88
+ },
+ {
+  "w": "own",
+  "start": 25.88,
+  "end": 26.02
+ },
+ {
+  "w": "current.",
+  "start": 26.02,
+  "end": 26.26
+ },
+ {
+  "w": "The",
+  "start": 26.26,
+  "end": 27.1
+ },
+ {
+  "w": "cause",
+  "start": 27.1,
+  "end": 27.34
+ },
+ {
+  "w": "was",
+  "start": 27.34,
+  "end": 27.6
+ },
+ {
+  "w": "a",
+  "start": 27.6,
+  "end": 27.7
+ },
+ {
+  "w": "giant",
+  "start": 27.7,
+  "end": 27.98
+ },
+ {
+  "w": "solar",
+  "start": 27.98,
+  "end": 28.28
+ },
+ {
+  "w": "flare,",
+  "start": 28.28,
+  "end": 28.64
+ },
+ {
+  "w": "and",
+  "start": 28.64,
+  "end": 29.18
+ },
+ {
+  "w": "the",
+  "start": 29.18,
+  "end": 29.28
+ },
+ {
+  "w": "date",
+  "start": 29.28,
+  "end": 29.46
+ },
+ {
+  "w": "was",
+  "start": 29.46,
+  "end": 29.66
+ },
+ {
+  "w": "September,",
+  "start": 29.66,
+  "end": 29.94
+ },
+ {
+  "w": "eighteen",
+  "start": 29.94,
+  "end": 30.398
+ },
+ {
+  "w": "fifty",
+  "start": 30.422,
+  "end": 30.88
+ },
+ {
+  "w": "nine.",
+  "start": 30.904,
+  "end": 31.362
+ }
+]
