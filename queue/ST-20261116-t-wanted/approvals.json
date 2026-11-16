@@ -1,18 +1,18 @@
 {
  "story_check": {
   "verdict": "PASS",
-  "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+  "sha256": "5eaedec9489cfb2d604d9fe662eb2bad1002e2229857a124c54be94b87921c08",
   "by": "Claude (model)",
-  "at": "2026-11-16T13:14:22.396254+00:00",
-  "note": "original fiction (Jake, mayor, town, wanted-star rule); only real fact is GTA 6 release date 19 Nov 2026 in caption with two sources; no Rockstar assets/logos",
+  "at": "2026-11-16T15:35:09.122835+00:00",
+  "note": "original fiction; only fact (GTA 6 release 19 Nov 2026) is sourced in caption; unchanged script",
   "listened": false
  },
  "visual_qa": {
   "verdict": "PASS",
-  "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+  "sha256": "5eaedec9489cfb2d604d9fe662eb2bad1002e2229857a124c54be94b87921c08",
   "by": "Claude (model)",
-  "at": "2026-11-16T13:14:22.456849+00:00",
-  "note": "frames at 1,6,12,18,24,28,31,32.5 s and re-render ending 27-32 s viewed 16 Nov: blocky 3D town, live WANTED star HUD + chest tags, shadows, readable captions, final YOU star; audio_report pass (-15.5 LUFS, tp -1.9, WER 0.032); backrooms bed; not full playback",
+  "at": "2026-11-16T15:35:09.187496+00:00",
+  "note": "re-render with default music bed; frames at 3,14,24,31 s viewed 16 Nov match the earlier approved render (WANTED HUD, chest tags, bush/mayor, YOU star); audio_report pass (-15.4 LUFS, WER 0.032); not full playback",
   "listened": false
  },
  "caption_facts": {
