@@ -16,7 +16,7 @@ function setup(){w=B.world({speakerZ:-22});w.events=ev;
 function cam(t){const P=(pts)=>k(t,pts);
  const px=P([[0,3],[tJake,3],[tJay,-3.5],[tOne+0.4,-3.5],[tFive-0.3,3.2],[tTwo,3.2],[tCook-0.1,-3],[tThree+0.5,-3],[tRadio,7],[tNine+0.4,7],[tSir-0.2,-6],[tRan,4],[tBush,-3],[tFive2-0.1,-2.5],[tStood-0.2,-12],[tStood+0.5,-12],[tNet+0.3,-12],[tTurn-0.2,0],[tToo,0.2],[tWatch,0],[tEnd,0]]);
  const py=P([[0,8],[tJake,8],[tJay,5],[tTwo,5.5],[tCook,5],[tRadio,10],[tNine+0.4,12],[tSir,7],[tRan,6],[tBush,6],[tStood-0.2,5],[tStood+0.5,8],[tTurn-0.2,6.2],[tToo,6.4],[tEnd,6.2]]);
- const pz=P([[0,18],[tJake,15],[tJay,11],[tTwo,12],[tCook,11],[tRadio,6],[tNine+0.4,-2],[tSir,10],[tRan,0],[tBush,-1],[tFive2,0],[tStood-0.2,0],[tStood+0.5,2],[tTurn-0.2,14],[tToo,11],[tWatch,6],[tEnd,3.5]]);
+ const pz=P([[0,18],[tJake,15],[tJay,11],[tTwo,12],[tCook,11],[tRadio,6],[tNine+0.4,-2],[tSir,10],[tRan,0],[tBush,-1],[tFive2,0],[tStood-0.2,0],[tStood+0.5,2],[tTurn-0.2,14],[tToo,12],[tWatch,10],[tEnd,9]]);
  const lx=P([[0,0],[tJay,0],[tCook,0],[tRadio,0],[tNine+0.4,0],[tRan,-2],[tBush,-6],[tStood,-6.5],[tTurn-0.2,0],[tEnd,0]]);
  const ly=P([[0,6],[tJay,5.6],[tNine,12],[tRan,5],[tStood,6],[tTurn-0.2,6.4],[tEnd,6.2]]);
  const lz=P([[0,6],[tNine,-22],[tNine+0.6,-22],[tSir,4],[tRan,-6],[tBush,-6],[tStood,-6],[tTurn-0.2,6],[tEnd,6]]);
