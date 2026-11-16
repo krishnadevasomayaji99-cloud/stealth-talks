@@ -588,6 +588,12 @@
    "sha256": "5eaedec9489cfb2d604d9fe662eb2bad1002e2229857a124c54be94b87921c08",
    "started_at": "2026-11-16T17:33:06.638758+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261116-u-blink",
+   "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
+   "started_at": "2026-11-16T20:44:20.899353+00:00",
+   "state": "uploading"
   }
  ]
 }
