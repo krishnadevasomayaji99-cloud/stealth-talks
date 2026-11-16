@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "0750ca99654c35ad8a8c037f347c71b214ef64d48087105eed298886c0892660",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:48.656068+00:00",
+  "note": "script follows UPI+IFLScience facts; cause stated as alleged; barge count avoided",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "0750ca99654c35ad8a8c037f347c71b214ef64d48087105eed298886c0892660",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:48.700356+00:00",
+  "note": "contact sheet of 8 frames viewed 16 Nov: caption readable, style distinct; audio_report pass (-15.7 LUFS, tp -1.8); not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "015a3a0f13bef8445fd8b1700aab6b38b7120e8c96468e45203812f5586f8dbd",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:48.741502+00:00",
+  "note": "Opened UPI 1983 and IFLScience 28 Aug 2024 on 16 Nov 2026; 10 ft depth, no deaths, ~50 miners, canal reversal, refill ~2 days, 32M settlement per UPI; cause marked alleged/disputed",
+  "listened": false
+ }
+}

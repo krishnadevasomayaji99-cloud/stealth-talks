@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "7ecd1f3f46c960572c3cfccb34ce98c34ae5c066818ec8367ff6055ea6273f1c",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:48.939943+00:00",
+  "note": "script follows History Hit/History.com/NBC facts; no invented quotes",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "7ecd1f3f46c960572c3cfccb34ce98c34ae5c066818ec8367ff6055ea6273f1c",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:49.001176+00:00",
+  "note": "contact sheet of 8 frames viewed 16 Nov: caption readable, style distinct; audio_report pass (-15.7 LUFS, tp -1.8); not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "f4a8493964a7da6e8cc38f76c9bbb51d31646055f1d4332990d71a182e88a2d5",
+  "by": "Claude (model)",
+  "at": "2026-11-16T03:37:49.047222+00:00",
+  "note": "Opened History Hit (28 Sep 2023), History.com (upd 18 Feb 2025), NBC 16 Nov 2026; leaflets/search parties tricks, 9 Mar 1974 Taniguchi relieved him, ~30 islanders killed stated in caption; age/years discrepancy hedged",
+  "listened": false
+ }
+}
