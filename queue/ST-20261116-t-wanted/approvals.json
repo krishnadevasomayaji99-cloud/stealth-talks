@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+  "by": "Claude (model)",
+  "at": "2026-11-16T13:14:22.396254+00:00",
+  "note": "original fiction (Jake, mayor, town, wanted-star rule); only real fact is GTA 6 release date 19 Nov 2026 in caption with two sources; no Rockstar assets/logos",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+  "by": "Claude (model)",
+  "at": "2026-11-16T13:14:22.456849+00:00",
+  "note": "frames at 1,6,12,18,24,28,31,32.5 s and re-render ending 27-32 s viewed 16 Nov: blocky 3D town, live WANTED star HUD + chest tags, shadows, readable captions, final YOU star; audio_report pass (-15.5 LUFS, tp -1.9, WER 0.032); backrooms bed; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "93cdebb1bdda4060f7735a8b4488651e30a1f2f3ab6ede2a3da857f8675dad0e",
+  "by": "Claude (model)",
+  "at": "2026-11-16T13:14:22.502766+00:00",
+  "note": "GTA 6 release 19 Nov 2026 confirmed by TweakTown and GamesRadar (read 16 Nov 2026); fiction disclaimer present",
+  "listened": false
+ }
+}
