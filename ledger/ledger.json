@@ -547,10 +547,13 @@
    "upload_http": 400
   },
   {
+   "container": "18004762082822257",
    "key": "ST-20261116-u-blink",
+   "reencoded": true,
    "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
    "started_at": "2026-11-16T14:31:33.278801+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
