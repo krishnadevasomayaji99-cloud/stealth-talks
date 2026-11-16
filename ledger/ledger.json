@@ -537,6 +537,12 @@
    "started_at": "2026-11-16T14:03:31.220884+00:00",
    "state": "failed_before_upload",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261116-u-blink",
+   "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
+   "started_at": "2026-11-16T14:17:46.466151+00:00",
+   "state": "uploading"
   }
  ]
 }
