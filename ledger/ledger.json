@@ -520,6 +520,12 @@
    "started_at": "2026-11-16T11:11:04.347386+00:00",
    "state": "verified",
    "upload_http": 400
+  },
+  {
+   "key": "ST-20261116-t-wanted",
+   "sha256": "7b02224ca694ea8fc983560b0cbc6bc38419b3c1a265a165929f013883ad924d",
+   "started_at": "2026-11-16T13:49:16.142909+00:00",
+   "state": "uploading"
   }
  ]
 }
