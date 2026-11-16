@@ -1,0 +1,21 @@
+{
+ "sha256": "436b34023e4ffe934c033fab6939dabbb085f742586d09b10db2ab624dc93cbe",
+ "audio": {
+  "lufs": -15.2,
+  "true_peak_dbtp": -1.7,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 26.1,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.0,
+  "expected_words": 64,
+  "heard_words": 64,
+  "missing_or_wrong": []
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
