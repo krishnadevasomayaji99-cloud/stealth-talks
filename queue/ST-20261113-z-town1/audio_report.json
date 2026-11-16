@@ -1,0 +1,31 @@
+{
+ "sha256": "9324ca8c5f994a180fee19cc75cf55f51bfd0e4c4d32eb93aa76c7c3e83fe6cc",
+ "audio": {
+  "lufs": -15.6,
+  "true_peak_dbtp": -1.6,
+  "clipped_samples": 0,
+  "trailing_silence_s": 1.24,
+  "duration_s": 41.8,
+  "problems": [
+   "trailing silence 1.2s"
+  ],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.062,
+  "expected_words": 97,
+  "heard_words": 97,
+  "missing_or_wrong": [
+   "looks",
+   "is",
+   "in",
+   "raccoons waved",
+   "is"
+  ]
+ },
+ "problems": [
+  "trailing silence 1.2s"
+ ],
+ "pass": false,
+ "listened": false
+}
