@@ -629,6 +629,12 @@
    "sha256": "af01272450fb0cb55925b04fee25b1418a9929a7564cb473698f8d499edb1ffe",
    "started_at": "2026-11-17T17:31:21.655743+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261117-f-ten-words",
+   "sha256": "f46cafc984fa7b12481a5239d789f6738978c4984ec311d55feee69397161212",
+   "started_at": "2026-11-17T20:37:16.467640+00:00",
+   "state": "uploading"
   }
  ]
 }
