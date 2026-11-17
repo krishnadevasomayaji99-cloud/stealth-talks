@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T15:30:38.395325+00:00",
+ "at": "2026-11-17T16:17:33.162084+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -185,7 +185,7 @@
    "ig_reels_avg_watch_time": 9122
   },
   "ST-20261116-t-wanted": {
-   "views": 241,
+   "views": 242,
    "reach": 174,
    "likes": 1,
    "comments": 0,
@@ -212,13 +212,13 @@
    "ig_reels_avg_watch_time": 8961
   },
   "ST-20261117-b-countdown": {
-   "views": 342,
-   "reach": 236,
+   "views": 351,
+   "reach": 256,
    "likes": 3,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 13882
+   "ig_reels_avg_watch_time": 13987
   }
  }
 }
