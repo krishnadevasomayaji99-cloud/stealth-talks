@@ -1,0 +1,492 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.32
+ },
+ {
+  "w": "this",
+  "start": 0.32,
+  "end": 0.44
+ },
+ {
+  "w": "town,",
+  "start": 0.44,
+  "end": 0.72
+ },
+ {
+  "w": "your",
+  "start": 0.86,
+  "end": 0.94
+ },
+ {
+  "w": "phone",
+  "start": 0.94,
+  "end": 1.16
+ },
+ {
+  "w": "battery",
+  "start": 1.16,
+  "end": 1.5
+ },
+ {
+  "w": "is",
+  "start": 1.5,
+  "end": 1.76
+ },
+ {
+  "w": "your",
+  "start": 1.76,
+  "end": 1.88
+ },
+ {
+  "w": "lifespan.",
+  "start": 1.88,
+  "end": 2.906
+ },
+ {
+  "w": "Mia",
+  "start": 2.96,
+  "end": 3.24
+ },
+ {
+  "w": "is",
+  "start": 3.24,
+  "end": 3.5
+ },
+ {
+  "w": "twenty.",
+  "start": 3.5,
+  "end": 4.051
+ },
+ {
+  "w": "She",
+  "start": 4.08,
+  "end": 4.14
+ },
+ {
+  "w": "scrolled",
+  "start": 4.14,
+  "end": 4.48
+ },
+ {
+  "w": "all",
+  "start": 4.48,
+  "end": 4.7
+ },
+ {
+  "w": "night.",
+  "start": 4.7,
+  "end": 4.96
+ },
+ {
+  "w": "Her",
+  "start": 5.64,
+  "end": 5.72
+ },
+ {
+  "w": "battery",
+  "start": 5.72,
+  "end": 6.0
+ },
+ {
+  "w": "hit",
+  "start": 6.0,
+  "end": 6.22
+ },
+ {
+  "w": "twelve",
+  "start": 6.22,
+  "end": 6.581
+ },
+ {
+  "w": "percent.",
+  "start": 6.6,
+  "end": 6.961
+ },
+ {
+  "w": "Her",
+  "start": 6.98,
+  "end": 7.4
+ },
+ {
+  "w": "knees",
+  "start": 7.4,
+  "end": 7.6
+ },
+ {
+  "w": "started",
+  "start": 7.6,
+  "end": 7.92
+ },
+ {
+  "w": "to",
+  "start": 7.92,
+  "end": 8.12
+ },
+ {
+  "w": "shake.",
+  "start": 8.12,
+  "end": 8.34
+ },
+ {
+  "w": "She",
+  "start": 9.14,
+  "end": 9.2
+ },
+ {
+  "w": "ran",
+  "start": 9.2,
+  "end": 9.38
+ },
+ {
+  "w": "into",
+  "start": 9.38,
+  "end": 9.6
+ },
+ {
+  "w": "the",
+  "start": 9.6,
+  "end": 9.74
+ },
+ {
+  "w": "snow,",
+  "start": 9.74,
+  "end": 9.98
+ },
+ {
+  "w": "to",
+  "start": 9.98,
+  "end": 10.34
+ },
+ {
+  "w": "the",
+  "start": 10.34,
+  "end": 10.46
+ },
+ {
+  "w": "old",
+  "start": 10.46,
+  "end": 10.64
+ },
+ {
+  "w": "charger",
+  "start": 10.64,
+  "end": 10.9
+ },
+ {
+  "w": "by",
+  "start": 10.9,
+  "end": 11.28
+ },
+ {
+  "w": "the",
+  "start": 11.28,
+  "end": 11.4
+ },
+ {
+  "w": "lake.",
+  "start": 11.4,
+  "end": 11.56
+ },
+ {
+  "w": "Her",
+  "start": 12.22,
+  "end": 12.3
+ },
+ {
+  "w": "grandpa",
+  "start": 12.3,
+  "end": 12.72
+ },
+ {
+  "w": "sat",
+  "start": 12.72,
+  "end": 12.92
+ },
+ {
+  "w": "on",
+  "start": 12.92,
+  "end": 13.1
+ },
+ {
+  "w": "the",
+  "start": 13.1,
+  "end": 13.2
+ },
+ {
+  "w": "ice,",
+  "start": 13.2,
+  "end": 13.38
+ },
+ {
+  "w": "smiling.",
+  "start": 13.38,
+  "end": 13.8
+ },
+ {
+  "w": "Three",
+  "start": 13.8,
+  "end": 14.322
+ },
+ {
+  "w": "percent.",
+  "start": 14.35,
+  "end": 14.872
+ },
+ {
+  "w": "He",
+  "start": 14.9,
+  "end": 15.48
+ },
+ {
+  "w": "had",
+  "start": 15.48,
+  "end": 15.56
+ },
+ {
+  "w": "given",
+  "start": 15.56,
+  "end": 15.74
+ },
+ {
+  "w": "his",
+  "start": 15.74,
+  "end": 15.92
+ },
+ {
+  "w": "charge",
+  "start": 15.92,
+  "end": 16.2
+ },
+ {
+  "w": "away",
+  "start": 16.2,
+  "end": 16.54
+ },
+ {
+  "w": "for",
+  "start": 16.54,
+  "end": 16.84
+ },
+ {
+  "w": "years,",
+  "start": 16.84,
+  "end": 17.16
+ },
+ {
+  "w": "a",
+  "start": 17.5,
+  "end": 17.56
+ },
+ {
+  "w": "little",
+  "start": 17.56,
+  "end": 17.7
+ },
+ {
+  "w": "to",
+  "start": 17.7,
+  "end": 17.86
+ },
+ {
+  "w": "everyone.",
+  "start": 17.86,
+  "end": 18.2
+ },
+ {
+  "w": "Mia",
+  "start": 18.96,
+  "end": 19.14
+ },
+ {
+  "w": "plugged",
+  "start": 19.14,
+  "end": 19.38
+ },
+ {
+  "w": "his",
+  "start": 19.38,
+  "end": 19.66
+ },
+ {
+  "w": "phone",
+  "start": 19.66,
+  "end": 19.88
+ },
+ {
+  "w": "into",
+  "start": 19.88,
+  "end": 20.08
+ },
+ {
+  "w": "hers.",
+  "start": 20.08,
+  "end": 20.36
+ },
+ {
+  "w": "Her",
+  "start": 21.26,
+  "end": 21.32
+ },
+ {
+  "w": "number",
+  "start": 21.32,
+  "end": 21.48
+ },
+ {
+  "w": "fell.",
+  "start": 21.48,
+  "end": 21.82
+ },
+ {
+  "w": "His",
+  "start": 22.0,
+  "end": 22.08
+ },
+ {
+  "w": "number",
+  "start": 22.08,
+  "end": 22.34
+ },
+ {
+  "w": "climbed.",
+  "start": 22.34,
+  "end": 22.58
+ },
+ {
+  "w": "They",
+  "start": 23.52,
+  "end": 23.58
+ },
+ {
+  "w": "hugged",
+  "start": 23.58,
+  "end": 23.78
+ },
+ {
+  "w": "in",
+  "start": 23.78,
+  "end": 23.96
+ },
+ {
+  "w": "the",
+  "start": 23.96,
+  "end": 24.06
+ },
+ {
+  "w": "forest,",
+  "start": 24.06,
+  "end": 24.36
+ },
+ {
+  "w": "and",
+  "start": 24.36,
+  "end": 24.7
+ },
+ {
+  "w": "both",
+  "start": 24.7,
+  "end": 24.9
+ },
+ {
+  "w": "of",
+  "start": 24.9,
+  "end": 25.12
+ },
+ {
+  "w": "them",
+  "start": 25.12,
+  "end": 25.24
+ },
+ {
+  "w": "glowed.",
+  "start": 25.24,
+  "end": 25.58
+ },
+ {
+  "w": "Then",
+  "start": 26.32,
+  "end": 26.36
+ },
+ {
+  "w": "the",
+  "start": 26.36,
+  "end": 26.46
+ },
+ {
+  "w": "screen",
+  "start": 26.46,
+  "end": 26.68
+ },
+ {
+  "w": "turned",
+  "start": 26.68,
+  "end": 26.98
+ },
+ {
+  "w": "to",
+  "start": 26.98,
+  "end": 27.26
+ },
+ {
+  "w": "you.",
+  "start": 27.26,
+  "end": 27.4
+ },
+ {
+  "w": "Your",
+  "start": 27.66,
+  "end": 27.78
+ },
+ {
+  "w": "battery",
+  "start": 27.78,
+  "end": 27.98
+ },
+ {
+  "w": "says",
+  "start": 27.98,
+  "end": 28.32
+ },
+ {
+  "w": "sixty",
+  "start": 28.32,
+  "end": 28.649
+ },
+ {
+  "w": "one",
+  "start": 28.667,
+  "end": 28.996
+ },
+ {
+  "w": "percent.",
+  "start": 29.013,
+  "end": 29.343
+ },
+ {
+  "w": "Who",
+  "start": 29.36,
+  "end": 30.0
+ },
+ {
+  "w": "will",
+  "start": 30.0,
+  "end": 30.14
+ },
+ {
+  "w": "you",
+  "start": 30.14,
+  "end": 30.28
+ },
+ {
+  "w": "charge",
+  "start": 30.28,
+  "end": 30.58
+ },
+ {
+  "w": "today?",
+  "start": 30.58,
+  "end": 31.0
+ }
+]
