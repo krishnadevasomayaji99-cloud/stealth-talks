@@ -599,6 +599,12 @@
    "sha256": "0512879e29526686f4b337dbb161796182da4c03adc09af07e2057ac9595f577",
    "started_at": "2026-11-16T20:44:20.899353+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261116-a-carrington",
+   "sha256": "b5c5664463b8388aadbded94ff96e0383fd04383afcd8791f399523d76d487ce",
+   "started_at": "2026-11-17T08:33:41.489122+00:00",
+   "state": "uploading"
   }
  ]
 }
