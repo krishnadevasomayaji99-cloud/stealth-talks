@@ -1,0 +1,467 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.32
+ },
+ {
+  "w": "this",
+  "start": 0.32,
+  "end": 0.44
+ },
+ {
+  "w": "town,",
+  "start": 0.44,
+  "end": 0.7
+ },
+ {
+  "w": "every",
+  "start": 1.0,
+  "end": 1.2
+ },
+ {
+  "w": "snowflake",
+  "start": 1.2,
+  "end": 1.78
+ },
+ {
+  "w": "that",
+  "start": 1.78,
+  "end": 2.0
+ },
+ {
+  "w": "lands",
+  "start": 2.0,
+  "end": 2.2
+ },
+ {
+  "w": "on",
+  "start": 2.2,
+  "end": 2.42
+ },
+ {
+  "w": "you",
+  "start": 2.42,
+  "end": 2.58
+ },
+ {
+  "w": "deletes",
+  "start": 2.58,
+  "end": 3.0
+ },
+ {
+  "w": "a",
+  "start": 3.0,
+  "end": 3.04
+ },
+ {
+  "w": "memory.",
+  "start": 3.04,
+  "end": 3.3
+ },
+ {
+  "w": "Mia",
+  "start": 4.0,
+  "end": 4.14
+ },
+ {
+  "w": "caught",
+  "start": 4.14,
+  "end": 4.42
+ },
+ {
+  "w": "one.",
+  "start": 4.42,
+  "end": 4.68
+ },
+ {
+  "w": "She",
+  "start": 4.68,
+  "end": 4.9
+ },
+ {
+  "w": "forgot",
+  "start": 4.9,
+  "end": 5.16
+ },
+ {
+  "w": "her",
+  "start": 5.16,
+  "end": 5.38
+ },
+ {
+  "w": "birthday.",
+  "start": 5.38,
+  "end": 5.7
+ },
+ {
+  "w": "Jake",
+  "start": 6.48,
+  "end": 6.68
+ },
+ {
+  "w": "caught",
+  "start": 6.68,
+  "end": 6.96
+ },
+ {
+  "w": "two.",
+  "start": 6.96,
+  "end": 7.3
+ },
+ {
+  "w": "He",
+  "start": 7.3,
+  "end": 7.52
+ },
+ {
+  "w": "forgot",
+  "start": 7.52,
+  "end": 7.72
+ },
+ {
+  "w": "his",
+  "start": 7.72,
+  "end": 7.96
+ },
+ {
+  "w": "own",
+  "start": 7.96,
+  "end": 8.1
+ },
+ {
+  "w": "name.",
+  "start": 8.1,
+  "end": 8.36
+ },
+ {
+  "w": "Then",
+  "start": 9.16,
+  "end": 9.2
+ },
+ {
+  "w": "the",
+  "start": 9.2,
+  "end": 9.38
+ },
+ {
+  "w": "snow",
+  "start": 9.38,
+  "end": 9.62
+ },
+ {
+  "w": "got",
+  "start": 9.62,
+  "end": 9.88
+ },
+ {
+  "w": "heavier.",
+  "start": 9.88,
+  "end": 10.24
+ },
+ {
+  "w": "In",
+  "start": 11.08,
+  "end": 11.1
+ },
+ {
+  "w": "eighteen",
+  "start": 11.1,
+  "end": 11.404
+ },
+ {
+  "w": "eighty",
+  "start": 11.42,
+  "end": 11.724
+ },
+ {
+  "w": "five,",
+  "start": 11.74,
+  "end": 12.044
+ },
+ {
+  "w": "a",
+  "start": 12.06,
+  "end": 12.1
+ },
+ {
+  "w": "Vermont",
+  "start": 12.1,
+  "end": 12.24
+ },
+ {
+  "w": "man",
+  "start": 12.24,
+  "end": 12.76
+ },
+ {
+  "w": "took",
+  "start": 12.76,
+  "end": 12.98
+ },
+ {
+  "w": "the",
+  "start": 12.98,
+  "end": 13.08
+ },
+ {
+  "w": "first",
+  "start": 13.08,
+  "end": 13.3
+ },
+ {
+  "w": "photo",
+  "start": 13.3,
+  "end": 13.6
+ },
+ {
+  "w": "of",
+  "start": 13.6,
+  "end": 13.88
+ },
+ {
+  "w": "a",
+  "start": 13.88,
+  "end": 13.96
+ },
+ {
+  "w": "single",
+  "start": 13.96,
+  "end": 14.18
+ },
+ {
+  "w": "flake.",
+  "start": 14.18,
+  "end": 14.62
+ },
+ {
+  "w": "Nobody",
+  "start": 15.2,
+  "end": 15.26
+ },
+ {
+  "w": "asked",
+  "start": 15.26,
+  "end": 15.68
+ },
+ {
+  "w": "the",
+  "start": 15.68,
+  "end": 15.9
+ },
+ {
+  "w": "flake.",
+  "start": 15.9,
+  "end": 16.14
+ },
+ {
+  "w": "Mia",
+  "start": 16.86,
+  "end": 16.94
+ },
+ {
+  "w": "ran",
+  "start": 16.94,
+  "end": 17.22
+ },
+ {
+  "w": "into",
+  "start": 17.22,
+  "end": 17.48
+ },
+ {
+  "w": "the",
+  "start": 17.48,
+  "end": 17.62
+ },
+ {
+  "w": "bakery.",
+  "start": 17.62,
+  "end": 17.82
+ },
+ {
+  "w": "The",
+  "start": 18.46,
+  "end": 18.48
+ },
+ {
+  "w": "baker",
+  "start": 18.48,
+  "end": 18.68
+ },
+ {
+  "w": "had",
+  "start": 18.68,
+  "end": 18.98
+ },
+ {
+  "w": "forgotten",
+  "start": 18.98,
+  "end": 19.32
+ },
+ {
+  "w": "the",
+  "start": 19.32,
+  "end": 19.6
+ },
+ {
+  "w": "bakery.",
+  "start": 19.6,
+  "end": 19.88
+ },
+ {
+  "w": "The",
+  "start": 20.66,
+  "end": 20.68
+ },
+ {
+  "w": "mayor",
+  "start": 20.68,
+  "end": 20.82
+ },
+ {
+  "w": "stood",
+  "start": 20.82,
+  "end": 21.14
+ },
+ {
+  "w": "under",
+  "start": 21.14,
+  "end": 21.42
+ },
+ {
+  "w": "an",
+  "start": 21.42,
+  "end": 21.56
+ },
+ {
+  "w": "umbrella.",
+  "start": 21.56,
+  "end": 21.8
+ },
+ {
+  "w": "He",
+  "start": 22.38,
+  "end": 22.42
+ },
+ {
+  "w": "remembered",
+  "start": 22.42,
+  "end": 22.6
+ },
+ {
+  "w": "everything.",
+  "start": 22.6,
+  "end": 23.24
+ },
+ {
+  "w": "He",
+  "start": 24.04,
+  "end": 24.06
+ },
+ {
+  "w": "looked",
+  "start": 24.06,
+  "end": 24.2
+ },
+ {
+  "w": "at",
+  "start": 24.2,
+  "end": 24.38
+ },
+ {
+  "w": "you",
+  "start": 24.38,
+  "end": 24.5
+ },
+ {
+  "w": "and",
+  "start": 24.5,
+  "end": 24.66
+ },
+ {
+  "w": "said,",
+  "start": 24.66,
+  "end": 24.88
+ },
+ {
+  "w": "I",
+  "start": 25.08,
+  "end": 25.14
+ },
+ {
+  "w": "never",
+  "start": 25.14,
+  "end": 25.32
+ },
+ {
+  "w": "forget",
+  "start": 25.32,
+  "end": 25.64
+ },
+ {
+  "w": "a",
+  "start": 25.64,
+  "end": 25.84
+ },
+ {
+  "w": "face.",
+  "start": 25.84,
+  "end": 26.06
+ },
+ {
+  "w": "A",
+  "start": 26.8,
+  "end": 26.88
+ },
+ {
+  "w": "flake",
+  "start": 26.88,
+  "end": 27.22
+ },
+ {
+  "w": "landed",
+  "start": 27.22,
+  "end": 27.48
+ },
+ {
+  "w": "on",
+  "start": 27.48,
+  "end": 27.78
+ },
+ {
+  "w": "your",
+  "start": 27.78,
+  "end": 27.9
+ },
+ {
+  "w": "screen.",
+  "start": 27.9,
+  "end": 28.2
+ },
+ {
+  "w": "Quick.",
+  "start": 28.78,
+  "end": 29.14
+ },
+ {
+  "w": "What",
+  "start": 29.32,
+  "end": 29.4
+ },
+ {
+  "w": "was",
+  "start": 29.4,
+  "end": 29.56
+ },
+ {
+  "w": "your",
+  "start": 29.56,
+  "end": 29.68
+ },
+ {
+  "w": "name?",
+  "start": 29.68,
+  "end": 29.92
+ }
+]
