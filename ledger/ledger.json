@@ -619,6 +619,12 @@
    "sha256": "6ba190a94e8946fef50645c96caad1432b48f9b8b308b51136d94dcbe876f38d",
    "started_at": "2026-11-17T12:33:44.172247+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261117-e-battery",
+   "sha256": "af01272450fb0cb55925b04fee25b1418a9929a7564cb473698f8d499edb1ffe",
+   "started_at": "2026-11-17T17:31:21.655743+00:00",
+   "state": "uploading"
   }
  ]
 }
