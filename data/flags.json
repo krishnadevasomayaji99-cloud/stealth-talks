@@ -1,17 +1,28 @@
 {
- "at": "2026-11-16T19:30:55.867488+00:00",
- "london": "2026-11-16 19:30",
+ "at": "2026-11-17T03:42:16.067401+00:00",
+ "london": "2026-11-17 03:42",
  "ready": [
-  "ST-20261116-u-blink"
+  "ST-20261115-b-mincemeat",
+  "ST-20261115-c-kashasha",
+  "ST-20261116-a-carrington",
+  "ST-20261116-b-peigneur",
+  "ST-20261116-c-pig-war"
  ],
  "slots_left": [
+  "08:30",
+  "12:30",
+  "17:30",
   "20:30"
  ],
- "posted_today": 5,
+ "posted_today": 0,
  "flags": [
   {
    "level": "WARN",
-   "msg": "spares below target: 1 READY, want 3 (slots left + 2 spares for tomorrow)"
+   "msg": "spares below target: 5 READY, want 6 (slots left + 2 spares for tomorrow)"
+  },
+  {
+   "level": "INFO",
+   "msg": "unapproved drafts: ST-20261117-b-countdown, ST-20261117-a-snowflake"
   }
  ]
 }
