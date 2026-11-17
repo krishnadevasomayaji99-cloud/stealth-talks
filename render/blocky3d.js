@@ -43,6 +43,13 @@ function house(p,x,z,col,roof,faceX){const wl=box(8,7,8,col,x,3.5,z,p);wl.materi
 function tree(p,x,z,s){box(0.9*s,3*s,0.9*s,'#7a4a21',x,1.5*s,z,p);box(3.4*s,3.2*s,3.4*s,'#3aa655',x,4.6*s,z,p);box(2.2*s,2*s,2.2*s,'#46bd63',x,6.7*s,z,p);}
 function raccoon(){const g=new T.Group();box(1.7,1.5,1.5,'#8d9097',0,0,0,g);box(1.8,0.5,0.1,'#1b1b1b',0,0.15,0.78,g);box(0.7,0.5,0.4,'#f3f3f3',0,-0.35,0.8,g);box(0.3,0.25,0.2,'#111',0,-0.2,1.0,g);box(0.45,0.5,0.4,'#8d9097',-0.65,0.95,0,g);box(0.45,0.5,0.4,'#8d9097',0.65,0.95,0,g);
   box(0.25,0.25,0.12,'#fff',-0.42,0.3,0.84,g);box(0.25,0.25,0.12,'#fff',0.42,0.3,0.84,g);return g;}
+function ghost(o){o=o||{};const g=new T.Group(),c=o.color||'#e9f2ff',m=new T.MeshLambertMaterial({color:c,transparent:true,opacity:o.opacity||0.72,emissive:o.glow||'#7fa8ff',emissiveIntensity:0.35});
+  const part=(w,h,d,x,y,z)=>{const q=new T.Mesh(new T.BoxGeometry(w,h,d),m);q.position.set(x,y,z);g.add(q);return q;};
+  part(1.5,1.6,1.2,0,1.6,0);part(1.3,0.8,1.0,0,0.7,0);for(let i=-1;i<=1;i++)part(0.4,0.5,0.9,i*0.5,0.15,0);
+  box(0.28,0.4,0.1,'#10131a',-0.32,1.85,0.62,g);box(0.28,0.4,0.1,'#10131a',0.32,1.85,0.62,g);box(0.4,0.22,0.1,'#10131a',0,1.3,0.62,g);
+  g.userData.bob=(t,ph)=>{g.position.y=(g.userData.y0||0)+0.35+Math.sin(t*2.4+(ph||0))*0.3;};return g;}
+function sunDisc(scene,c,x,y,z,s){const d=new T.Mesh(new T.SphereGeometry(s,20,16),new T.MeshBasicMaterial({color:c,fog:false}));d.position.set(x,y,z);scene.add(d);
+  [1.5,2.2,3.2].forEach((k,i)=>{const h=new T.Mesh(new T.SphereGeometry(s*k,20,16),new T.MeshBasicMaterial({color:c,transparent:true,opacity:0.16/(i+1),fog:false,depthWrite:false}));h.position.set(x,y,z);scene.add(h);});return d;}
 function world(o){o=o||{};
   if(!R){cvs=document.createElement('canvas');R=new T.WebGLRenderer({canvas:cvs,antialias:true,preserveDrawingBuffer:true});R.setPixelRatio(1);R.shadowMap.enabled=true;R.shadowMap.type=T.PCFSoftShadowMap;R.setSize(RW,RH,false);R.outputEncoding=T.sRGBEncoding;}
   const scene=new T.Scene(),cam=new T.PerspectiveCamera(48,RW/RH,0.5,400);
@@ -53,6 +60,7 @@ function world(o){o=o||{};
   box(5,0.7,300,o.walk||'#c9c9c9',-9,0.15,-60,scene);box(5,0.7,300,o.walk||'#c9c9c9',9,0.15,-60,scene);
   const flakes=[];if(o.snow){for(let i=0;i<160;i++){const f=box(0.35,0.35,0.35,'#ffffff',(rnd(i)-0.5)*70,0,(rnd(i+3)-0.5)*90+0,scene);f.castShadow=false;f.userData.s=[rnd(i+7),rnd(i+11)];flakes.push(f);}}
   if(o.lamps){for(let z=24;z>-100;z-=16){[-6.8,6.8].forEach(x=>{box(0.4,9,0.4,'#2b2b33',x,4.5,z,scene);const b=box(1.6,1.2,1.6,'#ffd27a',x,9.4,z,scene);b.material=new T.MeshBasicMaterial({color:'#ffe29a'});b.castShadow=false;const pl=new T.PointLight('#ffcf80',0.9,26);pl.position.set(x,9,z);scene.add(pl);});}}
+  if(o.sunDisc){const sd=o.sunDisc;sunDisc(scene,sd[0],sd[1],sd[2],sd[3],sd[4]);}
   const cols=['#ffd6a5','#fdffb6','#caffbf','#9bf6ff','#ffc6ff','#bdb2ff'],roofs=['#c0392b','#8e44ad','#d35400','#2c82c9'];
   const houses=[];for(let i=0;i<12;i++){const z=18-i*14;let g=new T.Group();house(g,-19,z,cols[i%6],roofs[i%4],1);scene.add(g);g.userData.c=[-19,z];houses.push(g);g=new T.Group();house(g,19,z-7,cols[(i+3)%6],roofs[(i+1)%4],-1);scene.add(g);g.userData.c=[19,z-7];houses.push(g);}
   const trees=new T.Group();scene.add(trees);for(let i=0;i<14;i++){tree(trees,-12.5,12-i*10,1+rnd(i)*0.4);tree(trees,12.5,6-i*10,1+rnd(i+9)*0.4);}
@@ -63,11 +71,11 @@ function world(o){o=o||{};
   [-2,2].forEach(x=>{const c=new T.Mesh(new T.CylinderGeometry(1.35,1.35,0.5,18),mat('#d9dde3'));c.rotation.x=Math.PI/2;c.position.set(x,17.8,1.8);tower.add(c);
     const c2=new T.Mesh(new T.CylinderGeometry(0.6,0.6,0.6,14),mat('#1b1d21'));c2.rotation.x=Math.PI/2;c2.position.set(x,17.8,1.9);tower.add(c2);});
   const rings=[];for(let i=0;i<4;i++){const m=new T.Mesh(new T.TorusGeometry(1.6,0.22,6,28),new T.MeshBasicMaterial({color:'#fff36b',transparent:true,opacity:0}));m.position.set(0,17.8,2.2);tower.add(m);rings.push(m);}
-  const w={scene,cam,tower,rings,houses,trees,events:[],person,pose,tag,raccoon,box,mat,ease,outBack,clamp,rnd,
+  const w={ghost,scene,cam,tower,rings,houses,trees,events:[],person,pose,tag,raccoon,box,mat,ease,outBack,clamp,rnd,
     setCam(p,l){cam.position.set(p[0],p[1],p[2]);cam.lookAt(l[0],l[1],l[2]);},
     pulse(t){let v=0;for(const e of w.events){const d=t-e;if(d>=0&&d<0.9)v=Math.max(v,1-d/0.9);}return v;},
     update(t){flakes.forEach(f=>{const q=f.userData.s;f.position.y=((30-(t*(4+q[0]*4)+q[1]*30))%30+30)%30;f.position.x+=0;});rings.forEach((m,i)=>{let op=0,sc=1;for(const e of w.events){const d=t-e-i*0.11;if(d>=0&&d<0.8){op=Math.max(op,1-d/0.8);sc=1+d*7;}}m.material.opacity=op*0.9;m.scale.set(sc,sc,sc);});},
     draw(ctx){R.render(scene,cam);ctx.drawImage(cvs,0,0,1080,1920);}};
   return w;}
-window.B3={world,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
+window.B3={world,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
 })();

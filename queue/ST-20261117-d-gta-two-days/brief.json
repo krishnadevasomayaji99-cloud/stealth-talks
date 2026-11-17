@@ -1,0 +1,57 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D fact-check desk in an original town, CONFIRMED counter, NOT OFFICIAL stamp",
+ "genre": "documentary",
+ "hook_type": "number_stakes",
+ "cliffhanger": "info_gap",
+ "reveal_word": "official",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "what is actually confirmed"
+  },
+  {
+   "t": 15,
+   "q": "is the eighty hours rumour real"
+  },
+  {
+   "t": 24,
+   "q": "why does the source matter"
+  }
+ ],
+ "breaks": [
+  "CONFIRMED tag counts up three times",
+  "rumour tag turns red",
+  "NOT OFFICIAL stamp slams on the reveal"
+ ],
+ "closer": "check the source before you share the number",
+ "audience": "GTA 6 fans two days before launch",
+ "takeaway": "the 80 hours figure is one dev's playthrough, not an official length",
+ "approved_facts": [
+  "Rockstar newswire: GTA VI launches Thursday 19 Nov 2026",
+  "Rockstar newswire: pre-load begins 10 Nov; PlayStation 5 and Xbox Series X|S",
+  "GamesRadar 27 Aug 2026: Rob Nelson, Rockstar North co-studio head, told NYT his Feb playthrough took 80 hours, main story plus some optional goals, not an official estimate"
+ ],
+ "voice": "calm explainer",
+ "action": "check sources before sharing",
+ "production_limits": "original characters, no Rockstar assets",
+ "variety": [
+  "setting: bright noon street, sun high",
+  "cast: green-jacket fact-checker with glasses",
+  "counter: CONFIRMED head tag plus DAYS HUD",
+  "camera: orbit and stamp slam",
+  "ending: question to the viewer"
+ ],
+ "hook_check": {
+  "chosen": "Two days until GTA 6. Here is what is actually confirmed.",
+  "scores": {
+   "specificity": 4,
+   "address": 2,
+   "stakes": 3,
+   "front_load": 4,
+   "total": 13
+  },
+  "note": "news lane, lower address score accepted"
+ }
+}

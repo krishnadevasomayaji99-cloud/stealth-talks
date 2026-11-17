@@ -45,9 +45,26 @@ def static():  # PA crackle/hiss
 def honk():  # silly two-tone horn
     x = t(.38); f = np.where(x < .17, 330, 262); y = np.sign(np.sin(2*np.pi*np.cumsum(f)/SR))*.5 + np.sin(2*np.pi*np.cumsum(f)/SR)*.5
     return lowpass(y, 3)*env(len(x), .005, .08)
+def heartbeat():  # lub-dub: two soft sub thumps
+    out = np.zeros(int(SR*.7))
+    for off, a in ((0.0, 1.0), (0.21, .7)):
+        x = t(.25); f = 85*np.exp(-x*14)+38; y = np.sin(2*np.pi*np.cumsum(f)/SR)*np.exp(-x*13)*env(len(x), .003, .06)*a
+        o = int(off*SR); out[o:o+len(y)] += y
+    return out
+def music_box():  # glassy detuned music-box note cluster (falling third), the lullaby colour
+    out = np.zeros(int(SR*1.7))
+    for off, f in ((0.0, 1046.5), (0.32, 880.0), (0.64, 783.99)):
+        x = t(.9); y = (np.sin(2*np.pi*f*x) + .35*np.sin(2*np.pi*f*2.76*x) + .15*np.sin(2*np.pi*f*5.4*x))*np.exp(-x*4.5)*env(len(x), .002, .15)
+        o = int(off*SR); out[o:o+len(y)] += y*(1-off*.4)
+    return out
+def sparkle():  # rising glitter arpeggio for a ghost appearing / counter reset
+    out = np.zeros(int(SR*.8))
+    for i, f in enumerate((1318.5, 1568.0, 1975.5, 2349.3, 2637.0)):
+        x = t(.3); y = np.sin(2*np.pi*f*x)*np.exp(-x*14)*env(len(x), .001, .05); o = int(i*.07*SR); out[o:o+len(y)] += y*(.5+i*.1)
+    return out
 def write(p, y):
     y = (np.clip(norm(y), -1, 1)*32767).astype("<i2")
     with wave.open(str(p), "wb") as w: w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(y.tobytes())
 if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "assets/sfx"); out.mkdir(parents=True, exist_ok=True)
-    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")
+    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk, heartbeat=heartbeat, music_box=music_box, sparkle=sparkle).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")

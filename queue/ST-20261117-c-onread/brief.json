@@ -1,0 +1,58 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D golden-hour town with real sun disc, see-through ghosts, LEFT ON READ HUD + head tags",
+ "genre": "mystery",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "threat",
+ "reveal_word": "phone",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "what do the ghosts want"
+  },
+  {
+   "t": 14,
+   "q": "what happens to the mayor"
+  },
+  {
+   "t": 22,
+   "q": "what happens if someone finally replies"
+  }
+ ],
+ "breaks": [
+  "ghost count jumps to twelve at Jake's yard, whip cut",
+  "mayor gets a ghost too",
+  "one ghost smiles and fades (the emotional beat)",
+  "every ghost turns to camera, music drops",
+  "phone buzzes with the viewer's own unread count"
+ ],
+ "closer": "your phone buzzed, twenty three unread",
+ "audience": "Instagram viewers who like in-this-town stories",
+ "takeaway": "reply to the people who are waiting",
+ "voice": "deadpan narrator that softens in the middle",
+ "action": "reply to someone",
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: golden-hour street with a glowing sun disc (new)",
+  "sky/light: orange sunset",
+  "cast: blue-haired Mia, new see-through ghost characters (new), grey mayor",
+  "counter: LEFT ON READ HUD plus ghost-count tags over Mia and Jake",
+  "camera: low push to porch, whip to yard, orbit-in finale",
+  "music/sfx: heartbeat, music_box and sparkle sfx (new)",
+  "ending: viewer's own unread count"
+ ],
+ "hook_check": {
+  "chosen": "In this town, every message you leave on read becomes a ghost.",
+  "scores": {
+   "specificity": 5,
+   "address": 4,
+   "stakes": 3,
+   "front_load": 4,
+   "total": 16
+  },
+  "weakest": "stakes",
+  "rewrite_considered": "every unanswered text becomes a ghost on your porch (13 words, 17/20, but gives porch away)",
+  "source": "Instagram 17 Nov: emotional town stories (1.5M likes one-more-visit Reel) outperform gag rules"
+ }
+}
