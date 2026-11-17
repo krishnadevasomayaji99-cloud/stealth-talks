@@ -1,28 +1,23 @@
 {
- "sha256": "d6efcd7386fa8182b4c115443679bfbe9068b807711f7ca6f3ee64884a281740",
+ "sha256": "b8ef33797b00ce32fdd86328e4d7393e516a0c862a6fb54381e51cc1f4d389fd",
  "audio": {
   "lufs": -15.2,
-  "true_peak_dbtp": -1.8,
+  "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
-  "trailing_silence_s": 1.29,
-  "duration_s": 31.93,
-  "problems": [
-   "trailing silence 1.3s"
-  ],
+  "trailing_silence_s": 0.0,
+  "duration_s": 30.73,
+  "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.043,
+  "approx_wer": 0.032,
   "expected_words": 93,
   "heard_words": 91,
   "missing_or_wrong": [
-   "heavier",
    "eighteen eighty five"
   ]
  },
- "problems": [
-  "trailing silence 1.3s"
- ],
- "pass": false,
+ "problems": [],
+ "pass": true,
  "listened": false
 }
