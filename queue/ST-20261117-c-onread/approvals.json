@@ -17,10 +17,10 @@
  },
  "caption_facts": {
   "verdict": "PASS",
-  "sha256": "46ab3e0f37ee35ba5210aa02d5146a3c692a6c93a283074560a1fc90e3412965",
+  "sha256": "ad3fc173826086c42bc23c7210637e50547e32eb22c4c9f9cebcea8bfa398dd8",
   "by": "Claude (model)",
-  "at": "2026-11-17T11:31:08.898358+00:00",
-  "note": "fiction only, no factual claims; disclosure line present",
+  "at": "2026-11-17T11:31:16.403202+00:00",
+  "note": "fiction only, no factual claims; Sources line states fiction; disclosure present",
   "listened": false
  }
 }
