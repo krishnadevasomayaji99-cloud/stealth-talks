@@ -35,7 +35,7 @@ function pose(g,t,o){o=o||{};const u=g.userData,w=o.walk?Math.sin(t*7+(o.ph||0))
   u.head.rotation.y=o.look||0;}
 function tag(text,bg){const c=document.createElement('canvas');c.width=320;c.height=84;const g=c.getContext('2d');let cur=null,fg='#fff';
   const t=new T.CanvasTexture(c);t.encoding=T.sRGBEncoding;const s=new T.Sprite(new T.SpriteMaterial({map:t,depthTest:false,transparent:true}));s.scale.set(3.0,0.8,1);s.renderOrder=10;
-  s.userData.set=(txt,col,fgc)=>{const k=txt+'|'+col+'|'+fgc;if(k===cur)return;cur=k;g.fillStyle=col||bg||'#111';g.fillRect(0,0,320,84);g.strokeStyle='#fff';g.lineWidth=6;g.strokeRect(3,3,314,78);g.fillStyle=fgc||fg;g.font='900 46px "DejaVu Sans", Arial';g.textAlign='center';g.textBaseline='middle';g.fillText(txt,160,44);t.needsUpdate=true;};
+  s.userData.set=(txt,col,fgc)=>{const k=txt+'|'+col+'|'+fgc;if(k===cur)return;cur=k;g.fillStyle=col||bg||'#111';g.fillRect(0,0,320,84);g.strokeStyle='#fff';g.lineWidth=6;g.strokeRect(3,3,314,78);g.fillStyle=fgc||fg;let fs=46;g.font='900 '+fs+'px "DejaVu Sans", Arial';while(g.measureText(txt).width>292&&fs>18){fs-=2;g.font='900 '+fs+'px "DejaVu Sans", Arial';}g.textAlign='center';g.textBaseline='middle';g.fillText(txt,160,44);t.needsUpdate=true;};
   s.userData.set(text,bg);return s;}
 const bricks={};function brickMat(c){if(bricks[c])return bricks[c];const k=document.createElement('canvas');k.width=k.height=128;const g=k.getContext('2d');g.fillStyle=c;g.fillRect(0,0,128,128);g.fillStyle='rgba(0,0,0,0.16)';for(let r=0;r<8;r++){g.fillRect(0,r*16,128,2);for(let q=0;q<4;q++)g.fillRect(((q*32)+(r%2?16:0))%128,r*16,2,16);}const t=new T.CanvasTexture(k);t.encoding=T.sRGBEncoding;t.wrapS=t.wrapT=T.RepeatWrapping;t.repeat.set(2,2);return bricks[c]=new T.MeshLambertMaterial({map:t});}
 function house(p,x,z,col,roof,faceX){const wl=box(8,7,8,col,x,3.5,z,p);wl.material=brickMat(col);const r=new T.Mesh(new T.ConeGeometry(7.2,4,4),mat(roof));r.rotation.y=Math.PI/4;r.position.set(x,9,z);p.add(r);
@@ -71,6 +71,7 @@ function world(o){o=o||{};
   [-2,2].forEach(x=>{const c=new T.Mesh(new T.CylinderGeometry(1.35,1.35,0.5,18),mat('#d9dde3'));c.rotation.x=Math.PI/2;c.position.set(x,17.8,1.8);tower.add(c);
     const c2=new T.Mesh(new T.CylinderGeometry(0.6,0.6,0.6,14),mat('#1b1d21'));c2.rotation.x=Math.PI/2;c2.position.set(x,17.8,1.9);tower.add(c2);});
   const rings=[];for(let i=0;i<4;i++){const m=new T.Mesh(new T.TorusGeometry(1.6,0.22,6,28),new T.MeshBasicMaterial({color:'#fff36b',transparent:true,opacity:0}));m.position.set(0,17.8,2.2);tower.add(m);rings.push(m);}
+  if(o.noTower)tower.visible=false;
   const w={ghost,scene,cam,tower,rings,houses,trees,events:[],person,pose,tag,raccoon,box,mat,ease,outBack,clamp,rnd,
     setCam(p,l){cam.position.set(p[0],p[1],p[2]);cam.lookAt(l[0],l[1],l[2]);},
     pulse(t){let v=0;for(const e of w.events){const d=t-e;if(d>=0&&d<0.9)v=Math.max(v,1-d/0.9);}return v;},
