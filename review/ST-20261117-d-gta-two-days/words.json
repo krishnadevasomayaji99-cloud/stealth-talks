@@ -1,0 +1,567 @@
+[
+ {
+  "w": "Two",
+  "start": 0.0,
+  "end": 0.36
+ },
+ {
+  "w": "days",
+  "start": 0.36,
+  "end": 0.56
+ },
+ {
+  "w": "until",
+  "start": 0.56,
+  "end": 0.84
+ },
+ {
+  "w": "GTA",
+  "start": 0.84,
+  "end": 1.2
+ },
+ {
+  "w": "6.",
+  "start": 1.2,
+  "end": 1.88
+ },
+ {
+  "w": "Here",
+  "start": 2.24,
+  "end": 2.48
+ },
+ {
+  "w": "is",
+  "start": 2.48,
+  "end": 2.6
+ },
+ {
+  "w": "what",
+  "start": 2.6,
+  "end": 2.76
+ },
+ {
+  "w": "is",
+  "start": 2.76,
+  "end": 2.88
+ },
+ {
+  "w": "actually",
+  "start": 2.88,
+  "end": 3.24
+ },
+ {
+  "w": "confirmed.",
+  "start": 3.24,
+  "end": 3.64
+ },
+ {
+  "w": "Rockstar",
+  "start": 4.44,
+  "end": 4.9
+ },
+ {
+  "w": "says",
+  "start": 4.9,
+  "end": 5.18
+ },
+ {
+  "w": "it",
+  "start": 5.18,
+  "end": 5.3
+ },
+ {
+  "w": "launches",
+  "start": 5.3,
+  "end": 5.48
+ },
+ {
+  "w": "Thursday,",
+  "start": 5.48,
+  "end": 5.86
+ },
+ {
+  "w": "November",
+  "start": 6.36,
+  "end": 6.52
+ },
+ {
+  "w": "nineteenth.",
+  "start": 6.52,
+  "end": 7.85
+ },
+ {
+  "w": "It",
+  "start": 7.92,
+  "end": 7.98
+ },
+ {
+  "w": "is",
+  "start": 7.98,
+  "end": 8.08
+ },
+ {
+  "w": "coming",
+  "start": 8.08,
+  "end": 8.32
+ },
+ {
+  "w": "to",
+  "start": 8.32,
+  "end": 8.5
+ },
+ {
+  "w": "PlayStation",
+  "start": 8.5,
+  "end": 8.72
+ },
+ {
+  "w": "5",
+  "start": 8.72,
+  "end": 9.46
+ },
+ {
+  "w": "and",
+  "start": 9.46,
+  "end": 9.66
+ },
+ {
+  "w": "Xbox",
+  "start": 9.66,
+  "end": 9.9
+ },
+ {
+  "w": "Series",
+  "start": 9.9,
+  "end": 10.48
+ },
+ {
+  "w": "X",
+  "start": 10.48,
+  "end": 10.84
+ },
+ {
+  "w": "and",
+  "start": 10.84,
+  "end": 11.02
+ },
+ {
+  "w": "S.",
+  "start": 11.02,
+  "end": 11.26
+ },
+ {
+  "w": "Preload",
+  "start": 11.26,
+  "end": 12.096
+ },
+ {
+  "w": "opened",
+  "start": 12.14,
+  "end": 12.56
+ },
+ {
+  "w": "on",
+  "start": 12.56,
+  "end": 12.78
+ },
+ {
+  "w": "November",
+  "start": 12.78,
+  "end": 12.96
+ },
+ {
+  "w": "tenth,",
+  "start": 12.96,
+  "end": 13.777
+ },
+ {
+  "w": "so",
+  "start": 13.82,
+  "end": 13.94
+ },
+ {
+  "w": "you",
+  "start": 13.94,
+  "end": 14.06
+ },
+ {
+  "w": "can",
+  "start": 14.06,
+  "end": 14.22
+ },
+ {
+  "w": "download",
+  "start": 14.22,
+  "end": 14.52
+ },
+ {
+  "w": "it",
+  "start": 14.52,
+  "end": 14.84
+ },
+ {
+  "w": "early.",
+  "start": 14.84,
+  "end": 15.06
+ },
+ {
+  "w": "Now",
+  "start": 16.0,
+  "end": 16.0
+ },
+ {
+  "w": "the",
+  "start": 16.0,
+  "end": 16.16
+ },
+ {
+  "w": "rumour",
+  "start": 16.16,
+  "end": 16.331
+ },
+ {
+  "w": "going",
+  "start": 16.34,
+  "end": 16.68
+ },
+ {
+  "w": "around:",
+  "start": 16.68,
+  "end": 17.08
+ },
+ {
+  "w": "the",
+  "start": 17.38,
+  "end": 17.54
+ },
+ {
+  "w": "story",
+  "start": 17.54,
+  "end": 17.74
+ },
+ {
+  "w": "takes",
+  "start": 17.74,
+  "end": 18.14
+ },
+ {
+  "w": "eighty",
+  "start": 18.14,
+  "end": 18.349
+ },
+ {
+  "w": "hours.",
+  "start": 18.36,
+  "end": 18.7
+ },
+ {
+  "w": "Here",
+  "start": 19.44,
+  "end": 19.6
+ },
+ {
+  "w": "is",
+  "start": 19.6,
+  "end": 19.74
+ },
+ {
+  "w": "what",
+  "start": 19.74,
+  "end": 19.9
+ },
+ {
+  "w": "that",
+  "start": 19.9,
+  "end": 20.08
+ },
+ {
+  "w": "really",
+  "start": 20.08,
+  "end": 20.34
+ },
+ {
+  "w": "is.",
+  "start": 20.34,
+  "end": 20.74
+ },
+ {
+  "w": "One",
+  "start": 21.2,
+  "end": 21.3
+ },
+ {
+  "w": "Rockstar",
+  "start": 21.3,
+  "end": 21.8
+ },
+ {
+  "w": "North",
+  "start": 21.8,
+  "end": 22.02
+ },
+ {
+  "w": "studio",
+  "start": 22.02,
+  "end": 22.38
+ },
+ {
+  "w": "head",
+  "start": 22.38,
+  "end": 22.64
+ },
+ {
+  "w": "told",
+  "start": 22.64,
+  "end": 22.88
+ },
+ {
+  "w": "the",
+  "start": 22.88,
+  "end": 23.02
+ },
+ {
+  "w": "New",
+  "start": 23.02,
+  "end": 23.12
+ },
+ {
+  "w": "York",
+  "start": 23.12,
+  "end": 23.36
+ },
+ {
+  "w": "Times",
+  "start": 23.36,
+  "end": 23.62
+ },
+ {
+  "w": "it",
+  "start": 23.62,
+  "end": 23.84
+ },
+ {
+  "w": "took",
+  "start": 23.84,
+  "end": 23.96
+ },
+ {
+  "w": "him",
+  "start": 23.96,
+  "end": 24.12
+ },
+ {
+  "w": "eighty",
+  "start": 24.12,
+  "end": 24.348
+ },
+ {
+  "w": "hours.",
+  "start": 24.36,
+  "end": 24.7
+ },
+ {
+  "w": "That",
+  "start": 25.26,
+  "end": 25.5
+ },
+ {
+  "w": "was",
+  "start": 25.5,
+  "end": 25.62
+ },
+ {
+  "w": "a",
+  "start": 25.62,
+  "end": 25.74
+ },
+ {
+  "w": "playthrough",
+  "start": 25.74,
+  "end": 25.9
+ },
+ {
+  "w": "of",
+  "start": 25.9,
+  "end": 26.24
+ },
+ {
+  "w": "the",
+  "start": 26.24,
+  "end": 26.34
+ },
+ {
+  "w": "main",
+  "start": 26.34,
+  "end": 26.46
+ },
+ {
+  "w": "story",
+  "start": 26.46,
+  "end": 26.9
+ },
+ {
+  "w": "and",
+  "start": 26.9,
+  "end": 27.14
+ },
+ {
+  "w": "some",
+  "start": 27.14,
+  "end": 27.3
+ },
+ {
+  "w": "optional",
+  "start": 27.3,
+  "end": 27.56
+ },
+ {
+  "w": "goals,",
+  "start": 27.56,
+  "end": 28.02
+ },
+ {
+  "w": "back",
+  "start": 28.02,
+  "end": 28.56
+ },
+ {
+  "w": "in",
+  "start": 28.56,
+  "end": 28.76
+ },
+ {
+  "w": "February.",
+  "start": 28.76,
+  "end": 29.1
+ },
+ {
+  "w": "It",
+  "start": 29.66,
+  "end": 29.9
+ },
+ {
+  "w": "is",
+  "start": 29.9,
+  "end": 30.06
+ },
+ {
+  "w": "one",
+  "start": 30.06,
+  "end": 30.28
+ },
+ {
+  "w": "person's",
+  "start": 30.28,
+  "end": 30.86
+ },
+ {
+  "w": "run,",
+  "start": 30.86,
+  "end": 31.08
+ },
+ {
+  "w": "not",
+  "start": 31.28,
+  "end": 31.46
+ },
+ {
+  "w": "an",
+  "start": 31.46,
+  "end": 31.56
+ },
+ {
+  "w": "official",
+  "start": 31.56,
+  "end": 31.78
+ },
+ {
+  "w": "length.",
+  "start": 31.78,
+  "end": 32.12
+ },
+ {
+  "w": "Your",
+  "start": 32.94,
+  "end": 32.94
+ },
+ {
+  "w": "time",
+  "start": 32.94,
+  "end": 33.3
+ },
+ {
+  "w": "depends",
+  "start": 33.3,
+  "end": 33.5
+ },
+ {
+  "w": "on",
+  "start": 33.5,
+  "end": 33.82
+ },
+ {
+  "w": "how",
+  "start": 33.82,
+  "end": 34.0
+ },
+ {
+  "w": "much",
+  "start": 34.0,
+  "end": 34.22
+ },
+ {
+  "w": "you",
+  "start": 34.22,
+  "end": 34.4
+ },
+ {
+  "w": "wander.",
+  "start": 34.4,
+  "end": 34.62
+ },
+ {
+  "w": "So",
+  "start": 35.44,
+  "end": 35.56
+ },
+ {
+  "w": "check",
+  "start": 35.56,
+  "end": 35.76
+ },
+ {
+  "w": "the",
+  "start": 35.76,
+  "end": 35.98
+ },
+ {
+  "w": "source",
+  "start": 35.98,
+  "end": 36.22
+ },
+ {
+  "w": "before",
+  "start": 36.22,
+  "end": 36.52
+ },
+ {
+  "w": "you",
+  "start": 36.52,
+  "end": 36.78
+ },
+ {
+  "w": "share",
+  "start": 36.78,
+  "end": 37.02
+ },
+ {
+  "w": "the",
+  "start": 37.02,
+  "end": 37.2
+ },
+ {
+  "w": "number.",
+  "start": 37.2,
+  "end": 37.46
+ }
+]
