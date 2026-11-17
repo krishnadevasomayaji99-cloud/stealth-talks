@@ -19,7 +19,7 @@ function cam(n,t){const P=p=>k(t,p);
  return {p:[0,P([[tYou,7],[tSixty,7.5],[tEnd,7.2]]),P([[tYou,20],[tSixty,12],[tEnd,10.5]])],l:[0,6.2,-2]};}
 return {cues,caption:'bar',capY:1580,
  draw(c,t){const n=stageAt(t),w=get(n);const m=Math.round(bM(t)),g=Math.round(bG(t));
-  w.tm.userData.set('MIA '+m+'%',col(m));w.tg.userData.set(n==='roof'?'YOU 61%':'GRANDPA '+g+'%',n==='roof'?'#1b7f3a':col(g));
+  w.tm.userData.set(n==='roof'?'YOUR PHONE 61%':'MIA '+m+'%',n==='roof'?'#1b7f3a':col(m));w.tg.userData.set(n==='roof'?'YOU 61%':'GRANDPA '+g+'%',n==='roof'?'#1b7f3a':col(g));
   const mia=w.mia,gr=w.gr;gr.visible=n!=='room';
   if(n==='room'){B.pose(mia,t,{act:'sit',mood:t>=tTwelve?'panic':'ok',at:[3,-4.4],look:Math.sin(t*2)*0.15,nod:t<tTwelve?0.25:0});mia.rotation.y=0.15;if(t>=tShake)B.pose(mia,t,{act:'shiver',mood:'panic',at:[3,-4.4]});}
   else if(n==='snow'){const r=clamp((t-tSnow+0.2)/(tLake-tSnow+0.2));B.pose(mia,t,{act:r<1?'run':'shiver',mood:'panic',at:[-14+14*ease(r),10-18*ease(r)]});mia.rotation.y=-0.35;
