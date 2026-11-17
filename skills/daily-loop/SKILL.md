@@ -97,3 +97,6 @@ Fixes now mandatory: (1) every Reel uses >=3 different sets (build new world bui
 - Min bar per Reel: >=3 stages, an action change at every beat, close camera cuts between beats.
 - Sound: mix bed gain raised to 0.38 (ducked under voice). Use music=sad|quirky|bright.
 - Daily improvement backlog (do ONE per day, log in playbook.md): crowd extras, ice cracks + fall, weather per set, new face moods (cry, laugh), camera shake on beats, prop library (phone, balloon, door), set-specific ambience beds (wind, room tone, waves), per-set music key.
+
+## EARSHOT ON THE LAPTOP (17 Nov 2026, laptop runs only)
+When the laptop is on, the Earshot tools can grade sound: `critique` (launch-film scorecard with timestamped fixes), `compare` (our bed vs Krishna's reference recording) and `sfx_render`/`kit_render` (better one-shot cues). Use them on a downloaded copy of the newest Reel or bed, apply the fixes in scripts/sfx_synth.py, music_synth.py or mix.py, and log the score before and after in playbook.md. Cloud runs skip this.
