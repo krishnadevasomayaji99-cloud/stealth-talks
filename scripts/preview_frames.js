@@ -1,0 +1,10 @@
+// Fast local frame preview (3 s): TIMES=1,5,9 OUT=/tmp/pv node scripts/preview_frames.js queue/KEY review/KEY/words.json /tmp/pv/x.mp4 0.8  (needs an earlier build's words.json; run from repo root, copy to render/ if require paths fail)
+// usage: node render/render.js <story_dir> <words.json> <out_silent.mp4> [tail_seconds] [max_frames]
+const {chromium}=require('playwright');const {spawn}=require('child_process');const fs=require('fs'),path=require('path');
+(async()=>{const [dir,wj,out,tail='1.2',maxf]=process.argv.slice(2);const words=JSON.parse(fs.readFileSync(wj));
+const dur=words[words.length-1].end+parseFloat(tail);const FPS=30;let N=Math.ceil(dur*FPS);if(maxf)N=Math.min(N,+maxf);
+const b=await chromium.launch({headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const p=await b.newPage({viewport:{width:1080,height:1920},deviceScaleFactor:1});p.on('pageerror',e=>{console.error('PAGEERR',e.message);process.exit(2)});p.on('console',m=>{if(m.type()==='error')console.error('CONSOLE',m.text())});
+await p.goto('file://'+path.resolve('render/engine.html'));await p.addScriptTag({path:path.resolve('render/kit.js')});if(fs.readFileSync(path.join(dir,'scene.js'),'utf8').includes('B3')){await p.addScriptTag({path:path.resolve('render/vendor/three.min.js')});await p.addScriptTag({path:path.resolve('render/blocky3d.js')});}await p.addScriptTag({path:path.resolve('render/styles.js')});await p.addScriptTag({path:path.join(dir,'scene.js')});
+const cues=await p.evaluate(w=>window.init({words:w}),words);fs.writeFileSync(path.join(path.dirname(out),'cues.json'),JSON.stringify(cues));
+const TS=(process.env.TIMES||'').split(',').map(Number);for(const t of TS){await p.evaluate(x=>window.renderAt(x),t);await p.screenshot({path:process.env.OUT+'/t_'+t+'.jpg',type:'jpeg',quality:85});}await b.close();})();
