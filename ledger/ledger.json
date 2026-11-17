@@ -621,10 +621,14 @@
    "state": "verified"
   },
   {
+   "container": "18005105444822257",
    "key": "ST-20261117-e-battery",
+   "media_id": "17931138633184070",
+   "permalink": "https://www.instagram.com/reel/Df2eR1ajRXj/",
+   "published_at": "2026-11-17T17:32:00.894592+00:00",
    "sha256": "af01272450fb0cb55925b04fee25b1418a9929a7564cb473698f8d499edb1ffe",
    "started_at": "2026-11-17T17:31:21.655743+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
