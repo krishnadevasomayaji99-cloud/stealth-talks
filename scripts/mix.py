@@ -11,7 +11,7 @@ for i,c in enumerate(cues,1):
     fc.append(f"[{i}:a]aresample=48000,volume={g},adelay={ms}|{ms}[s{i}]");labels.append(f"[s{i}]")
 if bed:
     cmd+=["-i",bed];bi=len(cues)+1
-    fc.append(f"[{bi}:a]aresample=48000,volume=0.30[bd];[bd][vsc]sidechaincompress=threshold=0.03:ratio=10:attack=8:release=300[bdd]");labels.append("[bdd]")
+    fc.append(f"[{bi}:a]aresample=48000,volume=0.38[bd];[bd][vsc]sidechaincompress=threshold=0.03:ratio=10:attack=8:release=300[bdd]");labels.append("[bdd]")
 else:
     fc[0]=fc[0].replace(",asplit=2[v][vsc]","[v]")
 fc.append("".join(labels)+f"amix=inputs={len(labels)}:normalize=0:duration=longest,loudnorm=I=-14:TP=-2:LRA=11[a]")
