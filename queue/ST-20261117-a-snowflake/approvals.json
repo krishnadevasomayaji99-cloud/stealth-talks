@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "b8ef33797b00ce32fdd86328e4d7393e516a0c862a6fb54381e51cc1f4d389fd",
+  "by": "Claude (model)",
+  "at": "2026-11-17T04:02:41.839694+00:00",
+  "note": "script read; reveal 'name' withheld to final line; frames viewed not full playback",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "b8ef33797b00ce32fdd86328e4d7393e516a0c862a6fb54381e51cc1f4d389fd",
+  "by": "Claude (model)",
+  "at": "2026-11-17T04:02:41.893083+00:00",
+  "note": "frames f_5,f_21,f_25 viewed: snow, lamps, HUD, caption legible; audio_report pass -15.2 LUFS WER 0.032",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "2efc913b32171d822f1e2e9c9d1fdfe6800e8da8d6f300da263a9e5a32b25b69",
+  "by": "Claude (model)",
+  "at": "2026-11-17T04:02:41.933614+00:00",
+  "note": "Smithsonian page opened 17 Nov: Bentley, Vermont resident, first single snowflake photo 1885",
+  "listened": false
+ }
+}
