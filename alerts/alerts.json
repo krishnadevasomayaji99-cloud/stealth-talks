@@ -143,5 +143,10 @@
   "at": "2026-11-17T16:17:33.162592+00:00",
   "key": "metrics",
   "msg": "insights failed for 16 reels (permission?)"
+ },
+ {
+  "at": "2026-11-17T21:20:48.997527+00:00",
+  "key": "health",
+  "msg": "queue low: only 0 READY Reel(s) (target 6, need >= 4 per day)"
  }
 ]
