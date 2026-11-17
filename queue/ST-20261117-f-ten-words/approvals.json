@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "ca03efbeea1a2fb98369a8c3bb983f09f78b5d841c6897dd153e285c48d8f820",
+  "by": "Claude (model)",
+  "at": "2026-11-17T15:42:20.065270+00:00",
+  "note": "original fiction (Leo, dad, boss, sister, ten-word rule); no real people; hook-check 18/20; arc anger then kindness then turn to viewer",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "ca03efbeea1a2fb98369a8c3bb983f09f78b5d841c6897dd153e285c48d8f820",
+  "by": "Claude (model)",
+  "at": "2026-11-17T15:42:20.118096+00:00",
+  "note": "real render frames viewed 17 Nov at 1.5,5,9,13,17,21,25 s: beach, room, forest, night roof; WORDS LEFT 10 to 0; two-shot hug; audio_report pass -15.5 LUFS WER 0.0; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "11af0758f270666c452784982e23d551a1161b89cda1632a450ba33f09d539ec",
+  "by": "Claude (model)",
+  "at": "2026-11-17T15:42:20.169301+00:00",
+  "note": "UT Austin news page opened 17 Nov 2026: Mehl et al., Science, women and men averaged 16,000 words per day",
+  "listened": false
+ }
+}
