@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "6ba190a94e8946fef50645c96caad1432b48f9b8b308b51136d94dcbe876f38d",
+  "by": "Claude (model)",
+  "at": "2026-11-17T03:52:47.084094+00:00",
+  "note": "script read; brief open loops, reveal asleep withheld to line 7; frames viewed not full playback",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "6ba190a94e8946fef50645c96caad1432b48f9b8b308b51136d94dcbe876f38d",
+  "by": "Claude (model)",
+  "at": "2026-11-17T03:52:47.129756+00:00",
+  "note": "frames f_11,f_25 viewed: night lamps, HUD counter, caption legible; audio_report pass -15.2 LUFS, WER 0.022",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "026da43bc6a4fb260805bcd01bd62a2d70fb24d5217706bb6b0d0c6d5163c4e0",
+  "by": "Claude (model)",
+  "at": "2026-11-17T03:52:47.165218+00:00",
+  "note": "Rockstar newswire opened 17 Nov: launch Thursday Nov 19 2026; rest labelled fiction",
+  "listened": false
+ }
+}
