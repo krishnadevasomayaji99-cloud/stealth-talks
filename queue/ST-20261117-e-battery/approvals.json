@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "af01272450fb0cb55925b04fee25b1418a9929a7564cb473698f8d499edb1ffe",
+  "by": "Claude (model)",
+  "at": "2026-11-17T13:23:28.000591+00:00",
+  "note": "original fiction (Mia, grandpa, battery rule); no real people; hook-check 19/20; arc: panic, rescue, hug, turn to viewer",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "af01272450fb0cb55925b04fee25b1418a9929a7564cb473698f8d499edb1ffe",
+  "by": "Claude (model)",
+  "at": "2026-11-17T13:23:28.050947+00:00",
+  "note": "real render frames viewed 17 Nov at 1.5,5,9,13,17,21,25,27,29,31 s: room, snow lake, forest, night roof; battery HUD 100->12->6 and 3->58; final tag YOUR PHONE 61%; audio_report pass -15.2 LUFS; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "02b3f04923c56a8a7cc464b1a966593c95cae64f006a5e1204d6082cfa0655b8",
+  "by": "Claude (model)",
+  "at": "2026-11-17T13:23:28.090736+00:00",
+  "note": "Apple UK Battery Service and Recycling page opened 17 Nov 2026: iPhone 14 and earlier 80% at 500 cycles, iPhone 15 80% at 1,000 cycles",
+  "listened": false
+ }
+}
