@@ -611,10 +611,14 @@
    "state": "verified"
   },
   {
+   "container": "18005031746822257",
    "key": "ST-20261117-b-countdown",
+   "media_id": "18110732186629383",
+   "permalink": "https://www.instagram.com/reel/Df18OGXihvV/",
+   "published_at": "2026-11-17T12:34:29.817035+00:00",
    "sha256": "6ba190a94e8946fef50645c96caad1432b48f9b8b308b51136d94dcbe876f38d",
    "started_at": "2026-11-17T12:33:44.172247+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
