@@ -21,3 +21,10 @@
 - Improvement today: blocky3d world() now takes ground/road/walk/hemi/sun/snow/lamps options, so towns can be snowy dusk or lamp-lit night. Built ST-20261117-a-snowflake (snowy dusk, MEMORIES LEFT, Smithsonian Bentley fact) and ST-20261117-b-countdown (night, DAYS TO LAUNCH, Rockstar 19 Nov fact). Judge via metrics tomorrow; sample sizes tiny.
 - Pipeline lesson: make-reel runs take 12-25 min each when two run together; scripts under ~30 s fail the duration gate (aim 11+ lines, ~90 words) and use tail=0.8 to avoid trailing-silence failure.
 - NHS site fetch is refused from cloud runs; use other sources.
+
+## 17 Nov 2026 (Claude, 10:55 UTC daily improvement run)
+- Instagram (Chrome, no ViralSpy): best new town Reel is rearend_stories "when someone dies they get one more visit" (1.5M likes, 4 d): emotional, snowy dusk, sun glow, one yellow highlighted caption word. Grief/gratitude stories beat gag rules; logged in the project doc series-in-this-town.
+- ANIMATION upgrade: render/blocky3d.js gets `B3.ghost()` (see-through glowing blocky ghost with bob) and world option `sunDisc:[colour,x,y,z,size]` (real sun sphere plus halo layers in the sky, ignores fog). First use: ST-20261117-c-onread (golden hour, up to 24 ghosts, LEFT ON READ HUD + ghost-count tags).
+- SOUND upgrade: scripts/sfx_synth.py gets `heartbeat` (lub-dub sub), `music_box` (falling glassy third, lullaby colour) and `sparkle` (rising glitter) with WAVs in assets/sfx; onread uses a tick on every counter step (20 ticks), sub boom on hook/reveal, heartbeat on the emotional beats, music_box on the fade. Judge via metrics 18 Nov.
+- GTA lane: ST-20261117-d-gta-two-days (fact-check desk, sourced: Rockstar newswire launch 19 Nov + pre-load 10 Nov; GamesRadar 27 Aug: the 80-hours figure is one Rockstar North co-head's playthrough via NYT, not official). Time-sensitive: must post 17 Nov ("two days").
+- Queue: older READY Reels and snowflake moved to queue/_held (release snowflake 18 Nov) so today's timely Reels post first.
