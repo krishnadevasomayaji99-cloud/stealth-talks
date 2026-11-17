@@ -16,7 +16,7 @@ function cam(n,t){const P=p=>k(t,p);
  if(n==='room')return {p:[P([[0,3],[tMia,2],[tScroll,4],[tTwelve-0.3,3],[tTwelve+0.2,2.2],[tSnow,2.2]]),P([[0,8],[tMia,6.5],[tTwelve,5.6],[tSnow,5.8]]),P([[0,19],[tMia,15],[tScroll,13],[tTwelve,10],[tShake,9],[tSnow,9]])],l:[3,P([[0,5],[tTwelve,4.6],[tSnow,4.6]]),-5]};
  if(n==='snow')return {p:[P([[tSnow-0.2,-4],[tLake,-2],[tGrand,3],[tThree,4],[tYears,7],[tPlug,7]]),P([[tSnow-0.2,6],[tLake,8],[tGrand,6.5],[tThree,5.6],[tPlug,6]]),P([[tSnow-0.2,16],[tLake,14],[tGrand,8],[tThree,6],[tYears,5],[tPlug,5]])],l:[P([[tSnow,-5],[tLake,0],[tGrand,6],[tPlug,5]]),4.5,P([[tSnow,-6],[tLake,-10],[tGrand,-12],[tPlug,-12]])]};
  if(n==='forest')return {p:[P([[tPlug-0.2,-6],[tFell,0],[tHug,0],[tGlow,0],[tYou,0]]),P([[tPlug-0.2,7],[tFell,8],[tHug,8],[tYou,7]]),P([[tPlug-0.2,12],[tClimb,14],[tHug,17],[tGlow,13],[tYou,11]])],l:[0,5.2,-4]};
- return {p:[0,P([[tYou,6],[tSixty,6.5],[tEnd,6.2]]),P([[tYou,18],[tSixty,5],[tEnd,2.5]])],l:[0,6.2,-2]};}
+ return {p:[0,P([[tYou,7],[tSixty,7.5],[tEnd,7.2]]),P([[tYou,20],[tSixty,12],[tEnd,10.5]])],l:[0,6.2,-2]};}
 return {cues,caption:'bar',capY:1580,
  draw(c,t){const n=stageAt(t),w=get(n);const m=Math.round(bM(t)),g=Math.round(bG(t));
   w.tm.userData.set('MIA '+m+'%',col(m));w.tg.userData.set(n==='roof'?'YOU 61%':'GRANDPA '+g+'%',n==='roof'?'#1b7f3a':col(g));
