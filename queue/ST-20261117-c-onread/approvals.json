@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "3686b636ff4f84a95874dc1e1a3dca4ee704c2f35a857d7bb127d582073f0688",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:08.755551+00:00",
+  "note": "script read; 3 open loops, reveal word phone withheld to line 12 (94%); emotional beat at faded; frames viewed not full playback",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "3686b636ff4f84a95874dc1e1a3dca4ee704c2f35a857d7bb127d582073f0688",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:08.836654+00:00",
+  "note": "frames f_1.5..f_31 viewed: sun disc, ghosts visible, tags and HUD legible, tower removed; audio_report pass -15.3 LUFS WER 0.037",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "46ab3e0f37ee35ba5210aa02d5146a3c692a6c93a283074560a1fc90e3412965",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:08.898358+00:00",
+  "note": "fiction only, no factual claims; disclosure line present",
+  "listened": false
+ }
+}

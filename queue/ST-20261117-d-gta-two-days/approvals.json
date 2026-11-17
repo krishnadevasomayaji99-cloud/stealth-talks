@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "f602f0b35126f7559ee96538593573e07de53da15581374b238aef1b749a9f66",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:08.949966+00:00",
+  "note": "script read; facts match Rockstar newswire metadata and GamesRadar 27 Aug 2026 (one dev's playthrough, not official); reveal official at 83%",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "f602f0b35126f7559ee96538593573e07de53da15581374b238aef1b749a9f66",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:09.019550+00:00",
+  "note": "frames viewed: CONFIRMED 0-3 tag, RUMOUR tag, NOT OFFICIAL stamp, HUD; audio_report pass -15.4 LUFS WER 0.053",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "4028bde1689c48aa65a8d257659760ac4c1e4479b5f0bfd03f61aabe5be04694",
+  "by": "Claude (model)",
+  "at": "2026-11-17T11:31:09.078097+00:00",
+  "note": "Rockstar newswire fetched 17 Nov (launch 19 Nov, pre-load 10 Nov, PS5/Xbox Series X|S); GamesRadar 27 Aug 2026 read: Rob Nelson via NYT 80 h playthrough, not official",
+  "listened": false
+ }
+}
