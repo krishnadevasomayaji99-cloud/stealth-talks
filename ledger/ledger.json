@@ -601,10 +601,14 @@
    "state": "verified"
   },
   {
+   "container": "18004986053822257",
    "key": "ST-20261116-a-carrington",
+   "media_id": "18043896401847904",
+   "permalink": "https://www.instagram.com/reel/Df1gwOnClT5/",
+   "published_at": "2026-11-17T08:34:24.249376+00:00",
    "sha256": "b5c5664463b8388aadbded94ff96e0383fd04383afcd8791f399523d76d487ce",
    "started_at": "2026-11-17T08:33:41.489122+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
