@@ -7,21 +7,21 @@
  {
   "w": "GTA",
   "start": 0.44,
-  "end": 0.76
+  "end": 0.72
  },
  {
   "w": "6",
-  "start": 0.76,
-  "end": 1.24
+  "start": 0.72,
+  "end": 1.26
  },
  {
   "w": "players",
-  "start": 1.24,
-  "end": 1.56
+  "start": 1.26,
+  "end": 1.54
  },
  {
   "w": "get",
-  "start": 1.56,
+  "start": 1.54,
   "end": 1.92
  },
  {
@@ -47,12 +47,12 @@
  {
   "w": "own",
   "start": 2.74,
-  "end": 2.96
+  "end": 2.94
  },
  {
   "w": "midnight.",
-  "start": 2.96,
-  "end": 3.14
+  "start": 2.94,
+  "end": 3.16
  },
  {
   "w": "Rockstar's",
@@ -62,11 +62,11 @@
  {
   "w": "support",
   "start": 4.6,
-  "end": 4.76
+  "end": 4.72
  },
  {
   "w": "page",
-  "start": 4.76,
+  "start": 4.72,
   "end": 5.12
  },
  {
@@ -82,21 +82,21 @@
  {
   "w": "releases",
   "start": 5.64,
-  "end": 5.88
+  "end": 5.9
  },
  {
   "w": "at",
-  "start": 5.88,
-  "end": 6.24
+  "start": 5.9,
+  "end": 6.26
  },
  {
   "w": "midnight",
-  "start": 6.24,
-  "end": 6.48
+  "start": 6.26,
+  "end": 6.46
  },
  {
   "w": "local",
-  "start": 6.48,
+  "start": 6.46,
   "end": 6.9
  },
  {
@@ -112,16 +112,16 @@
  {
   "w": "November",
   "start": 7.54,
-  "end": 7.74
+  "end": 7.76
  },
  {
   "w": "nineteenth,",
-  "start": 7.74,
-  "end": 8.614
+  "start": 7.76,
+  "end": 8.691
  },
  {
   "w": "in",
-  "start": 8.66,
+  "start": 8.74,
   "end": 9.0
  },
  {
@@ -132,16 +132,16 @@
  {
   "w": "regions.",
   "start": 9.18,
-  "end": 9.54
+  "end": 9.52
  },
  {
   "w": "It",
-  "start": 10.36,
-  "end": 10.4
+  "start": 10.38,
+  "end": 10.42
  },
  {
   "w": "is",
-  "start": 10.4,
+  "start": 10.42,
   "end": 10.5
  },
  {
@@ -172,56 +172,56 @@
  {
   "w": "Xbox",
   "start": 12.08,
-  "end": 12.34
+  "end": 12.32
  },
  {
   "w": "Series",
-  "start": 12.34,
-  "end": 12.92
+  "start": 12.32,
+  "end": 12.9
  },
  {
   "w": "X",
-  "start": 12.92,
+  "start": 12.9,
   "end": 13.26
  },
  {
   "w": "and",
   "start": 13.26,
-  "end": 13.46
+  "end": 13.44
  },
  {
   "w": "S.",
-  "start": 13.46,
-  "end": 13.72
+  "start": 13.44,
+  "end": 13.68
  },
  {
   "w": "Pre-load",
-  "start": 14.2,
-  "end": 14.6
+  "start": 14.24,
+  "end": 14.58
  },
  {
   "w": "opened",
-  "start": 14.6,
-  "end": 14.98
+  "start": 14.58,
+  "end": 14.96
  },
  {
   "w": "on",
-  "start": 14.98,
+  "start": 14.96,
   "end": 15.26
  },
  {
   "w": "November",
   "start": 15.26,
-  "end": 15.5
+  "end": 15.48
  },
  {
   "w": "tenth,",
-  "start": 15.5,
-  "end": 16.222
+  "start": 15.48,
+  "end": 16.335
  },
  {
   "w": "so",
-  "start": 16.26,
+  "start": 16.38,
   "end": 16.5
  },
  {
@@ -267,7 +267,7 @@
  {
   "w": "console.",
   "start": 18.06,
-  "end": 18.32
+  "end": 18.34
  },
  {
   "w": "Now",
@@ -306,17 +306,17 @@
  },
  {
   "w": "US",
-  "start": 20.92,
-  "end": 22.098
+  "start": 21.62,
+  "end": 21.8
  },
  {
   "w": "stores",
-  "start": 22.16,
-  "end": 22.16
+  "start": 21.8,
+  "end": 22.1
  },
  {
   "w": "treat",
-  "start": 22.16,
+  "start": 22.1,
   "end": 22.46
  },
  {
@@ -347,11 +347,11 @@
  {
   "w": "region.",
   "start": 23.66,
-  "end": 23.94
+  "end": 23.96
  },
  {
   "w": "The",
-  "start": 24.76,
+  "start": 24.78,
   "end": 24.82
  },
  {
@@ -367,26 +367,26 @@
  {
   "w": "follow",
   "start": 25.2,
-  "end": 25.46
+  "end": 25.54
  },
  {
   "w": "is",
-  "start": 25.46,
-  "end": 25.9
+  "start": 25.54,
+  "end": 25.88
  },
  {
   "w": "Eastern",
-  "start": 25.9,
-  "end": 26.22
+  "start": 25.88,
+  "end": 26.24
  },
  {
   "w": "time.",
-  "start": 26.22,
+  "start": 26.24,
   "end": 26.62
  },
  {
   "w": "So",
-  "start": 27.24,
+  "start": 26.62,
   "end": 27.5
  },
  {
@@ -417,11 +417,11 @@
  {
   "w": "game",
   "start": 28.58,
-  "end": 28.78
+  "end": 28.8
  },
  {
   "w": "can",
-  "start": 28.78,
+  "start": 28.8,
   "end": 28.96
  },
  {
@@ -437,12 +437,12 @@
  {
   "w": "nine",
   "start": 29.62,
-  "end": 30.266
+  "end": 29.886
  },
  {
   "w": "tonight.",
-  "start": 30.3,
-  "end": 30.946
+  "start": 29.9,
+  "end": 30.16
  },
  {
   "w": "Your",
@@ -472,11 +472,11 @@
  {
   "w": "clock",
   "start": 32.08,
-  "end": 32.44
+  "end": 32.52
  },
  {
   "w": "might",
-  "start": 32.44,
+  "start": 32.52,
   "end": 32.8
  },
  {
@@ -491,7 +491,7 @@
  },
  {
   "w": "Do",
-  "start": 33.96,
+  "start": 33.98,
   "end": 34.04
  },
  {
@@ -512,26 +512,26 @@
  {
   "w": "random",
   "start": 34.64,
-  "end": 34.94
+  "end": 34.9
  },
  {
   "w": "post",
-  "start": 34.94,
-  "end": 35.24
+  "start": 34.9,
+  "end": 35.26
  },
  {
   "w": "with",
-  "start": 35.24,
-  "end": 35.5
+  "start": 35.26,
+  "end": 35.52
  },
  {
   "w": "a",
-  "start": 35.5,
-  "end": 35.58
+  "start": 35.52,
+  "end": 35.6
  },
  {
   "w": "launch",
-  "start": 35.58,
+  "start": 35.6,
   "end": 35.82
  },
  {
