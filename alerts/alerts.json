@@ -153,5 +153,10 @@
   "at": "2026-11-18T00:54:49.926007+00:00",
   "key": "flagger",
   "msg": "0 READY Reel(s) but 4 slot(s) left today: build or approve more now"
+ },
+ {
+  "at": "2026-11-18T03:33:43.508037+00:00",
+  "key": "metrics",
+  "msg": "insights failed for 16 reels (permission?)"
  }
 ]
