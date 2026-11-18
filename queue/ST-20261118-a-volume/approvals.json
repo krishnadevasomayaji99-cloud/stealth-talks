@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "eaa1eb5ac1d641622e40e0c717cb824e71620ee2ff7defb66d450077be1cf027",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:43:47.225733+00:00",
+  "note": "brief.json gate fields present; script read: school/living room/snow, physical action each beat, reveal 'screamed' after 65%, emotional arc; fiction",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "eaa1eb5ac1d641622e40e0c717cb824e71620ee2ff7defb66d450077be1cf027",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:43:47.271662+00:00",
+  "note": "viewed 12 review frames across 3 sets (school, room, snow): HUD readable, captions one-word, tags visible, raccoon and ice present; audio_report pass -15.3 LUFS/-1.9 dBTP/WER 0.0; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "3ddd41ec3ffd99f4c8d1b8bff5d3e36205ca42c5e4ffe54c92466a2df8e9c872",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:43:47.306009+00:00",
+  "note": "fiction caption, no factual claims; Sources line states fiction; disclosure sentence present",
+  "listened": false
+ }
+}

@@ -1,4 +1,4 @@
-{"series": true, "style": "blocky3d", "style_id": "blocky 3D: school corridor (new set), living room, snow pond; VOLUME bar HUD", "genre": "drama", "hook_type": "absurd_rule", "cliffhanger": "reversal", "reveal_word": "screamed",
+{"series": true, "style": "blocky3d", "style_id": "blocky 3D: school corridor (new set), living room, snow pond; VOLUME bar HUD", "genre": "mystery", "hook_type": "absurd_rule", "cliffhanger": "reversal", "reveal_word": "screamed",
  "open_loops": [{"t": 3, "q": "why is Mia's bar empty"}, {"t": 16, "q": "will anyone hear her"}, {"t": 28, "q": "what happens to the raccoon on the ice"}],
  "breaks": ["whip-flash cut between three sets", "camera shake on dropped books and on the scream", "ice crack stingers", "bar jumps from 3% to 100%", "turn to viewer"],
  "closer": "ask how they really are", "audience": "cold-feed viewers who like emotional In This Town stories", "takeaway": "quiet people need someone to ask", "voice": "soft narrator", "action": "message one quiet person",
