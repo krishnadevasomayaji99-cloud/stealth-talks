@@ -641,10 +641,14 @@
    "state": "verified"
   },
   {
+   "container": "18005257055822257",
    "key": "ST-20261117-a-snowflake",
+   "media_id": "18162552571511600",
+   "permalink": "https://www.instagram.com/reel/Df4Fi0sk6KV/",
+   "published_at": "2026-11-18T08:34:19.261678+00:00",
    "sha256": "b8ef33797b00ce32fdd86328e4d7393e516a0c862a6fb54381e51cc1f4d389fd",
    "started_at": "2026-11-18T08:33:41.750918+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
