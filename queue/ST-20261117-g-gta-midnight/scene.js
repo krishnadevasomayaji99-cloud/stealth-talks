@@ -15,7 +15,7 @@ function cam(n,t){const P=p=>k(t,p);
  return {p:[P([[tBeachIn,5],[tNine,0],[tEnd,0]]),P([[tBeachIn,7],[tNine,8],[tEnd,10]]),P([[tBeachIn,22],[tNine,18],[tEnd,20]])],l:[0,4,-2]};}
 return {cues,caption:'bar',capY:1580,
  draw(c,t){const n=stageAt(t),w=get(n),d=w.d;w.tg.userData.set(n==='room'?'WAITING':n==='roof'?'EAST':'WEST',n==='room'?'#c9861a':'#1b7f3a');
-  if(n==='room'){const lag=t<tCatch;B.pose(d,t,{act:(t>=tPre&&t<tPre+2.5)?'cheer':'sit',mood:lag?'ok':'panic',at:[0,-1]});d.rotation.y=0;w.tvS.visible=true;}
+  if(n==='room'){const lag=t<tCatch;B.pose(d,t,{act:t<tMid-0.6?'cheer':t<tPS?'point':t<tPre?'shiver':t<tPre+2.5?'cheer':t<tCatch?'point':'slump',p:clamp((t-tCatch)/0.6),mood:lag?'ok':'panic',at:[0,-1]});d.rotation.y=0;w.tvS.visible=true;d.rotation.y=(t>=tMid-0.6&&t<tPS)?-0.5:0;}
   else if(n==='roof'){const g=t>=tEast;B.pose(d,t,{act:g?'cheer':'walk',mood:g?'ok':'panic',at:[g?0:-14+14*ease(clamp((t-tRoofIn)/(tEast-tRoofIn))),-1]});d.rotation.y=g?0:1.2;}
   else{const g=t>=tNine;B.pose(d,t,{act:g?'cheer':'walk',mood:g?'ok':'panic',at:[g?0:12-12*ease(clamp((t-tBeachIn)/(tNine-tBeachIn))),-1]});d.rotation.y=g?0:-1.2;}
   const cm=cam(n,t),s2=B.shake(t,tEast,0.7,0.5),s3=B.shake(t,tNine,0.5,0.4),p=cm.p;w.setCam([p[0]+s2[0]+s3[0],p[1]+s2[1]+s3[1],p[2]],cm.l);w.update(t);w.draw(c);hud(c,t,n);},
