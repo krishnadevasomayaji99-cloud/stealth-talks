@@ -639,6 +639,12 @@
    "sha256": "f46cafc984fa7b12481a5239d789f6738978c4984ec311d55feee69397161212",
    "started_at": "2026-11-17T20:37:16.467640+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261117-a-snowflake",
+   "sha256": "b8ef33797b00ce32fdd86328e4d7393e516a0c862a6fb54381e51cc1f4d389fd",
+   "started_at": "2026-11-18T08:33:41.750918+00:00",
+   "state": "uploading"
   }
  ]
 }
