@@ -1,0 +1,58 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D news explainer: bedroom pre-load bar, night roof EAST clock, beach WEST clock",
+ "genre": "documentary",
+ "hook_type": "curiosity_gap",
+ "cliffhanger": "info_gap",
+ "reveal_word": "eastern",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "who starts before midnight"
+  },
+  {
+   "t": 16,
+   "q": "what is the catch"
+  },
+  {
+   "t": 26,
+   "q": "which clock do US stores follow"
+  }
+ ],
+ "breaks": [
+  "pre-load bar fills",
+  "whip flash cuts between three sets",
+  "clock HUD changes per coast",
+  "camera shake on Eastern and nine",
+  "turn to viewer"
+ ],
+ "closer": "check your own store page",
+ "audience": "GTA 6 fans on launch eve",
+ "takeaway": "your launch moment may depend on which clock your store follows",
+ "voice": "calm explainer",
+ "action": "check your store page",
+ "approved_facts": [
+  "Rockstar support page via Forbes 12 Nov 2026: releases midnight local time on November 19, 2026, in all regions",
+  "Rockstar newswire: PS5 and Xbox Series X|S, pre-load from 10 Nov",
+  "Forbes headline 12 Nov 2026: GTA 6 unlocks at midnight on November 19 but millions of Americans can start playing the night before; US stores treated as one region on Eastern time (Forbes)"
+ ],
+ "production_limits": "original characters, no Rockstar assets, clocks are illustrative",
+ "variety": [
+  "setting: bedroom, night roof, beach (3 sets)",
+  "clock HUD instead of counter tag",
+  "camera: slow push, shake on beats",
+  "ending: question to viewer"
+ ],
+ "hook_check": {
+  "chosen": "Some GTA 6 players get to start before their own midnight.",
+  "scores": {
+   "specificity": 4,
+   "address": 3,
+   "stakes": 4,
+   "front_load": 5,
+   "total": 16
+  },
+  "note": "news lane"
+ }
+}

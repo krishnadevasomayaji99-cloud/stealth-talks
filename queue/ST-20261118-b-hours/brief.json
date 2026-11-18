@@ -1,0 +1,59 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: school corridor, dark forest, night roof, beach sunrise; HOURS counter",
+ "genre": "drama",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "reversal",
+ "reveal_word": "back",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "how many hours does Noah have"
+  },
+  {
+   "t": 14,
+   "q": "who needs them next"
+  },
+  {
+   "t": 30,
+   "q": "what happens when he runs out"
+  }
+ ],
+ "breaks": [
+  "whip-flash cut between four sets",
+  "camera shake on each gift",
+  "counter 24 to 2",
+  "three strangers return to the beach",
+  "glow and turn to viewer"
+ ],
+ "closer": "who could use one of yours today",
+ "audience": "cold-feed viewers who like emotional In This Town stories",
+ "takeaway": "time you give away comes back",
+ "voice": "warm narrator",
+ "action": "give someone your time",
+ "approved_facts": [
+  "fiction, no factual claims"
+ ],
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: school corridor, dark forest, night roof, beach (4 sets)",
+  "sky/light: fluorescent, forest dark, night, bright beach",
+  "cast: orange-hoodie Noah, pink girl, red-hat hiker, blonde woman",
+  "counter: HUD plus head tag, goes 24 to 2 to 10",
+  "camera: back follow, shake on gifts",
+  "music: quirky/bright bed",
+  "ending: group hug then question"
+ ],
+ "hook_check": {
+  "chosen": "In this town, you can lend your hours to strangers.",
+  "scores": {
+   "specificity": 3,
+   "address": 5,
+   "stakes": 4,
+   "front_load": 5,
+   "total": 17
+  },
+  "note": "ok"
+ }
+}
