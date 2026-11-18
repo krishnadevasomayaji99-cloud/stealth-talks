@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "d85d9c09e0686fec809639c3263806b7612ba6cb41c14373398a42c4ff610956",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:49:55.915241+00:00",
+  "note": "brief.json present; script read: 4 sets, action each beat (run, give, sit, hug, cheer), reveal 'back' after 65%, emotional arc; fiction",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "d85d9c09e0686fec809639c3263806b7612ba6cb41c14373398a42c4ff610956",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:49:55.958488+00:00",
+  "note": "viewed 13 review frames across school/forest/roof/beach: HUD counter 24>18>10>2 readable, captions one-word, characters visible; audio_report pass -15.0 LUFS/-1.5 dBTP/WER 0.017; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "541519d7496487eece2587ca8ddf8148f613ed640981faafb183e1afd4e9c963",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:49:55.991078+00:00",
+  "note": "fiction caption, no factual claims; Sources line states fiction; disclosure sentence present",
+  "listened": false
+ }
+}
