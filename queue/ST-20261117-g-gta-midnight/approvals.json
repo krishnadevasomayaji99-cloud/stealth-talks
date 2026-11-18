@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "cf5e73e321a0260d07d72a3e8461d6510407ceaf27634267fb70c83f9952aa09",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:55:23.047089+00:00",
+  "note": "brief.json present; script read: 3 sets, action each beat, reveal 'eastern' after 65%, claims limited to opened sources",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "cf5e73e321a0260d07d72a3e8461d6510407ceaf27634267fb70c83f9952aa09",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:55:23.090725+00:00",
+  "note": "viewed 13 review frames (bedroom beats with cheer/point/shiver, pre-load bar fills, HUD readable) plus local preview frames of roof EAST and beach WEST sets; audio_report pass -15.4 LUFS/-1.8 dBTP/WER 0.051; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "9fcad26a8502c181dbaaeb8d7615da5f07b8d3e6cdc6c7acc7cbdcf04b207f8c",
+  "by": "Claude (model)",
+  "at": "2026-11-18T03:55:23.125496+00:00",
+  "note": "Rockstar newswire (launch 19 Nov, PS5 and Xbox Series X|S, pre-load 10 Nov) opened 17 Nov; Forbes 12 Nov 2026 opened 18 Nov: midnight local time in all regions quote, US stores one region on Eastern time, western players can start the night before (headline). Price/file size not used. Disclosure present.",
+  "listened": false
+ }
+}
