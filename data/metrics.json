@@ -1,35 +1,17 @@
 {
- "at": "2026-11-18T03:33:43.507342+00:00",
+ "at": "2026-11-18T15:51:21.377731+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261105-selfish-umbrella": {
-   "views": 372,
-   "reach": 295,
-   "likes": 5,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 11358
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18132846847687887' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261105-shadow-chair": {
-   "views": 192,
-   "reach": 129,
-   "likes": 6,
-   "comments": 0,
-   "shares": 0,
-   "saved": 1,
-   "ig_reels_avg_watch_time": 65103
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18371222236209348' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261109-biscuit-twist": {
-   "views": 263,
-   "reach": 181,
-   "likes": 6,
-   "comments": 1,
-   "shares": 0,
-   "saved": 1,
-   "ig_reels_avg_watch_time": 16203
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18121150507770706' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261109-launch-day-dave": {
    "views": 1367,
@@ -44,13 +26,7 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18079951241727811' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261109-top-shelf": {
-   "views": 133,
-   "reach": 109,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 9377
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17978467920149721' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261109-zz-emu-war": {
    "views": 144,
@@ -68,7 +44,7 @@
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15885
+   "ig_reels_avg_watch_time": 15871
   },
   "ST-20261110-eiffel-growing": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18080476400436110' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -80,13 +56,7 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18141486397624157' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261110-n-fancy-cafe": {
-   "views": 177,
-   "reach": 152,
-   "likes": 3,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 12580
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18133720771756087' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261110-one-sec": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18120983788781555' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -104,13 +74,7 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18135330046703545' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261112-a-kryptos": {
-   "views": 42,
-   "reach": 34,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 6969
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18117780965104350' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261112-c-tomato-timer": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18081174335754245' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -119,13 +83,7 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18386732749239303' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261113-a-mona-apron": {
-   "views": 171,
-   "reach": 129,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 13751
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18342420559261748' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261114-a-vasa": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18033949451681993' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -149,13 +107,7 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18134788996690204' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261115-f-beer-wave": {
-   "views": 43,
-   "reach": 36,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 9379
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18003633543034259' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261113-z-town1": {
    "views": 1871,
@@ -167,22 +119,10 @@
    "ig_reels_avg_watch_time": 22067
   },
   "ST-20261114-c-synod": {
-   "views": 142,
-   "reach": 110,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 9877
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17913868431482010' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261115-a-gertie": {
-   "views": 122,
-   "reach": 105,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 8896
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17957501829039301' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261116-t-wanted": {
    "views": 247,
@@ -203,40 +143,46 @@
    "ig_reels_avg_watch_time": 17007
   },
   "ST-20261116-a-carrington": {
-   "views": 58,
-   "reach": 44,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 6968
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18043896401847904' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261117-b-countdown": {
-   "views": 364,
-   "reach": 263,
-   "likes": 3,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 13531
+   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18110732186629383' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261117-e-battery": {
-   "views": 345,
-   "reach": 279,
-   "likes": 2,
+   "views": 410,
+   "reach": 338,
+   "likes": 3,
    "comments": 1,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 16710
+   "ig_reels_avg_watch_time": 16792
   },
   "ST-20261117-f-ten-words": {
-   "views": 206,
-   "reach": 164,
+   "views": 217,
+   "reach": 176,
    "likes": 4,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15839
+   "ig_reels_avg_watch_time": 15779
+  },
+  "ST-20261117-a-snowflake": {
+   "views": 1520,
+   "reach": 1098,
+   "likes": 9,
+   "comments": 0,
+   "shares": 1,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 14283
+  },
+  "ST-20261117-c-onread": {
+   "views": 1442,
+   "reach": 1087,
+   "likes": 12,
+   "comments": 0,
+   "shares": 1,
+   "saved": 1,
+   "ig_reels_avg_watch_time": 13899
   }
  }
 }
