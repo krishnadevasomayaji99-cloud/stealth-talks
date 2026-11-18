@@ -148,5 +148,10 @@
   "at": "2026-11-17T21:20:48.997527+00:00",
   "key": "health",
   "msg": "queue low: only 0 READY Reel(s) (target 6, need >= 4 per day)"
+ },
+ {
+  "at": "2026-11-18T00:54:49.926007+00:00",
+  "key": "flagger",
+  "msg": "0 READY Reel(s) but 4 slot(s) left today: build or approve more now"
  }
 ]

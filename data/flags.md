@@ -1,3 +1,4 @@
-# Flags 2026-11-17 15:53 London
-READY: ST-20261117-e-battery, ST-20261117-f-ten-words
-- WARN: spares below target: 2 READY, want 4 (slots left + 2 spares for tomorrow)
+# Flags 2026-11-18 00:54 London
+READY: none
+- CRITICAL: 0 READY Reel(s) but 4 slot(s) left today: build or approve more now
+- WARN: spares below target: 0 READY, want 6 (slots left + 2 spares for tomorrow)
