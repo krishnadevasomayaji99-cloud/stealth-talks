@@ -1,0 +1,26 @@
+{
+ "sha256": "f97bf8bedc1a0925220315e32e285a79d5c176c1d1b82dbf5872febc763be0b6",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.9,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 39.47,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.051,
+  "expected_words": 118,
+  "heard_words": 118,
+  "missing_or_wrong": [
+   "nineteenth",
+   "pre load",
+   "tenth",
+   "nine tonight"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
