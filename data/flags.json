@@ -1,22 +1,17 @@
 {
- "at": "2026-11-18T11:29:42.553374+00:00",
- "london": "2026-11-18 11:29",
+ "at": "2026-11-18T20:24:21.708735+00:00",
+ "london": "2026-11-18 20:24",
  "ready": [
-  "ST-20261117-c-onread",
-  "ST-20261117-g-gta-midnight",
   "ST-20261118-a-volume",
-  "ST-20261118-b-hours"
+  "ST-20261118-b-hours",
+  "ST-20261119-s1-mincemeat",
+  "ST-20261119-s2-kashasha",
+  "ST-20261119-s3-peigneur",
+  "ST-20261119-s4-pig-war"
  ],
  "slots_left": [
-  "12:30",
-  "17:30",
   "20:30"
  ],
- "posted_today": 1,
- "flags": [
-  {
-   "level": "WARN",
-   "msg": "spares below target: 4 READY, want 5 (slots left + 2 spares for tomorrow)"
-  }
- ]
+ "posted_today": 3,
+ "flags": []
 }
