@@ -669,6 +669,12 @@
    "sha256": "cf5e73e321a0260d07d72a3e8461d6510407ceaf27634267fb70c83f9952aa09",
    "started_at": "2026-11-18T17:38:54.045043+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261118-a-volume",
+   "sha256": "eaa1eb5ac1d641622e40e0c717cb824e71620ee2ff7defb66d450077be1cf027",
+   "started_at": "2026-11-18T20:32:52.243377+00:00",
+   "state": "uploading"
   }
  ]
 }
