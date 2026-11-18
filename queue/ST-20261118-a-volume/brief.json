@@ -1,0 +1,7 @@
+{"series": true, "style": "blocky3d", "style_id": "blocky 3D: school corridor (new set), living room, snow pond; VOLUME bar HUD", "genre": "drama", "hook_type": "absurd_rule", "cliffhanger": "reversal", "reveal_word": "screamed",
+ "open_loops": [{"t": 3, "q": "why is Mia's bar empty"}, {"t": 16, "q": "will anyone hear her"}, {"t": 28, "q": "what happens to the raccoon on the ice"}],
+ "breaks": ["whip-flash cut between three sets", "camera shake on dropped books and on the scream", "ice crack stingers", "bar jumps from 3% to 100%", "turn to viewer"],
+ "closer": "ask how they really are", "audience": "cold-feed viewers who like emotional In This Town stories", "takeaway": "quiet people need someone to ask", "voice": "soft narrator", "action": "message one quiet person",
+ "approved_facts": ["fiction, no factual claims"], "production_limits": "blocky3d, original characters, no brands",
+ "variety": ["setting: new school corridor, living room, snow pond (3 sets)", "sky/light: bright fluorescent, warm room, pale snow", "cast: purple-hoodie Mia, pet raccoon (non-human), green-jacket mum", "counter: wide HUD bar plus head tags", "camera: back follow, side track, shake on beats", "gag: tripping, ice cracking", "music: sad bed", "ending: hug then question to viewer"],
+ "hook_check": {"chosen": "In this town, your voice has a volume bar over your head.", "scores": {"specificity": 4, "address": 5, "stakes": 3, "front_load": 5, "total": 17}, "note": "alternative 'everyone has a volume bar' scored 14"}}

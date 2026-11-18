@@ -144,6 +144,15 @@ function stage(kind,o){o=o||{};
     for(let i=0;i<14;i++){const x=(rnd(i+30)-0.5)*16,z=10-i*6;const m=box(0.6,0.8,0.6,'#e8e8f0',x,0.4,z,scene);const c=box(1.6,0.7,1.6,'#d94a4a',x,1,z,scene);}
     const ff=[];for(let i=0;i<40;i++){const f=box(0.35,0.35,0.35,'#d8ff6a',0,0,0,scene);f.material=emis('#d8ff6a');f.castShadow=false;f.userData.s=i;ff.push(f);}
     w=wrap(scene,cam);w.anim.push(t=>{ff.forEach(f=>{const i=f.userData.s;f.position.set((rnd(i)-0.5)*36+Math.sin(t*0.8+i)*2,2+rnd(i+1)*9+Math.sin(t*1.3+i*2),-rnd(i+2)*60+10+Math.cos(t*0.7+i)*2);f.material.opacity=1;});});}
+  else if(kind==='school'){scene.background=new T.Color('#4a6272');scene.fog=new T.Fog('#4a6272',40,130);
+    lights(scene,0,['#ffffff','#9aa8b0',1.15],['#f4fbff',0.7],[-8,30,20]);
+    for(let i=-10;i<=10;i++)for(let j=-12;j<=4;j++)box(2,0.1,2,(i+j)%2?'#cfd8d2':'#9fb0a6',i*2,0,j*3-6,scene);
+    box(0.5,20,150,o.wall||'#7fb2a0',-14,10,-40,scene);box(0.5,20,150,o.wall||'#7fb2a0',14,10,-40,scene);box(30,0.5,150,'#e8eef0',0,20,-40,scene);
+    for(let z=14;z>-90;z-=5){const lc=['#d1495b','#2e86ab','#f6ae2d','#33658a'][((z+90)/5|0)%4];box(1.2,11,3.6,lc,-13,5.5,z,scene);box(0.1,1,0.8,'#222',-12.35,6,z+0.8,scene);box(1.2,11,3.6,lc,13,5.5,z-2.5,scene);}
+    for(let z=10;z>-90;z-=14){const l=box(8,0.3,2.4,'#fffbe0',0,19.6,z,scene);l.material=emis('#fffbe0');l.castShadow=false;const pl=new T.PointLight('#f4fbff',0.35,30);pl.position.set(0,17,z);scene.add(pl);}
+    const dr=box(6,12,0.4,'#fff6c8',0,6,-88,scene);dr.material=emis('#fff6c8');
+    const bag=box(2,2.4,1.2,'#e63946',6,1.2,-30,scene);
+    w=wrap(scene,cam);w.door=dr;w.anim.push(t=>{dr.material.color.setHSL(0.13,0.9,0.78+Math.sin(t*3)*0.06);});}
   else if(kind==='beach'){scene.background=new T.Color('#9fe0ff');scene.fog=new T.Fog('#9fe0ff',60,180);
     lights(scene,0,['#ffffff','#e8d3a0',0.95],['#fff0c8',0.9],[-20,45,25]);
     box(300,0.4,120,'#f0dca0',0,-0.2,10,scene);const sea=box(300,0.3,160,'#2b8fd8',0,-0.1,-110,scene);sea.material=new T.MeshLambertMaterial({color:'#2b8fd8',emissive:'#1a6fb0',emissiveIntensity:0.3});
@@ -154,5 +163,6 @@ function stage(kind,o){o=o||{};
     w=wrap(scene,cam);w.anim.push(t=>{fo.position.z=-30+Math.sin(t*0.9)*4;sea.position.y=-0.1+Math.sin(t*1.4)*0.08;});}
   else {w=world(o);return w;}
   return w;}
-window.B3={world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
+function shake(t,t0,amp,dur){dur=dur||0.5;const d=t-t0;if(d<0||d>dur)return [0,0,0];const a=amp*(1-d/dur);return [Math.sin(d*90)*a,Math.cos(d*77)*a*0.7,Math.sin(d*61)*a*0.4];}
+window.B3={shake,world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
 })();
