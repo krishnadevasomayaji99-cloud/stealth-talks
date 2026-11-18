@@ -659,6 +659,12 @@
    "sha256": "3686b636ff4f84a95874dc1e1a3dca4ee704c2f35a857d7bb127d582073f0688",
    "started_at": "2026-11-18T12:33:44.891202+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261117-g-gta-midnight",
+   "sha256": "cf5e73e321a0260d07d72a3e8461d6510407ceaf27634267fb70c83f9952aa09",
+   "started_at": "2026-11-18T17:38:54.045043+00:00",
+   "state": "uploading"
   }
  ]
 }
