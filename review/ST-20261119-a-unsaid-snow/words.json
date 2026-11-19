@@ -1,0 +1,387 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "w": "this",
+  "start": 0.34,
+  "end": 0.46
+ },
+ {
+  "w": "town,",
+  "start": 0.46,
+  "end": 0.72
+ },
+ {
+  "w": "the",
+  "start": 0.94,
+  "end": 1.0
+ },
+ {
+  "w": "words",
+  "start": 1.0,
+  "end": 1.18
+ },
+ {
+  "w": "you",
+  "start": 1.18,
+  "end": 1.38
+ },
+ {
+  "w": "never",
+  "start": 1.38,
+  "end": 1.54
+ },
+ {
+  "w": "say",
+  "start": 1.54,
+  "end": 1.86
+ },
+ {
+  "w": "turn",
+  "start": 1.86,
+  "end": 2.1
+ },
+ {
+  "w": "into",
+  "start": 2.1,
+  "end": 2.32
+ },
+ {
+  "w": "snow.",
+  "start": 2.32,
+  "end": 2.62
+ },
+ {
+  "w": "Walt",
+  "start": 3.34,
+  "end": 3.52
+ },
+ {
+  "w": "never",
+  "start": 3.52,
+  "end": 3.74
+ },
+ {
+  "w": "told",
+  "start": 3.74,
+  "end": 4.08
+ },
+ {
+  "w": "his",
+  "start": 4.08,
+  "end": 4.24
+ },
+ {
+  "w": "son",
+  "start": 4.24,
+  "end": 4.44
+ },
+ {
+  "w": "one",
+  "start": 4.44,
+  "end": 4.64
+ },
+ {
+  "w": "thing.",
+  "start": 4.64,
+  "end": 4.9
+ },
+ {
+  "w": "By",
+  "start": 5.38,
+  "end": 5.42
+ },
+ {
+  "w": "Monday,",
+  "start": 5.42,
+  "end": 5.68
+ },
+ {
+  "w": "it",
+  "start": 5.9,
+  "end": 5.96
+ },
+ {
+  "w": "was",
+  "start": 5.96,
+  "end": 6.06
+ },
+ {
+  "w": "ten",
+  "start": 6.06,
+  "end": 6.316
+ },
+ {
+  "w": "centimetres",
+  "start": 6.33,
+  "end": 6.586
+ },
+ {
+  "w": "deep.",
+  "start": 6.6,
+  "end": 7.08
+ },
+ {
+  "w": "By",
+  "start": 7.7,
+  "end": 7.84
+ },
+ {
+  "w": "Friday,",
+  "start": 7.84,
+  "end": 8.18
+ },
+ {
+  "w": "it",
+  "start": 8.3,
+  "end": 8.6
+ },
+ {
+  "w": "reached",
+  "start": 8.6,
+  "end": 8.74
+ },
+ {
+  "w": "his",
+  "start": 8.74,
+  "end": 8.98
+ },
+ {
+  "w": "windows.",
+  "start": 8.98,
+  "end": 9.2
+ },
+ {
+  "w": "He",
+  "start": 10.08,
+  "end": 10.16
+ },
+ {
+  "w": "sat",
+  "start": 10.16,
+  "end": 10.3
+ },
+ {
+  "w": "inside",
+  "start": 10.3,
+  "end": 10.82
+ },
+ {
+  "w": "and",
+  "start": 10.82,
+  "end": 10.96
+ },
+ {
+  "w": "stared",
+  "start": 10.96,
+  "end": 11.2
+ },
+ {
+  "w": "at",
+  "start": 11.2,
+  "end": 11.38
+ },
+ {
+  "w": "the",
+  "start": 11.38,
+  "end": 11.46
+ },
+ {
+  "w": "phone,",
+  "start": 11.46,
+  "end": 11.72
+ },
+ {
+  "w": "too",
+  "start": 11.96,
+  "end": 12.04
+ },
+ {
+  "w": "stubborn",
+  "start": 12.04,
+  "end": 12.3
+ },
+ {
+  "w": "to",
+  "start": 12.3,
+  "end": 12.54
+ },
+ {
+  "w": "call.",
+  "start": 12.54,
+  "end": 12.76
+ },
+ {
+  "w": "His",
+  "start": 13.4,
+  "end": 13.5
+ },
+ {
+  "w": "son",
+  "start": 13.5,
+  "end": 13.74
+ },
+ {
+  "w": "knocked",
+  "start": 13.74,
+  "end": 13.96
+ },
+ {
+  "w": "anyway.",
+  "start": 13.96,
+  "end": 14.4
+ },
+ {
+  "w": "Walt",
+  "start": 14.88,
+  "end": 15.08
+ },
+ {
+  "w": "opened",
+  "start": 15.08,
+  "end": 15.42
+ },
+ {
+  "w": "the",
+  "start": 15.42,
+  "end": 15.54
+ },
+ {
+  "w": "door,",
+  "start": 15.54,
+  "end": 15.74
+ },
+ {
+  "w": "and",
+  "start": 15.74,
+  "end": 15.92
+ },
+ {
+  "w": "snow",
+  "start": 15.92,
+  "end": 16.16
+ },
+ {
+  "w": "poured",
+  "start": 16.16,
+  "end": 16.42
+ },
+ {
+  "w": "in.",
+  "start": 16.42,
+  "end": 16.68
+ },
+ {
+  "w": "He",
+  "start": 17.3,
+  "end": 17.42
+ },
+ {
+  "w": "whispered,",
+  "start": 17.42,
+  "end": 17.6
+ },
+ {
+  "w": "I'm",
+  "start": 17.98,
+  "end": 18.12
+ },
+ {
+  "w": "proud",
+  "start": 18.12,
+  "end": 18.3
+ },
+ {
+  "w": "of",
+  "start": 18.3,
+  "end": 18.54
+ },
+ {
+  "w": "you.",
+  "start": 18.54,
+  "end": 18.7
+ },
+ {
+  "w": "The",
+  "start": 19.34,
+  "end": 19.44
+ },
+ {
+  "w": "snow",
+  "start": 19.44,
+  "end": 19.64
+ },
+ {
+  "w": "stopped.",
+  "start": 19.64,
+  "end": 19.92
+ },
+ {
+  "w": "The",
+  "start": 20.32,
+  "end": 20.38
+ },
+ {
+  "w": "sky",
+  "start": 20.38,
+  "end": 20.56
+ },
+ {
+  "w": "turned",
+  "start": 20.56,
+  "end": 20.88
+ },
+ {
+  "w": "gold.",
+  "start": 20.88,
+  "end": 21.1
+ },
+ {
+  "w": "Everything",
+  "start": 21.4,
+  "end": 21.66
+ },
+ {
+  "w": "melted",
+  "start": 21.66,
+  "end": 21.98
+ },
+ {
+  "w": "at",
+  "start": 21.98,
+  "end": 22.2
+ },
+ {
+  "w": "once.",
+  "start": 22.2,
+  "end": 22.4
+ },
+ {
+  "w": "Say",
+  "start": 22.4,
+  "end": 23.28
+ },
+ {
+  "w": "it",
+  "start": 23.28,
+  "end": 23.42
+ },
+ {
+  "w": "before",
+  "start": 23.42,
+  "end": 23.64
+ },
+ {
+  "w": "it",
+  "start": 23.64,
+  "end": 24.109
+ },
+ {
+  "w": "snows.",
+  "start": 24.134,
+  "end": 24.603
+ }
+]
