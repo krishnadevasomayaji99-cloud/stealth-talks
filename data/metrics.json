@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18T15:51:21.377731+00:00",
+ "at": "2026-11-19T03:19:44.978704+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -149,40 +149,58 @@
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18110732186629383' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
   },
   "ST-20261117-e-battery": {
-   "views": 410,
-   "reach": 338,
-   "likes": 3,
+   "views": 421,
+   "reach": 347,
+   "likes": 4,
    "comments": 1,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 16792
+   "ig_reels_avg_watch_time": 16901
   },
   "ST-20261117-f-ten-words": {
-   "views": 217,
-   "reach": 176,
+   "views": 222,
+   "reach": 181,
    "likes": 4,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 15779
+   "ig_reels_avg_watch_time": 15582
   },
   "ST-20261117-a-snowflake": {
-   "views": 1520,
-   "reach": 1098,
+   "views": 1528,
+   "reach": 1107,
    "likes": 9,
    "comments": 0,
    "shares": 1,
    "saved": 0,
-   "ig_reels_avg_watch_time": 14283
+   "ig_reels_avg_watch_time": 14240
   },
   "ST-20261117-c-onread": {
-   "views": 1442,
-   "reach": 1087,
+   "views": 1470,
+   "reach": 1101,
    "likes": 12,
    "comments": 0,
    "shares": 1,
    "saved": 1,
-   "ig_reels_avg_watch_time": 13899
+   "ig_reels_avg_watch_time": 13908
+  },
+  "ST-20261117-g-gta-midnight": {
+   "views": 137,
+   "reach": 117,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 11844
+  },
+  "ST-20261118-a-volume": {
+   "views": 1473,
+   "reach": 1124,
+   "likes": 19,
+   "comments": 0,
+   "shares": 0,
+   "saved": 1,
+   "ig_reels_avg_watch_time": 18307
   }
  }
 }
