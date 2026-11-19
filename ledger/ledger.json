@@ -702,9 +702,10 @@
   },
   {
    "key": "ST-20261119-a-unsaid-snow",
+   "note": "auto-recovered stale lock after 23 min (cancelled run, no new media on account)",
    "sha256": "b6b5d2094a98cbcf00210d593b319b0251a642cd31cd1fdedd27dbc23e96a44e",
    "started_at": "2026-11-19T17:38:23.000578+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }
