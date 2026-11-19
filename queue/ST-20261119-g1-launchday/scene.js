@@ -5,7 +5,7 @@ const tSnowIn=tRan-0.5,tRoofIn=tRoof-0.6;
 const cues=[{t:0.05,sfx:'pop',gain:0.6},{t:tDay,sfx:'boom',gain:0.8},{t:tMax,sfx:'tick',gain:0.7},{t:tThree,sfx:'static',gain:0.4},{t:tSnowIn,sfx:'whoosh',gain:0.8},{t:tSnowIn,sfx:'wind',gain:0.7},{t:tSlip,sfx:'thud',gain:0.9},{t:tRoofIn,sfx:'whoosh',gain:0.8},{t:tLight-0.4,sfx:'rise',gain:0.8},{t:tLight,sfx:'sparkle',gain:1},{t:tJump,sfx:'boom',gain:0.9},{t:tCheck,sfx:'chime',gain:0.7}];
 const pat=t=>t>=tLight?100:t>=tRan?3:t>=tThree?6:t>=tMax?12:100;
 const S={};
-function get(n){if(S[n])return S[n];const w=S[n]=B.stage(n);w.max=w.person({shirt:'#d62828',pants:'#22315c',hair:'#1a1a1a',style:'spike'});w.scene.add(w.max);return w;}
+function get(n){if(S[n])return S[n];const w=S[n]=B.stage(n,n==='roof'?{dawn:true}:undefined);w.max=w.person({shirt:'#d62828',pants:'#22315c',hair:'#1a1a1a',style:'spike'});w.scene.add(w.max);return w;}
 function stageAt(t){return t<tSnowIn?'room':t<tRoofIn?'snow':'roof';}
 const col=v=>v<15?'#b3121b':v<60?'#c9861a':'#1b7f3a';
 function hud(c,t){const v=pat(t),lbl=t>=tLight?'LAUNCH DAY!':'MAX PATIENCE';c.save();c.fillStyle='rgba(10,10,14,0.82)';c.beginPath();c.roundRect(120,80,840,120,22);c.fill();c.fillStyle='#fff';c.font='900 40px "DejaVu Sans", Arial';c.textAlign='left';c.textBaseline='middle';c.fillText(lbl,150,128);c.fillStyle='#2a2f3a';c.fillRect(150,152,780,26);c.fillStyle=col(v);c.fillRect(150,152,Math.max(6,780*v/100),26);c.font='900 54px "DejaVu Sans", Arial';c.textAlign='right';c.fillText(v+'%',930,124);c.restore();}

@@ -128,12 +128,12 @@ function stage(kind,o){o=o||{};
     box(12,7,9,'#8a5a30',-28,3.5,-30,scene);box(13,1.2,10,'#f4f8ff',-28,7.6,-30,scene);const dw=box(1.8,3,0.2,'#ffcf6a',-28,2,-25.4,scene);dw.material=emis('#ffcf6a');
     const fl=[];for(let i=0;i<200;i++){const f=box(0.3,0.3,0.3,'#fff',(rnd(i)-0.5)*80,0,(rnd(i+3)-0.5)*80-10,scene);f.castShadow=false;f.userData.s=[rnd(i+7),rnd(i+11)];fl.push(f);}
     w=wrap(scene,cam);w.cracks=cracks;w.anim.push(t=>{fl.forEach(f=>{const q=f.userData.s;f.position.y=((30-(t*(3+q[0]*3)+q[1]*30))%30+30)%30;f.position.x+=Math.sin(t+q[1]*9)*0.01;});});}
-  else if(kind==='roof'){scene.background=new T.Color('#0f1030');scene.fog=new T.Fog('#0f1030',60,200);
-    lights(scene,0,['#6b7cc9','#1c1c3a',0.7],['#b8c6ff',0.55],[-30,50,10]);
+  else if(kind==='roof'){const dw=!!o.dawn;scene.background=new T.Color(dw?'#ff9a6b':'#0f1030');scene.fog=new T.Fog(dw?'#ff9a6b':'#0f1030',60,200);
+    lights(scene,0,dw?['#ffd2a8','#6a4a6a',0.95]:['#6b7cc9','#1c1c3a',0.7],dw?['#ffb36b',0.9]:['#b8c6ff',0.55],[-30,50,10]);
     box(40,1,30,'#3a3d4a',0,-0.5,0,scene);box(40,1.6,0.8,'#555a68',0,0.8,-15,scene);box(40,1.6,0.8,'#555a68',0,0.8,15,scene);box(0.8,1.6,30,'#555a68',-20,0.8,0,scene);box(0.8,1.6,30,'#555a68',20,0.8,0,scene);
     for(let i=0;i<34;i++){const x=(rnd(i)-0.5)*220,z=-40-rnd(i+4)*80,h=20+rnd(i+8)*60,wd=8+rnd(i+2)*10;box(wd,h,wd,'#1c1f3a',x,h/2-1,z,scene);for(let j=0;j<h/4;j++)for(let k=0;k<3;k++)if(rnd(i*50+j*5+k)>0.45){const wn=box(1.1,1.5,0.2,'#ffd67a',x-wd/3+k*wd/3,j*4+2,z+wd/2+0.1,scene);wn.material=emis('#ffd67a');wn.castShadow=false;}}
     for(let i=0;i<18;i++){const x=(rnd(i+20)-0.5)*160,z=-130+rnd(i+21)*60;const m=box(10,50+rnd(i)*30,10,'#161830',x,30,z,scene);}
-    const moon=new T.Mesh(new T.SphereGeometry(7,20,16),new T.MeshBasicMaterial({color:'#fff5d0',fog:false}));moon.position.set(40,70,-150);scene.add(moon);
+    const moon=new T.Mesh(new T.SphereGeometry(7,20,16),new T.MeshBasicMaterial({color:dw?'#ffd36b':'#fff5d0',fog:false}));moon.position.set(dw?10:40,dw?18:70,-150);if(dw)moon.scale.setScalar(1.8);scene.add(moon);
     box(6,7,6,'#4a4f60',-12,3.5,-8,scene);box(0.4,10,0.4,'#888',14,5,-10,scene);box(3,0.3,0.3,'#888',14,9,-10,scene);
     for(let i=0;i<120;i++){const s=box(0.5,0.5,0.5,'#fff',(rnd(i+40)-0.5)*260,50+rnd(i+41)*80,-160,scene);s.material=emis('#fff');s.castShadow=false;}
     w=wrap(scene,cam);}
