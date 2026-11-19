@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "dcdf736b7a05e2603ce402b1031eb39ab58c8463a39089efef0de3b968d02458",
+  "by": "Claude (model)",
+  "at": "2026-11-19T22:40:03.641499+00:00",
+  "note": "Viewed review frames 1.5-29 s: rule line, ? icons stack 1-4, 3 sets (school/room/snow), burst to 0 at reveal, hug, lesson line; fiction, no factual claims",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "dcdf736b7a05e2603ce402b1031eb39ab58c8463a39089efef0de3b968d02458",
+  "by": "Claude (model)",
+  "at": "2026-11-19T22:40:03.753567+00:00",
+  "note": "Viewed 8 review frames across all 3 sets: icons visible, captions legible, HUD counter 1,1,2,3,4,4,4,0 matches script; audio report pass LUFS -15.5 TP -1.8 WER 0",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "4416f262bc4e379dd76d51e59a9a97582e1ccd715ac626da46a9009751eaa595",
+  "by": "Claude (model)",
+  "at": "2026-11-19T22:40:03.827498+00:00",
+  "note": "Fiction; caption states fiction, Sources none, AI/original characters line, lesson line",
+  "listened": false
+ }
+}
