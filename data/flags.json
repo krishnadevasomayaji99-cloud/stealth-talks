@@ -1,24 +1,19 @@
 {
- "at": "2026-11-19T02:30:20.218485+00:00",
- "london": "2026-11-19 02:30",
+ "at": "2026-11-19T11:33:45.056891+00:00",
+ "london": "2026-11-19 11:33",
  "ready": [
-  "ST-20261118-b-hours",
+  "ST-20261119-g1-launchday",
   "ST-20261119-s1-mincemeat",
   "ST-20261119-s2-kashasha",
   "ST-20261119-s3-peigneur",
-  "ST-20261119-s4-pig-war"
+  "ST-20261119-s4-pig-war",
+  "ST-20261119-t1-flower"
  ],
  "slots_left": [
-  "08:30",
   "12:30",
   "17:30",
   "20:30"
  ],
- "posted_today": 0,
- "flags": [
-  {
-   "level": "WARN",
-   "msg": "spares below target: 5 READY, want 6 (slots left + 2 spares for tomorrow)"
-  }
- ]
+ "posted_today": 1,
+ "flags": []
 }
