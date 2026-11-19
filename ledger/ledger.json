@@ -691,10 +691,14 @@
    "state": "verified"
   },
   {
+   "container": "18005580935822257",
    "key": "ST-20261119-g1-launchday",
+   "media_id": "17969586531231128",
+   "permalink": "https://www.instagram.com/reel/Df7GbF8Denh/",
+   "published_at": "2026-11-19T12:39:49.974380+00:00",
    "sha256": "f21eaa5766f469ee8f92ebd3a55ac803958f6fdfa204a5cde4d45f08dc8a74b7",
    "started_at": "2026-11-19T12:39:06.964424+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
