@@ -4,4 +4,4 @@
  "closer": "thank someone out loud", "audience": "cold-feed viewers who like emotional In This Town stories", "takeaway": "quiet helpers rarely get thanked", "voice": "warm narrator", "action": "thank one person today",
  "approved_facts": ["fiction, no factual claims"], "production_limits": "blocky3d, original characters, no brands",
  "variety": ["setting: living room, forest, beach", "sky/light: warm room, dark green forest, bright beach", "cast: grey-haired Leo, boy Sam, girl with bike", "counter: floating THANKS tag over Leo plus HUD", "camera: follow, side track, shake on fall", "gag: mud fall, petals", "music: sad bed", "ending: hug then address viewer"],
- "hook_check": {"chosen": "In this town, a flower grows over your head every time someone says thank you.", "scores": {"specificity": 4, "address": 4, "stakes": 4, "front_load": 5, "total": 17}, "note": "alternative 'everyone has a gratitude meter' scored 13"}}
+ "hook_check": {"chosen": "In this town, a flower grows over you when someone says thanks.", "scores": {"specificity": 4, "address": 4, "stakes": 4, "front_load": 5, "total": 17}, "note": "alternative 'everyone has a gratitude meter' scored 13"}}

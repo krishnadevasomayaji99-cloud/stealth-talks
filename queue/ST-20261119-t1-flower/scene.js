@@ -1,6 +1,6 @@
 window.SCENE=function(a){const {k,ease,clamp}=a;const B=window.B3;
 const WX=(q,n=0)=>{let c=0;for(const w of a.words){if(w.w.toLowerCase().replace(/[^a-z0-9']/g,'')===q){if(c===n)return w.start;c++;}}throw new Error('word not found: '+q);};
-const tFlower=WX('flower'),tLeo=WX("leo's"),tNobody=WX('nobody'),tSam=WX('sam'),tForest=WX('forest'),tMud=WX('mud'),tBeach=WX('beach'),tThank=WX('thank',1),tPop=WX('popped'),tRace=WX('raced'),tPetals=WX('petals'),tHug=WX('hugged'),tSome=WX('somebody'),tEnd=a.words[a.words.length-1].end+0.5;
+const tFlower=WX('flower'),tLeo=WX("leo's"),tNobody=WX('nobody'),tSam=WX('sam'),tForest=WX('forest'),tMud=WX('mud'),tBeach=WX('beach'),tThank=WX('thank'),tPop=WX('popped'),tRace=WX('raced'),tPetals=WX('petals'),tHug=WX('hugged'),tSome=WX('somebody'),tEnd=a.words[a.words.length-1].end+0.5;
 const tForestIn=tForest-0.5,tBeachIn=tBeach-0.5,tRoomIn=tRace-0.2;
 const cues=[{t:0.05,sfx:'pop',gain:0.6},{t:tFlower,sfx:'boom',gain:0.8},{t:tLeo,sfx:'tick',gain:0.7},{t:tNobody,sfx:'static',gain:0.4},{t:tSam,sfx:'tick',gain:0.7},{t:tForestIn,sfx:'whoosh',gain:0.8},{t:tForestIn,sfx:'wind',gain:0.6},{t:tMud,sfx:'thud',gain:0.9},{t:tBeachIn,sfx:'whoosh',gain:0.8},{t:tThank,sfx:'chime',gain:0.9},{t:tPop,sfx:'sparkle',gain:1},{t:tPop+0.3,sfx:'pop',gain:0.8},{t:tPop+0.5,sfx:'pop',gain:0.8},{t:tRoomIn,sfx:'whoosh',gain:0.8},{t:tPetals,sfx:'sparkle',gain:0.9},{t:tHug,sfx:'heartbeat',gain:0.9},{t:tHug+0.2,sfx:'music_box',gain:0.8},{t:tSome,sfx:'chime',gain:0.7}];
 const cnt=t=>t>=tPop+0.6?11:t>=tPop?1:0;
