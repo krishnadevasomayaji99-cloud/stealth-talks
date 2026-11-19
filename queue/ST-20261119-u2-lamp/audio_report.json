@@ -1,25 +1,31 @@
 {
- "sha256": "f52f27e2c477bb0f5e8c1e0a44181e4d8582c7a9bf10f7a33d4d35b46b38a236",
+ "sha256": "1e3e09a627ca4237f6058be281ddcebf618817932da8759fe471f62d434d2122",
  "audio": {
   "lufs": -15.1,
   "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
-  "trailing_silence_s": 0.0,
-  "duration_s": 29.1,
-  "problems": [],
+  "trailing_silence_s": 0.94,
+  "duration_s": 32.47,
+  "problems": [
+   "trailing silence 0.9s"
+  ],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.034,
-  "expected_words": 87,
-  "heard_words": 87,
+  "approx_wer": 0.052,
+  "expected_words": 96,
+  "heard_words": 96,
   "missing_or_wrong": [
    "rosa's",
    "eli",
-   "eli"
+   "rosa",
+   "eli",
+   "rosa"
   ]
  },
- "problems": [],
- "pass": true,
+ "problems": [
+  "trailing silence 0.9s"
+ ],
+ "pass": false,
  "listened": false
 }
