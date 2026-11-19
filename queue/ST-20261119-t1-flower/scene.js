@@ -14,7 +14,7 @@ function get(n){if(S[n])return S[n];const w=S[n]=mk(n);
 function stageAt(t){return t<tForestIn?'room':t<tBeachIn?'forest':t<tRoomIn?'beach':'room';}
 function hud(c,t){const v=cnt(t);c.save();c.fillStyle='rgba(10,10,14,0.82)';c.beginPath();c.roundRect(120,80,840,110,22);c.fill();c.fillStyle='#fff';c.font='900 42px "DejaVu Sans", Arial';c.textAlign='left';c.textBaseline='middle';c.fillText("LEO'S THANK-YOU FLOWERS",150,134);c.fillStyle=v?'#2ec27e':'#ff4d5e';c.font='900 64px "DejaVu Sans", Arial';c.textAlign='right';c.fillText(String(v),930,130);c.restore();}
 function cam(n,t){const P=p=>k(t,p);
- if(n==='room')return t<tForestIn?{p:[P([[0,-3],[tLeo,2],[tSam,4],[tForestIn,0]]),7,P([[0,22],[tLeo,15],[tSam,12],[tForestIn,13]])],l:[0,5,-3]}:{p:[P([[tRoomIn,-6],[tHug,0],[tEnd,1]]),7,P([[tRoomIn,18],[tHug,12],[tEnd,11]])],l:[0,5,-3]};
+ if(n==='room')return t<tForestIn?{p:[P([[0,0],[tLeo,0.5],[tSam,1],[tForestIn,0]]),7,P([[0,24],[tLeo,20],[tSam,18],[tForestIn,19]])],l:[0,5,-3]}:{p:[P([[tRoomIn,-6],[tHug,0],[tEnd,1]]),7,P([[tRoomIn,18],[tHug,12],[tEnd,11]])],l:[0,5,-3]};
  if(n==='forest')return {p:[P([[tForestIn,-3],[tMud,3],[tBeachIn,4]]),5,P([[tForestIn,14],[tMud,2],[tBeachIn,-8]])],l:[0,4,P([[tForestIn,-12],[tBeachIn,-40]])]};
  return {p:[P([[tBeachIn,5],[tThank,2],[tRoomIn,-2]]),6,P([[tBeachIn,18],[tThank,12],[tRoomIn,10]])],l:[0,4,-5]};}
 return {cues,caption:'bar',capY:1580,
