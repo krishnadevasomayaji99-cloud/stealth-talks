@@ -727,10 +727,13 @@
    "upload_http": 400
   },
   {
+   "container": "18005699693822257",
    "key": "ST-20261119-s1-mincemeat",
+   "reencoded": true,
    "sha256": "a64ffca7732ba7bff84e595113b9dffe0b341cb1b668014f67e23c0ff32a7c3f",
    "started_at": "2026-11-19T20:48:25.782487+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
