@@ -1,14 +1,12 @@
 {
- "sha256": "1e3e09a627ca4237f6058be281ddcebf618817932da8759fe471f62d434d2122",
+ "sha256": "67e32c804bf3fc354f5011e431ad628c8fbc5dc6366168a4aab148240446aaa3",
  "audio": {
   "lufs": -15.1,
   "true_peak_dbtp": -1.9,
   "clipped_samples": 0,
-  "trailing_silence_s": 0.94,
-  "duration_s": 32.47,
-  "problems": [
-   "trailing silence 0.9s"
-  ],
+  "trailing_silence_s": 0.0,
+  "duration_s": 31.8,
+  "problems": [],
   "listened": false
  },
  "speech": {
@@ -23,9 +21,7 @@
    "rosa"
   ]
  },
- "problems": [
-  "trailing silence 0.9s"
- ],
- "pass": false,
+ "problems": [],
+ "pass": true,
  "listened": false
 }
