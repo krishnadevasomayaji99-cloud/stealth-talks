@@ -679,6 +679,12 @@
    "sha256": "eaa1eb5ac1d641622e40e0c717cb824e71620ee2ff7defb66d450077be1cf027",
    "started_at": "2026-11-18T20:32:52.243377+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261118-b-hours",
+   "sha256": "d85d9c09e0686fec809639c3263806b7612ba6cb41c14373398a42c4ff610956",
+   "started_at": "2026-11-19T08:33:13.150664+00:00",
+   "state": "uploading"
   }
  ]
 }
