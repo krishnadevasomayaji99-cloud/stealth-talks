@@ -717,6 +717,12 @@
    "sha256": "b6b5d2094a98cbcf00210d593b319b0251a642cd31cd1fdedd27dbc23e96a44e",
    "started_at": "2026-11-19T18:01:46.546942+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261119-s1-mincemeat",
+   "sha256": "a64ffca7732ba7bff84e595113b9dffe0b341cb1b668014f67e23c0ff32a7c3f",
+   "started_at": "2026-11-19T20:34:46.565039+00:00",
+   "state": "uploading"
   }
  ]
 }
