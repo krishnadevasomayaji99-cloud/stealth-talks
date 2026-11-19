@@ -736,10 +736,14 @@
    "upload_http": 400
   },
   {
+   "container": "18005702159822257",
    "key": "ST-20261119-s2-kashasha",
+   "media_id": "18123271333983320",
+   "permalink": "https://www.instagram.com/reel/Df8APYLlQFT/",
+   "published_at": "2026-11-19T21:04:58.185323+00:00",
    "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
    "started_at": "2026-11-19T21:04:19.955340+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
