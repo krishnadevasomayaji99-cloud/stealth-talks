@@ -1,0 +1,37 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: school corridor, living room, snow; floating ? icons counter",
+ "genre": "true_story",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "reversal",
+ "reveal_word": "burst",
+ "open_loops": [
+  {"t": 3, "q": "why does Mia have a question mark"},
+  {"t": 14, "q": "how many will pile up"},
+  {"t": 27, "q": "what makes them go away"}
+ ],
+ "breaks": ["whip-flash cuts between sets", "camera shake on the fall", "floating ? icons stacking 1 to 4", "turn to viewer"],
+ "closer": "answer honestly when someone asks if you are okay",
+ "audience": "In This Town viewers who like emotional stories and share them with a friend",
+ "takeaway": "being asked twice is care, not a burden; tell the truth",
+ "voice": "warm narrator",
+ "action": "answer honestly when someone asks if you are okay",
+ "approved_facts": ["fiction, no factual claims"],
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: school corridor, living room, snow field",
+  "sky/light: school lights, warm indoor, pale snow",
+  "cast: red-shirt Mia, teacher, dad, best friend",
+  "counter: floating question-mark icons over the head plus HUD",
+  "camera: close two-shot, shake on the fall",
+  "gag: marks stack and burst into light",
+  "music: quirky bed",
+  "ending: hug then address viewer"
+ ],
+ "hook_check": {
+  "chosen": "In this town, a question mark floats over you when someone worries.",
+  "scores": {"specificity": 4, "address": 4, "stakes": 4, "front_load": 4, "total": 16},
+  "note": "scored with skills/reel-hook-check; 'flower grows over you' variant style reused; this one shows a new visible icon device"
+ }
+}

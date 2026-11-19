@@ -70,9 +70,13 @@ def knock():  # three wooden knocks: short low-passed noise bursts + 180 Hz thum
 def wind():  # 1.4 s swelling wind: band-limited noise with a slow rise/fall and slight whistle
     x = t(1.4); n = lowpass(np.random.randn(len(x)), 24)*np.sin(np.pi*x/1.4)**2
     return n + .12*np.sin(2*np.pi*(520+60*np.sin(x*3))*x)*np.sin(np.pi*x/1.4)**2
+def question():  # "huh?" two-note rising boing for a floating ? icon: sine glide up with a small wobble, then a soft pop
+    x = t(.55); f = 330 + 330*np.clip(x/.35, 0, 1)**1.6 + 18*np.sin(x*40)
+    y = np.sin(2*np.pi*np.cumsum(f)/SR)*np.exp(-x*3.5)*env(len(x), .004, .12)
+    return y + .25*np.sin(4*np.pi*np.cumsum(f)/SR)*np.exp(-x*7)
 def write(p, y):
     y = (np.clip(norm(y), -1, 1)*32767).astype("<i2")
     with wave.open(str(p), "wb") as w: w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(y.tobytes())
 if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "assets/sfx"); out.mkdir(parents=True, exist_ok=True)
-    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk, heartbeat=heartbeat, music_box=music_box, sparkle=sparkle, knock=knock, wind=wind).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")
+    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk, heartbeat=heartbeat, music_box=music_box, sparkle=sparkle, knock=knock, wind=wind, question=question).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")

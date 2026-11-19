@@ -44,3 +44,9 @@
 - ANIMATION upgrade: `B.stage('roof',{dawn:true})` = warm dawn sky, orange fog and a big low sun (used by g1). 
 - SOUND upgrade: scripts/mix.py now ends with `alimiter=limit=0.8` after loudnorm; the bright bed measured -0.1 dBTP and failed the audio gate before this.
 - New Reels: ST-20261119-t1-flower (THANKS flower counter, room/forest/beach/room, sad bed, hug + petals), ST-20261119-g1-launchday. Lesson: hook line must be <=14 words (gate).
+
+## 19 Nov 2026 (evening daily improvement run, cloud + Chrome)
+- Instagram (Chrome, signed in, no ViralSpy): top "in this town" still rearend_stories 1.7M (face close-ups, floating yellow "?", caption word highlight); new zaylento "In This Town, Everything Is Normal!" 189K in 1 day, craftee Halloween dread 227K. Logged in project doc series-in-this-town.
+- ANIMATION upgrade: `B3.icon(ch,col)` + `B3.iconPop(sprite,t,t0,t1,scale)` = floating bouncing "?" / "!" icons that pop over a head (outBack scale, wobble), plus `B3.blurEdges` now exported; first use ST-20261119-v1-worry (up to 4 ? stacking over Mia, HUD counter, burst to 0).
+- SOUND upgrade: scripts/sfx_synth.py `question` (rising wobble "huh?" glide) fires on every ? icon pop; bed quirky; sparkle+boom on the burst. Judge via metrics 20 Nov.
+- GTA lane: no new official facts found today beyond release 19 Nov (already covered by g1-launchday); no extra GTA Reel built.

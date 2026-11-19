@@ -184,6 +184,9 @@ function stage(kind,o){o=o||{};
     w=wrap(scene,cam);w.anim.push(t=>{fo.position.z=-30+Math.sin(t*0.9)*4;sea.position.y=-0.1+Math.sin(t*1.4)*0.08;});}
   else {w=world(o);return w;}
   return w;}
+function icon(ch,col){const c=document.createElement('canvas');c.width=c.height=256;const g=c.getContext('2d');g.font='900 220px "DejaVu Sans", Arial';g.textAlign='center';g.textBaseline='middle';g.lineJoin='round';g.lineWidth=26;g.strokeStyle='#3a2a00';g.strokeText(ch,128,138);g.fillStyle=col||'#ffd60a';g.fillText(ch,128,138);const tx=new T.CanvasTexture(c);const sp=new T.Sprite(new T.SpriteMaterial({map:tx,transparent:true,depthTest:false,fog:false}));sp.renderOrder=999;sp.visible=false;return sp;}
+// iconPop(sprite,t,t0,t1,[baseScale]): pops in with a bounce at t0, wobbles, vanishes at t1 (floating ?/! over a head)
+function iconPop(sp,t,t0,t1,s){s=s||3.2;const on=t>=t0&&t<t1;sp.visible=on;if(!on)return;const u=clamp((t-t0)/0.28),k=outBack(u);sp.scale.set(s*k,s*k,1);sp.material.rotation=Math.sin((t-t0)*9)*0.12;sp.position.y=(sp.userData.y0==null?(sp.userData.y0=sp.position.y):sp.userData.y0)+Math.sin((t-t0)*5)*0.25;}
 function shake(t,t0,amp,dur){dur=dur||0.5;const d=t-t0;if(d<0||d>dur)return [0,0,0];const a=amp*(1-d/dur);return [Math.sin(d*90)*a,Math.cos(d*77)*a*0.7,Math.sin(d*61)*a*0.4];}
-window.B3={shake,world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
+window.B3={icon,iconPop,blurEdges,shake,world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
 })();
