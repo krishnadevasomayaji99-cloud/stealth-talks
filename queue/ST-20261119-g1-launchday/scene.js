@@ -1,6 +1,6 @@
 window.SCENE=function(a){const {k,ease,clamp}=a;const B=window.B3;
 const WX=(q,n=0)=>{let c=0;for(const w of a.words){if(w.w.toLowerCase().replace(/[^a-z0-9']/g,'')===q){if(c===n)return w.start;c++;}}throw new Error('word not found: '+q);};
-const tDay=WX('day'),tMax=WX('max'),tThree=WX('three'),tRan=WX('ran'),tSlip=WX('slipped'),tRoof=WX('roof'),tLight=WX('light'),tJump=WX('jumped'),tCheck=WX('check',1),tEnd=a.words[a.words.length-1].end+0.5;
+const tDay=WX('day'),tMax=WX('max'),tThree=WX('three'),tRan=WX('ran'),tSlip=WX('slipped'),tRoof=WX('roof'),tLight=WX('light'),tJump=WX('jumped'),tCheck=WX('check'),tEnd=a.words[a.words.length-1].end+0.5;
 const tSnowIn=tRan-0.5,tRoofIn=tRoof-0.6;
 const cues=[{t:0.05,sfx:'pop',gain:0.6},{t:tDay,sfx:'boom',gain:0.8},{t:tMax,sfx:'tick',gain:0.7},{t:tThree,sfx:'static',gain:0.4},{t:tSnowIn,sfx:'whoosh',gain:0.8},{t:tSnowIn,sfx:'wind',gain:0.7},{t:tSlip,sfx:'thud',gain:0.9},{t:tRoofIn,sfx:'whoosh',gain:0.8},{t:tLight-0.4,sfx:'rise',gain:0.8},{t:tLight,sfx:'sparkle',gain:1},{t:tJump,sfx:'boom',gain:0.9},{t:tCheck,sfx:'chime',gain:0.7}];
 const pat=t=>t>=tLight?100:t>=tRan?3:t>=tThree?6:t>=tMax?12:100;
