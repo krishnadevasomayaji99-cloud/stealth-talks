@@ -1,0 +1,7 @@
+{"series": true, "style": "blocky3d", "style_id": "blocky 3D: bedroom 3am, snow run, rooftop sunrise; PATIENCE bar HUD", "genre": "countdown", "hook_type": "news_first", "cliffhanger": "reversal", "reveal_word": "light",
+ "open_loops": [{"t": 3, "q": "why is the patience bar empty"}, {"t": 12, "q": "where is Max running"}, {"t": 22, "q": "what happens at the roof"}],
+ "breaks": ["whip-flash cuts between sets", "camera shake on slip", "bar drains then flashes", "turn to viewer"],
+ "closer": "check your store page", "audience": "GTA 6 fans on launch day", "takeaway": "GTA 6 releases today, check your own store time", "voice": "calm excited narrator", "action": "check store page",
+ "approved_facts": ["Rockstar Newswire: Grand Theft Auto VI releases Thursday, November 19, 2026 (opened 19 Nov 2026)"], "production_limits": "blocky3d, original character, no Rockstar assets",
+ "variety": ["setting: bedroom, snow, rooftop", "sky/light: night room, pale snow, dawn roof", "cast: Max red hoodie", "counter: patience bar HUD", "camera: follow, side, low hero", "gag: slip and roll", "music: bright bed", "ending: address viewer"],
+ "hook_check": {"chosen": "Today is the day. Rockstar says Grand Theft Auto VI releases on Thursday, November nineteenth.", "scores": {"specificity": 5, "address": 3, "stakes": 4, "front_load": 5, "total": 17}, "note": "timely release-day news"}}
