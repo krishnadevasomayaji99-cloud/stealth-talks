@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "b6b5d2094a98cbcf00210d593b319b0251a642cd31cd1fdedd27dbc23e96a44e",
+  "by": "Claude (model)",
+  "at": "2026-11-19T15:25:56.093395+00:00",
+  "note": "original fiction (Walt, his son, unsaid-words-become-snow rule); no real people; hook-check 17/20; arc loss then reunion then lesson line",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "b6b5d2094a98cbcf00210d593b319b0251a642cd31cd1fdedd27dbc23e96a44e",
+  "by": "Claude (model)",
+  "at": "2026-11-19T15:25:56.167275+00:00",
+  "note": "real render frames viewed 19 Nov at 3,7,11,15,19,23,27,29 s of a 31.2 s render: aerial snow cabin, warm room, snow yard hug, gold beach; UNSAID=SNOW counter 4 to 165 to 0; audio_report pass -15.3 LUFS WER 0.02; 30 MB file; not full playback",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "9222a87ee859791a00e50f98552a5d9abb79f27580fa43465db759ecf33829d4",
+  "by": "Claude (model)",
+  "at": "2026-11-19T15:25:56.217764+00:00",
+  "note": "University of Chicago News page opened 19 Nov 2026: Kumar and Epley, four experiments, senders underestimated recipients' positive feelings and surprise, overestimated awkwardness; Psychological Science 27 June 2018",
+  "listened": false
+ }
+}
