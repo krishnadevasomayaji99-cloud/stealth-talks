@@ -7,16 +7,16 @@
  {
   "w": "this",
   "start": 0.34,
-  "end": 0.46
+  "end": 0.48
  },
  {
   "w": "town,",
-  "start": 0.46,
+  "start": 0.48,
   "end": 0.72
  },
  {
   "w": "the",
-  "start": 0.94,
+  "start": 0.96,
   "end": 1.0
  },
  {
@@ -56,332 +56,422 @@
  },
  {
   "w": "Walt",
-  "start": 3.34,
-  "end": 3.52
+  "start": 3.3,
+  "end": 3.5
  },
  {
   "w": "never",
-  "start": 3.52,
+  "start": 3.5,
   "end": 3.74
  },
  {
   "w": "told",
   "start": 3.74,
-  "end": 4.08
+  "end": 4.1
  },
  {
   "w": "his",
-  "start": 4.08,
+  "start": 4.1,
   "end": 4.24
  },
  {
   "w": "son",
   "start": 4.24,
-  "end": 4.44
+  "end": 4.42
  },
  {
   "w": "one",
-  "start": 4.44,
-  "end": 4.64
+  "start": 4.42,
+  "end": 4.6
  },
  {
   "w": "thing.",
-  "start": 4.64,
-  "end": 4.9
+  "start": 4.6,
+  "end": 4.88
  },
  {
-  "w": "By",
-  "start": 5.38,
+  "w": "He",
+  "start": 5.22,
+  "end": 5.26
+ },
+ {
+  "w": "wanted",
+  "start": 5.26,
   "end": 5.42
  },
  {
-  "w": "Monday,",
+  "w": "to.",
   "start": 5.42,
   "end": 5.68
  },
  {
-  "w": "it",
-  "start": 5.9,
-  "end": 5.96
+  "w": "The",
+  "start": 5.88,
+  "end": 6.02
  },
  {
-  "w": "was",
-  "start": 5.96,
-  "end": 6.06
+  "w": "words",
+  "start": 6.02,
+  "end": 6.2
  },
  {
-  "w": "ten",
-  "start": 6.06,
-  "end": 6.316
+  "w": "just",
+  "start": 6.2,
+  "end": 6.44
  },
  {
-  "w": "centimetres",
-  "start": 6.33,
-  "end": 6.586
+  "w": "would",
+  "start": 6.44,
+  "end": 6.58
  },
  {
-  "w": "deep.",
-  "start": 6.6,
-  "end": 7.08
+  "w": "not",
+  "start": 6.58,
+  "end": 6.74
+ },
+ {
+  "w": "come",
+  "start": 6.74,
+  "end": 6.94
+ },
+ {
+  "w": "out.",
+  "start": 6.94,
+  "end": 7.1
  },
  {
   "w": "By",
-  "start": 7.7,
-  "end": 7.84
+  "start": 7.4,
+  "end": 7.54
+ },
+ {
+  "w": "Monday,",
+  "start": 7.54,
+  "end": 7.88
+ },
+ {
+  "w": "it",
+  "start": 7.88,
+  "end": 8.04
+ },
+ {
+  "w": "was",
+  "start": 8.04,
+  "end": 8.12
+ },
+ {
+  "w": "ten",
+  "start": 8.12,
+  "end": 8.386
+ },
+ {
+  "w": "centimetres",
+  "start": 8.4,
+  "end": 8.666
+ },
+ {
+  "w": "deep.",
+  "start": 8.68,
+  "end": 9.16
+ },
+ {
+  "w": "By",
+  "start": 9.78,
+  "end": 9.9
  },
  {
   "w": "Friday,",
-  "start": 7.84,
-  "end": 8.18
+  "start": 9.9,
+  "end": 10.26
  },
  {
   "w": "it",
-  "start": 8.3,
-  "end": 8.6
+  "start": 10.26,
+  "end": 10.66
  },
  {
   "w": "reached",
-  "start": 8.6,
-  "end": 8.74
- },
- {
-  "w": "his",
-  "start": 8.74,
-  "end": 8.98
- },
- {
-  "w": "windows.",
-  "start": 8.98,
-  "end": 9.2
- },
- {
-  "w": "He",
-  "start": 10.08,
-  "end": 10.16
- },
- {
-  "w": "sat",
-  "start": 10.16,
-  "end": 10.3
- },
- {
-  "w": "inside",
-  "start": 10.3,
+  "start": 10.66,
   "end": 10.82
  },
  {
-  "w": "and",
+  "w": "his",
   "start": 10.82,
-  "end": 10.96
+  "end": 11.04
  },
  {
-  "w": "stared",
-  "start": 10.96,
-  "end": 11.2
- },
- {
-  "w": "at",
-  "start": 11.2,
-  "end": 11.38
- },
- {
-  "w": "the",
-  "start": 11.38,
-  "end": 11.46
- },
- {
-  "w": "phone,",
-  "start": 11.46,
-  "end": 11.72
- },
- {
-  "w": "too",
-  "start": 11.96,
-  "end": 12.04
- },
- {
-  "w": "stubborn",
-  "start": 12.04,
-  "end": 12.3
- },
- {
-  "w": "to",
-  "start": 12.3,
-  "end": 12.54
- },
- {
-  "w": "call.",
-  "start": 12.54,
-  "end": 12.76
- },
- {
-  "w": "His",
-  "start": 13.4,
-  "end": 13.5
- },
- {
-  "w": "son",
-  "start": 13.5,
-  "end": 13.74
- },
- {
-  "w": "knocked",
-  "start": 13.74,
-  "end": 13.96
- },
- {
-  "w": "anyway.",
-  "start": 13.96,
-  "end": 14.4
- },
- {
-  "w": "Walt",
-  "start": 14.88,
-  "end": 15.08
- },
- {
-  "w": "opened",
-  "start": 15.08,
-  "end": 15.42
- },
- {
-  "w": "the",
-  "start": 15.42,
-  "end": 15.54
- },
- {
-  "w": "door,",
-  "start": 15.54,
-  "end": 15.74
- },
- {
-  "w": "and",
-  "start": 15.74,
-  "end": 15.92
- },
- {
-  "w": "snow",
-  "start": 15.92,
-  "end": 16.16
- },
- {
-  "w": "poured",
-  "start": 16.16,
-  "end": 16.42
- },
- {
-  "w": "in.",
-  "start": 16.42,
-  "end": 16.68
+  "w": "windows.",
+  "start": 11.04,
+  "end": 11.26
  },
  {
   "w": "He",
-  "start": 17.3,
-  "end": 17.42
+  "start": 12.16,
+  "end": 12.24
  },
  {
-  "w": "whispered,",
-  "start": 17.42,
-  "end": 17.6
+  "w": "sat",
+  "start": 12.24,
+  "end": 12.38
  },
  {
-  "w": "I'm",
-  "start": 17.98,
-  "end": 18.12
+  "w": "inside",
+  "start": 12.38,
+  "end": 12.66
  },
  {
-  "w": "proud",
-  "start": 18.12,
-  "end": 18.3
+  "w": "and",
+  "start": 12.66,
+  "end": 13.04
  },
  {
-  "w": "of",
-  "start": 18.3,
-  "end": 18.54
- },
- {
-  "w": "you.",
-  "start": 18.54,
-  "end": 18.7
- },
- {
-  "w": "The",
-  "start": 19.34,
-  "end": 19.44
- },
- {
-  "w": "snow",
-  "start": 19.44,
-  "end": 19.64
- },
- {
-  "w": "stopped.",
-  "start": 19.64,
-  "end": 19.92
- },
- {
-  "w": "The",
-  "start": 20.32,
-  "end": 20.38
- },
- {
-  "w": "sky",
-  "start": 20.38,
-  "end": 20.56
- },
- {
-  "w": "turned",
-  "start": 20.56,
-  "end": 20.88
- },
- {
-  "w": "gold.",
-  "start": 20.88,
-  "end": 21.1
- },
- {
-  "w": "Everything",
-  "start": 21.4,
-  "end": 21.66
- },
- {
-  "w": "melted",
-  "start": 21.66,
-  "end": 21.98
+  "w": "stared",
+  "start": 13.04,
+  "end": 13.26
  },
  {
   "w": "at",
-  "start": 21.98,
-  "end": 22.2
+  "start": 13.26,
+  "end": 13.46
+ },
+ {
+  "w": "the",
+  "start": 13.46,
+  "end": 13.52
+ },
+ {
+  "w": "phone,",
+  "start": 13.52,
+  "end": 13.78
+ },
+ {
+  "w": "too",
+  "start": 14.04,
+  "end": 14.12
+ },
+ {
+  "w": "stubborn",
+  "start": 14.12,
+  "end": 14.34
+ },
+ {
+  "w": "to",
+  "start": 14.34,
+  "end": 14.6
+ },
+ {
+  "w": "call.",
+  "start": 14.6,
+  "end": 14.8
+ },
+ {
+  "w": "His",
+  "start": 15.5,
+  "end": 15.58
+ },
+ {
+  "w": "son",
+  "start": 15.58,
+  "end": 15.8
+ },
+ {
+  "w": "knocked",
+  "start": 15.8,
+  "end": 16.06
+ },
+ {
+  "w": "anyway.",
+  "start": 16.06,
+  "end": 16.46
+ },
+ {
+  "w": "Walt",
+  "start": 16.98,
+  "end": 17.14
+ },
+ {
+  "w": "opened",
+  "start": 17.14,
+  "end": 17.48
+ },
+ {
+  "w": "the",
+  "start": 17.48,
+  "end": 17.62
+ },
+ {
+  "w": "door,",
+  "start": 17.62,
+  "end": 17.8
+ },
+ {
+  "w": "and",
+  "start": 17.8,
+  "end": 17.98
+ },
+ {
+  "w": "snow",
+  "start": 17.98,
+  "end": 18.22
+ },
+ {
+  "w": "poured",
+  "start": 18.22,
+  "end": 18.48
+ },
+ {
+  "w": "in.",
+  "start": 18.48,
+  "end": 18.76
+ },
+ {
+  "w": "He",
+  "start": 19.38,
+  "end": 19.46
+ },
+ {
+  "w": "whispered,",
+  "start": 19.46,
+  "end": 19.62
+ },
+ {
+  "w": "I'm",
+  "start": 19.62,
+  "end": 20.04
+ },
+ {
+  "w": "proud",
+  "start": 20.04,
+  "end": 20.22
+ },
+ {
+  "w": "of",
+  "start": 20.22,
+  "end": 20.42
+ },
+ {
+  "w": "you.",
+  "start": 20.42,
+  "end": 20.54
+ },
+ {
+  "w": "His",
+  "start": 20.68,
+  "end": 20.82
+ },
+ {
+  "w": "voice",
+  "start": 20.82,
+  "end": 21.0
+ },
+ {
+  "w": "shook.",
+  "start": 21.0,
+  "end": 21.3
+ },
+ {
+  "w": "His",
+  "start": 21.74,
+  "end": 21.82
+ },
+ {
+  "w": "son",
+  "start": 21.82,
+  "end": 22.04
+ },
+ {
+  "w": "held",
+  "start": 22.04,
+  "end": 22.24
+ },
+ {
+  "w": "on",
+  "start": 22.24,
+  "end": 22.44
+ },
+ {
+  "w": "tighter.",
+  "start": 22.44,
+  "end": 22.64
+ },
+ {
+  "w": "The",
+  "start": 23.44,
+  "end": 23.52
+ },
+ {
+  "w": "snow",
+  "start": 23.52,
+  "end": 23.7
+ },
+ {
+  "w": "stopped.",
+  "start": 23.7,
+  "end": 24.0
+ },
+ {
+  "w": "The",
+  "start": 24.4,
+  "end": 24.46
+ },
+ {
+  "w": "sky",
+  "start": 24.46,
+  "end": 24.64
+ },
+ {
+  "w": "turned",
+  "start": 24.64,
+  "end": 24.94
+ },
+ {
+  "w": "gold.",
+  "start": 24.94,
+  "end": 25.2
+ },
+ {
+  "w": "Everything",
+  "start": 25.46,
+  "end": 25.78
+ },
+ {
+  "w": "melted",
+  "start": 25.78,
+  "end": 26.02
+ },
+ {
+  "w": "at",
+  "start": 26.02,
+  "end": 26.28
  },
  {
   "w": "once.",
-  "start": 22.2,
-  "end": 22.4
+  "start": 26.28,
+  "end": 26.46
  },
  {
   "w": "Say",
-  "start": 22.4,
-  "end": 23.28
+  "start": 26.46,
+  "end": 27.36
  },
  {
   "w": "it",
-  "start": 23.28,
-  "end": 23.42
+  "start": 27.36,
+  "end": 27.48
  },
  {
   "w": "before",
-  "start": 23.42,
-  "end": 23.64
+  "start": 27.48,
+  "end": 27.72
  },
  {
   "w": "it",
-  "start": 23.64,
-  "end": 24.109
+  "start": 27.72,
+  "end": 28.186
  },
  {
   "w": "snows.",
-  "start": 24.134,
-  "end": 24.603
+  "start": 28.211,
+  "end": 28.677
  }
 ]
