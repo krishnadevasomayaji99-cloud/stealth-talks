@@ -2,11 +2,11 @@
  {
   "w": "Today",
   "start": 0.0,
-  "end": 0.46
+  "end": 0.38
  },
  {
   "w": "is",
-  "start": 0.46,
+  "start": 0.38,
   "end": 0.76
  },
  {
@@ -17,36 +17,36 @@
  {
   "w": "day.",
   "start": 0.9,
-  "end": 1.2
+  "end": 1.14
  },
  {
   "w": "Rockstar",
-  "start": 1.6,
+  "start": 1.62,
   "end": 2.04
  },
  {
   "w": "says",
   "start": 2.04,
-  "end": 2.28
+  "end": 2.26
  },
  {
   "w": "Grand",
-  "start": 2.28,
+  "start": 2.26,
   "end": 2.54
  },
  {
   "w": "Theft",
   "start": 2.54,
-  "end": 2.82
+  "end": 2.8
  },
  {
   "w": "Auto",
-  "start": 2.82,
-  "end": 3.18
+  "start": 2.8,
+  "end": 3.2
  },
  {
   "w": "VI",
-  "start": 3.18,
+  "start": 3.2,
   "end": 3.48
  },
  {
@@ -112,31 +112,31 @@
  {
   "w": "patience",
   "start": 9.0,
-  "end": 9.38
+  "end": 9.4
  },
  {
   "w": "bar",
-  "start": 9.38,
+  "start": 9.4,
   "end": 9.68
  },
  {
   "w": "was",
   "start": 9.68,
-  "end": 9.96
+  "end": 9.94
  },
  {
   "w": "almost",
-  "start": 9.96,
+  "start": 9.94,
   "end": 10.26
  },
  {
   "w": "empty.",
   "start": 10.26,
-  "end": 10.72
+  "end": 10.74
  },
  {
   "w": "At",
-  "start": 11.34,
+  "start": 11.36,
   "end": 11.48
  },
  {
@@ -157,11 +157,11 @@
  {
   "w": "morning,",
   "start": 11.94,
-  "end": 12.16
+  "end": 12.14
  },
  {
   "w": "he",
-  "start": 12.16,
+  "start": 12.14,
   "end": 12.36
  },
  {
@@ -181,7 +181,7 @@
  },
  {
   "w": "staring",
-  "start": 13.3,
+  "start": 13.28,
   "end": 13.5
  },
  {
@@ -197,11 +197,11 @@
  {
   "w": "clock.",
   "start": 13.82,
-  "end": 14.0
+  "end": 13.98
  },
  {
   "w": "He",
-  "start": 14.76,
+  "start": 14.74,
   "end": 14.86
  },
  {
@@ -237,11 +237,11 @@
  {
   "w": "into",
   "start": 16.2,
-  "end": 16.6
+  "end": 16.62
  },
  {
   "w": "the",
-  "start": 16.6,
+  "start": 16.62,
   "end": 16.76
  },
  {
@@ -251,7 +251,7 @@
  },
  {
   "w": "He",
-  "start": 17.74,
+  "start": 17.78,
   "end": 17.86
  },
  {
@@ -262,11 +262,11 @@
  {
   "w": "rolled,",
   "start": 18.1,
-  "end": 18.38
+  "end": 18.4
  },
  {
   "w": "and",
-  "start": 18.38,
+  "start": 18.4,
   "end": 18.74
  },
  {
@@ -312,16 +312,16 @@
  {
   "w": "and",
   "start": 21.14,
-  "end": 21.42
+  "end": 21.4
  },
  {
   "w": "looked",
-  "start": 21.42,
-  "end": 21.58
+  "start": 21.4,
+  "end": 21.6
  },
  {
   "w": "at",
-  "start": 21.58,
+  "start": 21.6,
   "end": 21.78
  },
  {
@@ -332,16 +332,16 @@
  {
   "w": "dark",
   "start": 21.84,
-  "end": 22.04
+  "end": 22.06
  },
  {
   "w": "sky.",
-  "start": 22.04,
+  "start": 22.06,
   "end": 22.3
  },
  {
   "w": "Then",
-  "start": 23.16,
+  "start": 23.18,
   "end": 23.28
  },
  {
@@ -357,11 +357,11 @@
  {
   "w": "light",
   "start": 23.64,
-  "end": 23.9
+  "end": 23.92
  },
  {
   "w": "came",
-  "start": 23.9,
+  "start": 23.92,
   "end": 24.18
  },
  {
@@ -372,11 +372,11 @@
  {
   "w": "over",
   "start": 24.34,
-  "end": 24.56
+  "end": 24.54
  },
  {
   "w": "the",
-  "start": 24.56,
+  "start": 24.54,
   "end": 24.66
  },
  {
@@ -386,107 +386,107 @@
  },
  {
   "w": "Launch",
-  "start": 24.92,
-  "end": 25.82
+  "start": 25.64,
+  "end": 25.84
  },
  {
   "w": "day",
-  "start": 25.82,
-  "end": 26.06
+  "start": 25.84,
+  "end": 26.04
  },
  {
   "w": "had",
-  "start": 26.06,
+  "start": 26.04,
   "end": 26.22
  },
  {
   "w": "finally",
   "start": 26.22,
-  "end": 26.54
+  "end": 26.5
  },
  {
   "w": "started,",
-  "start": 26.54,
-  "end": 27.04
+  "start": 26.5,
+  "end": 26.98
  },
  {
   "w": "and",
-  "start": 27.04,
+  "start": 26.98,
   "end": 27.38
  },
  {
   "w": "Max",
   "start": 27.38,
-  "end": 27.58
+  "end": 27.56
  },
  {
   "w": "jumped",
-  "start": 27.58,
+  "start": 27.56,
   "end": 27.9
  },
  {
   "w": "for",
   "start": 27.9,
-  "end": 28.14
+  "end": 28.12
  },
  {
   "w": "joy.",
-  "start": 28.14,
+  "start": 28.12,
   "end": 28.36
  },
  {
   "w": "Check",
-  "start": 29.12,
-  "end": 29.24
+  "start": 29.28,
+  "end": 29.28
  },
  {
   "w": "your",
-  "start": 29.24,
+  "start": 29.28,
   "end": 29.4
  },
  {
   "w": "own",
   "start": 29.4,
-  "end": 29.54
+  "end": 29.52
  },
  {
   "w": "store",
-  "start": 29.54,
+  "start": 29.52,
   "end": 29.76
  },
  {
   "w": "page",
   "start": 29.76,
-  "end": 30.04
+  "end": 30.06
  },
  {
   "w": "for",
-  "start": 30.04,
+  "start": 30.06,
   "end": 30.34
  },
  {
   "w": "your",
   "start": 30.34,
-  "end": 30.46
+  "end": 30.48
  },
  {
   "w": "exact",
-  "start": 30.46,
-  "end": 30.74
+  "start": 30.48,
+  "end": 30.7
  },
  {
   "w": "unlock",
-  "start": 30.74,
-  "end": 31.14
+  "start": 30.7,
+  "end": 31.16
  },
  {
   "w": "time.",
-  "start": 31.14,
-  "end": 31.64
+  "start": 31.16,
+  "end": 31.76
  },
  {
   "w": "Sleep",
-  "start": 32.32,
+  "start": 32.36,
   "end": 32.54
  },
  {
@@ -496,32 +496,32 @@
  },
  {
   "w": "The",
-  "start": 32.8,
+  "start": 32.98,
   "end": 33.04
  },
  {
   "w": "game",
   "start": 33.04,
-  "end": 33.18
+  "end": 33.22
  },
  {
   "w": "will",
-  "start": 33.18,
-  "end": 33.38
+  "start": 33.22,
+  "end": 33.4
  },
  {
   "w": "still",
-  "start": 33.38,
-  "end": 33.6
+  "start": 33.4,
+  "end": 33.62
  },
  {
   "w": "be",
-  "start": 33.6,
-  "end": 33.86
+  "start": 33.62,
+  "end": 33.88
  },
  {
   "w": "there.",
-  "start": 33.86,
-  "end": 34.1
+  "start": 33.88,
+  "end": 34.12
  }
 ]
