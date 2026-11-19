@@ -708,10 +708,15 @@
    "state": "failed_before_upload"
   },
   {
+   "container": "18005662838822257",
    "key": "ST-20261119-a-unsaid-snow",
+   "media_id": "18113421577927000",
+   "permalink": "https://www.instagram.com/reel/Df7rZZCDl36/",
+   "published_at": "2026-11-19T18:02:53.060970+00:00",
+   "reencoded": true,
    "sha256": "b6b5d2094a98cbcf00210d593b319b0251a642cd31cd1fdedd27dbc23e96a44e",
    "started_at": "2026-11-19T18:01:46.546942+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
