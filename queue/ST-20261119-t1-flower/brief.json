@@ -1,0 +1,7 @@
+{"series": true, "style": "blocky3d", "style_id": "blocky 3D: living room, forest run, beach; THANKS flower counter", "genre": "true_story", "hook_type": "absurd_rule", "cliffhanger": "reversal", "reveal_word": "petals",
+ "open_loops": [{"t": 3, "q": "why is Leo's flower almost gone"}, {"t": 12, "q": "who did Leo help"}, {"t": 22, "q": "will the flowers come back"}],
+ "breaks": ["whip-flash cuts between sets", "camera shake on the fall in the mud", "flower pop stingers", "counter jumps from 0 to 11", "turn to viewer"],
+ "closer": "thank someone out loud", "audience": "cold-feed viewers who like emotional In This Town stories", "takeaway": "quiet helpers rarely get thanked", "voice": "warm narrator", "action": "thank one person today",
+ "approved_facts": ["fiction, no factual claims"], "production_limits": "blocky3d, original characters, no brands",
+ "variety": ["setting: living room, forest, beach", "sky/light: warm room, dark green forest, bright beach", "cast: grey-haired Leo, boy Sam, girl with bike", "counter: floating THANKS tag over Leo plus HUD", "camera: follow, side track, shake on fall", "gag: mud fall, petals", "music: sad bed", "ending: hug then address viewer"],
+ "hook_check": {"chosen": "In this town, a flower grows over your head every time someone says thank you.", "scores": {"specificity": 4, "address": 4, "stakes": 4, "front_load": 5, "total": 17}, "note": "alternative 'everyone has a gratitude meter' scored 13"}}
