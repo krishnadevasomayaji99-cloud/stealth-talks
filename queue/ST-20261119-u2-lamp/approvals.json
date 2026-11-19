@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "f52f27e2c477bb0f5e8c1e0a44181e4d8582c7a9bf10f7a33d4d35b46b38a236",
+  "by": "Claude (model)",
+  "at": "2026-11-19T18:39:48.546889+00:00",
+  "note": "frames viewed 19 Nov evening (3 sets, action each beat, counter OK); pure fiction, original characters, no factual claims; audio gate pass; listening waived",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "f52f27e2c477bb0f5e8c1e0a44181e4d8582c7a9bf10f7a33d4d35b46b38a236",
+  "by": "Claude (model)",
+  "at": "2026-11-19T18:39:48.639796+00:00",
+  "note": "frames viewed 19 Nov evening (3 sets, action each beat, counter OK); pure fiction, original characters, no factual claims; audio gate pass; listening waived",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "25b72b0947b51b0c0504371e77cb39efafe701332b98b4f4012f2bdd1d022507",
+  "by": "Claude (model)",
+  "at": "2026-11-19T18:39:48.701448+00:00",
+  "note": "frames viewed 19 Nov evening (3 sets, action each beat, counter OK); pure fiction, original characters, no factual claims; audio gate pass; listening waived",
+  "listened": false
+ }
+}
