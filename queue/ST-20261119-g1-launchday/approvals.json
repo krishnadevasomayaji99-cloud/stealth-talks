@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "a503f2df84f9df54f030be70ab50b64889c99e943350232e4fbc0b2201c71783",
+  "by": "Claude (model)",
+  "at": "2026-11-19T03:38:08.382367+00:00",
+  "note": "frames viewed 19 Nov; fiction skit with original character; only fact (release Thu 19 Nov 2026) opened on Rockstar newswire page metadata; listening waived",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "a503f2df84f9df54f030be70ab50b64889c99e943350232e4fbc0b2201c71783",
+  "by": "Claude (model)",
+  "at": "2026-11-19T03:38:08.435537+00:00",
+  "note": "frames viewed 19 Nov; fiction skit with original character; only fact (release Thu 19 Nov 2026) opened on Rockstar newswire page metadata; listening waived",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "133415c38ce1835268add8405b1749795d9d90837c1d41790d7c37fdd7858be9",
+  "by": "Claude (model)",
+  "at": "2026-11-19T03:38:08.478658+00:00",
+  "note": "frames viewed 19 Nov; fiction skit with original character; only fact (release Thu 19 Nov 2026) opened on Rockstar newswire page metadata; listening waived",
+  "listened": false
+ }
+}
