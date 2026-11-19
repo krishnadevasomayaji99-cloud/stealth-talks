@@ -168,5 +168,10 @@
   "at": "2026-11-19T03:19:44.979168+00:00",
   "key": "metrics",
   "msg": "insights failed for 28 reels (permission?)"
+ },
+ {
+  "at": "2026-11-19T15:55:44.363491+00:00",
+  "key": "metrics",
+  "msg": "insights failed for 28 reels (permission?)"
  }
 ]
