@@ -1,0 +1,59 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: snow bus stop, dawn rooftops, living room; WARMTH counter",
+ "genre": "true_story",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "reversal",
+ "reveal_word": "glowing",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "why is Mia's coat cold"
+  },
+  {
+   "t": 14,
+   "q": "who else will she give to"
+  },
+  {
+   "t": 27,
+   "q": "who is knocking"
+  }
+ ],
+ "breaks": [
+  "whip-flash cuts between sets",
+  "camera shake on handover and knock",
+  "counter 0 to 3",
+  "turn to viewer"
+ ],
+ "closer": "give someone something warm today",
+ "audience": "cold-feed viewers who like emotional In This Town stories",
+ "takeaway": "givers are often the ones who are cold",
+ "voice": "warm narrator",
+ "action": "give someone something warm today",
+ "approved_facts": [
+  "fiction, no factual claims"
+ ],
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: snowy bus stop, dawn rooftops, living room",
+  "sky/light: pale snow day, orange dawn, warm interior",
+  "cast: red-shirt Mia, boy in orange, white-haired baker",
+  "counter: WARMTH tag over Mia plus HUD of things given",
+  "camera: close two-shot, wide roof chase, shake on the knock",
+  "gag: coat handed over, scarf gift, knock at the door",
+  "music: bright bed",
+  "ending: hug then address viewer"
+ ],
+ "hook_check": {
+  "chosen": "In this town, your coat gets warmer each time you give it away.",
+  "scores": {
+   "specificity": 4,
+   "address": 4,
+   "stakes": 4,
+   "front_load": 5,
+   "total": 17
+  },
+  "note": "scored with skills/reel-hook-check; plainer rule variant scored 13"
+ }
+}

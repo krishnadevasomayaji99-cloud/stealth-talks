@@ -1,0 +1,60 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: school corridor, dark forest, beach house; VISITS counter",
+ "genre": "true_story",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "reversal",
+ "reveal_word": "nine",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "why is Rosa's lamp dark"
+  },
+  {
+   "t": 13,
+   "q": "will Eli make it"
+  },
+  {
+   "t": 24,
+   "q": "will the lamp relight"
+  }
+ ],
+ "breaks": [
+  "whip-flash cuts",
+  "camera shake on slip",
+  "counter 0 to 1 to 9",
+  "lamp flare flash",
+  "turn to viewer"
+ ],
+ "closer": "visit someone waiting today",
+ "audience": "cold-feed viewers who like emotional In This Town stories",
+ "takeaway": "someone is waiting for a visit",
+ "voice": "warm narrator",
+ "action": "visit someone waiting today",
+ "approved_facts": [
+  "fiction, no factual claims"
+ ],
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: school corridor, dark forest, bright beach",
+  "sky/light: cold fluorescent, dark green night, sunny beach",
+  "cast: boy Eli, grandma Rosa, three neighbors",
+  "counter: VISITS tag over Rosa plus HUD",
+  "camera: rear follow, shake on the slip, wide crowd",
+  "gag: mud slip, neighbor crowd run-in",
+  "music: sad bed",
+  "ending: hug then address viewer"
+ ],
+ "hook_check": {
+  "chosen": "In this town, the lamp above your door dims when nobody visits.",
+  "scores": {
+   "specificity": 4,
+   "address": 4,
+   "stakes": 4,
+   "front_load": 5,
+   "total": 17
+  },
+  "note": "scored with skills/reel-hook-check; plainer rule variant scored 13"
+ }
+}
