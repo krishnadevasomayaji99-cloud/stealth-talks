@@ -14,7 +14,7 @@ if bed:
     fc.append(f"[{bi}:a]aresample=48000,volume=0.38[bd];[bd][vsc]sidechaincompress=threshold=0.03:ratio=10:attack=8:release=300[bdd]");labels.append("[bdd]")
 else:
     fc[0]=fc[0].replace(",asplit=2[v][vsc]","[v]")
-fc.append("".join(labels)+f"amix=inputs={len(labels)}:normalize=0:duration=longest,loudnorm=I=-14:TP=-2:LRA=11[a]")
+fc.append("".join(labels)+f"amix=inputs={len(labels)}:normalize=0:duration=longest,loudnorm=I=-14:TP=-2:LRA=11,alimiter=limit=0.8:level=disabled[a]")
 cmd+=["-filter_complex",";".join(fc),"-map","[a]","-ar","48000","/tmp/mix.wav"]
 r=subprocess.run(cmd,capture_output=True,text=True)
 if r.returncode: print(r.stderr[-600:]); sys.exit(1)
