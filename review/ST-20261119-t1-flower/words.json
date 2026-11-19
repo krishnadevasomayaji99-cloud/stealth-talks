@@ -1,0 +1,532 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.32
+ },
+ {
+  "w": "this",
+  "start": 0.32,
+  "end": 0.44
+ },
+ {
+  "w": "town,",
+  "start": 0.44,
+  "end": 0.7
+ },
+ {
+  "w": "a",
+  "start": 0.92,
+  "end": 0.94
+ },
+ {
+  "w": "flower",
+  "start": 0.94,
+  "end": 1.16
+ },
+ {
+  "w": "grows",
+  "start": 1.16,
+  "end": 1.48
+ },
+ {
+  "w": "over",
+  "start": 1.48,
+  "end": 1.82
+ },
+ {
+  "w": "your",
+  "start": 1.82,
+  "end": 1.92
+ },
+ {
+  "w": "head",
+  "start": 1.92,
+  "end": 2.12
+ },
+ {
+  "w": "every",
+  "start": 2.12,
+  "end": 2.46
+ },
+ {
+  "w": "time",
+  "start": 2.46,
+  "end": 2.84
+ },
+ {
+  "w": "someone",
+  "start": 2.84,
+  "end": 3.14
+ },
+ {
+  "w": "says",
+  "start": 3.14,
+  "end": 3.36
+ },
+ {
+  "w": "thank",
+  "start": 3.36,
+  "end": 3.64
+ },
+ {
+  "w": "you.",
+  "start": 3.64,
+  "end": 3.88
+ },
+ {
+  "w": "Grandpa",
+  "start": 4.28,
+  "end": 4.76
+ },
+ {
+  "w": "Leo's",
+  "start": 4.76,
+  "end": 5.14
+ },
+ {
+  "w": "flower",
+  "start": 5.14,
+  "end": 5.3
+ },
+ {
+  "w": "was",
+  "start": 5.3,
+  "end": 5.66
+ },
+ {
+  "w": "almost",
+  "start": 5.66,
+  "end": 5.96
+ },
+ {
+  "w": "gone.",
+  "start": 5.96,
+  "end": 6.3
+ },
+ {
+  "w": "He",
+  "start": 7.04,
+  "end": 7.12
+ },
+ {
+  "w": "fixed",
+  "start": 7.12,
+  "end": 7.32
+ },
+ {
+  "w": "bikes",
+  "start": 7.32,
+  "end": 7.6
+ },
+ {
+  "w": "and",
+  "start": 7.6,
+  "end": 7.86
+ },
+ {
+  "w": "shared",
+  "start": 7.86,
+  "end": 8.06
+ },
+ {
+  "w": "lunches,",
+  "start": 8.06,
+  "end": 8.54
+ },
+ {
+  "w": "and",
+  "start": 8.84,
+  "end": 8.88
+ },
+ {
+  "w": "nobody",
+  "start": 8.88,
+  "end": 9.12
+ },
+ {
+  "w": "ever",
+  "start": 9.12,
+  "end": 9.5
+ },
+ {
+  "w": "thanked",
+  "start": 9.5,
+  "end": 9.8
+ },
+ {
+  "w": "him.",
+  "start": 9.8,
+  "end": 10.04
+ },
+ {
+  "w": "His",
+  "start": 10.68,
+  "end": 10.72
+ },
+ {
+  "w": "grandson",
+  "start": 10.72,
+  "end": 11.06
+ },
+ {
+  "w": "Sam",
+  "start": 11.06,
+  "end": 11.54
+ },
+ {
+  "w": "noticed.",
+  "start": 11.54,
+  "end": 11.9
+ },
+ {
+  "w": "Sam",
+  "start": 12.72,
+  "end": 13.0
+ },
+ {
+  "w": "ran",
+  "start": 13.0,
+  "end": 13.26
+ },
+ {
+  "w": "into",
+  "start": 13.26,
+  "end": 13.5
+ },
+ {
+  "w": "the",
+  "start": 13.5,
+  "end": 13.62
+ },
+ {
+  "w": "forest",
+  "start": 13.62,
+  "end": 13.94
+ },
+ {
+  "w": "to",
+  "start": 13.94,
+  "end": 14.2
+ },
+ {
+  "w": "find",
+  "start": 14.2,
+  "end": 14.42
+ },
+ {
+  "w": "the",
+  "start": 14.42,
+  "end": 14.54
+ },
+ {
+  "w": "kids",
+  "start": 14.54,
+  "end": 14.76
+ },
+ {
+  "w": "Leo",
+  "start": 14.76,
+  "end": 15.0
+ },
+ {
+  "w": "had",
+  "start": 15.0,
+  "end": 15.24
+ },
+ {
+  "w": "helped.",
+  "start": 15.24,
+  "end": 15.46
+ },
+ {
+  "w": "He",
+  "start": 16.18,
+  "end": 16.24
+ },
+ {
+  "w": "fell",
+  "start": 16.24,
+  "end": 16.4
+ },
+ {
+  "w": "in",
+  "start": 16.4,
+  "end": 16.58
+ },
+ {
+  "w": "the",
+  "start": 16.58,
+  "end": 16.68
+ },
+ {
+  "w": "mud",
+  "start": 16.68,
+  "end": 16.9
+ },
+ {
+  "w": "and",
+  "start": 16.9,
+  "end": 17.12
+ },
+ {
+  "w": "kept",
+  "start": 17.12,
+  "end": 17.32
+ },
+ {
+  "w": "running.",
+  "start": 17.32,
+  "end": 17.7
+ },
+ {
+  "w": "At",
+  "start": 18.46,
+  "end": 18.56
+ },
+ {
+  "w": "the",
+  "start": 18.56,
+  "end": 18.66
+ },
+ {
+  "w": "beach,",
+  "start": 18.66,
+  "end": 18.88
+ },
+ {
+  "w": "he",
+  "start": 19.06,
+  "end": 19.14
+ },
+ {
+  "w": "found",
+  "start": 19.14,
+  "end": 19.3
+ },
+ {
+  "w": "the",
+  "start": 19.3,
+  "end": 19.44
+ },
+ {
+  "w": "girl",
+  "start": 19.44,
+  "end": 19.64
+ },
+ {
+  "w": "whose",
+  "start": 19.64,
+  "end": 19.86
+ },
+ {
+  "w": "bike",
+  "start": 19.86,
+  "end": 20.1
+ },
+ {
+  "w": "Leo",
+  "start": 20.1,
+  "end": 20.4
+ },
+ {
+  "w": "fixed.",
+  "start": 20.4,
+  "end": 20.74
+ },
+ {
+  "w": "She",
+  "start": 21.6,
+  "end": 21.7
+ },
+ {
+  "w": "laughed",
+  "start": 21.7,
+  "end": 21.9
+ },
+ {
+  "w": "and",
+  "start": 21.9,
+  "end": 22.12
+ },
+ {
+  "w": "said",
+  "start": 22.12,
+  "end": 22.32
+ },
+ {
+  "w": "thank",
+  "start": 22.32,
+  "end": 22.56
+ },
+ {
+  "w": "you",
+  "start": 22.56,
+  "end": 22.72
+ },
+ {
+  "w": "out",
+  "start": 22.72,
+  "end": 22.86
+ },
+ {
+  "w": "loud.",
+  "start": 22.86,
+  "end": 23.14
+ },
+ {
+  "w": "One",
+  "start": 24.0,
+  "end": 24.16
+ },
+ {
+  "w": "flower",
+  "start": 24.16,
+  "end": 24.42
+ },
+ {
+  "w": "popped",
+  "start": 24.42,
+  "end": 24.74
+ },
+ {
+  "w": "up.",
+  "start": 24.74,
+  "end": 25.04
+ },
+ {
+  "w": "Then",
+  "start": 25.12,
+  "end": 25.3
+ },
+ {
+  "w": "ten",
+  "start": 25.3,
+  "end": 25.54
+ },
+ {
+  "w": "more.",
+  "start": 25.54,
+  "end": 25.8
+ },
+ {
+  "w": "Sam",
+  "start": 26.36,
+  "end": 26.76
+ },
+ {
+  "w": "raced",
+  "start": 26.76,
+  "end": 26.98
+ },
+ {
+  "w": "home.",
+  "start": 26.98,
+  "end": 27.38
+ },
+ {
+  "w": "The",
+  "start": 27.58,
+  "end": 27.66
+ },
+ {
+  "w": "room",
+  "start": 27.66,
+  "end": 27.84
+ },
+ {
+  "w": "filled",
+  "start": 27.84,
+  "end": 28.08
+ },
+ {
+  "w": "with",
+  "start": 28.08,
+  "end": 28.3
+ },
+ {
+  "w": "petals.",
+  "start": 28.3,
+  "end": 28.72
+ },
+ {
+  "w": "Leo",
+  "start": 28.72,
+  "end": 29.46
+ },
+ {
+  "w": "hugged",
+  "start": 29.46,
+  "end": 29.84
+ },
+ {
+  "w": "him",
+  "start": 29.84,
+  "end": 30.06
+ },
+ {
+  "w": "and",
+  "start": 30.06,
+  "end": 30.14
+ },
+ {
+  "w": "cried.",
+  "start": 30.14,
+  "end": 30.44
+ },
+ {
+  "w": "Somebody",
+  "start": 31.3,
+  "end": 31.54
+ },
+ {
+  "w": "in",
+  "start": 31.54,
+  "end": 31.8
+ },
+ {
+  "w": "your",
+  "start": 31.8,
+  "end": 31.88
+ },
+ {
+  "w": "life",
+  "start": 31.88,
+  "end": 32.08
+ },
+ {
+  "w": "never",
+  "start": 32.08,
+  "end": 32.34
+ },
+ {
+  "w": "hears",
+  "start": 32.34,
+  "end": 32.64
+ },
+ {
+  "w": "thank",
+  "start": 32.64,
+  "end": 32.92
+ },
+ {
+  "w": "you.",
+  "start": 32.92,
+  "end": 33.16
+ },
+ {
+  "w": "Tell",
+  "start": 33.34,
+  "end": 33.6
+ },
+ {
+  "w": "them",
+  "start": 33.6,
+  "end": 33.74
+ },
+ {
+  "w": "today.",
+  "start": 33.74,
+  "end": 34.0
+ }
+]
