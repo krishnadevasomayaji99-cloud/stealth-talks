@@ -689,6 +689,12 @@
    "sha256": "d85d9c09e0686fec809639c3263806b7612ba6cb41c14373398a42c4ff610956",
    "started_at": "2026-11-19T08:33:13.150664+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261119-g1-launchday",
+   "sha256": "f21eaa5766f469ee8f92ebd3a55ac803958f6fdfa204a5cde4d45f08dc8a74b7",
+   "started_at": "2026-11-19T12:39:06.964424+00:00",
+   "state": "uploading"
   }
  ]
 }
