@@ -37,3 +37,10 @@
 - SOUND upgrade today: scripts/sfx_synth.py gets `knock` (three wooden knocks) and `wind` (1.4 s swelling gust, used on the snow and forest set cuts). Judge via audio reports and metrics 19 Nov.
 - New Reels: ST-20261118-a-volume (VOLUME bar, school/living room/snow pond, music sad, pet raccoon), ST-20261118-b-hours (HOURS counter 24 to 2 to 10, school/forest/roof/beach, music quirky), ST-20261117-g-gta-midnight (GTA lane: Rockstar support page via Forbes 12 Nov: midnight local time 19 Nov in all regions; Forbes: US stores follow Eastern time so the west can unlock the evening before; music bright). Forbes page was only partly readable (price, file size not used).
 - Process: preview frames locally first (scripts/preview_frames.js with a synthetic words.json) cut scene bugs before the 12-25 min cloud builds.
+
+## 19 Nov 2026 (morning run, cloud, no Chrome so no Instagram browse; WebSearch only)
+- Metrics 19 Nov (n tiny): ST-20261118-a-volume (3 sets, sad bed, emotional arc) 1,473 views, 19 likes, 18.3 s avg watch = best avg watch of the last 10 days and best likes; supports the multi-set emotional format. gta-midnight (explainer) only 137 views / 11.8 s: news-explainer GTA Reels underperform skits; GTA lane stays short and skit-led.
+- GTA 6 release day: only fact opened this run = Rockstar newswire page metadata (release Thursday 19 Nov 2026). Yahoo page 4xx, so nothing else used. Reel ST-20261119-g1-launchday is a skit (Max, patience bar, room/snow/dawn roof).
+- ANIMATION upgrade: `B.stage('roof',{dawn:true})` = warm dawn sky, orange fog and a big low sun (used by g1). 
+- SOUND upgrade: scripts/mix.py now ends with `alimiter=limit=0.8` after loudnorm; the bright bed measured -0.1 dBTP and failed the audio gate before this.
+- New Reels: ST-20261119-t1-flower (THANKS flower counter, room/forest/beach/room, sad bed, hug + petals), ST-20261119-g1-launchday. Lesson: hook line must be <=14 words (gate).
