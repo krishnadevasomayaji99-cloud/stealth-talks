@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19T15:55:44.362995+00:00",
+ "at": "2026-11-20T15:39:13.775431+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
    "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
@@ -176,49 +176,85 @@
    "ig_reels_avg_watch_time": 14207
   },
   "ST-20261117-c-onread": {
-   "views": 1474,
-   "reach": 1105,
+   "views": 1475,
+   "reach": 1107,
    "likes": 12,
    "comments": 0,
    "shares": 1,
    "saved": 1,
-   "ig_reels_avg_watch_time": 13916
+   "ig_reels_avg_watch_time": 13904
   },
   "ST-20261117-g-gta-midnight": {
-   "views": 156,
-   "reach": 133,
+   "views": 162,
+   "reach": 138,
    "likes": 1,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 12427
+   "ig_reels_avg_watch_time": 12311
   },
   "ST-20261118-a-volume": {
-   "views": 1495,
-   "reach": 1139,
+   "views": 1499,
+   "reach": 1142,
    "likes": 19,
    "comments": 0,
    "shares": 0,
    "saved": 1,
-   "ig_reels_avg_watch_time": 18223
+   "ig_reels_avg_watch_time": 18185
   },
   "ST-20261118-b-hours": {
-   "views": 1731,
-   "reach": 1214,
+   "views": 1742,
+   "reach": 1223,
    "likes": 10,
    "comments": 0,
    "shares": 1,
    "saved": 1,
-   "ig_reels_avg_watch_time": 17650
+   "ig_reels_avg_watch_time": 17552
   },
   "ST-20261119-g1-launchday": {
-   "views": 649,
-   "reach": 571,
+   "views": 679,
+   "reach": 588,
    "likes": 6,
    "comments": 0,
    "shares": 0,
    "saved": 0,
-   "ig_reels_avg_watch_time": 8152
+   "ig_reels_avg_watch_time": 8117
+  },
+  "ST-20261119-a-unsaid-snow": {
+   "views": 154,
+   "reach": 129,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 10209
+  },
+  "ST-20261119-s2-kashasha": {
+   "views": 149,
+   "reach": 117,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 26980
+  },
+  "ST-20261119-t1-flower": {
+   "views": 1337,
+   "reach": 1131,
+   "likes": 10,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 20896
+  },
+  "ST-20261120-b-gta-sixteen": {
+   "views": 153,
+   "reach": 114,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0,
+   "saved": 0,
+   "ig_reels_avg_watch_time": 15293
   }
  }
 }
