@@ -228,5 +228,10 @@
   "at": "2026-11-20T20:43:30.531040+00:00",
   "key": "health",
   "msg": "account check failed: 400 code=200 sub=5258005 type=OAuthException msg=API access blocked."
+ },
+ {
+  "at": "2026-11-20T21:34:30.526568+00:00",
+  "key": "ST-20261119-s4-pig-war",
+  "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A6nXbFCbrShxU8xTPnDf_eh'}}"
  }
 ]
