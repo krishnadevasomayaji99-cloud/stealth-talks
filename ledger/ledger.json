@@ -796,6 +796,12 @@
    "sha256": "022b0bdf4ebce6267c06fa66a55d2a6338a18c9dbdb76d9d030fbfbfb12d4e31",
    "started_at": "2026-11-20T17:33:53.061342+00:00",
    "state": "failed_before_upload"
+  },
+  {
+   "key": "ST-20261120-c-wasted",
+   "sha256": "022b0bdf4ebce6267c06fa66a55d2a6338a18c9dbdb76d9d030fbfbfb12d4e31",
+   "started_at": "2026-11-20T17:38:34.919964+00:00",
+   "state": "uploading"
   }
  ]
 }
