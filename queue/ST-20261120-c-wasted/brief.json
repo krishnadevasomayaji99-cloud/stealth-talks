@@ -1,0 +1,42 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: room, school corridor, dawn roof, beach; loading-bar HUD + head bar tag; extreme face close-ups",
+ "genre": "true_story",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "turn_on_viewer",
+ "reveal_word": "pocket",
+ "open_loops": [
+  {"t": 3, "q": "why is the bar already at ten percent"},
+  {"t": 14, "q": "what makes it climb"},
+  {"t": 26, "q": "what makes it fall"}
+ ],
+ "breaks": [
+  "whip-flash cuts between sets",
+  "extreme face close-up on the scroll beat",
+  "camera shake at 60 and 80 percent",
+  "hands into pocket then bar falls to zero"
+ ],
+ "closer": "look at your bar right now",
+ "audience": "In This Town viewers, deadpan relatable loner humour (thedrizzleshow 'except me' wave, 1.3M likes 17 Nov)",
+ "takeaway": "put the screen down for ten minutes",
+ "voice": "deadpan narrator",
+ "action": "put the phone down for ten minutes",
+ "approved_facts": ["fiction, no factual claims"],
+ "production_limits": "blocky3d, original characters, no brands, 30-45 s",
+ "variety": [
+  "setting: bedroom, school corridor, dawn roof, beach",
+  "sky/light: warm room, cold corridor, orange dawn, bright sky",
+  "cast: Leo in a red cap and white tee, teacher in grey",
+  "counter: HUD loading bar plus a bar tag over the head",
+  "camera: extreme face close-ups, follow, low hero",
+  "gag: bar fills while he scrolls, hands into pocket",
+  "music: quirky bed",
+  "ending: turn on the viewer"
+ ],
+ "hook_check": {
+  "chosen": "In this town, a bar over your head shows how much of your day you wasted.",
+  "scores": {"specificity": 4, "address": 5, "stakes": 4, "front_load": 4, "total": 17},
+  "note": "reel-hook-check; loner-deadpan wave + loading-bar counter; rejected 'fills when you waste the day' 15/20"
+ }
+}

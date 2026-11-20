@@ -188,5 +188,7 @@ function icon(ch,col){const c=document.createElement('canvas');c.width=c.height=
 // iconPop(sprite,t,t0,t1,[baseScale]): pops in with a bounce at t0, wobbles, vanishes at t1 (floating ?/! over a head)
 function iconPop(sp,t,t0,t1,s){s=s||3.2;const on=t>=t0&&t<t1;sp.visible=on;if(!on)return;const u=clamp((t-t0)/0.28),k=outBack(u);sp.scale.set(s*k,s*k,1);sp.material.rotation=Math.sin((t-t0)*9)*0.12;sp.position.y=(sp.userData.y0==null?(sp.userData.y0=sp.position.y):sp.userData.y0)+Math.sin((t-t0)*5)*0.25;}
 function shake(t,t0,amp,dur){dur=dur||0.5;const d=t-t0;if(d<0||d>dur)return [0,0,0];const a=amp*(1-d/dur);return [Math.sin(d*90)*a,Math.cos(d*77)*a*0.7,Math.sin(d*61)*a*0.4];}
-window.B3={icon,iconPop,blurEdges,shake,world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
+// closeCam(person,dist,dy,side): extreme close-up camera on a person's face (face fills the frame); returns {p,l} for w.setCam
+function closeCam(pr,d,dy,side){d=d||7;dy=dy||0;side=side||0;const q=pr.position;return {p:[q.x+side,5.9+dy,q.z+d],l:[q.x,5.8,q.z]};}
+window.B3={closeCam,icon,iconPop,blurEdges,shake,world,stage,ghost,person,pose,tag,raccoon,box,mat,clamp,ease,outBack,rnd,THREE:T};
 })();

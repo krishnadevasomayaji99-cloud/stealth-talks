@@ -78,9 +78,20 @@ def flutter():  # flock of wings taking off: fast amplitude-modulated noise burs
     x = t(1.1); n = lowpass(np.random.randn(len(x)), 6)-lowpass(np.random.randn(len(x)), 30)
     am = (0.5+0.5*np.sin(2*np.pi*(14+10*x)*x))**2
     return n*am*np.sin(np.pi*np.minimum(x/1.1, 1))**.7*np.exp(-x*1.2)
+def swipe():  # thumb flick on a phone: quick band-passed noise sweep up then a soft tap, for "scrolling" gags
+    x = t(.28); n = lowpass(np.random.randn(len(x)), 3)-lowpass(np.random.randn(len(x)), 18)
+    sw = n*np.sin(np.pi*np.minimum(x/.2, 1))*np.exp(-x*9)
+    tap = np.sin(2*np.pi*190*x)*np.exp(-x*60)*(x > .17)
+    return sw + .7*tap
+def bar_up():  # loading-bar step: four rising square-ish blips (C5 E5 G5 C6) like a retro progress meter
+    out = np.zeros(int(SR*.5))
+    for i, f in enumerate([523, 659, 784, 1046]):
+        x = t(.09); y = np.sign(np.sin(2*np.pi*f*x))*.35*np.exp(-x*22)*env(len(x), .001, .03)
+        o = int(i*.1*SR); out[o:o+len(y)] += y[:len(out)-o]
+    return out
 def write(p, y):
     y = (np.clip(norm(y), -1, 1)*32767).astype("<i2")
     with wave.open(str(p), "wb") as w: w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(y.tobytes())
 if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "assets/sfx"); out.mkdir(parents=True, exist_ok=True)
-    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk, heartbeat=heartbeat, music_box=music_box, sparkle=sparkle, knock=knock, wind=wind, question=question, flutter=flutter).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")
+    for n, f in dict(pop=pop, click=click, whoosh=whoosh, thud=thud, chime=chime, rise=rise, tick=tick, ding_dong=ding_dong, boom=boom, scratch=scratch, static=static, honk=honk, heartbeat=heartbeat, music_box=music_box, sparkle=sparkle, knock=knock, wind=wind, question=question, flutter=flutter, swipe=swipe, bar_up=bar_up).items(): write(out/f"{n}.wav", f()); print("wrote", out/f"{n}.wav")
