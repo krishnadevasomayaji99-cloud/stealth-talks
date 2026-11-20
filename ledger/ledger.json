@@ -789,6 +789,12 @@
    "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
    "started_at": "2026-11-20T13:35:05.032627+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261120-c-wasted",
+   "sha256": "022b0bdf4ebce6267c06fa66a55d2a6338a18c9dbdb76d9d030fbfbfb12d4e31",
+   "started_at": "2026-11-20T17:33:53.061342+00:00",
+   "state": "uploading"
   }
  ]
 }
