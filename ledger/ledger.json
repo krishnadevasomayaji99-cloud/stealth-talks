@@ -812,10 +812,11 @@
    "state": "failed_before_upload"
   },
   {
+   "err": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AQl70TRE9liMPP0gfhNqAAd'}}",
    "key": "ST-20261119-s3-peigneur",
    "sha256": "0750ca99654c35ad8a8c037f347c71b214ef64d48087105eed298886c0892660",
    "started_at": "2026-11-20T18:34:37.288169+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }

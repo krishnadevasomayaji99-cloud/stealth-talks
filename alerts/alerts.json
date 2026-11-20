@@ -213,5 +213,10 @@
   "at": "2026-11-20T17:46:48.723570+00:00",
   "key": "ST-20261120-a-unsaid-stones",
   "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AeRtL1H1e9A691QfThFoXV0'}}"
+ },
+ {
+  "at": "2026-11-20T18:34:40.312998+00:00",
+  "key": "ST-20261119-s3-peigneur",
+  "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AQl70TRE9liMPP0gfhNqAAd'}}"
  }
 ]
