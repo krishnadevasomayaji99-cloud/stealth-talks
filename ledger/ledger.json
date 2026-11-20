@@ -744,6 +744,12 @@
    "sha256": "dfb6d025df11a4485cecd2e11d90c4cb18ed02ec4d7ba51e0de2609f19daccab",
    "started_at": "2026-11-19T21:04:19.955340+00:00",
    "state": "verified"
+  },
+  {
+   "key": "ST-20261119-t1-flower",
+   "sha256": "6d5ddfc66e3c0999b761156bc10778a2e003932b7ebef95449ba7f70c4c94c77",
+   "started_at": "2026-11-20T08:33:29.416843+00:00",
+   "state": "uploading"
   }
  ]
 }
