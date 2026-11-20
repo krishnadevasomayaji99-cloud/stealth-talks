@@ -805,10 +805,11 @@
    "state": "failed_before_upload"
   },
   {
+   "err": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AeRtL1H1e9A691QfThFoXV0'}}",
    "key": "ST-20261120-a-unsaid-stones",
    "sha256": "d27b1f8f44a73adb208a96db09f1fef846d7a6294474ccb05af6f62485835819",
    "started_at": "2026-11-20T17:46:46.252191+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }
