@@ -780,10 +780,15 @@
    "upload_http": 400
   },
   {
+   "container": "18005876312822257",
    "key": "ST-20261120-b-gta-sixteen",
+   "media_id": "18141845506712454",
+   "permalink": "https://www.instagram.com/reel/Df9xslmiepI/",
+   "published_at": "2026-11-20T13:36:29.910329+00:00",
+   "reencoded": true,
    "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
    "started_at": "2026-11-20T13:35:05.032627+00:00",
-   "state": "uploading"
+   "state": "verified"
   }
  ]
 }
