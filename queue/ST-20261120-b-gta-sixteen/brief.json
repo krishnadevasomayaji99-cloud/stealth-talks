@@ -1,0 +1,61 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: room, roof dawn, beach; PRE-ORDERS counter",
+ "genre": "true_story",
+ "hook_type": "number_shock",
+ "cliffhanger": "reversal",
+ "reveal_word": "smile",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "what is Jay waiting for"
+  },
+  {
+   "t": 12,
+   "q": "does the download finish"
+  },
+  {
+   "t": 22,
+   "q": "what does his sister want"
+  }
+ ],
+ "breaks": [
+  "whip cuts",
+  "camera shake on controller handover",
+  "counter climbs to 16M",
+  "sunrise roof"
+ ],
+ "closer": "share the controller today",
+ "audience": "GTA 6 launch-week viewers",
+ "takeaway": "sharing makes launch day better",
+ "voice": "warm narrator",
+ "action": "share the controller",
+ "approved_facts": [
+  "CBS 18 Nov 2026: nearly 16 million pre-orders (Sensor Tower)",
+  "Kotaku live blog 18-19 Nov 2026: 99 on Metacritic",
+  "release 19 Nov 2026"
+ ],
+ "production_limits": "blocky3d, original character, no Rockstar assets",
+ "variety": [
+  "setting: bedroom, dawn roof, beach",
+  "sky/light: night, dawn orange, bright",
+  "cast: Jay in black hoodie, little sister",
+  "counter: HUD PRE-ORDERS millions",
+  "camera: pacing follow",
+  "gag: counter climbs",
+  "music: quirky bed",
+  "ending: controller handover"
+ ],
+ "hook_check": {
+  "chosen": "Sixteen million people pre-ordered the same game.",
+  "scores": {
+   "specificity": 5,
+   "address": 2,
+   "stakes": 3,
+   "front_load": 5,
+   "total": 15
+  },
+  "note": "number-led, sourced"
+ }
+}

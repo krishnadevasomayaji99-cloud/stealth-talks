@@ -1,0 +1,59 @@
+{
+ "series": true,
+ "style": "blocky3d",
+ "style_id": "blocky 3D: forest, room, beach; grey stone icon counter",
+ "genre": "true_story",
+ "hook_type": "absurd_rule",
+ "cliffhanger": "reversal",
+ "reveal_word": "burst",
+ "open_loops": [
+  {
+   "t": 3,
+   "q": "why a stone on Leo"
+  },
+  {
+   "t": 14,
+   "q": "how many stones"
+  },
+  {
+   "t": 26,
+   "q": "how do they go away"
+  }
+ ],
+ "breaks": [
+  "whip-flash cuts between sets",
+  "camera shake on the fall into sand",
+  "stones stacking 1 to 4",
+  "burst into birds then hug"
+ ],
+ "closer": "say the thank you today",
+ "audience": "In This Town viewers who share emotional stories",
+ "takeaway": "say thanks now, it lightens you",
+ "voice": "warm narrator",
+ "action": "text someone a thank you",
+ "approved_facts": [
+  "fiction, no factual claims"
+ ],
+ "production_limits": "blocky3d, original characters, no brands",
+ "variety": [
+  "setting: forest, bedroom, beach",
+  "sky/light: dark green forest, warm room, bright sky",
+  "cast: Leo with green hoodie, coach in orange",
+  "counter: stone icons over head plus HUD",
+  "camera: follow then low fall angle",
+  "gag: stones stack then burst",
+  "music: bright bed",
+  "ending: hug and lesson line"
+ ],
+ "hook_check": {
+  "chosen": "In this town, every thank you you don't say becomes a stone.",
+  "scores": {
+   "specificity": 4,
+   "address": 4,
+   "stakes": 4,
+   "front_load": 4,
+   "total": 16
+  },
+  "note": "reel-hook-check; new object-weight metaphor, gratitude turn"
+ }
+}
