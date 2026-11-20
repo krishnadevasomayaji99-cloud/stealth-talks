@@ -1,23 +1,23 @@
 {
- "at": "2026-11-20T02:15:18.069254+00:00",
- "london": "2026-11-20 02:15",
+ "at": "2026-11-20T11:21:11.170894+00:00",
+ "london": "2026-11-20 11:21",
  "ready": [
-  "ST-20261119-t1-flower",
   "ST-20261119-u1-coat",
   "ST-20261119-u2-lamp",
-  "ST-20261119-v1-worry"
+  "ST-20261119-v1-worry",
+  "ST-20261120-a-unsaid-stones",
+  "ST-20261120-b-gta-sixteen"
  ],
  "slots_left": [
-  "08:30",
   "12:30",
   "17:30",
   "20:30"
  ],
- "posted_today": 0,
+ "posted_today": 1,
  "flags": [
   {
-   "level": "WARN",
-   "msg": "spares below target: 4 READY, want 6 (slots left + 2 spares for tomorrow)"
+   "level": "INFO",
+   "msg": "unapproved drafts: ST-20261120-c-wasted"
   }
  ]
 }
