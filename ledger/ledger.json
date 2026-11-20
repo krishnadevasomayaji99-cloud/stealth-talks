@@ -772,10 +772,12 @@
    "upload_http": 400
   },
   {
+   "container": "18005872016822257",
    "key": "ST-20261120-b-gta-sixteen",
    "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
    "started_at": "2026-11-20T13:13:50.976041+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload",
+   "upload_http": 400
   }
  ]
 }
