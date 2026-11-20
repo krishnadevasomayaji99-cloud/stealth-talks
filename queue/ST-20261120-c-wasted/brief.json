@@ -4,7 +4,7 @@
  "style_id": "blocky 3D: room, school corridor, dawn roof, beach; loading-bar HUD + head bar tag; extreme face close-ups",
  "genre": "true_story",
  "hook_type": "absurd_rule",
- "cliffhanger": "turn_on_viewer",
+ "cliffhanger": "reversal",
  "reveal_word": "pocket",
  "open_loops": [
   {"t": 3, "q": "why is the bar already at ten percent"},
@@ -35,7 +35,7 @@
   "ending: turn on the viewer"
  ],
  "hook_check": {
-  "chosen": "In this town, a bar over your head shows how much of your day you wasted.",
+  "chosen": "In this town, a bar over your head shows how much day you wasted.",
   "scores": {"specificity": 4, "address": 5, "stakes": 4, "front_load": 4, "total": 17},
   "note": "reel-hook-check; loner-deadpan wave + loading-bar counter; rejected 'fills when you waste the day' 15/20"
  }

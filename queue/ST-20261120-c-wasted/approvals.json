@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "ef3a76def2c121fdd60f30edfc050ad0b712d7a26fab4181ff67219a427f0a25",
+  "by": "Claude (model)",
+  "at": "2026-11-20T11:27:10.306056+00:00",
+  "note": "fiction town rule, original characters, frames viewed",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "ef3a76def2c121fdd60f30edfc050ad0b712d7a26fab4181ff67219a427f0a25",
+  "by": "Claude (model)",
+  "at": "2026-11-20T11:27:10.440851+00:00",
+  "note": "frames viewed at 0-42 s: 4 sets, bar HUD + head tag, close-ups framed, captions readable; audio report pass -15.4 LUFS/-1.6 dBTP",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "8cac6d874b5f968702fcb96b48c286dfedcd515fa92c4b73a64438a8015644dd",
+  "by": "Claude (model)",
+  "at": "2026-11-20T11:27:10.529387+00:00",
+  "note": "no factual claims; fiction line + Sources none",
+  "listened": false
+ }
+}
