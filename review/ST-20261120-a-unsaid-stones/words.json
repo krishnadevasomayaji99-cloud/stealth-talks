@@ -1,0 +1,677 @@
+[
+ {
+  "w": "In",
+  "start": 0.0,
+  "end": 0.34
+ },
+ {
+  "w": "this",
+  "start": 0.34,
+  "end": 0.46
+ },
+ {
+  "w": "town,",
+  "start": 0.46,
+  "end": 0.72
+ },
+ {
+  "w": "every",
+  "start": 1.0,
+  "end": 1.22
+ },
+ {
+  "w": "thank",
+  "start": 1.22,
+  "end": 1.44
+ },
+ {
+  "w": "you",
+  "start": 1.44,
+  "end": 1.64
+ },
+ {
+  "w": "you",
+  "start": 1.64,
+  "end": 1.7
+ },
+ {
+  "w": "don't",
+  "start": 1.7,
+  "end": 1.88
+ },
+ {
+  "w": "say",
+  "start": 1.88,
+  "end": 2.08
+ },
+ {
+  "w": "becomes",
+  "start": 2.08,
+  "end": 2.4
+ },
+ {
+  "w": "a",
+  "start": 2.4,
+  "end": 2.58
+ },
+ {
+  "w": "stone.",
+  "start": 2.58,
+  "end": 2.8
+ },
+ {
+  "w": "Leo",
+  "start": 3.48,
+  "end": 3.72
+ },
+ {
+  "w": "woke",
+  "start": 3.72,
+  "end": 4.02
+ },
+ {
+  "w": "up",
+  "start": 4.02,
+  "end": 4.24
+ },
+ {
+  "w": "with",
+  "start": 4.24,
+  "end": 4.4
+ },
+ {
+  "w": "one",
+  "start": 4.4,
+  "end": 4.6
+ },
+ {
+  "w": "on",
+  "start": 4.6,
+  "end": 4.74
+ },
+ {
+  "w": "his",
+  "start": 4.74,
+  "end": 4.88
+ },
+ {
+  "w": "shoulder.",
+  "start": 4.88,
+  "end": 5.22
+ },
+ {
+  "w": "It",
+  "start": 5.98,
+  "end": 6.06
+ },
+ {
+  "w": "was",
+  "start": 6.06,
+  "end": 6.16
+ },
+ {
+  "w": "small,",
+  "start": 6.16,
+  "end": 6.44
+ },
+ {
+  "w": "and",
+  "start": 6.44,
+  "end": 6.74
+ },
+ {
+  "w": "he",
+  "start": 6.74,
+  "end": 6.84
+ },
+ {
+  "w": "told",
+  "start": 6.84,
+  "end": 6.98
+ },
+ {
+  "w": "himself",
+  "start": 6.98,
+  "end": 7.24
+ },
+ {
+  "w": "it",
+  "start": 7.24,
+  "end": 7.52
+ },
+ {
+  "w": "was",
+  "start": 7.52,
+  "end": 7.6
+ },
+ {
+  "w": "nothing.",
+  "start": 7.6,
+  "end": 7.94
+ },
+ {
+  "w": "In",
+  "start": 8.66,
+  "end": 8.72
+ },
+ {
+  "w": "the",
+  "start": 8.72,
+  "end": 8.8
+ },
+ {
+  "w": "forest",
+  "start": 8.8,
+  "end": 9.04
+ },
+ {
+  "w": "his",
+  "start": 9.24,
+  "end": 9.32
+ },
+ {
+  "w": "coach",
+  "start": 9.32,
+  "end": 9.56
+ },
+ {
+  "w": "waved,",
+  "start": 9.56,
+  "end": 9.9
+ },
+ {
+  "w": "and",
+  "start": 9.9,
+  "end": 10.22
+ },
+ {
+  "w": "Leo",
+  "start": 10.22,
+  "end": 10.38
+ },
+ {
+  "w": "looked",
+  "start": 10.38,
+  "end": 10.68
+ },
+ {
+  "w": "away.",
+  "start": 10.68,
+  "end": 10.96
+ },
+ {
+  "w": "A",
+  "start": 11.48,
+  "end": 11.56
+ },
+ {
+  "w": "second",
+  "start": 11.56,
+  "end": 11.8
+ },
+ {
+  "w": "stone",
+  "start": 11.8,
+  "end": 12.1
+ },
+ {
+  "w": "dropped.",
+  "start": 12.1,
+  "end": 12.36
+ },
+ {
+  "w": "Leo",
+  "start": 13.22,
+  "end": 13.34
+ },
+ {
+  "w": "had",
+  "start": 13.34,
+  "end": 13.56
+ },
+ {
+  "w": "trained",
+  "start": 13.56,
+  "end": 13.78
+ },
+ {
+  "w": "with",
+  "start": 13.78,
+  "end": 14.04
+ },
+ {
+  "w": "him",
+  "start": 14.04,
+  "end": 14.2
+ },
+ {
+  "w": "for",
+  "start": 14.2,
+  "end": 14.36
+ },
+ {
+  "w": "three",
+  "start": 14.36,
+  "end": 14.58
+ },
+ {
+  "w": "years",
+  "start": 14.58,
+  "end": 14.86
+ },
+ {
+  "w": "and",
+  "start": 14.86,
+  "end": 15.18
+ },
+ {
+  "w": "never",
+  "start": 15.18,
+  "end": 15.4
+ },
+ {
+  "w": "once",
+  "start": 15.4,
+  "end": 15.64
+ },
+ {
+  "w": "spoke",
+  "start": 15.64,
+  "end": 15.9
+ },
+ {
+  "w": "up.",
+  "start": 15.9,
+  "end": 16.16
+ },
+ {
+  "w": "At",
+  "start": 16.74,
+  "end": 16.88
+ },
+ {
+  "w": "home",
+  "start": 16.88,
+  "end": 17.06
+ },
+ {
+  "w": "his",
+  "start": 17.24,
+  "end": 17.34
+ },
+ {
+  "w": "mom",
+  "start": 17.34,
+  "end": 17.58
+ },
+ {
+  "w": "left",
+  "start": 17.58,
+  "end": 17.84
+ },
+ {
+  "w": "a",
+  "start": 17.84,
+  "end": 17.98
+ },
+ {
+  "w": "lunch",
+  "start": 17.98,
+  "end": 18.12
+ },
+ {
+  "w": "note.",
+  "start": 18.12,
+  "end": 18.4
+ },
+ {
+  "w": "He",
+  "start": 18.74,
+  "end": 18.78
+ },
+ {
+  "w": "said",
+  "start": 18.78,
+  "end": 18.92
+ },
+ {
+  "w": "nothing.",
+  "start": 18.92,
+  "end": 19.414
+ },
+ {
+  "w": "Third.",
+  "start": 19.44,
+  "end": 19.62
+ },
+ {
+  "w": "The",
+  "start": 20.42,
+  "end": 20.48
+ },
+ {
+  "w": "stones",
+  "start": 20.48,
+  "end": 20.7
+ },
+ {
+  "w": "clinked",
+  "start": 20.7,
+  "end": 21.28
+ },
+ {
+  "w": "as",
+  "start": 21.28,
+  "end": 21.34
+ },
+ {
+  "w": "he",
+  "start": 21.34,
+  "end": 21.44
+ },
+ {
+  "w": "walked,",
+  "start": 21.44,
+  "end": 21.66
+ },
+ {
+  "w": "and",
+  "start": 21.66,
+  "end": 22.02
+ },
+ {
+  "w": "every",
+  "start": 22.02,
+  "end": 22.26
+ },
+ {
+  "w": "step",
+  "start": 22.26,
+  "end": 22.56
+ },
+ {
+  "w": "felt",
+  "start": 22.56,
+  "end": 22.84
+ },
+ {
+  "w": "heavier.",
+  "start": 22.84,
+  "end": 23.2
+ },
+ {
+  "w": "Four",
+  "start": 23.92,
+  "end": 24.02
+ },
+ {
+  "w": "stones",
+  "start": 24.02,
+  "end": 24.48
+ },
+ {
+  "w": "dragged",
+  "start": 24.48,
+  "end": 24.76
+ },
+ {
+  "w": "him",
+  "start": 24.76,
+  "end": 25.1
+ },
+ {
+  "w": "down",
+  "start": 25.1,
+  "end": 25.3
+ },
+ {
+  "w": "onto",
+  "start": 25.3,
+  "end": 25.5
+ },
+ {
+  "w": "the",
+  "start": 25.5,
+  "end": 25.68
+ },
+ {
+  "w": "sand.",
+  "start": 25.68,
+  "end": 25.92
+ },
+ {
+  "w": "He",
+  "start": 26.66,
+  "end": 26.74
+ },
+ {
+  "w": "lay",
+  "start": 26.74,
+  "end": 26.88
+ },
+ {
+  "w": "there",
+  "start": 26.88,
+  "end": 27.18
+ },
+ {
+  "w": "and",
+  "start": 27.18,
+  "end": 27.34
+ },
+ {
+  "w": "finally",
+  "start": 27.34,
+  "end": 27.68
+ },
+ {
+  "w": "understood",
+  "start": 27.68,
+  "end": 28.12
+ },
+ {
+  "w": "what",
+  "start": 28.12,
+  "end": 28.62
+ },
+ {
+  "w": "they",
+  "start": 28.62,
+  "end": 28.8
+ },
+ {
+  "w": "were.",
+  "start": 28.8,
+  "end": 29.02
+ },
+ {
+  "w": "Then",
+  "start": 29.52,
+  "end": 29.76
+ },
+ {
+  "w": "he",
+  "start": 29.76,
+  "end": 29.88
+ },
+ {
+  "w": "stood",
+  "start": 29.88,
+  "end": 30.08
+ },
+ {
+  "w": "up",
+  "start": 30.08,
+  "end": 30.26
+ },
+ {
+  "w": "and",
+  "start": 30.26,
+  "end": 30.4
+ },
+ {
+  "w": "shouted,",
+  "start": 30.4,
+  "end": 30.58
+ },
+ {
+  "w": "thank",
+  "start": 30.96,
+  "end": 31.08
+ },
+ {
+  "w": "you.",
+  "start": 31.08,
+  "end": 31.34
+ },
+ {
+  "w": "His",
+  "start": 32.0,
+  "end": 32.1
+ },
+ {
+  "w": "voice",
+  "start": 32.1,
+  "end": 32.34
+ },
+ {
+  "w": "cracked,",
+  "start": 32.34,
+  "end": 32.66
+ },
+ {
+  "w": "and",
+  "start": 32.66,
+  "end": 33.0
+ },
+ {
+  "w": "it",
+  "start": 33.0,
+  "end": 33.08
+ },
+ {
+  "w": "felt",
+  "start": 33.08,
+  "end": 33.24
+ },
+ {
+  "w": "like",
+  "start": 33.24,
+  "end": 33.42
+ },
+ {
+  "w": "setting",
+  "start": 33.42,
+  "end": 33.66
+ },
+ {
+  "w": "down",
+  "start": 33.66,
+  "end": 33.9
+ },
+ {
+  "w": "a",
+  "start": 33.9,
+  "end": 34.0
+ },
+ {
+  "w": "backpack.",
+  "start": 34.0,
+  "end": 34.24
+ },
+ {
+  "w": "The",
+  "start": 35.1,
+  "end": 35.18
+ },
+ {
+  "w": "stones",
+  "start": 35.18,
+  "end": 35.44
+ },
+ {
+  "w": "burst",
+  "start": 35.44,
+  "end": 35.8
+ },
+ {
+  "w": "into",
+  "start": 35.8,
+  "end": 36.14
+ },
+ {
+  "w": "birds",
+  "start": 36.14,
+  "end": 36.42
+ },
+ {
+  "w": "and",
+  "start": 36.42,
+  "end": 36.7
+ },
+ {
+  "w": "flew",
+  "start": 36.7,
+  "end": 36.9
+ },
+ {
+  "w": "away.",
+  "start": 36.9,
+  "end": 37.2
+ },
+ {
+  "w": "His",
+  "start": 37.94,
+  "end": 38.04
+ },
+ {
+  "w": "coach",
+  "start": 38.04,
+  "end": 38.26
+ },
+ {
+  "w": "laughed",
+  "start": 38.26,
+  "end": 38.64
+ },
+ {
+  "w": "and",
+  "start": 38.64,
+  "end": 38.9
+ },
+ {
+  "w": "hugged",
+  "start": 38.9,
+  "end": 39.06
+ },
+ {
+  "w": "him.",
+  "start": 39.06,
+  "end": 39.3
+ },
+ {
+  "w": "Say",
+  "start": 40.02,
+  "end": 40.16
+ },
+ {
+  "w": "the",
+  "start": 40.16,
+  "end": 40.3
+ },
+ {
+  "w": "thank",
+  "start": 40.3,
+  "end": 40.54
+ },
+ {
+  "w": "you",
+  "start": 40.54,
+  "end": 40.78
+ },
+ {
+  "w": "today.",
+  "start": 40.78,
+  "end": 41.02
+ }
+]
