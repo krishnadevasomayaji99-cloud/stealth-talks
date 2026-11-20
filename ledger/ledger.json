@@ -791,10 +791,11 @@
    "state": "verified"
   },
   {
+   "err": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AwT5-fdqRXFmZsOb1FT2onl'}}",
    "key": "ST-20261120-c-wasted",
    "sha256": "022b0bdf4ebce6267c06fa66a55d2a6338a18c9dbdb76d9d030fbfbfb12d4e31",
    "started_at": "2026-11-20T17:33:53.061342+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }

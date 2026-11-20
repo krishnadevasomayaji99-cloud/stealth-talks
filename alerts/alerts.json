@@ -198,5 +198,10 @@
   "at": "2026-11-20T15:39:13.776166+00:00",
   "key": "metrics",
   "msg": "insights failed for 28 reels (permission?)"
+ },
+ {
+  "at": "2026-11-20T17:33:56.657856+00:00",
+  "key": "ST-20261120-c-wasted",
+  "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AwT5-fdqRXFmZsOb1FT2onl'}}"
  }
 ]
