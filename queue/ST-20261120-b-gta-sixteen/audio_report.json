@@ -1,21 +1,22 @@
 {
- "sha256": "5b95553a4f4b6f90f008fc43c1cdba0f36ede1ca000ae09c6f108280d7a6519a",
+ "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
  "audio": {
-  "lufs": -15.4,
-  "true_peak_dbtp": -1.9,
+  "lufs": -15.3,
+  "true_peak_dbtp": -1.6,
   "clipped_samples": 0,
   "trailing_silence_s": 0.0,
-  "duration_s": 23.37,
+  "duration_s": 35.2,
   "problems": [],
   "listened": false
  },
  "speech": {
-  "approx_wer": 0.068,
-  "expected_words": 73,
-  "heard_words": 72,
+  "approx_wer": 0.045,
+  "expected_words": 111,
+  "heard_words": 110,
   "missing_or_wrong": [
    "sixteen",
-   "and sulk",
+   "forty",
+   "and",
    "ninety nine"
   ]
  },
