@@ -1,23 +1,19 @@
 {
- "at": "2026-11-20T11:21:11.170894+00:00",
- "london": "2026-11-20 11:21",
+ "at": "2026-11-20T19:59:37.845777+00:00",
+ "london": "2026-11-20 19:59",
  "ready": [
+  "ST-20261119-s1-mincemeat",
+  "ST-20261119-s3-peigneur",
+  "ST-20261119-s4-pig-war",
   "ST-20261119-u1-coat",
   "ST-20261119-u2-lamp",
   "ST-20261119-v1-worry",
   "ST-20261120-a-unsaid-stones",
-  "ST-20261120-b-gta-sixteen"
+  "ST-20261120-c-wasted"
  ],
  "slots_left": [
-  "12:30",
-  "17:30",
   "20:30"
  ],
- "posted_today": 1,
- "flags": [
-  {
-   "level": "INFO",
-   "msg": "unapproved drafts: ST-20261120-c-wasted"
-  }
- ]
+ "posted_today": 2,
+ "flags": []
 }
