@@ -1,0 +1,26 @@
+{
+ "story_check": {
+  "verdict": "PASS",
+  "sha256": "d27b1f8f44a73adb208a96db09f1fef846d7a6294474ccb05af6f62485835819",
+  "by": "Claude (model)",
+  "at": "2026-11-20T03:50:29.499429+00:00",
+  "note": "fiction, script read; gratitude turn; frames viewed not full playback",
+  "listened": false
+ },
+ "visual_qa": {
+  "verdict": "PASS",
+  "sha256": "d27b1f8f44a73adb208a96db09f1fef846d7a6294474ccb05af6f62485835819",
+  "by": "Claude (model)",
+  "at": "2026-11-20T03:50:29.637184+00:00",
+  "note": "7 frames viewed: forest, room, beach sets, walk/shrink/trip/cheer/hug actions, stone counter 0-4, captions legible; audio gate pass -15.3 LUFS -1.8 dBTP",
+  "listened": false
+ },
+ "caption_facts": {
+  "verdict": "PASS",
+  "sha256": "f158236e147cf07aa8a9154500cf91f380721e8189854e723b24a8d8e8af9ce0",
+  "by": "Claude (model)",
+  "at": "2026-11-20T03:50:29.721371+00:00",
+  "note": "fiction, no factual claims; AI line and Sources present",
+  "listened": false
+ }
+}

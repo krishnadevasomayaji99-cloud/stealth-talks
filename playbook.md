@@ -50,3 +50,11 @@
 - ANIMATION upgrade: `B3.icon(ch,col)` + `B3.iconPop(sprite,t,t0,t1,scale)` = floating bouncing "?" / "!" icons that pop over a head (outBack scale, wobble), plus `B3.blurEdges` now exported; first use ST-20261119-v1-worry (up to 4 ? stacking over Mia, HUD counter, burst to 0).
 - SOUND upgrade: scripts/sfx_synth.py `question` (rising wobble "huh?" glide) fires on every ? icon pop; bed quirky; sparkle+boom on the burst. Judge via metrics 20 Nov.
 - GTA lane: no new official facts found today beyond release 19 Nov (already covered by g1-launchday); no extra GTA Reel built.
+
+## 20 Nov 2026 (morning run, cloud, no Chrome so no Instagram browse; WebSearch + fetch)
+- Health: all workflows green; only old 19 Nov failed_before_upload rows (mincemeat) that later resolved; a-unsaid-snow/kashasha posted. READY was 4 (t1, u1, u2, v1); built 2 more = 6.
+- GTA lane (sourced): ST-20261120-b-gta-sixteen. CBS (updated 18 Nov): nearly 16M pre-orders per Sensor Tower, midnight local release; Kotaku live blog (18-19 Nov): 99 on Metacritic; sales figures conflict (CBS 16M vs Kotaku 17M+), so only the pre-order figure with CBS is used.
+- Town lane: ST-20261120-a-unsaid-stones (forest/room/beach, bright bed, grey stone counter).
+- ANIMATION upgrade: first use of `w.kick()` ripple on a fall (guarded once per stage) plus dust-colour ripple; both new Reels 35-42 s (scripts must reach 30 s, 14 lines).
+- SOUND upgrade: scripts/sfx_synth.py `flutter` (wing flock burst) fires on the stones-to-birds reveal.
+- Lesson: scripts of ~9 lines render about 23 s and fail the 30-59 s gate; use 12-14 lines.

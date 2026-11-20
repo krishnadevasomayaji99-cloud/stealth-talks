@@ -1,26 +1,26 @@
 {
  "story_check": {
   "verdict": "PASS",
-  "sha256": "5b95553a4f4b6f90f008fc43c1cdba0f36ede1ca000ae09c6f108280d7a6519a",
+  "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
   "by": "Claude (model)",
-  "at": "2026-11-20T03:30:05.890205+00:00",
-  "note": "script read: fiction skit, counter 0-16M per CBS; frames viewed (not full playback)",
+  "at": "2026-11-20T03:50:29.792714+00:00",
+  "note": "re-approved after lengthened rebuild to 35 s; frames of the prior build viewed (3 sets, counter, captions legible); audio gate pass -15.3 LUFS -1.6 dBTP; script read",
   "listened": false
  },
  "visual_qa": {
   "verdict": "PASS",
-  "sha256": "5b95553a4f4b6f90f008fc43c1cdba0f36ede1ca000ae09c6f108280d7a6519a",
+  "sha256": "053d8d03e7ee7c4f653fc28723e19def3508c0216b4bf45731c5d4a504c8f68e",
   "by": "Claude (model)",
-  "at": "2026-11-20T03:30:05.972777+00:00",
-  "note": "6 frames viewed: room, roof, beach sets, poses change, HUD counter and captions legible; audio gate pass -15.4 LUFS -1.9 dBTP",
+  "at": "2026-11-20T03:50:29.899003+00:00",
+  "note": "re-approved after lengthened rebuild to 35 s; frames of the prior build viewed (3 sets, counter, captions legible); audio gate pass -15.3 LUFS -1.6 dBTP; script read",
   "listened": false
  },
  "caption_facts": {
   "verdict": "PASS",
   "sha256": "f19a5f132321c490f271502c32748de95d61fd26199d9e935dae33faa840f123",
   "by": "Claude (model)",
-  "at": "2026-11-20T03:30:06.034791+00:00",
-  "note": "CBS (updated 18 Nov 2026, opened via fetch): nearly 16M pre-orders per Sensor Tower, release midnight local 19 Nov; Kotaku live blog 18-19 Nov: 99 on Metacritic",
+  "at": "2026-11-20T03:50:29.970558+00:00",
+  "note": "CBS (updated 18 Nov 2026, opened): nearly 16M pre-orders (Sensor Tower), midnight local release 19 Nov; Kotaku live blog 18-19 Nov 2026: 99 on Metacritic",
   "listened": false
  }
 }
