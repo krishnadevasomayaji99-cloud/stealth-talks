@@ -817,6 +817,12 @@
    "sha256": "0750ca99654c35ad8a8c037f347c71b214ef64d48087105eed298886c0892660",
    "started_at": "2026-11-20T18:34:37.288169+00:00",
    "state": "failed_before_upload"
+  },
+  {
+   "key": "ST-20261119-s3-peigneur",
+   "sha256": "0750ca99654c35ad8a8c037f347c71b214ef64d48087105eed298886c0892660",
+   "started_at": "2026-11-20T20:33:18.120971+00:00",
+   "state": "uploading"
   }
  ]
 }
