@@ -1,0 +1,362 @@
+[
+ {
+  "w": "Sixteen",
+  "start": 0.25,
+  "end": 0.582
+ },
+ {
+  "w": "million",
+  "start": 0.6,
+  "end": 0.88
+ },
+ {
+  "w": "people",
+  "start": 0.88,
+  "end": 1.42
+ },
+ {
+  "w": "pre-ordered",
+  "start": 1.42,
+  "end": 1.857
+ },
+ {
+  "w": "the",
+  "start": 1.88,
+  "end": 2.06
+ },
+ {
+  "w": "same",
+  "start": 2.06,
+  "end": 2.28
+ },
+ {
+  "w": "game.",
+  "start": 2.28,
+  "end": 2.54
+ },
+ {
+  "w": "Jay",
+  "start": 3.42,
+  "end": 3.42
+ },
+ {
+  "w": "was",
+  "start": 3.42,
+  "end": 3.62
+ },
+ {
+  "w": "one",
+  "start": 3.62,
+  "end": 3.84
+ },
+ {
+  "w": "of",
+  "start": 3.84,
+  "end": 3.94
+ },
+ {
+  "w": "them,",
+  "start": 3.94,
+  "end": 4.06
+ },
+ {
+  "w": "and",
+  "start": 4.06,
+  "end": 4.24
+ },
+ {
+  "w": "he",
+  "start": 4.24,
+  "end": 4.34
+ },
+ {
+  "w": "stared",
+  "start": 4.34,
+  "end": 4.56
+ },
+ {
+  "w": "at",
+  "start": 4.56,
+  "end": 4.76
+ },
+ {
+  "w": "the",
+  "start": 4.76,
+  "end": 4.82
+ },
+ {
+  "w": "clock",
+  "start": 4.82,
+  "end": 5.0
+ },
+ {
+  "w": "all",
+  "start": 5.0,
+  "end": 5.32
+ },
+ {
+  "w": "night.",
+  "start": 5.32,
+  "end": 5.56
+ },
+ {
+  "w": "At",
+  "start": 6.22,
+  "end": 6.3
+ },
+ {
+  "w": "midnight",
+  "start": 6.3,
+  "end": 6.56
+ },
+ {
+  "w": "the",
+  "start": 6.56,
+  "end": 6.84
+ },
+ {
+  "w": "download",
+  "start": 6.84,
+  "end": 7.1
+ },
+ {
+  "w": "bar",
+  "start": 7.1,
+  "end": 7.48
+ },
+ {
+  "w": "crawled",
+  "start": 7.48,
+  "end": 7.86
+ },
+ {
+  "w": "and",
+  "start": 7.86,
+  "end": 8.08
+ },
+ {
+  "w": "Jay",
+  "start": 8.08,
+  "end": 8.3
+ },
+ {
+  "w": "paced.",
+  "start": 8.3,
+  "end": 8.56
+ },
+ {
+  "w": "By",
+  "start": 9.34,
+  "end": 9.42
+ },
+ {
+  "w": "morning",
+  "start": 9.42,
+  "end": 9.66
+ },
+ {
+  "w": "he",
+  "start": 9.66,
+  "end": 9.9
+ },
+ {
+  "w": "ran",
+  "start": 9.9,
+  "end": 10.1
+ },
+ {
+  "w": "to",
+  "start": 10.1,
+  "end": 10.28
+ },
+ {
+  "w": "the",
+  "start": 10.28,
+  "end": 10.36
+ },
+ {
+  "w": "roof",
+  "start": 10.36,
+  "end": 10.52
+ },
+ {
+  "w": "to",
+  "start": 10.52,
+  "end": 10.74
+ },
+ {
+  "w": "watch",
+  "start": 10.74,
+  "end": 10.9
+ },
+ {
+  "w": "the",
+  "start": 10.9,
+  "end": 11.1
+ },
+ {
+  "w": "sunrise",
+  "start": 11.1,
+  "end": 11.34
+ },
+ {
+  "w": "and",
+  "start": 11.34,
+  "end": 12.005
+ },
+ {
+  "w": "sulk.",
+  "start": 12.04,
+  "end": 12.705
+ },
+ {
+  "w": "Then",
+  "start": 12.74,
+  "end": 12.84
+ },
+ {
+  "w": "his",
+  "start": 12.84,
+  "end": 13.04
+ },
+ {
+  "w": "little",
+  "start": 13.04,
+  "end": 13.22
+ },
+ {
+  "w": "sister",
+  "start": 13.22,
+  "end": 13.56
+ },
+ {
+  "w": "asked",
+  "start": 13.56,
+  "end": 13.98
+ },
+ {
+  "w": "to",
+  "start": 13.98,
+  "end": 14.2
+ },
+ {
+  "w": "hold",
+  "start": 14.2,
+  "end": 14.44
+ },
+ {
+  "w": "the",
+  "start": 14.44,
+  "end": 14.6
+ },
+ {
+  "w": "controller.",
+  "start": 14.6,
+  "end": 14.86
+ },
+ {
+  "w": "Jay",
+  "start": 15.84,
+  "end": 15.96
+ },
+ {
+  "w": "hesitated,",
+  "start": 15.96,
+  "end": 16.26
+ },
+ {
+  "w": "then",
+  "start": 16.26,
+  "end": 16.84
+ },
+ {
+  "w": "handed",
+  "start": 16.84,
+  "end": 17.12
+ },
+ {
+  "w": "it",
+  "start": 17.12,
+  "end": 17.38
+ },
+ {
+  "w": "over.",
+  "start": 17.38,
+  "end": 17.58
+ },
+ {
+  "w": "The",
+  "start": 18.36,
+  "end": 18.36
+ },
+ {
+  "w": "review",
+  "start": 18.36,
+  "end": 18.58
+ },
+ {
+  "w": "score",
+  "start": 18.58,
+  "end": 18.86
+ },
+ {
+  "w": "said",
+  "start": 18.86,
+  "end": 19.16
+ },
+ {
+  "w": "ninety",
+  "start": 19.16,
+  "end": 19.322
+ },
+ {
+  "w": "nine,",
+  "start": 19.33,
+  "end": 19.492
+ },
+ {
+  "w": "but",
+  "start": 19.5,
+  "end": 20.0
+ },
+ {
+  "w": "her",
+  "start": 20.0,
+  "end": 20.1
+ },
+ {
+  "w": "smile",
+  "start": 20.1,
+  "end": 20.34
+ },
+ {
+  "w": "said",
+  "start": 20.34,
+  "end": 20.74
+ },
+ {
+  "w": "more.",
+  "start": 20.74,
+  "end": 21.0
+ },
+ {
+  "w": "Share",
+  "start": 21.82,
+  "end": 21.82
+ },
+ {
+  "w": "the",
+  "start": 21.82,
+  "end": 22.0
+ },
+ {
+  "w": "controller",
+  "start": 22.0,
+  "end": 22.2
+ },
+ {
+  "w": "today.",
+  "start": 22.2,
+  "end": 22.76
+ }
+]

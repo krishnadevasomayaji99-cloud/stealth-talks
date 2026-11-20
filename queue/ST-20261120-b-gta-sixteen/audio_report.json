@@ -1,0 +1,25 @@
+{
+ "sha256": "5b95553a4f4b6f90f008fc43c1cdba0f36ede1ca000ae09c6f108280d7a6519a",
+ "audio": {
+  "lufs": -15.4,
+  "true_peak_dbtp": -1.9,
+  "clipped_samples": 0,
+  "trailing_silence_s": 0.0,
+  "duration_s": 23.37,
+  "problems": [],
+  "listened": false
+ },
+ "speech": {
+  "approx_wer": 0.068,
+  "expected_words": 73,
+  "heard_words": 72,
+  "missing_or_wrong": [
+   "sixteen",
+   "and sulk",
+   "ninety nine"
+  ]
+ },
+ "problems": [],
+ "pass": true,
+ "listened": false
+}
