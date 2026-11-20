@@ -58,3 +58,10 @@
 - ANIMATION upgrade: first use of `w.kick()` ripple on a fall (guarded once per stage) plus dust-colour ripple; both new Reels 35-42 s (scripts must reach 30 s, 14 lines).
 - SOUND upgrade: scripts/sfx_synth.py `flutter` (wing flock burst) fires on the stones-to-birds reveal.
 - Lesson: scripts of ~9 lines render about 23 s and fail the 30-59 s gate; use 12-14 lines.
+
+## 20 Nov 2026 (daily improvement run, cloud + Chrome)
+- Instagram (Chrome, signed in, no ViralSpy): new top mover thedrizzleshow "In this town, everybody is out partying. Except me" 1.3M likes in 3 d (deadpan loner + "hus" sound meme); storytelling101tv "a mirror shows who you'll become" 356K in 1 d (magic prop + question ending). Logged in the project doc series-in-this-town.
+- ANIMATION upgrade: `B3.closeCam(person,dist,dy,side)` = extreme face close-up camera (backlog #4); first use ST-20261120-c-wasted on the scroll beat and the "bars were empty" line, with blurEdges. Learned: dist ~11-13 keeps the whole face plus the head tag in frame; dist 6.5 crops the head.
+- SOUND upgrade: scripts/sfx_synth.py `swipe` (thumb flick + tap) and `bar_up` (4 rising retro blips) for loading-bar counters; first use in c-wasted (bar_up on every %% step, swipe on scrolls). Re-running sfx_synth changes other WAVs (random noise): only commit the new ones. Judge via metrics 21 Nov.
+- New Reel: ST-20261120-c-wasted (DAY WASTED % bar, room/school/dawn roof/beach, quirky bed, loner-deadpan + loading-bar trend). Gate lessons: hook <=14 words counted on the script's first line, cliffhanger must be threat|info_gap|reversal.
+- GTA lane: no second Reel; fresh sourced facts (99 Metacritic PS5/147 reviews, Sam Houser quote, 17.07M Sensor Tower pre-sales via SteamDB write-up 18 Nov) overlap ST-20261120-b-gta-sixteen. Instagram GTA angle now = story recaps of mission 1 "Just Like Paradise" (spoilers).
