@@ -248,5 +248,10 @@
   "at": "2026-11-21T08:34:53.526897+00:00",
   "key": "ST-20261119-s4-pig-war",
   "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AWL0qgJmuZ34KSmAqo8Eaak'}}"
+ },
+ {
+  "at": "2026-11-21T09:35:28.672539+00:00",
+  "key": "ST-20261119-u1-coat",
+  "msg": "failed_before_upload: container create failed: {'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Aq-UDs-0mTkUb7kZoHOJWsO'}}"
  }
 ]
