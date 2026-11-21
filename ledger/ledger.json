@@ -831,6 +831,12 @@
    "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
    "started_at": "2026-11-20T21:34:26.029399+00:00",
    "state": "failed_before_upload"
+  },
+  {
+   "key": "ST-20261119-s4-pig-war",
+   "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
+   "started_at": "2026-11-21T08:34:50.143128+00:00",
+   "state": "uploading"
   }
  ]
 }
