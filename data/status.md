@@ -1,3 +1,4 @@
-# Status (evening watchdog 2026-11-20 18:20 London, Claude)
-- Posted today: t1-flower 08:34, gta-sixteen 13:36. 17:30 slot MISSED: Meta returned "API access blocked" (OAuthException subcode 5258005) on container create for c-wasted x2 and unsaid-stones; token/app-level block, not video. No retries (would worsen it); 20:30 publisher will try again.
-- Queue: 8 READY (stones, c-wasted, u1-coat, u2-lamp, v1-worry, s1, s3, s4; the last six restored from _held for tomorrow). No new builds needed. Metrics insights still permission-failed.
+# Status (morning run 2026-11-21 03:30 London, Claude)
+- BLOCKER: Meta returns "API access blocked" (OAuthException, subcode 5258005) on EVERY Graph call since ~17:33 UTC 20 Nov: publishing (c-wasted, stones, peigneur, pig-war all failed_before_upload) and now metrics reads too. App/token-level block, not a video problem. Last good post: gta-sixteen 13:36 on 20 Nov.
+- Needs Krishna (cannot be fixed from here: no account/credential actions allowed): check the Meta developer app and Instagram account for a restriction/security notice, regenerate the token if asked, then secrets can be refreshed.
+- Not done this run: no new builds (8 READY already queued, posting is the bottleneck), no trend research or metrics review (metrics all errors). No retries spammed, to avoid worsening the block; publisher still tries at its slots.
