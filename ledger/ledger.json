@@ -833,10 +833,11 @@
    "state": "failed_before_upload"
   },
   {
+   "err": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AWL0qgJmuZ34KSmAqo8Eaak'}}",
    "key": "ST-20261119-s4-pig-war",
    "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
    "started_at": "2026-11-21T08:34:50.143128+00:00",
-   "state": "uploading"
+   "state": "failed_before_upload"
   }
  ]
 }
