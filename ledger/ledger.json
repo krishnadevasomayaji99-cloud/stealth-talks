@@ -838,6 +838,12 @@
    "sha256": "42204e121457a77211fcb4db62a1975e86311ccfb53f59c85f61e47b97340536",
    "started_at": "2026-11-21T08:34:50.143128+00:00",
    "state": "failed_before_upload"
+  },
+  {
+   "key": "ST-20261119-u1-coat",
+   "sha256": "ef3a34e1e7d29d0b6beb5079e681703cb0ea15715f0ff580c33270c41a12b2fc",
+   "started_at": "2026-11-21T09:35:26.853916+00:00",
+   "state": "uploading"
   }
  ]
 }
