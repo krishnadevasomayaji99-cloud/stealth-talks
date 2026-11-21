@@ -1,260 +1,146 @@
 {
- "at": "2026-11-20T15:39:13.775431+00:00",
+ "at": "2026-11-21T03:20:24.870925+00:00",
  "reels": {
   "ST-20261107-tape-runaway": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18190050289413897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A0tE8fFlJEMJTMIa71_GF9h'}}"
   },
   "ST-20261105-selfish-umbrella": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18132846847687887' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A31Nnjnr2JIDlNVuvQh74y4'}}"
   },
   "ST-20261105-shadow-chair": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18371222236209348' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AlMQXUodr1dhHQlj_A-DUsb'}}"
   },
   "ST-20261109-biscuit-twist": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18121150507770706' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A3abz3lJzObVI0EiyqIqoAb'}}"
   },
   "ST-20261109-launch-day-dave": {
-   "views": 1367,
-   "reach": 1048,
-   "likes": 23,
-   "comments": 1,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 14671
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Ak7fmTM8iV2dCVnZDcLXmnl'}}"
   },
   "ST-20261109-lock-in": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18079951241727811' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AJF8vR7w0PCmcE0C1SJwHBw'}}"
   },
   "ST-20261109-top-shelf": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17978467920149721' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AQIxoTk9Sh4VWyQ-kJbdCyS'}}"
   },
   "ST-20261109-zz-emu-war": {
-   "views": 144,
-   "reach": 108,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 16073
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AT9z3bubpinVZgr52n5O1na'}}"
   },
   "ST-20261110-a-gta-preload": {
-   "views": 1234,
-   "reach": 1048,
-   "likes": 18,
-   "comments": 0,
-   "shares": 1,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 15871
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A0fKbcXJOTWcUkiClC6ynC3'}}"
   },
   "ST-20261110-eiffel-growing": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18080476400436110' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AQLavZSz74FjhJVYt7HtLX2'}}"
   },
   "ST-20261110-gage-head-empty": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17968141518209876' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Ar08oLygEUd2uGJXYIRlD0p'}}"
   },
   "ST-20261110-molasses-wave": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18141486397624157' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AAYX6SGPwHbn1minhuyhYhh'}}"
   },
   "ST-20261110-n-fancy-cafe": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18133720771756087' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A3vdaBxluPp5TNNBcA884cJ'}}"
   },
   "ST-20261110-one-sec": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18120983788781555' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AnEFE5RzohVZnwyftLJtYZF'}}"
   },
   "ST-20261110-snooze-levels": {
-   "views": 148,
-   "reach": 122,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 13288
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A-ya4pZekKgehWr5u1hfKUg'}}"
   },
   "ST-20261111-penguin-lock-in": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18135330046703545' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A1veiBkOjhRX2c0H4G0UJqG'}}"
   },
   "ST-20261112-a-kryptos": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18117780965104350' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A2vt1TosA3SdF4RZ5_1o96k'}}"
   },
   "ST-20261112-c-tomato-timer": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18081174335754245' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Apj7voOYqZCSv-WzVQyoFKC'}}"
   },
   "ST-20261112-d-dancing-street": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18386732749239303' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'ANXfipauzdIOJdpkI-6tSuu'}}"
   },
   "ST-20261113-a-mona-apron": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18342420559261748' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AzE9L4C6N_FCf52yGPoatfs'}}"
   },
   "ST-20261114-a-vasa": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18033949451681993' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AU78OM6c3cg0nl0YdCrbg78'}}"
   },
   "ST-20261114-b-stink": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17879623344573897' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AIB7KQq66vBdQwDLhucj6yW'}}"
   },
   "ST-20261114-d-celeste": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17898830253414341' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A3gvQXcPJZg3pZ4vUITt0uP'}}"
   },
   "ST-20261115-d-gimli": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17954677050291698' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AHmUUBIT4L5C_7z6RzSemuX'}}"
   },
   "ST-20261112-b-ladder-cam": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18131771915304904' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Ax6Iafduerj2R-3P92yN_ZC'}}"
   },
   "ST-20261113-b-wow-signal": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18127595221904841' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AyKrGPi4n2nIjAxW_yploL9'}}"
   },
   "ST-20261115-e-dancing-plague": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18134788996690204' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AY0aEDRyHwYgcALwsc5elL-'}}"
   },
   "ST-20261115-f-beer-wave": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18003633543034259' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AsqbX2rILsX5PKK770oQkXE'}}"
   },
   "ST-20261113-z-town1": {
-   "views": 1871,
-   "reach": 1280,
-   "likes": 23,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 22067
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AEAExLhpERk2MSxQWmhXpj_'}}"
   },
   "ST-20261114-c-synod": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17913868431482010' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'ALjJhYtjf-TkkhmykaXw7kx'}}"
   },
   "ST-20261115-a-gertie": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '17957501829039301' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AGxyOvYM-YhDw9I4RDUMcCa'}}"
   },
   "ST-20261116-t-wanted": {
-   "views": 247,
-   "reach": 177,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 14184
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AJK59aV1Ge0TvxE-1ZcuaYD'}}"
   },
   "ST-20261116-u-blink": {
-   "views": 1786,
-   "reach": 1223,
-   "likes": 11,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 17007
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Aza3nxxMg02ntAAbDPhlZCb'}}"
   },
   "ST-20261116-a-carrington": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18043896401847904' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AtpBw6AbNgES7IR7iBPOxAR'}}"
   },
   "ST-20261117-b-countdown": {
-   "error": "{'error': {'message': \"Unsupported get request. Object with ID '18110732186629383' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Grap"
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AGXBti-bXbiygeBrghy7mrb'}}"
   },
   "ST-20261117-e-battery": {
-   "views": 421,
-   "reach": 347,
-   "likes": 4,
-   "comments": 1,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 16901
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AsP31b3InrzY4I2YU_R9Nvf'}}"
   },
   "ST-20261117-f-ten-words": {
-   "views": 222,
-   "reach": 181,
-   "likes": 4,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 15582
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'ANKm-lvvy8nIiCatwHBMkKn'}}"
   },
   "ST-20261117-a-snowflake": {
-   "views": 1532,
-   "reach": 1110,
-   "likes": 9,
-   "comments": 0,
-   "shares": 1,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 14207
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AobeuVvG5UTk80_Khr3Rx2t'}}"
   },
   "ST-20261117-c-onread": {
-   "views": 1475,
-   "reach": 1107,
-   "likes": 12,
-   "comments": 0,
-   "shares": 1,
-   "saved": 1,
-   "ig_reels_avg_watch_time": 13904
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AQvvKZQIP1d0Ad2HWk6HzDB'}}"
   },
   "ST-20261117-g-gta-midnight": {
-   "views": 162,
-   "reach": 138,
-   "likes": 1,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 12311
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Aenbuw4nH-quW1I0JeqRhtg'}}"
   },
   "ST-20261118-a-volume": {
-   "views": 1499,
-   "reach": 1142,
-   "likes": 19,
-   "comments": 0,
-   "shares": 0,
-   "saved": 1,
-   "ig_reels_avg_watch_time": 18185
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AEzR3tx64qEkE7tWVrWwg0X'}}"
   },
   "ST-20261118-b-hours": {
-   "views": 1742,
-   "reach": 1223,
-   "likes": 10,
-   "comments": 0,
-   "shares": 1,
-   "saved": 1,
-   "ig_reels_avg_watch_time": 17552
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Al2zYPLYnFR1BbhiGGrE6pJ'}}"
   },
   "ST-20261119-g1-launchday": {
-   "views": 679,
-   "reach": 588,
-   "likes": 6,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 8117
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'ARFTp0GFEFSDArTpsWaZoot'}}"
   },
   "ST-20261119-a-unsaid-snow": {
-   "views": 154,
-   "reach": 129,
-   "likes": 2,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 10209
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'A-TKaCEdxcw0BrmMQB8ZRi9'}}"
   },
   "ST-20261119-s2-kashasha": {
-   "views": 149,
-   "reach": 117,
-   "likes": 0,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 26980
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'Av8uwoU5fdwveQ3JwkesaE2'}}"
   },
   "ST-20261119-t1-flower": {
-   "views": 1337,
-   "reach": 1131,
-   "likes": 10,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 20896
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AfaMeS3iAfRmEnlt4bdFP4W'}}"
   },
   "ST-20261120-b-gta-sixteen": {
-   "views": 153,
-   "reach": 114,
-   "likes": 3,
-   "comments": 0,
-   "shares": 0,
-   "saved": 0,
-   "ig_reels_avg_watch_time": 15293
+   "error": "{'error': {'message': 'API access blocked.', 'code': 200, 'type': 'OAuthException', 'error_subcode': 5258005, 'fbtrace_id': 'AzRBK7csoYNZ7s32hBXuwt_'}}"
   }
  }
 }
